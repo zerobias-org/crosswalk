@@ -1,0 +1,6 @@
+elements:
+  - id: {id}
+    targetElement: {targetId}
+    sourceElement: {sourceId}
+    relationshipType: {relationshipType}
+    strengthOfRelationship: {strengthOfRelationship}

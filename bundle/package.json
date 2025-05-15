@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/crosswalk-bundle",
+  "version": "0.0.4",
+  "description": "All installable crosswalks",
+  "author": "team@auditmation.io",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "bundle/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "auditmation": {
+    "package": "bundle.all-crosswalks",
+    "import-artifact": "bundle",
+    "dataloader-version": "0.5.4"
+  },
+  "dependencies": {}
+}

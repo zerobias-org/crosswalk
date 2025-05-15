@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/crosswalk-bundle",
+  "version": "0.0.4",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-bundle",
+      "version": "0.0.4",
+      "license": "ISC"
+    }
+  }
+}

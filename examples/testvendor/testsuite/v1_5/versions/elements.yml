@@ -1,0 +1,6 @@
+elements:
+  - id: 8ad5ae94-8a90-4aa7-87c9-d8d5df7c1a05
+    sourceElement: "Example Source"
+    targetElement: "Example Target"
+    relationshipType: "exampleRelationship"
+    strengthOfRelationship: 10
