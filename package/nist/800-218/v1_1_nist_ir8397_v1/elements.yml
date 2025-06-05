@@ -29,11 +29,6 @@ elements:
     sourceElement: '2.4'
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: c88eef95-9190-4dd9-a7c2-1f40d0b09426
-    targetElement: PW.8.2
-    sourceElement: '2.6'
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: f2b8960f-8935-4247-bc2e-6e42d4d2c19e
     targetElement: PW.8.2
     sourceElement: '2.7'
