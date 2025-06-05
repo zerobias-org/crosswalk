@@ -1,6 +1,6 @@
 id: b96b82dc-262b-49db-815f-d4765470f197
 name: NIST 800-218 v1.1 to NIST Label 2022
-description: This package maps controls from NIST 800-218 v1.1 to the NIST Label 2022 standard.
+description: This package maps controls from NIST 800-218 v1.1 to the NIST Label 2022 standard
 externalId: NIST SSDF to NIST Label 2022
 code: nist_800218_v1_1_nist_label_2022
 status: draft
