@@ -54,11 +54,12 @@ function processPackageJson(packageFile: Record<string, any>, code: string): voi
   }
 
   let codeSplit = code.split('_');
-  if (codeSplit.length < 2 || codeSplit.length > 4) {
+  if (codeSplit.length < 2) {
     throw new Error(`code found in index.yml must match format: {vendor_suite?_product?_version}`);
   }
 
   codeSplit[codeSplit.length - 1] = codeSplit[codeSplit.length - 1].replace('.', '_')
+  console.log(`Validating code split: ${codeSplit}`);
   if (packageFile.auditmation && typeof packageFile.auditmation === 'object') {
     const auditmation = packageFile.auditmation;
     check = auditmation['import-artifact'] !== undefined && auditmation['import-artifact'] !== null && auditmation['import-artifact'] === 'crosswalk'
@@ -71,13 +72,15 @@ function processPackageJson(packageFile: Record<string, any>, code: string): voi
     throw new Error(`package.json missing auditmation section`);
   }
 
-  codeSplit.splice(codeSplit.length - 1);
-  let ownerType = 'vendor';
-  if (codeSplit.length === 3) {
-    ownerType = 'product';
-  } else if (codeSplit.length === 2) {
-    ownerType = 'suite';
-  }
+  codeSplit.splice(codeSplit.length - 3);
+  console.log(`Validating code split: ${codeSplit}`);
+
+  let ownerType = 'framework';
+  // if (codeSplit.length === 3) {
+  //   ownerType = 'product';
+  // } else if (codeSplit.length === 2) {
+  //   ownerType = 'suite';
+  // }
 
   const dependencies = packageFile.dependencies !== undefined && packageFile.dependencies !== null ? packageFile.dependencies : {};
   if (dependencies[`@auditlogic/${ownerType}-${codeSplit.join('-')}`] === undefined
