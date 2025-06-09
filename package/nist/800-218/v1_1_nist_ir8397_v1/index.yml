@@ -2,7 +2,7 @@ id: 8126411d-3821-45e7-8397-4494021d4cd9
 name: NIST IR 8397 v1
 description: NIST IR 8397 v1 is a document that provides guidelines and best practices for the implementation of cybersecurity measures in federal information systems
 externalId: NIST IR8397
-code: nist_ir8397_v1
+code: nist_800218_v1.1_nist_ir8397_v1
 status: published
 targetStandard: nist.800218.v1_1.framework
 sourceStandard: nist.ir8397.v1.framework
