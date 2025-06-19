@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "CNCF SSCP v1.1 Crosswalk for NIST 800-218 v1.1",
   "author": "team@zerobias.com",
   "license": "ISC",
