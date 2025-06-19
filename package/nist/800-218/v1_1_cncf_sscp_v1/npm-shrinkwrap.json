@@ -1,17 +1,17 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1",
-      "version": "1.0.0-rc.0",
+      "version": "1.0.0",
       "license": "ISC",
       "dependencies": {
-        "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
-        "@auditlogic/suite-nist-800-218": "^0.1.3",
-        "@zerobias-org/framework-cncf-sscp-v1": "1.0.0"
+        "@auditlogic/framework-nist-800218-v1.1": "latest",
+        "@auditlogic/suite-nist-800-218": "latest",
+        "@zerobias-org/framework-cncf-sscp-v1": "latest"
       }
     },
     "node_modules/@auditlogic/framework-nist-800218-v1.1": {
