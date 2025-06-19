@@ -31,6 +31,6 @@
   "dependencies": {
     "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
     "@auditlogic/suite-nist-ir8397": "^1.0.0",
-    "@zerobias-org/framework-nist-ir8397-v1": "1.0.0-rc.1"
+    "@zerobias-org/framework-nist-ir8397-v1": "1.0.0"
   }
 }
