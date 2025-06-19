@@ -21,6 +21,7 @@
   "files": [
     "index.yml",
     "elements.yml",
+    "versions/**",
     "baselines/**",
     "elements/**"
   ],
