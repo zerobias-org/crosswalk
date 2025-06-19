@@ -1,0 +1,92 @@
+{
+  "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
+  "version": "1.0.0-rc.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
+      "version": "1.0.0-rc.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
+        "@auditlogic/suite-nist-800-218": "latest",
+        "@zerobias-org/framework-nist-label-2022": "1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/framework-nist-800218-v1.1": {
+      "version": "1.0.11",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/suite-nist-800-218": "^0.1.3"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/suite-nist-800-218": {
+      "version": "0.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-800-218/-/b29d05a02f5eaac7ebccf943f1dafe2e776e038d",
+      "integrity": "sha512-tyF5dk/Q8N3quXGNWyiqchKwKaup8ymT5Ldf6RDqknySn8Roxt4tLz76Vwm1D4Y3eNmUjmc7JvxsMuD/XLwbRQ==",
+      "dependencies": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/suite-nist-label": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-label/-/91e7239b3820a7f2ce842790b1d8bd99e90e256e",
+      "integrity": "sha512-AHNtOUHN8xyg9okQ+p9ZmJyO7gmfZcexP0QQ+gVv664qcfl3mdeBI51M+rmq2pN5FuLY6O/bcgAYBHitM+jQFw==",
+      "dependencies": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-nist": {
+      "version": "1.0.7",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/framework-nist-label-2022": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0.tgz",
+      "integrity": "sha512-Uh5Ohv6vlb0ysPM6cou5nP71kqyPnQY1dvn7hlnVYkgtmdZJxutvzZzcOsXz3xJvmn7fRFBSVeRdZJ51iYl0vg==",
+      "dependencies": {
+        "@auditlogic/suite-nist-label": "latest"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/framework-nist-800218-v1.1": {
+      "version": "1.0.11",
+      "requires": {
+        "@auditlogic/suite-nist-800-218": "^0.1.3"
+      }
+    },
+    "@auditlogic/suite-nist-800-218": {
+      "version": "0.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-800-218/-/b29d05a02f5eaac7ebccf943f1dafe2e776e038d",
+      "integrity": "sha512-tyF5dk/Q8N3quXGNWyiqchKwKaup8ymT5Ldf6RDqknySn8Roxt4tLz76Vwm1D4Y3eNmUjmc7JvxsMuD/XLwbRQ==",
+      "requires": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "@auditlogic/suite-nist-label": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-label/-/91e7239b3820a7f2ce842790b1d8bd99e90e256e",
+      "integrity": "sha512-AHNtOUHN8xyg9okQ+p9ZmJyO7gmfZcexP0QQ+gVv664qcfl3mdeBI51M+rmq2pN5FuLY6O/bcgAYBHitM+jQFw==",
+      "requires": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "@auditlogic/vendor-nist": {
+      "version": "1.0.7"
+    },
+    "@zerobias-org/framework-nist-label-2022": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0.tgz",
+      "integrity": "sha512-Uh5Ohv6vlb0ysPM6cou5nP71kqyPnQY1dvn7hlnVYkgtmdZJxutvzZzcOsXz3xJvmn7fRFBSVeRdZJ51iYl0vg==",
+      "requires": {
+        "@auditlogic/suite-nist-label": "latest"
+      }
+    }
+  }
+}
