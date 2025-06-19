@@ -11,7 +11,7 @@
       "dependencies": {
         "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
         "@auditlogic/suite-nist-800-218": "^0.1.3",
-        "@zerobias-org/framework-cncf-sscp-v1": "1.0.0-rc.1"
+        "@zerobias-org/framework-cncf-sscp-v1": "1.0.0"
       }
     },
     "node_modules/@auditlogic/framework-nist-800218-v1.1": {
@@ -254,11 +254,11 @@
       "integrity": "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="
     },
     "node_modules/@zerobias-org/framework-cncf-sscp-v1": {
-      "version": "1.0.0-rc.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-cncf-sscp-v1/-/framework-cncf-sscp-v1-1.0.0-rc.1.tgz",
-      "integrity": "sha512-Hj4RZTvPx2lPgPiTec87WdkCcaHH+0GMgdERh2vB1dextQ5VEzsDnJIc4upb8ibYSIlspizFuAhpWtS2zHXn5Q==",
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-cncf-sscp-v1/-/framework-cncf-sscp-v1-1.0.0.tgz",
+      "integrity": "sha512-fstsJBG0WifgMwFDbqYiRdv3jfBf0P2j3YBZyN7fgLHMXT/XeyjsE457i26+Aq4AeXxoYWgpbr1QHktMwsDZZA==",
       "dependencies": {
-        "markdown-json": "^1.6.1"
+        "markdown-json": "latest"
       }
     },
     "node_modules/acorn": {
@@ -4055,11 +4055,11 @@
       "integrity": "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="
     },
     "@zerobias-org/framework-cncf-sscp-v1": {
-      "version": "1.0.0-rc.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-cncf-sscp-v1/-/framework-cncf-sscp-v1-1.0.0-rc.1.tgz",
-      "integrity": "sha512-Hj4RZTvPx2lPgPiTec87WdkCcaHH+0GMgdERh2vB1dextQ5VEzsDnJIc4upb8ibYSIlspizFuAhpWtS2zHXn5Q==",
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-cncf-sscp-v1/-/framework-cncf-sscp-v1-1.0.0.tgz",
+      "integrity": "sha512-fstsJBG0WifgMwFDbqYiRdv3jfBf0P2j3YBZyN7fgLHMXT/XeyjsE457i26+Aq4AeXxoYWgpbr1QHktMwsDZZA==",
       "requires": {
-        "markdown-json": "^1.6.1"
+        "markdown-json": "latest"
       }
     },
     "acorn": {
