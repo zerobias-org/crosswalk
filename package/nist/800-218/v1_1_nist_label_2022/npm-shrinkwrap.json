@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.3",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
-      "version": "1.0.0-rc.1",
+      "version": "1.0.0-rc.3",
       "license": "ISC",
       "dependencies": {
         "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
