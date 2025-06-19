@@ -11,7 +11,7 @@
       "dependencies": {
         "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
         "@auditlogic/suite-nist-800-218": "latest",
-        "@zerobias-org/framework-nist-label-2022": "1.0.0-rc.1"
+        "@zerobias-org/framework-nist-label-2022": "1.0.0"
       }
     },
     "node_modules/@auditlogic/framework-nist-800218-v1.1": {
@@ -46,9 +46,9 @@
       "license": "ISC"
     },
     "node_modules/@zerobias-org/framework-nist-label-2022": {
-      "version": "1.0.0-rc.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0-rc.1.tgz",
-      "integrity": "sha512-GcuB5HPfr2/ZGHwiBzyg64zOGB2INVwvw8oVZFAUlC9J2wS+eGC88sUH0SuKJl2hEn4MmZdhKiOrFKN8jK0GPg==",
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0.tgz",
+      "integrity": "sha512-Uh5Ohv6vlb0ysPM6cou5nP71kqyPnQY1dvn7hlnVYkgtmdZJxutvzZzcOsXz3xJvmn7fRFBSVeRdZJ51iYl0vg==",
       "dependencies": {
         "@auditlogic/suite-nist-label": "latest"
       }
@@ -81,9 +81,9 @@
       "version": "1.0.7"
     },
     "@zerobias-org/framework-nist-label-2022": {
-      "version": "1.0.0-rc.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0-rc.1.tgz",
-      "integrity": "sha512-GcuB5HPfr2/ZGHwiBzyg64zOGB2INVwvw8oVZFAUlC9J2wS+eGC88sUH0SuKJl2hEn4MmZdhKiOrFKN8jK0GPg==",
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-label-2022/-/framework-nist-label-2022-1.0.0.tgz",
+      "integrity": "sha512-Uh5Ohv6vlb0ysPM6cou5nP71kqyPnQY1dvn7hlnVYkgtmdZJxutvzZzcOsXz3xJvmn7fRFBSVeRdZJ51iYl0vg==",
       "requires": {
         "@auditlogic/suite-nist-label": "latest"
       }
