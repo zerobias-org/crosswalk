@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0-rc.1",
   "description": "{standardName}",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -22,7 +22,8 @@
     "index.yml",
     "elements.yml",
     "baselines/**",
-    "elements/**"
+    "elements/**",
+    "versions/**"
   ],
   "auditmation": {
     "dataloader-version": "3.29.26",
