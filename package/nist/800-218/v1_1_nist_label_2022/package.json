@@ -1,0 +1,38 @@
+{
+  "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
+  "version": "1.0.0-rc.4",
+  "description": "NIST 800-218 v1.1 NIST Label 2022 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/standard.git",
+    "directory": "package/nist/800-218/v1_1_nist_label_2022/"
+  },
+  "scripts": {
+    "nx:publish": "../../../../scripts/publish.sh",
+    "prepublishtest": "../../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "baselines/**",
+    "elements/**",
+    "versions/**"
+  ],
+  "auditmation": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "crosswalk",
+    "package": "nist.800218.v1_1_nist_label_2022.crosswalk"
+  },
+  "dependencies": {
+    "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
+    "@auditlogic/suite-nist-800-218": "latest",
+    "@zerobias-org/framework-nist-label-2022": "1.0.0"
+  }
+}

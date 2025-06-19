@@ -1,0 +1,98 @@
+{
+  "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1",
+  "version": "1.0.0-rc.3",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1",
+      "version": "1.0.0-rc.3",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/framework-nist-800218-v1.1": "^1.0.11",
+        "@auditlogic/suite-nist-ir8397": "^1.0.0",
+        "@zerobias-org/framework-nist-ir8397-v1": "1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/framework-nist-800218-v1.1": {
+      "version": "1.0.11",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/framework-nist-800218-v1.1/-/de9258777fa971bd5fe43e6d2e717fc850f19fcf",
+      "integrity": "sha512-AXmAvDXJCL4nnGygP9iw71Rzw18e8AF7qnV/CCFLW+xCGFkgCEuQEPzqO56E39N1MaLrYJQect9/7lKTcV/bKA==",
+      "dependencies": {
+        "@auditlogic/suite-nist-800-218": "^0.1.3"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/suite-nist-800-218": {
+      "version": "0.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-800-218/-/b29d05a02f5eaac7ebccf943f1dafe2e776e038d",
+      "integrity": "sha512-tyF5dk/Q8N3quXGNWyiqchKwKaup8ymT5Ldf6RDqknySn8Roxt4tLz76Vwm1D4Y3eNmUjmc7JvxsMuD/XLwbRQ==",
+      "dependencies": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/suite-nist-ir8397": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-ir8397/-/21266f96fc8690725de5a2894bd73198f5557e9a",
+      "integrity": "sha512-r/d5mqqnb3NX9gE2zSNmcBMwGM5abtKYIJnITz1+6VKg5AFLbU1iDqisgnKKAa7gthg45cEb+cpC/Nh1DDSazA==",
+      "dependencies": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "node_modules/@auditlogic/vendor-nist": {
+      "version": "1.0.7",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-nist/-/69cb07ddb552798b9187b749b3bfeb5359111187",
+      "integrity": "sha512-Bq9uno0v6B9pmZhxfh3veYvLeZDSyx6O0RgrPTxwnTHoESA4Zj93sBKA0cm39t8Z/3sP9ZTZ9vOz/D/l8LVo8g=="
+    },
+    "node_modules/@zerobias-org/framework-nist-ir8397-v1": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-ir8397-v1/-/framework-nist-ir8397-v1-1.0.0.tgz",
+      "integrity": "sha512-EWBZbtX+PoriKR5vNc7Qov6aStbrTt2VsgkOi1kFgB43V5bXDodR8tW4bmAr4llqQ8QgAiJ6s1ykonzLbADVhg==",
+      "dependencies": {
+        "@auditlogic/suite-nist-ir8397": "latest"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/framework-nist-800218-v1.1": {
+      "version": "1.0.11",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/framework-nist-800218-v1.1/-/de9258777fa971bd5fe43e6d2e717fc850f19fcf",
+      "integrity": "sha512-AXmAvDXJCL4nnGygP9iw71Rzw18e8AF7qnV/CCFLW+xCGFkgCEuQEPzqO56E39N1MaLrYJQect9/7lKTcV/bKA==",
+      "requires": {
+        "@auditlogic/suite-nist-800-218": "^0.1.3"
+      }
+    },
+    "@auditlogic/suite-nist-800-218": {
+      "version": "0.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-800-218/-/b29d05a02f5eaac7ebccf943f1dafe2e776e038d",
+      "integrity": "sha512-tyF5dk/Q8N3quXGNWyiqchKwKaup8ymT5Ldf6RDqknySn8Roxt4tLz76Vwm1D4Y3eNmUjmc7JvxsMuD/XLwbRQ==",
+      "requires": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "@auditlogic/suite-nist-ir8397": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-nist-ir8397/-/21266f96fc8690725de5a2894bd73198f5557e9a",
+      "integrity": "sha512-r/d5mqqnb3NX9gE2zSNmcBMwGM5abtKYIJnITz1+6VKg5AFLbU1iDqisgnKKAa7gthg45cEb+cpC/Nh1DDSazA==",
+      "requires": {
+        "@auditlogic/vendor-nist": "^1.0.7"
+      }
+    },
+    "@auditlogic/vendor-nist": {
+      "version": "1.0.7",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-nist/-/69cb07ddb552798b9187b749b3bfeb5359111187",
+      "integrity": "sha512-Bq9uno0v6B9pmZhxfh3veYvLeZDSyx6O0RgrPTxwnTHoESA4Zj93sBKA0cm39t8Z/3sP9ZTZ9vOz/D/l8LVo8g=="
+    },
+    "@zerobias-org/framework-nist-ir8397-v1": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-ir8397-v1/-/framework-nist-ir8397-v1-1.0.0.tgz",
+      "integrity": "sha512-EWBZbtX+PoriKR5vNc7Qov6aStbrTt2VsgkOi1kFgB43V5bXDodR8tW4bmAr4llqQ8QgAiJ6s1ykonzLbADVhg==",
+      "requires": {
+        "@auditlogic/suite-nist-ir8397": "latest"
+      }
+    }
+  }
+}
