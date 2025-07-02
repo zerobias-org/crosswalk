@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-bundle",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "All installable crosswalks",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -17,5 +17,9 @@
     "import-artifact": "bundle",
     "dataloader-version": "0.5.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "1.0.0",
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "1.0.0",
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "1.0.0"
+  }
 }
