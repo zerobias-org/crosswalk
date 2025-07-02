@@ -72,33 +72,30 @@ function processPackageJson(packageFile: Record<string, any>, code: string): voi
     throw new Error(`package.json missing auditmation section`);
   }
 
-  codeSplit.splice(codeSplit.length - 3);
-  console.log(`Validating code split: ${codeSplit}`);
-
+  codeSplit = codeSplit.slice(0, 3);
   let ownerType = 'framework';
-  // if (codeSplit.length === 3) {
-  //   ownerType = 'product';
-  // } else if (codeSplit.length === 2) {
-  //   ownerType = 'suite';
-  // }
-
-  const dependencies = packageFile.dependencies !== undefined && packageFile.dependencies !== null ? packageFile.dependencies : {};
-  if (dependencies[`@auditlogic/${ownerType}-${codeSplit.join('-')}`] === undefined
-    || dependencies[`@auditlogic/${ownerType}-${codeSplit.join('-')}`] === null) {
-    throw new Error(`package.json missing dependency for ${ownerType} '@auditlogic/${ownerType}-${codeSplit.join('-')}'`);
+  
+  const dependencies = packageFile.dependencies ?? {};
+  const depKey = `${ownerType}-${codeSplit.join('-')}`;
+  const auditlogicDep = dependencies[`@auditlogic/${depKey}`];
+  const zerobiasDep = dependencies[`@zerobias-org/${depKey}`];
+  if (!(auditlogicDep || zerobiasDep)) {
+    throw new Error(
+      `package.json missing dependency for ${ownerType}: expected at least one of '@auditlogic/${depKey}' or '@zerobias-org/${depKey}'`
+    );
   }
 }
 
 async function processIndexYml(indexFile: Record<string, any>): Promise<string> {
   const code = indexFile.code !== undefined && indexFile.code !== null && indexFile.code !== '{code}' ? indexFile.code
     : new Error('code not found in index.yml');
-  if (typeof code !== 'string'  || code === '{code}') {
+  if (typeof code !== 'string' || code === '{code}') {
     throw new Error('code in index.yml needs replacement from {code}');
   }
 
   let check: any;
   check = indexFile.standardType !== undefined && indexFile.standardType !== null && indexFile.standardType === 'crosswalk'
-   ? indexFile.standardType : new Error('standardType not found in index.yml or not equal to crosswalk');
+    ? indexFile.standardType : new Error('standardType not found in index.yml or not equal to crosswalk');
   check = indexFile.standardCategory !== undefined && indexFile.standardCategory !== null && StandardCategory.from(indexFile.standardCategory)
     ? indexFile.standardCategory : new Error('standardCategory not found in index.yml');
   check = indexFile.id !== undefined && indexFile.id !== null && indexFile.id !== '{id}' ? new UUID(indexFile.id)
@@ -130,7 +127,7 @@ async function processIndexYml(indexFile: Record<string, any>): Promise<string> 
       throw new Error('aliases in index.yml needs to be a string[]');
     }
   }
- 
+
   const eTypes = indexFile.elementTypes !== undefined && indexFile.elementTypes !== null ? indexFile.elementTypes : [];
   if (!Array.isArray(eTypes)) {
     throw new Error('elementTypes in index.yml must be an array');
@@ -165,7 +162,7 @@ async function processIndexYml(indexFile: Record<string, any>): Promise<string> 
     throw new Error('mappingTypes in index.yml must be an array');
   }
 
-  for (const mappingType of mappingTypes)  {
+  for (const mappingType of mappingTypes) {
     if (!elementTypes.includes(mappingType)) {
       throw new Error(`mappingType ${mappingType} must be a valid element type.`);
     }
@@ -204,7 +201,7 @@ async function processElements(directory: string, elementCodes: string[]): Promi
 
     check = elementYml.externalId !== undefined && elementYml.externalId !== null && elementYml.externalId !== '{externalId}'
       ? elementYml.externalId : new Error(`externalId not found in elements/${code}.yml`);
-      if (typeof check !== 'string' || check === '{externalId}') {
+    if (typeof check !== 'string' || check === '{externalId}') {
       throw new Error(`externalId in elements/${code}.yml needs replacement from {externalId}`);
     }
 
@@ -214,7 +211,7 @@ async function processElements(directory: string, elementCodes: string[]): Promi
         throw new Error(`aliases in elements/${code}.yml needs to be a string[]`);
       }
     }
-  
+
     const elementType = elementYml.elementType !== undefined && elementYml.elementType !== null ? elementYml.elementType
       : new Error(`elementType not found in elements/${code}.yml`);
     if (typeof elementType !== 'string' || elementType === '{elementType}') {
@@ -224,8 +221,8 @@ async function processElements(directory: string, elementCodes: string[]): Promi
     if (!elementTypes.includes(elementType)) {
       throw new Error(`elementType ${elementType} does not exist in index.yml defined element type codes.`);
     }
-  
-    const parent = elementYml.parent !== undefined && elementYml.parent !== null ? elementYml.parent: undefined;
+
+    const parent = elementYml.parent !== undefined && elementYml.parent !== null ? elementYml.parent : undefined;
     if (parent && typeof parent !== 'string') {
       throw new Error(`parent in elements/${code}.yml must be a string`);
     }
