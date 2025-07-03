@@ -1,0 +1,8 @@
+id: d8c11c42-48ad-4545-ab11-8309df98f205
+name: OpenCRE v1 to NIST 800-218 v1.1 Crosswalk
+description: This package maps controls from OpenCRE v1 to NIST 800-218 v1.1.
+externalId: OpenCRE v1 to NIST 800-218 v1.1
+code: opencre_opencre_v1_nist_800218_v1_1
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: nist.800218.v1.1.framework
