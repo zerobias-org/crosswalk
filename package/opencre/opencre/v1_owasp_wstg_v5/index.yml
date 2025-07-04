@@ -1,0 +1,8 @@
+id: 2a7ddf1d-f84c-4c5e-96fa-f844d65e5568
+name: OpenCRE v1 to OWASP WSTG v5 Crosswalk
+description: This package maps controls from OpenCRE v1 to OWASP WSTG v5.
+externalId: OpenCRE v1 to OWASP WSTG v5
+code: opencre_opencre_v1_owasp_wstg_v5
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: owasp.wstg.v5.framework
