@@ -1,0 +1,8 @@
+id: 1c7ee59e-2579-4593-a6f1-37c222056b73
+name: OpenCRE v1 to NIST 800-53 Revision 5 Crosswalk
+description: This package maps controls from OpenCRE v1 to NIST 800-53 Revision 5.
+externalId: OpenCRE v1 to NIST 800-53 Revision 5
+code: opencre_opencre_v1_nist_80053_rev5
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: nist.80053.rev5.framework
