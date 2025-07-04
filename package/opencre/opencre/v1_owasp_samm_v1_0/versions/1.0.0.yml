@@ -1,0 +1,35 @@
+id: d46dc94b-f6cb-48ef-ba7c-32896ac571c8
+name: OpenCRE v1 to OWASP SAMM v1.0 Crosswalk
+description: This package maps controls from OpenCRE v1 to OWASP SAMM v1.0.
+status: published
+elements:
+  - 4f1295fc-aa88-46d2-8857-e2d4601794d8
+  - 96a3745a-6833-40ac-89b8-f0f486306689
+  - 183b583a-4227-4aa2-b444-16e6fba1c424
+  - 09d7a1e5-a40f-4f1c-807a-512027656be8
+  - 78a98421-78a5-4ed5-ba12-59cdb2b0aa74
+  - c3d0f777-3b9e-4a54-a8a1-009b6e7c7205
+  - a76fe397-b1bb-4225-9f8d-834e5a272f27
+  - e7b20bca-df18-4df5-be7a-ae595fb53230
+  - 0dcd3932-4736-4345-9641-54b1106a9ce3
+  - 2a034756-2439-4090-8985-f8bc3b109a66
+  - 12da9ef6-ee00-45f8-aecf-6b9a20b32ed3
+  - f5ea15e4-b76e-4237-bc5d-77333e5009b6
+  - 98895638-6568-4e4b-90db-d9221b1db898
+  - 391912ce-0087-4287-ac6e-aa2b222f9df0
+  - 93676829-49f8-4d9d-b583-dd4aa3715ae5
+  - 7dc1f6c5-3151-4921-8378-5690478f91ec
+  - 699d4c7b-975e-4b1f-8228-7d0c911fc3f8
+  - 328a6f0f-d162-4f26-8639-9138df742930
+  - ad3a9c63-3152-441a-ba12-83fdcfa5aae3
+  - fedbb282-80c0-4aa1-931a-5ff546c33e5b
+  - d14420de-a1b9-4ae0-acd9-4bf6c39c6d8d
+  - 57b9ee03-c29e-42c9-81fa-bf2d400d5710
+  - 7f732cc0-d5e8-440a-a6ce-68d7a322745c
+  - 1334d307-0b08-4fe1-a7ad-098f0810dd18
+  - a29c852f-3929-498f-afc8-24d7832ccdff
+  - 774b6907-17bb-4182-8ef9-403f6e8d2b4b
+  - 44f6f826-701f-483e-b8ca-9b7c63d5eef7
+  - 195d83b6-bf2b-4051-9a10-4303f4f843b9
+  - 4caa5322-1dcf-4c25-ab22-4f4ba4f43bc1
+  - 31f3ec79-0dbf-435e-a9cc-cc02dbc0a8dd
