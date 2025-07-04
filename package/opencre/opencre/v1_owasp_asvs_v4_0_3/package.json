@@ -1,7 +1,7 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_asvs_v4_0_3",
    "version": "1.0.0",
-   "description": "OpenCRE v1 CSA CCM v4.0.12 Crosswalk",
+   "description": "OpenCRE v1 OWASP ASVS v4.0.3 Crosswalk",
    "author": "team@zerobias.com",
    "license": "ISC",
    "repository": {
