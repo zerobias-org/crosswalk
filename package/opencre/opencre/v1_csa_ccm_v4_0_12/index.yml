@@ -1,0 +1,8 @@
+id: d4c8a410-71b1-4f00-acad-2957936ab916
+name: OpenCRE v1 to CSA CCM v4.0.12 Crosswalk
+description: This package maps controls from OpenCRE v1 to CSA CCM v4.0.12.
+externalId: OpenCRE v1 to CSA CCM v4.0.12
+code: opencre_opencre_v1_csa_ccm_v4_0_12
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: csa.ccm.v4_0_12.framework
