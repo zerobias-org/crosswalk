@@ -1,7 +1,7 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5",
    "version": "1.0.0",
-   "description": "OpenCRE v1 CSA CCM v4.0.12 Crosswalk",
+   "description": "OpenCRE v1 NIST 800-53 Revision 5 Crosswalk",
    "author": "team@zerobias.com",
    "license": "ISC",
    "repository": {
