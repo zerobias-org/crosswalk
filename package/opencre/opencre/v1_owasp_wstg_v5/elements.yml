@@ -109,11 +109,6 @@ elements:
     sourceElement: wstg-inpv-03
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: b4444e79-eced-4685-9662-3e190367c790
-    targetElement: 630-573
-    sourceElement: wstg-busl-$$
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: a61ac0cf-2126-4fa0-9256-ba27fa257c58
     targetElement: 464-084
     sourceElement: wstg-sess-05
@@ -174,19 +169,9 @@ elements:
     sourceElement: wstg-busl-09
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: a4aa7b96-eb81-4abf-bca6-e56fc5592b1d
-    targetElement: 653-242
-    sourceElement: wstg-inpv-00
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: ea212a2b-e774-4283-8b1c-d2a013ecb638
     targetElement: 743-237
     sourceElement: wstg-inpv-04
-    relationshipType: intersects
-    strengthOfRelationship: 5
-  - id: 33c5322b-6fec-4757-9dd0-050eac5c7232
-    targetElement: 031-447
-    sourceElement: wstg-inpv-00
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: bd48fac5-0b6b-4276-9201-7dc521a9098a
@@ -204,19 +189,9 @@ elements:
     sourceElement: wstg-inpv-05
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: 7dd1c6bb-ba44-499f-abc7-49cfdf74724f
-    targetElement: 533-516
-    sourceElement: wstg-appe-d
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: 7357ac00-da6e-42f1-a29e-5f447fcdd8f4
     targetElement: 366-835
     sourceElement: wstg-inpv-01
-    relationshipType: intersects
-    strengthOfRelationship: 5
-  - id: c14e9aa6-95c4-4918-8c43-ed833b31a703
-    targetElement: 620-101
-    sourceElement: wstg-appe-d
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: f1f7fed4-1074-45f7-8141-a4a8a2dc96d4
@@ -254,11 +229,6 @@ elements:
     sourceElement: wstg-inpv-09
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: b220f49a-3fb5-4423-a273-8d14375394fa
-    targetElement: 743-110
-    sourceElement: wstg-info-##
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: 9e28d587-fc25-472b-af8b-70db883a7fbd
     targetElement: 657-084
     sourceElement: wstg-inpv-11
@@ -267,11 +237,6 @@ elements:
   - id: 7b647c92-dcb8-403a-b313-c0e15a20f12d
     targetElement: 317-743
     sourceElement: wstg-clnt-02
-    relationshipType: intersects
-    strengthOfRelationship: 5
-  - id: 9ada3832-08e1-49b9-a01e-87838c96c93a
-    targetElement: 538-446
-    sourceElement: wstg-inpv-00
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: 1c095d19-a14b-49db-8c12-bf608ef12c00
@@ -322,11 +287,6 @@ elements:
   - id: 54647574-903d-4037-aae2-57b9cc3e0075
     targetElement: 048-612
     sourceElement: wstg-busl-03
-    relationshipType: intersects
-    strengthOfRelationship: 5
-  - id: 81895569-ecd0-4d60-8a58-5da0fbcfe773
-    targetElement: 725-682
-    sourceElement: wstg-busl-$$
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: d9c923a1-482f-4189-af28-0892c819b722
@@ -567,11 +527,6 @@ elements:
   - id: d129ae21-ec23-44c2-bb2e-fb542253efee
     targetElement: 166-151
     sourceElement: wstg-errh-01
-    relationshipType: intersects
-    strengthOfRelationship: 5
-  - id: 6652be98-a5ad-4387-a573-63f84a76989d
-    targetElement: 746-705
-    sourceElement: wstg-busl-$$
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: a76b77f0-2686-4eb5-97b8-cbaa15aa30a8

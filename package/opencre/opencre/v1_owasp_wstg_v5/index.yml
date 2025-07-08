@@ -5,4 +5,4 @@ externalId: OpenCRE v1 to OWASP WSTG v5
 code: opencre_opencre_v1_owasp_wstg_v5
 status: draft
 targetStandard: opencre.opencre.v1.framework
-sourceStandard: owasp.wstg.v5.framework
+sourceStandard: owasp.wstg.v5.benchmark
