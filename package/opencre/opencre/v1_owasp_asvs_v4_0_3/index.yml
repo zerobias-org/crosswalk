@@ -1,0 +1,8 @@
+id: 9171c649-bacb-49e1-9935-65485df5dad6
+name: OpenCRE v1 to OWASP ASVS v4.0.3 Crosswalk
+description: This package maps controls from OpenCRE v1 to OWASP ASVS v4.0.3.
+externalId: OpenCRE v1 to OWASP ASVS v4.0.3
+code: opencre_opencre_v1_owasp_asvs_v4_0_3
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: owasp.asvs.v4_0_3.framework
