@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1",
-  "version": "1.0.0-rc.5",
+  "version": "1.0.0-rc.6",
   "description": "NIST IR 8397 v1.1 Crosswalk for NIST 800-218 v1.1",
   "author": "team@zerobias.com",
   "license": "ISC",
