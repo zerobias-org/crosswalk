@@ -1,6 +1,6 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0",
-   "version": "1.0.1-rc.0",
+   "version": "1.0.1-rc.1",
    "description": "OpenCRE v1 OWASP SAMM v1.0 Crosswalk",
    "author": "team@zerobias.com",
    "license": "ISC",

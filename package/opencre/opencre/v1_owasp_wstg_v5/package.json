@@ -1,6 +1,6 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_wstg_v5",
-   "version": "1.0.1-rc.0",
+   "version": "1.0.1-rc.1",
    "description": "OpenCRE v1 to OWASP WSTG v5 Crosswalk",
    "author": "team@zerobias.com",
    "license": "ISC",
