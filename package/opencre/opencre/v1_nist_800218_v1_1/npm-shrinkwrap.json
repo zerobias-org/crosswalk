@@ -1,12 +1,12 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_nist_800218_v1_1",
-   "version": "1.0.0",
+   "version": "1.0.1-rc.0",
    "lockfileVersion": 2,
    "requires": true,
    "packages": {
       "": {
          "name": "@zerobias-org/crosswalk-opencre-opencre-v1_nist_800218_v1_1",
-         "version": "1.0.0",
+         "version": "1.0.1-rc.0",
          "license": "ISC",
          "dependencies": {
             "@auditlogic/framework-nist-800218-v1.1": "^1.0.12",

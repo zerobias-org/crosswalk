@@ -1,12 +1,12 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0",
-   "version": "1.0.0",
+   "version": "1.0.1-rc.0",
    "lockfileVersion": 2,
    "requires": true,
    "packages": {
       "": {
          "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0",
-         "version": "1.0.0",
+         "version": "1.0.1-rc.0",
          "license": "ISC",
          "dependencies": {
             "@auditlogic/framework-owasp-samm-v1.0": "^1.1.3",

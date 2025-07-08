@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12",
-      "version": "1.0.0",
+      "version": "1.1.0-rc.0",
       "license": "ISC",
       "dependencies": {
         "@auditlogic/framework-csa-ccm-v4.0.12": "^1.1.3",
