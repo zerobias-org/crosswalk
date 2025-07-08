@@ -1,6 +1,6 @@
-id: 7e3e724b-7a61-49e8-a11d-61ff82164cd9
-name: OpenCRE v1 to ISO 27001:2013 Crosswalk
-description: This package maps controls from OpenCRE v1 to ISO 27001:2013.
+id: 38e867fa-dbc4-465a-859c-4ff3d0ed0227
+name: OpenCRE v1 to ISO 27001:2022a Crosswalk
+description: This package maps controls from OpenCRE v1 to ISO 27001:2022a.
 status: published
 elements:
   - 4acfb79c-6f92-4cc1-8a05-8c048c4a60cb
@@ -52,7 +52,6 @@ elements:
   - 285e38de-caa4-4291-96e7-88d2b851b513
   - 94d7607a-4225-42e0-a10f-6ea116bb9310
   - 52eca696-d2d7-4fdd-b345-858fa99b097d
-  - ba00d0bd-ae9f-47b6-a099-c0d5802eb6da
   - 4c8e787a-b69a-4347-abd4-22dda0946b7d
   - 19c3630a-43ac-46ee-b555-9a567191faa8
   - cc997c3f-6752-48d1-b0dc-889c6ef8bb37

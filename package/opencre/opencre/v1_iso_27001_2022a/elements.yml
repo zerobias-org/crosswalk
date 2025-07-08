@@ -244,11 +244,6 @@ elements:
     sourceElement: '5.1'
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: ba00d0bd-ae9f-47b6-a099-c0d5802eb6da
-    targetElement: 571-271
-    sourceElement: '5.1'
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: 4c8e787a-b69a-4347-abd4-22dda0946b7d
     targetElement: 571-271
     sourceElement: '5.8'

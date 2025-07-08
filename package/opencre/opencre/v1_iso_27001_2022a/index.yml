@@ -1,0 +1,8 @@
+id: ccedd5b0-3831-493a-b576-64c7cd923df8
+name: OpenCRE v1 to ISO 27001:2022a Crosswalk
+description: This package maps controls from OpenCRE v1 to ISO 27001:2022 controls.
+externalId: OpenCRE v1 to ISO 27001:2022a
+code: opencre_opencre_v1_iso_27001_2022a
+status: draft
+targetStandard: opencre.opencre.v1.framework
+sourceStandard: iso.27001.2022a.framework

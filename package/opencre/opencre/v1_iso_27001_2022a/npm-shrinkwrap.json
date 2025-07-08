@@ -1,29 +1,17 @@
 {
-   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2013",
+   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a",
    "version": "1.0.0",
    "lockfileVersion": 2,
    "requires": true,
    "packages": {
       "": {
-         "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2013",
+         "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a",
          "version": "1.0.0",
          "license": "ISC",
          "dependencies": {
-            "@auditlogic/framework-iso-27001-2013": "^1.1.8",
             "@auditlogic/suite-opencre-opencre": "^1.0.0",
+            "@zerobias-org/framework-iso-27001-2022a": "^1.1.0",
             "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
-         }
-      },
-      "node_modules/@auditlogic/framework-iso-27001-2013": {
-         "version": "1.1.8",
-         "resolved": "https://pkg.zerobias.org/@auditlogic/framework-iso-27001-2013/-/215ed5c0735695f56f24d77ff83e2fab0b7093b4",
-         "integrity": "sha512-yfjw9GfJcAMk5A/l8Lcgwnk0bzOAIYG8p4ZyVnUuxXzS9XiEaHEcFIZrRnsD2Ch3FRmnyRm+62loC5PP2D2UZg==",
-         "dependencies": {
-            "@auditlogic/suite-iso-27001": "^1.0.6"
-         },
-         "engines": {
-            "node": ">=16.11.0",
-            "npm": ">=8.0.0"
          }
       },
       "node_modules/@auditlogic/suite-iso-27001": {
@@ -52,6 +40,18 @@
          "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-opencre/-/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
          "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw=="
       },
+      "node_modules/@zerobias-org/framework-iso-27001-2022a": {
+         "version": "1.1.0",
+         "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-iso-27001-2022a/-/framework-iso-27001-2022a-1.1.0.tgz",
+         "integrity": "sha512-6ozv4vi/Ly6x3jh/j46LmJ6cZFuVX4O7ZTy494GJjrmPc+OfjkyfB36ZV9849qmA8184++AwUdFFCvSremALSQ==",
+         "dependencies": {
+            "@auditlogic/suite-iso-27001": "latest"
+         },
+         "engines": {
+            "node": ">=16.11.0",
+            "npm": ">=8.0.0"
+         }
+      },
       "node_modules/@zerobias-org/framework-opencre-opencre-v1": {
          "version": "1.1.3",
          "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-opencre-opencre-v1/-/framework-opencre-opencre-v1-1.1.3.tgz",
@@ -62,14 +62,6 @@
       }
    },
    "dependencies": {
-      "@auditlogic/framework-iso-27001-2013": {
-         "version": "1.1.8",
-         "resolved": "https://pkg.zerobias.org/@auditlogic/framework-iso-27001-2013/-/215ed5c0735695f56f24d77ff83e2fab0b7093b4",
-         "integrity": "sha512-yfjw9GfJcAMk5A/l8Lcgwnk0bzOAIYG8p4ZyVnUuxXzS9XiEaHEcFIZrRnsD2Ch3FRmnyRm+62loC5PP2D2UZg==",
-         "requires": {
-            "@auditlogic/suite-iso-27001": "^1.0.6"
-         }
-      },
       "@auditlogic/suite-iso-27001": {
          "version": "1.0.6",
          "resolved": "https://pkg.zerobias.org/@auditlogic/suite-iso-27001/-/16d5a9c8c25d1d7e0b44b59dee5b5f89a94c3ce4",
@@ -95,6 +87,14 @@
          "version": "1.0.0",
          "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-opencre/-/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
          "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw=="
+      },
+      "@zerobias-org/framework-iso-27001-2022a": {
+         "version": "1.1.0",
+         "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-iso-27001-2022a/-/framework-iso-27001-2022a-1.1.0.tgz",
+         "integrity": "sha512-6ozv4vi/Ly6x3jh/j46LmJ6cZFuVX4O7ZTy494GJjrmPc+OfjkyfB36ZV9849qmA8184++AwUdFFCvSremALSQ==",
+         "requires": {
+            "@auditlogic/suite-iso-27001": "latest"
+         }
       },
       "@zerobias-org/framework-opencre-opencre-v1": {
          "version": "1.1.3",
