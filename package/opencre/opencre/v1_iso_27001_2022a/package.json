@@ -1,0 +1,38 @@
+{
+   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a",
+   "version": "1.0.1-rc.1",
+   "description": "OpenCRE v1 to ISO 27001:2022a Crosswalk",
+   "author": "team@zerobias.com",
+   "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:zerobias-org/standard.git",
+      "directory": "package/opencre/opencre/v1_iso_27001_2022a"
+   },
+   "scripts": {
+      "nx:publish": "../../../../scripts/publish.sh",
+      "prepublishtest": "../../../../scripts/prepublish.sh",
+      "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+      "validate": "ts-node ../../../../scripts/validate.ts"
+   },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+   },
+   "files": [
+      "index.yml",
+      "elements.yml",
+      "baselines/**",
+      "elements/**",
+      "versions/**"
+   ],
+   "auditmation": {
+      "dataloader-version": "3.29.26",
+      "import-artifact": "crosswalk",
+      "package": "opencre.opencre.v1_iso_27001_2022a.crosswalk"
+   },
+   "dependencies": {
+      "@auditlogic/suite-opencre-opencre": "^1.0.0",
+      "@zerobias-org/framework-iso-27001-2022a": "^1.1.0",
+      "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
+   }
+}

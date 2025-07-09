@@ -1,0 +1,38 @@
+{
+   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_asvs_v4_0_3",
+   "version": "1.0.1-rc.1",
+   "description": "OpenCRE v1 OWASP ASVS v4.0.3 Crosswalk",
+   "author": "team@zerobias.com",
+   "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:zerobias-org/standard.git",
+      "directory": "package/opencre/opencre/v1_owasp_asvs_v4_0_3"
+   },
+   "scripts": {
+      "nx:publish": "../../../../scripts/publish.sh",
+      "prepublishtest": "../../../../scripts/prepublish.sh",
+      "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+      "validate": "ts-node ../../../../scripts/validate.ts"
+   },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+   },
+   "files": [
+      "index.yml",
+      "elements.yml",
+      "baselines/**",
+      "elements/**",
+      "versions/**"
+   ],
+   "auditmation": {
+      "dataloader-version": "3.29.26",
+      "import-artifact": "crosswalk",
+      "package": "opencre.opencre.v1_owasp_asvs_v4_0_3.crosswalk"
+   },
+   "dependencies": {
+      "@auditlogic/framework-owasp-asvs-v4.0.3": "^1.1.2",
+      "@auditlogic/suite-opencre-opencre": "^1.0.0",
+      "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0",
+   "version": "1.0.1-rc.1",
+   "description": "OpenCRE v1 OWASP SAMM v1.0 Crosswalk",
+   "author": "team@zerobias.com",
+   "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:zerobias-org/standard.git",
+      "directory": "package/opencre/opencre/v1_owasp_samm_v1_0"
+   },
+   "scripts": {
+      "nx:publish": "../../../../scripts/publish.sh",
+      "prepublishtest": "../../../../scripts/prepublish.sh",
+      "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+      "validate": "ts-node ../../../../scripts/validate.ts"
+   },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+   },
+   "files": [
+      "index.yml",
+      "elements.yml",
+      "baselines/**",
+      "elements/**",
+      "versions/**"
+   ],
+   "auditmation": {
+      "dataloader-version": "3.29.26",
+      "import-artifact": "crosswalk",
+      "package": "opencre.opencre.v1_owasp_samm_v1_0.crosswalk"
+   },
+   "dependencies": {
+      "@auditlogic/framework-owasp-samm-v1.0": "^1.1.3",
+      "@auditlogic/suite-opencre-opencre": "^1.0.0",
+      "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
+   }
+}
