@@ -1,6 +1,6 @@
 {
    "name": "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a",
-   "version": "1.0.1-rc.1",
+   "version": "1.0.1-rc.2",
    "description": "OpenCRE v1 to ISO 27001:2022a Crosswalk",
    "author": "team@zerobias.com",
    "license": "ISC",
