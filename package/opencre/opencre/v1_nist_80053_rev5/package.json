@@ -1,0 +1,38 @@
+{
+   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5",
+   "version": "1.0.1-rc.2",
+   "description": "OpenCRE v1 NIST 800-53 Revision 5 Crosswalk",
+   "author": "team@zerobias.com",
+   "license": "ISC",
+   "repository": {
+      "type": "git",
+      "url": "git@github.com:zerobias-org/standard.git",
+      "directory": "package/opencre/opencre/v1_nist_80053_rev5"
+   },
+   "scripts": {
+      "nx:publish": "../../../../scripts/publish.sh",
+      "prepublishtest": "../../../../scripts/prepublish.sh",
+      "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+      "validate": "ts-node ../../../../scripts/validate.ts"
+   },
+   "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+   },
+   "files": [
+      "index.yml",
+      "elements.yml",
+      "baselines/**",
+      "elements/**",
+      "versions/**"
+   ],
+   "auditmation": {
+      "dataloader-version": "3.29.26",
+      "import-artifact": "crosswalk",
+      "package": "opencre.opencre.v1_nist_80053_rev5.crosswalk"
+   },
+   "dependencies": {
+      "@auditlogic/framework-nist-80053-rev5": "^1.0.10",
+      "@auditlogic/suite-opencre-opencre": "^1.0.0",
+      "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
+   }
+}

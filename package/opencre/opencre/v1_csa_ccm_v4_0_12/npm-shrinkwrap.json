@@ -1,0 +1,108 @@
+{
+  "name": "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12",
+  "version": "1.1.0-rc.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12",
+      "version": "1.1.0-rc.0",
+      "license": "ISC",
+      "dependencies": {
+        "@auditlogic/framework-csa-ccm-v4.0.12": "^1.1.3",
+        "@auditlogic/suite-opencre-opencre": "^1.0.0",
+        "@zerobias-org/framework-opencre-opencre-v1": "^1.1.3"
+      }
+    },
+    "node_modules/@auditlogic/framework-csa-ccm-v4.0.12": {
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/framework-csa-ccm-v4.0.12/-/e0f66c2fecc06fe42479cd4df28997633a26efc7",
+      "integrity": "sha512-xVsBRVFcsbLdbKJS8+jxv6bYRZv9H9Y99Z3lPN3gRF0SKb8XBjd7rcFIwYak8GHdlk6OF9wLJYuwGHNpQxSGFA==",
+      "dependencies": {
+        "@auditlogic/suite-csa-ccm": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@auditlogic/suite-csa-ccm": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-csa-ccm/-/79dbbd31f42f93e5554a345260723a9ce9f61f19",
+      "integrity": "sha512-6mk8A0MVL5WsNJSGZzNc+sQKij+MMVLhnD+UK8HbTSHAbLJbbfpMy54JLUCntWewdVAz8o0uYLAIp4T12pFLoQ==",
+      "dependencies": {
+        "@auditlogic/vendor-csa": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/suite-opencre-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-opencre-opencre/-/26b34dec1e24996a5730bd9fdac82c9ffdbe03c6",
+      "integrity": "sha512-vg89yc3sXx1WXo26f/glgD3qILfotgZ+RiA8wy6mrMR7xi1vztXhQ1QFY2PID1A9IHDfCrFtJv7hXkBp7wHdNA==",
+      "dependencies": {
+        "@auditlogic/vendor-opencre": "^1.0.0"
+      }
+    },
+    "node_modules/@auditlogic/vendor-csa": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-csa/-/e3fec0834290a3863e852eb73c056c97bf3f8672",
+      "integrity": "sha512-YK92eKgGLFMDX2ZK6h+kk8zUZvwnudRZEVLjicL/CKkjibl0V/0JcKtUs7GxVf8NiWAzaulUSy4Ejp01Wa7GEA=="
+    },
+    "node_modules/@auditlogic/vendor-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-opencre/-/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
+      "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw=="
+    },
+    "node_modules/@zerobias-org/framework-opencre-opencre-v1": {
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-opencre-opencre-v1/-/framework-opencre-opencre-v1-1.1.3.tgz",
+      "integrity": "sha512-sfNV65R1S1SOHmJr9bBDsryDo3+MuYoBQCqmwK34EPajbd6km+VWnE4UHus3vPwKCg17jVVvNsPIETpyZkh1DQ==",
+      "dependencies": {
+        "@auditlogic/suite-opencre-opencre": "latest"
+      }
+    }
+  },
+  "dependencies": {
+    "@auditlogic/framework-csa-ccm-v4.0.12": {
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/framework-csa-ccm-v4.0.12/-/e0f66c2fecc06fe42479cd4df28997633a26efc7",
+      "integrity": "sha512-xVsBRVFcsbLdbKJS8+jxv6bYRZv9H9Y99Z3lPN3gRF0SKb8XBjd7rcFIwYak8GHdlk6OF9wLJYuwGHNpQxSGFA==",
+      "requires": {
+        "@auditlogic/suite-csa-ccm": "^1.0.0"
+      }
+    },
+    "@auditlogic/suite-csa-ccm": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-csa-ccm/-/79dbbd31f42f93e5554a345260723a9ce9f61f19",
+      "integrity": "sha512-6mk8A0MVL5WsNJSGZzNc+sQKij+MMVLhnD+UK8HbTSHAbLJbbfpMy54JLUCntWewdVAz8o0uYLAIp4T12pFLoQ==",
+      "requires": {
+        "@auditlogic/vendor-csa": "^1.0.0"
+      }
+    },
+    "@auditlogic/suite-opencre-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/suite-opencre-opencre/-/26b34dec1e24996a5730bd9fdac82c9ffdbe03c6",
+      "integrity": "sha512-vg89yc3sXx1WXo26f/glgD3qILfotgZ+RiA8wy6mrMR7xi1vztXhQ1QFY2PID1A9IHDfCrFtJv7hXkBp7wHdNA==",
+      "requires": {
+        "@auditlogic/vendor-opencre": "^1.0.0"
+      }
+    },
+    "@auditlogic/vendor-csa": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-csa/-/e3fec0834290a3863e852eb73c056c97bf3f8672",
+      "integrity": "sha512-YK92eKgGLFMDX2ZK6h+kk8zUZvwnudRZEVLjicL/CKkjibl0V/0JcKtUs7GxVf8NiWAzaulUSy4Ejp01Wa7GEA=="
+    },
+    "@auditlogic/vendor-opencre": {
+      "version": "1.0.0",
+      "resolved": "https://pkg.zerobias.org/@auditlogic/vendor-opencre/-/83dd86d9ba18ae70bc47a3373ad14c17988cca94",
+      "integrity": "sha512-h4mM5QO2yK+f8nQYlXY3SzGSDhF0Gq6KsZyfbuUK16Ewa8FkC1I1SXBodg7Ul+OXf0vehhodpeii5kidqcVejw=="
+    },
+    "@zerobias-org/framework-opencre-opencre-v1": {
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-opencre-opencre-v1/-/framework-opencre-opencre-v1-1.1.3.tgz",
+      "integrity": "sha512-sfNV65R1S1SOHmJr9bBDsryDo3+MuYoBQCqmwK34EPajbd6km+VWnE4UHus3vPwKCg17jVVvNsPIETpyZkh1DQ==",
+      "requires": {
+        "@auditlogic/suite-opencre-opencre": "latest"
+      }
+    }
+  }
+}
