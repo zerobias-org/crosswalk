@@ -1,0 +1,10 @@
+id: f2971a84-acf8-4516-a410-081446b11f0c
+name: Texas Consumer Data Protection Act to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from Texas Consumer Data Protection Act to the
+  Secure Controls Framework (SCF) 2025.2.1
+externalId: Texas Consumer Data Protection Act to SCF 2025.2.1
+code: us_tx_cdpa_1_complianceforge_scf_2025_2_1_crosswalk
+status: draft
+sourceStandard: us_tx.cdpa.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
