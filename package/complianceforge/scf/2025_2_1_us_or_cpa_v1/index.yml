@@ -1,0 +1,10 @@
+id: 24062a93-6526-469b-807d-f92fb4d7dce8
+name: OR - Consumer Privacy Act (SB 619) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from OR - Consumer Privacy Act (SB 619) to the
+  Secure Controls Framework (SCF) 2025.2.1
+externalId: OR - Consumer Privacy Act (SB 619) to SCF 2025.2.1
+code: us_or_cpa_1_complianceforge_scf_2025_2_1_crosswalk
+status: draft
+sourceStandard: us_or.cpa.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
