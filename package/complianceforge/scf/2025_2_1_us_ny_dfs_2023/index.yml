@@ -1,0 +1,13 @@
+id: 0ba99086-ce0b-43ac-bdd0-3869ca9c90a8
+name: Cybersecurity Requirements for Financial Services Companies (DFS 23
+  NYCRR500) - 2023 Amendment 2 to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+description: Crosswalk mappings from Cybersecurity Requirements for Financial
+  Services Companies (DFS 23 NYCRR500) - 2023 Amendment 2 to the Secure Controls
+  Framework (SCF) 2025.2.1
+externalId: Cybersecurity Requirements for Financial Services Companies (DFS 23
+  NYCRR500) - 2023 Amendment 2 to SCF 2025.2.1
+code: us_ny_dfs_2023_complianceforge_scf_2025_2_1_crosswalk
+status: draft
+sourceStandard: us_ny.dfs.2023.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
