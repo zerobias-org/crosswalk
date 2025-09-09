@@ -1,0 +1,11 @@
+id: e88112a2-34c2-4d3b-ae47-53a3392c06c7
+name: HIPAA Administrative Simplification (2013) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from HIPAA Administrative Simplification (2013)
+  to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: HIPAA Administrative Simplification (2013) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: us_hipaa_v2013_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.hipaa.v2013.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
