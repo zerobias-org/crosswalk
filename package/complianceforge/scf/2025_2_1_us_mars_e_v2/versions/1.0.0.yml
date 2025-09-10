@@ -1,0 +1,84 @@
+id: 40dac0b4-05eb-4061-bb26-3f511402deb6
+name: US Centers for Medicare & Medicaid Services MARS-E Document Suite, Version
+  2.0 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from US Centers for Medicare & Medicaid Services
+  MARS-E Document Suite, Version 2.0 to the Secure Controls Framework (SCF)
+  2025.2.1 framework
+status: draft
+elements:
+  - 8faeccbc-9fef-425c-a79b-811ac5a4f192
+  - 1e748c0e-5a52-499d-af12-5c2aa5bced1b
+  - 964e1056-4e89-4692-81df-bb0a3836243e
+  - 463df259-64f0-497a-b8c5-5c4570e88fed
+  - c6fd5fdf-d176-4e60-a335-7075627acc78
+  - 63bd5b5b-0123-4526-a9b1-8a37d5a5c75d
+  - 7bfa6347-9a77-4cfb-9876-d4d227803066
+  - 4ef443aa-1ab5-4bd8-a738-4181a4cfff5f
+  - 1f07c071-a587-4c98-a6d9-f1adc383df2e
+  - 992de7cf-ef26-4ad2-b315-7b5893f02838
+  - c8f679a4-3036-40dc-b163-f1b9808d26de
+  - e9841b1d-a4d7-46b6-9d38-c6d86bc0e46f
+  - 80637912-50b9-4f81-b12a-7bb7195c8bba
+  - b3601214-fedf-4723-9324-df9b5f186ba9
+  - ea75f718-2c46-4145-9821-3f22acc01b46
+  - 5021dbb1-794f-4637-88c9-827d8129d5a4
+  - 15c1371e-9a1a-44bf-8211-ef70491c4b51
+  - 483fa545-a8b6-4fa5-9446-193c996b2d91
+  - f1dd0259-e7af-4a42-adaa-5e7cc7d52c30
+  - a76eb224-6605-4730-87ea-e4f6a12ce9e5
+  - d7fb9ce2-14d8-49f2-8d7a-cca00b807aef
+  - fad12f46-f6b8-4986-a04c-84667d747477
+  - 964da31b-10ee-4758-ada0-c73e86380d51
+  - 095bf08a-163e-4ead-bfec-57a61421a32d
+  - 25fea584-b399-4198-9dce-6162902e3b37
+  - 4a55fbf5-a650-44d8-930e-c6b25cf042d4
+  - 2c69f0a4-9e78-405b-9058-21f164567570
+  - bdb5c0bc-0505-48d4-924b-5e692e3dfdaa
+  - e568d12e-9128-4426-a8c2-2bc3197f36c8
+  - 16bbbe7d-cbbf-4f3a-887a-6ebf15a7d5b0
+  - 852b7e1b-a086-46ea-99d4-c8b7339d7928
+  - 912a0b3d-1fd6-4778-9c93-1351bfde7732
+  - d3d068fa-9475-4b65-a3b2-382a2b07947a
+  - 82a4a840-17a9-45bc-9bae-fe41c199298e
+  - d19702c0-2d14-4e1e-a181-39c3c2c3e5dd
+  - 67ee99b5-3618-4c07-94d3-13359147542a
+  - 02b1a0a8-0a26-4e3f-ae6b-dd4440542f36
+  - 42680a42-9d36-4765-8719-61b3874a86c1
+  - 11b36c3d-9715-4ef1-9a5b-c7618ee571cf
+  - f262b17b-1f1a-434e-a688-0446c8a0d0b0
+  - eb031f22-5b4e-4bd2-b498-643714e01105
+  - 3162f827-2a17-4d51-bb07-b307d615c11a
+  - 2ab76899-cd3f-44e4-86bf-6725d94b3630
+  - 67736a7f-5b52-4db9-932b-7d28987c8c5e
+  - d88d6cb8-667e-418e-96dd-6ee9b157d48f
+  - 85c5d0dc-7045-44f6-b17f-6bc400d10ee4
+  - b1483ddc-3882-4498-afa2-f22b88f97cd7
+  - b99e9b83-6f8c-4632-a714-059faad1a028
+  - 9de56eea-b575-43f0-8b11-ed1a7117920d
+  - cdd2c598-27df-41ec-a26b-753c4b3ade6c
+  - 033c3fd4-cf4c-4ba5-96f9-d20a25ea72c3
+  - 2eecae68-46b8-4deb-9d80-fefd1c5a112a
+  - e31c4131-fe4f-4319-bb1e-1b3d2b4c13e1
+  - 8c0d2d4c-6089-4639-8156-ea582af84538
+  - 836396e1-fee1-4e55-a871-f3769f1301a7
+  - c388b053-63da-4aa8-8baa-b35592cd5a60
+  - 007f1e0a-9335-4f07-97dc-cd2a00301f2e
+  - 07932d37-539a-4fbc-9ec9-e539598e43c6
+  - 0634f9b2-a4dd-4dc4-8baa-7ee6ec72dc61
+  - 98a78eec-f1a3-46a8-aa18-ea5c679be478
+  - 0a363bd6-8318-4eea-b8e7-50679a4683f4
+  - 66b18a34-5e99-46ea-b3b2-382eeb16bdc0
+  - a49ade8a-8065-4e96-8a7e-aca38aed1048
+  - a551df65-8488-48ff-b7ce-b8261153bbb1
+  - 87e119f0-59e6-468a-9adc-210fd0b80d7a
+  - 1b5d7d72-40d7-4cd0-ad81-97235da57084
+  - b707a49d-db6a-4c5d-9068-5f38c3a1b26b
+  - 76f8b399-cb10-490d-bd59-4075ca59ab15
+  - db742869-5c6f-4601-8770-afa21132411c
+  - 774b5c7b-7799-454b-91ee-df7b6ac81099
+  - 49b53fc1-5d6d-4b7b-9f5d-549b462e9e78
+  - 828e5f69-b217-415a-8b14-45c2ecd504d7
+  - d5badacf-bed1-48a2-899c-a14a17253945
+  - f5f90552-1db6-4bc9-a3dd-648235bc90a5
+  - bbf3768b-5fe4-43ca-bfb2-33e06f86fa9e
+  - 846b2fc6-eaf1-434a-a595-2741836eb05f
