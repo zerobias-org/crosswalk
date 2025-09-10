@@ -1,0 +1,67 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_fda_v21",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_fda_v21",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+        "@zerobias-org/framework-us-fda-v21": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-us-fda-v21": {
+      "version": "1.0.1-rc.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-us-fda-v21/-/framework-us-fda-v21-1.0.1-rc.0.tgz",
+      "integrity": "sha512-z1rO4x/NZko88YhLiJ1dX3kuuz1ADixav/dRpBtAeevAPfJxuMAdwVd7J+LEt/zluCMZeUdBv0ARbFmgQ3VnLQ==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-us-fda": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-us-fda": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-us-fda/-/suite-us-fda-1.0.2.tgz",
+      "integrity": "sha512-5tik/j2zUwxdn4EqMpR8PUNMQMlAzg5UHbNIHr2nVa+/ZjGo8oL7nCCkrY6QiiPC5JFmxA7ZZ2LRWmCBX6ASzw==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us/-/vendor-us-1.0.2.tgz",
+      "integrity": "sha512-LXb06Hu7rfX0Xwcq2uxXs8W1HnTBOGAvTZwabTNYB0f/hm9FWqjHm4iKB6UTOmu3yK+cSq/Z08PirhZilqIIUg==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}
