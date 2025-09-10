@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800-171_rev2",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "description": "Crosswalk for nist_800-171_rev2_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -27,8 +27,8 @@
     "versions/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-nist-800-171-rev2": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-nist-800-171-rev2": "latest"
   },
   "scripts": {
     "nx:publish": "../../../../scripts/publish.sh",
