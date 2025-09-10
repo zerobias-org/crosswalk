@@ -1,0 +1,9 @@
+id: 2b3cbc8c-e3db-42a3-8b7b-903efab9bc84
+name: NIST 800-171A R3 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from NIST 800-171A R3 to the Secure Controls
+  Framework (SCF) 2025.2.1 framework
+externalId: NIST 800-171A R3 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: nist_800_171a_r3_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: nist.800_171a.r3.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
