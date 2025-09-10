@@ -1,0 +1,11 @@
+id: 328318ee-46b5-4a95-b1c6-e52ed3d7b7cb
+name: Privacy Rights Act (CPRA) - November 2022 version to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Privacy Rights Act (CPRA) - November 2022
+  version to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Privacy Rights Act (CPRA) - November 2022 version to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: us_ca_cpra_2022_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us_ca.cpra.2022.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
