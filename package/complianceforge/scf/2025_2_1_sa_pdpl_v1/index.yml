@@ -1,0 +1,11 @@
+id: 562f0ebb-cd49-4c08-9cd4-c7f113565150
+name: Personal Data Protection Law (PDPL) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from Personal Data Protection Law (PDPL) to the
+  Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Personal Data Protection Law (PDPL) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+code: sa_pdpl_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: sa.pdpl.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
