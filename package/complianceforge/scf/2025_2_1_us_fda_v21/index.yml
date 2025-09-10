@@ -1,0 +1,11 @@
+id: 5f1d51e0-0e53-4c14-978c-c9c00dd7fd83
+name: Food & Drug Administration (FDA) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from Food & Drug Administration (FDA) to the
+  Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Food & Drug Administration (FDA) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: us_fda_v21_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.fda.v21.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
