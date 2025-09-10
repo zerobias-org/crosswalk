@@ -1,0 +1,50 @@
+id: 19db5a27-d743-48c7-8330-0cd0137692f5
+name: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from DOD Zero Trust Reference Architecture
+  (ZTRA) to the Secure Controls Framework (SCF) 2025.2.1 framework
+status: draft
+elements:
+  - fac8889f-0edd-4f51-93ec-69800b113944
+  - fa303215-df00-49c6-a73f-b20afebaf682
+  - b234bbc5-d3ae-4b04-93ba-432001001486
+  - c799169e-3739-4120-ba92-12a9a6013fc5
+  - 551a85f6-5105-4498-8fde-42668916edd1
+  - 5612537b-7e1d-4f31-a46c-29db4e01b837
+  - a77e8d86-8f33-4593-949c-99654d642f84
+  - 8b93a219-55d1-40a5-93d7-72c2e1a2c666
+  - e0b88cba-60a4-40cd-a911-08e258b34eb5
+  - 78f6cebc-feb7-4a7e-a338-7a97b7b17644
+  - da36f094-b954-4ea6-beed-8eafaddeac4d
+  - 33be755c-5d93-40b7-8a16-189e73da5ca8
+  - 37454e53-9947-49be-bae4-ccdaa3ada99c
+  - a1e39d1e-b08b-4b25-b73b-f11710bee950
+  - 188e5b58-0102-4705-ae39-7e557f9301d9
+  - 7756dbe0-600c-4cb1-8df2-d0dc1737fb45
+  - 186ec049-c84d-4aa0-b3e5-90ab33fe3ac3
+  - aef8c00c-9c63-4a41-82f6-818ca47cf196
+  - d8f11d23-183c-4773-b410-4e1d96e2bff9
+  - a255969e-25d0-43c3-b0c3-e330caa314fc
+  - 9bf735bf-006d-4f80-a728-9cf7aa3127d5
+  - 76336f60-c979-40dc-b545-8dd000347e21
+  - acd4b7fc-3a36-4fbc-a9e0-4bd26f90b96d
+  - aff48fc5-b740-42e1-ba20-53c36e617210
+  - 70c49ea4-cbd6-4ca1-8228-cd80da3c2f31
+  - 0ea05819-0278-4610-a305-d297b2fd696d
+  - a68bae4b-42c4-4250-8231-608095ebe55c
+  - 3260e8bb-def2-4121-b54e-d101a184813c
+  - ded94470-c53c-411b-a49b-678a02afa0de
+  - d1ad0def-c647-44f0-ac53-5a51041d37e9
+  - 3a77eb38-65a9-45df-b742-0bfbddc2359c
+  - 724890a6-1b49-4e78-9c25-522ad0ee82f6
+  - 50a21680-db3d-4b3c-93d9-9be5bdf87a14
+  - 5b10012e-6f99-4dd8-84d6-987901dd512f
+  - 487cbe7a-2a0f-4c5f-8d9e-f5527192eb73
+  - e0b280f9-3e3b-4d2d-9b73-9bc0feba0288
+  - 3a54b3e6-8a07-4625-9877-78d33fae2617
+  - 55e60013-53d9-44a7-b13b-03e43095323c
+  - 7a9bc0cf-ecd8-443d-aa42-1d48269f6c8d
+  - 57e5a1a3-174d-48ce-90f3-ec74683e9874
+  - 1a520b5c-7723-432e-9bd8-12fed862c492
+  - 865c22cb-bf3c-4c15-92ac-d555e1b4f07d
+  - 6ab64fd2-b5c4-4de6-a859-7662f54140da
