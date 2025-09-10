@@ -1,0 +1,14 @@
+id: 57e9bad2-9c25-4e05-ba72-3c54c72b54a5
+name: Protecting controlled information in non-Government of Canada systems and
+  organizations (ITSP.10.171) to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+description: Crosswalk mappings from Protecting controlled information in
+  non-Government of Canada systems and organizations (ITSP.10.171) to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: Protecting controlled information in non-Government of Canada
+  systems and organizations (ITSP.10.171) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: ca_pci_v10.171_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: ca.pci.v10_171.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
