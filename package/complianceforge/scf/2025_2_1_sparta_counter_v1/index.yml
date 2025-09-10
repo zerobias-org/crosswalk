@@ -1,0 +1,12 @@
+id: 31c30e44-592d-4ee1-baf1-dc830843633f
+name: Space Attack Research & Tactic Analysis (SPARTA) Countermeasures to Secure
+  Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Space Attack Research & Tactic Analysis
+  (SPARTA) Countermeasures to the Secure Controls Framework (SCF) 2025.2.1
+  framework
+externalId: Space Attack Research & Tactic Analysis (SPARTA) Countermeasures to
+  Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: sparta_counter_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: sparta.counter.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework

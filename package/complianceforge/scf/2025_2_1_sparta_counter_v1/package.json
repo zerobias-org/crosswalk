@@ -1,0 +1,39 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_sparta_counter_v1",
+  "version": "1.0.0",
+  "description": "Crosswalk for sparta_counter_v1_complianceforge_scf_2025_2_1_crosswalk",
+  "author": "team@neverfail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/complianceforge/scf/2025_2_1_sparta_counter_v1"
+  },
+  "auditmation": {
+    "package": "sparta_counter_v1_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "import-artifact": "crosswalk",
+    "dataloader-version": "3.6.6"
+  },
+  "engines": {
+    "node": ">=16.11.0",
+    "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "dependencies": {
+    "@zerobias-org/framework-sparta-counter-v1": "latest",
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+  },
+  "scripts": {
+    "nx:publish": "../../../../scripts/publish.sh",
+    "prepublishtest": "../../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../../scripts/validate.ts"
+  }
+}
