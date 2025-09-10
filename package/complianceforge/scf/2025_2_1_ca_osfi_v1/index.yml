@@ -1,0 +1,9 @@
+id: d948147f-735d-493d-a55e-9ab82cdac93c
+name: B-13 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from B-13 to the Secure Controls Framework (SCF)
+  2025.2.1 framework
+externalId: B-13 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: ca_osfi_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: ca.osfi.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
