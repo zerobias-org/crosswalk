@@ -1,0 +1,12 @@
+id: dad591d0-7ea7-4853-81aa-457ba945edc7
+name: SP 800-171A - Assessing Security Requirements for Controlled Unclassified
+  Information to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from SP 800-171A - Assessing Security
+  Requirements for Controlled Unclassified Information to the Secure Controls
+  Framework (SCF) 2025.2.1 framework
+externalId: SP 800-171A - Assessing Security Requirements for Controlled
+  Unclassified Information to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: nist_800_171a_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: nist.800_171a.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
