@@ -1,0 +1,12 @@
+id: a9fe7fba-6c05-4d67-9639-1c16963b518e
+name: 27001 - Information Security Management Systems (ISMS) - Requirements to
+  Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from 27001 - Information Security Management
+  Systems (ISMS) - Requirements to the Secure Controls Framework (SCF) 2025.2.1
+  framework
+externalId: 27001 - Information Security Management Systems (ISMS) -
+  Requirements to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: iso_27001_2022_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: iso.27001.2022.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
