@@ -1,0 +1,84 @@
+id: 779153b4-139f-437c-94d1-6218a80c602d
+name: Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy,
+  Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and
+  249 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Cybersecurity Final Rule (Cybersecurity
+  Risk Management, Strategy, Governance, and Incident Disclosure) - 17 CFR Parts
+  229, 232, 239, 240, and 249 to the Secure Controls Framework (SCF) 2025.2.1
+  framework
+status: draft
+elements:
+  - 6383b760-3043-41d8-911f-5ac9a666e3dd
+  - f0b84f70-0585-4984-9e0b-628cb5b9fbe0
+  - 3bde53ca-e836-428e-866d-381df1eb58d3
+  - 4fa5aa82-6d9f-4391-bbb1-bc509710b010
+  - c5caf05a-7eae-4652-8b6b-c22bd01def51
+  - 8907baaa-51d9-49e0-aa79-a5fb011d4a3c
+  - 7eb3bebb-25a0-4db0-a67d-c184ab632954
+  - b3d28041-c9c9-464e-980b-9b8a7180994e
+  - 2bb2cbfe-6061-4822-b3de-9b15ecd44fb2
+  - 494e58cd-e0ad-4324-8bdd-0d0479944f7d
+  - 17844ca2-5eea-4cb0-b53e-d8552290dcca
+  - c5153c08-1535-4bad-9642-1af4074fc95c
+  - 6b2ebc24-2144-4516-983b-6384eea48406
+  - a5624090-98cc-48fe-9631-4843abc00bd3
+  - 130023cd-c94e-4db0-ae76-4d2062c890f3
+  - b06433d8-7689-4c43-8be0-45b9244e0aa1
+  - 3cbd8dfb-b5b0-4340-8acc-feab5f391a46
+  - b27069df-da20-4ef6-8952-e8a462972bc3
+  - 37ee1bcf-a475-427e-802d-7e7c30065e22
+  - 3322ce97-4cff-4f80-b642-acb7bd654b0d
+  - 2110a11b-1852-44b9-baa5-61fcf7bf4159
+  - 9d6e1c65-6b72-4f33-923d-6c77a40d1c87
+  - f5e453d1-4868-40c5-aed7-f471e0b84d3f
+  - 4582e481-6835-4171-aaf0-ac970eaf536a
+  - fb616137-dc4a-4992-8016-74ecafee4b5a
+  - c42a4dc7-788a-4ce6-8796-077d7e19c8f3
+  - 60399fd5-0409-492e-8fa4-65118ddd85d0
+  - 3ecd810b-90bc-4453-85ac-c7fe7a36812a
+  - 5c40f983-2b69-4912-9afd-00a9fdbd2c7b
+  - 1d36eeaa-7401-46df-9d28-85fea1e2707c
+  - 4c8d6407-e98e-4ab7-bc8a-edc1ddb6c0bd
+  - d9b2d016-7c42-476d-9fb5-2689aadbcba4
+  - 3b33b127-3f77-43d9-b07b-a8562f4494ed
+  - e84434d4-1421-489e-b253-8cb79699bdfd
+  - 6b7fc0fb-bf69-4877-86eb-774ec7eeb5e6
+  - 5417d71a-1a82-4d8a-a0ec-d26d0e7e06b7
+  - 952bdf96-e11b-40e6-8e30-d4cfab75f9ef
+  - 762862d5-8706-47c0-86f5-27016bbcefa5
+  - e210f921-a4b6-49b0-b242-5266dd0ae82d
+  - b099984f-6552-43c0-8714-16fb0c5eddbd
+  - 0e9abb27-627d-4112-8c6b-ed641ba90976
+  - 7b975dba-a762-40f4-a6f1-227d748d59a3
+  - fc4ca765-5993-4218-8f1e-f407ec2988dd
+  - 7f7e8b42-0c52-4eec-b54e-ac6777263fff
+  - ffbc8591-dd70-441d-9886-d91e637c3a5d
+  - ea901b71-8455-4df3-b4ac-fee969505fc5
+  - 9b1f3ad7-1b85-496d-b3e9-7f78b6083e75
+  - 34c9b36e-6679-4cf1-8b2f-ce10bc01e362
+  - b6674c87-ef52-4c30-b105-dfb89a2cb8d4
+  - 73afdec2-70aa-4415-8d2f-b7e4acea5834
+  - b486f7fd-12b9-4ab5-9be8-e1c10b36c0a1
+  - 2575f7d7-aa7e-42e1-bf9c-470f5273dc7a
+  - 23947623-3cb2-4376-b4a0-80b33832e0c9
+  - bf40e01d-c780-4029-909e-3c32d58c9242
+  - 88074b86-68eb-4604-8cdb-4e978be3ce24
+  - 9cea88d8-e58b-4dc8-883a-e6e7e8e40936
+  - 8c5508b2-288a-40c8-acc4-905cb91c2ad6
+  - 71c6fcaa-9257-47e2-8182-065a38164ebf
+  - 63b13ded-fc02-4c6c-b79e-06a8113ee994
+  - 8b4c16ba-f4bf-45fb-ab62-07dc382a88d7
+  - b9d59a53-6a44-4331-a3be-28ab46c32e38
+  - e3f18f20-f564-4585-8f42-a0ce6ee08302
+  - a5db0238-997b-4bc5-a6e7-2e60d358737c
+  - 130e120f-c239-4869-aa1c-014de3c16e16
+  - 5f4594db-6ce0-4469-b333-bc9c81f11e52
+  - ff665646-22cb-4213-9c86-7153c4455fe1
+  - 267b05e1-c210-47da-92cb-cfd16fc9581d
+  - 9105837e-84e0-40d0-be23-2bf6a15a954f
+  - 9dfef29e-ca8e-4004-b970-99cff2681f0f
+  - 217be061-7ad7-4225-a20c-f79b25e789e1
+  - 58471d8c-f3b6-42d9-b66f-f2b2ab7a900e
+  - e2bdd469-c4c6-4eb0-887c-2e17c5714306
+  - 9de895a4-ea3d-4332-a732-0c2d9965d8ac
+  - e18a2efb-d338-4564-b3c6-62e2842643ae
