@@ -1,0 +1,67 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_gdpr_v1",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_gdpr_v1",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+        "@zerobias-org/framework-eu-gdpr-v1": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-eu-gdpr-v1": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-eu-gdpr-v1/-/framework-eu-gdpr-v1-1.1.0.tgz",
+      "integrity": "sha512-U5aJyAyhVDFjBZB42KYsibkmCkY4B2sPqt77jk/pYv8q5ZBAep8fzfyNtza0T5MGgycL6uAIIiBcJ7XPSX6XUg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-eu-gdpr": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-eu-gdpr": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-eu-gdpr/-/suite-eu-gdpr-1.0.1.tgz",
+      "integrity": "sha512-oYShcZNZ51dDmLvxaF1016ZVNDeg6JM8tFtrbHSIvIF18UHxwK6rcE7LGYnLCsi9jtxkPQcgEY53o5eZN8lgTQ==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-eu": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-eu": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-eu/-/vendor-eu-1.0.2.tgz",
+      "integrity": "sha512-cjiUsmH/AlgqEL9ypYsabdF8ZPeVx/OZhoF4P07S+JI9EN53ZvdrTkvsFaSwojDAuC9A23qKTV2s4Url2HgcTQ==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}
