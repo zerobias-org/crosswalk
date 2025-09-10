@@ -1,0 +1,11 @@
+id: 51fc4fd5-1edc-46d9-9d3a-38276885bb57
+name: Payment Card Industry Data Security Standard (PCI DSS) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Payment Card Industry Data Security
+  Standard (PCI DSS) to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Payment Card Industry Data Security Standard (PCI DSS) to Secure
+  Controls Framework (SCF) 2025.2.1 Crosswalk
+code: pci_ssc_dss_v4_0_1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: pci_ssc.dss.v4_0_1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
