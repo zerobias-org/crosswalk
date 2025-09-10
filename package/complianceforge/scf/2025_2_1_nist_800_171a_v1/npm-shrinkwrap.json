@@ -1,0 +1,63 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_171a_v1",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_171a_v1",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+        "@zerobias-org/framework-nist-800_171a-v1": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-nist-800_171a-v1": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-800_171a-v1/-/framework-nist-800_171a-v1-1.1.0.tgz",
+      "integrity": "sha512-qVa2vAuy1vVhaRZJnCAN3xBiSVJxVWV6FQVISVS7nSMBtxBA3ofW7DTTzEUGygjfG6umUbPBQ+AYs2qhc2gO3w==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-nist-800_171a": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-nist-800_171a": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-nist-800_171a/-/suite-nist-800_171a-1.0.2.tgz",
+      "integrity": "sha512-o9dbl+5FP9aAQrzR878I1ZVPDB7VdAQqxAZXFglzWXrjZ1LQUbjcgneYv9gu+9pyWgh2b5hQAVLQNEAuGvEmyQ==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-nist": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-nist": {
+      "version": "1.0.9",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-nist/-/vendor-nist-1.0.9.tgz",
+      "integrity": "sha512-8o0TO0+3Jq7QjHodevemfWGnqscNhZy/pGVHaI+pF8L/VH3GnTMj7TOlAAitq9ZQM46F30vvHyeMtEZBhuGCbw==",
+      "license": "ISC"
+    }
+  }
+}
