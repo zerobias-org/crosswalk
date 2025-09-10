@@ -1,0 +1,63 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_sa_pdpl_v1",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_sa_pdpl_v1",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+        "@zerobias-org/framework-sa-pdpl-v1": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-sa-pdpl-v1": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-sa-pdpl-v1/-/framework-sa-pdpl-v1-1.1.0.tgz",
+      "integrity": "sha512-RZwLqj4JL+WwwuVg2LdOCPuRUtQ5wuSRwGGfKIkFVZSPJmteE67uJkIcFk83QAIuwww1cpxg2h5Y0KBGqF/Qug==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-sa-pdpl": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-sa-pdpl": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-sa-pdpl/-/suite-sa-pdpl-1.1.0.tgz",
+      "integrity": "sha512-wqxrxe1RmaRGFpJ5T9PVDgCENflscotGqdrJtogTLPb5DOsbxHUNm3/i6awTlW6QQW2fly6hZXQlpCvR+3q9jg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-sa": "^1.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-sa": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-sa/-/vendor-sa-1.0.2.tgz",
+      "integrity": "sha512-8n9BaTYxOJv+ojCp8NxhE/CH59gJxOBI3Z0ddwnier0Vaq5fjTZU4Z6djMMrWilGIOz+6zbCsPwb3jWQ7Cuhow==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}
