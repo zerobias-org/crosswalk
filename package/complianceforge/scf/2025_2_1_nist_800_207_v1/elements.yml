@@ -1,0 +1,626 @@
+elements:
+  - id: dd657da1-0cb4-43ac-84a0-ef91cb2d7398
+    sourceElement: NIST Tenet 1
+    targetElement: AST-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 747387d0-8a4e-48d3-97b0-7f58606297de
+    sourceElement: NIST Tenet 1
+    targetElement: AST-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6d2fd3ff-5294-42da-8359-3fc34156910c
+    sourceElement: NIST Tenet 1
+    targetElement: AST-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9392e8a9-4a69-4fa7-a6dc-13ef2aa0dd7c
+    sourceElement: NIST Tenet 1
+    targetElement: AST-02.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7173b587-8ded-4bad-944f-59efe74883f3
+    sourceElement: NIST Tenet 1
+    targetElement: AST-02.8
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7cc23070-4e6f-4cd5-b228-3cd8fef1ef77
+    sourceElement: NIST Tenet 1
+    targetElement: AST-02.9
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b96ac4af-cf12-4f35-9445-5a6c9de6c816
+    sourceElement: NIST Tenet 1
+    targetElement: AST-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cffb1278-02a2-4cea-be29-8a361b1ea3da
+    sourceElement: NIST Tenet 1
+    targetElement: AST-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e6a7ad59-c2f1-45a9-a21d-197e3723c51f
+    sourceElement: NIST Tenet 1
+    targetElement: CLD-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: acd56934-0fbe-4800-885c-017d456db393
+    sourceElement: NIST Tenet 1
+    targetElement: CLD-13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1ba28e8b-8046-4312-86e9-6bfd708d5b25
+    sourceElement: NIST Tenet 1
+    targetElement: DCH-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 397bec30-6f68-435b-aaff-e93c032ac480
+    sourceElement: NIST Tenet 1
+    targetElement: DCH-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1d64fb86-d0bc-4fd0-914a-d9170dc35f9e
+    sourceElement: NIST Tenet 1
+    targetElement: DCH-06.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4dc50434-464d-4f3d-bf54-3b3e54e1850c
+    sourceElement: NIST Tenet 1
+    targetElement: DCH-13.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa45bcdb-3ea7-480a-9276-34c8e7efe326
+    sourceElement: NIST Tenet 1
+    targetElement: DCH-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9399bdaf-91e0-4476-99a4-670aed6f5417
+    sourceElement: NIST Tenet 1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2256b914-25d1-44cf-a7c5-277469f9067e
+    sourceElement: NIST Tenet 1
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f564dddc-3c88-4fdc-85dd-fced1fe0edcc
+    sourceElement: NIST Tenet 1
+    targetElement: MDM-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3efc335e-92bd-48c5-bd23-b57088d15ac8
+    sourceElement: NIST Tenet 1
+    targetElement: MDM-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9a22a3ce-8082-4fae-b788-21f0ddbd00a5
+    sourceElement: NIST Tenet 1
+    targetElement: PRI-05.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 731c1eff-1ac9-4f7d-95f9-172667ac2551
+    sourceElement: NIST Tenet 1
+    targetElement: TPM-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e57a6077-6304-4ca9-9fb1-75e802057339
+    sourceElement: NIST Tenet 2
+    targetElement: CRY-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2da2fe21-c9ea-423e-a97a-a07b98ed939d
+    sourceElement: NIST Tenet 2
+    targetElement: CRY-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: eebed57a-6485-4665-afc5-52ff8f2903bf
+    sourceElement: NIST Tenet 2
+    targetElement: CRY-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9e168056-901e-43d4-86b5-0b875fa82c1f
+    sourceElement: NIST Tenet 2
+    targetElement: CRY-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c0b4cbbc-baf1-4922-9276-21197b483ecf
+    sourceElement: NIST Tenet 2
+    targetElement: CRY-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c3aa7867-8e05-477f-8afe-d197317a59ea
+    sourceElement: NIST Tenet 2
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4a42aed6-0380-4512-95c2-b9d31b7a6c9d
+    sourceElement: NIST Tenet 2
+    targetElement: IAC-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6c65b901-b83c-4434-bfb9-0fdf0c77d9d3
+    sourceElement: NIST Tenet 2
+    targetElement: NET-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: c9dc9dd3-e792-459e-b050-853f12f6f18e
+    sourceElement: NIST Tenet 2
+    targetElement: NET-14.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef384c19-c538-4696-8e60-572e4e51bf8e
+    sourceElement: NIST Tenet 2
+    targetElement: NET-14.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef714f31-3aad-4144-9f9b-c2c3ff9c7a45
+    sourceElement: NIST Tenet 2
+    targetElement: NET-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 14dd13bb-2859-44e2-86c0-10c98a43955a
+    sourceElement: NIST Tenet 3
+    targetElement: DCH-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 240985c3-bada-493d-983e-5fd2792c9e2c
+    sourceElement: NIST Tenet 3
+    targetElement: DCH-13.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef0c944d-824a-4d16-9e48-168128b7ce79
+    sourceElement: NIST Tenet 3
+    targetElement: DCH-14.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b4b8a320-c4a1-4f21-8c16-48ea319f2528
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4a598933-2338-416a-baa6-eca298abfb90
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 09216819-9349-4ae5-b099-e62419c40b3b
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c81566e2-03f1-4773-8def-f9f4391690cb
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9aae9832-5f63-4a1b-af6f-a1984a9fd6bc
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b6f15971-0463-40d8-877a-27abf6d4377b
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dbeff3a2-2ee1-4534-9416-399fe3bbb766
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-15.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 77007043-77c7-4c6f-9634-8ff68eed26f9
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-20.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 69f2d986-2af8-4606-a9c8-1126fae2f5f7
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-21
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0b9fbf5c-7a18-4a70-a1c6-4d38c4b5e20b
+    sourceElement: NIST Tenet 3
+    targetElement: IAC-21.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a42f9393-d353-4ace-80d1-c4993019089f
+    sourceElement: NIST Tenet 3
+    targetElement: NET-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d223e14c-a663-4a29-8295-49ceb08b4978
+    sourceElement: NIST Tenet 4
+    targetElement: CFG-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e70985a5-4408-4e06-acdc-7bc4566c7fd1
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 01487729-5ec4-475c-a3ec-c7bb10065ff8
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cf889979-0d58-460a-8ebb-b62b77f1e9fd
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-13.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 51d6616e-a017-47f4-a073-93bc6dcfb99a
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-14.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: eea116b5-6bc6-4f1f-a25a-bb549ef72a68
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-24.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cb57b524-aba0-4418-8702-3695bf951325
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-25
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1738232d-b995-4899-825f-e7bc34fec261
+    sourceElement: NIST Tenet 4
+    targetElement: DCH-25.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2ec3177-74d9-481e-9354-60642ff5b700
+    sourceElement: NIST Tenet 4
+    targetElement: END-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 78561dbd-e2ae-4ca4-bce0-3e7c21607fdb
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 239b0c65-ff4b-4b24-93bb-57a1241dec41
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d0e097a5-84db-4129-8d70-5fcd35c7b3a7
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b7a5c811-ea52-4054-a07d-26caf9287484
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d979ac2f-d9a0-479e-b0c9-29c525e577bc
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-05.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 07cd51fa-2f90-4a87-8542-7ac5ac76c85c
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f1ccb9cd-3075-40c0-b9e4-28480d3f78ac
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1bc6b3fc-620f-4740-b55e-6c29e0932825
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-13.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 69abf1ff-6055-4576-95ed-02dc24414159
+    sourceElement: NIST Tenet 4
+    targetElement: IAC-15.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 29e23859-c1fb-4e70-9df1-11c55e8dbc11
+    sourceElement: NIST Tenet 4
+    targetElement: MDM-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 599915ca-43f8-4465-9dc8-b6c54cc66b32
+    sourceElement: NIST Tenet 4
+    targetElement: MON-02.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d4e639e7-d127-4397-ae9c-43740ee930a7
+    sourceElement: NIST Tenet 4
+    targetElement: MON-02.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5e8cff17-e435-4b25-9b9d-0bc84df89c0d
+    sourceElement: NIST Tenet 4
+    targetElement: MON-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 670d8910-b847-435b-91d6-a24780691e21
+    sourceElement: NIST Tenet 4
+    targetElement: NET-02.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6c194f90-c1ba-4362-b2e2-3bb5382b95ad
+    sourceElement: NIST Tenet 4
+    targetElement: NET-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 165a09c3-bda7-4c13-893f-839c79c26fd3
+    sourceElement: NIST Tenet 4
+    targetElement: NET-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3c995855-94da-43f5-8f87-8cc9336ad7e8
+    sourceElement: NIST Tenet 4
+    targetElement: NET-04.12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 84ef1d9c-dc95-4872-b227-274915dd0ff6
+    sourceElement: NIST Tenet 4
+    targetElement: NET-04.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2a9de4ba-3cbb-43fc-8069-c211b067c385
+    sourceElement: NIST Tenet 4
+    targetElement: NET-08.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 695f038b-72ce-4ad4-b786-e35a15df6bd0
+    sourceElement: NIST Tenet 4
+    targetElement: NET-08.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 00eff81a-0a5f-4256-b34b-83941dc0cf6f
+    sourceElement: NIST Tenet 4
+    targetElement: NET-14.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6c112214-322c-4169-8089-ff75cff7d536
+    sourceElement: NIST Tenet 5
+    targetElement: AST-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dcc2bf90-97ec-44ce-b0dd-c0b1aa758202
+    sourceElement: NIST Tenet 5
+    targetElement: AST-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bfefee5c-509d-4e3d-8efc-4055cebbeb9d
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 59c8ad72-b230-488c-8b4d-7b5c766eef28
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d583f132-e058-40c2-9310-145cc571b336
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0766d0ef-ab7e-42ed-ab17-c31f1ebe95cc
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 76b90496-b6d8-4f86-8d27-728465000a11
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-02.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: db8850b7-093c-4c69-8153-3be588734e6f
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-02.8
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bd9c9552-b91b-4c47-8bca-ac09887191b5
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e2ef6974-0227-44a9-97cd-746b87f17ce5
+    sourceElement: NIST Tenet 5
+    targetElement: CFG-06.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 04b16dbd-a170-4063-a1e2-b13c253c30a0
+    sourceElement: NIST Tenet 5
+    targetElement: CHG-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7d61c3ca-d482-45cf-88ee-0127c71f8245
+    sourceElement: NIST Tenet 5
+    targetElement: CHG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3cef3910-d4bd-4c65-a8e9-d07d7be95fcc
+    sourceElement: NIST Tenet 5
+    targetElement: CHG-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ded0e417-73fa-4dfa-8562-202afc1abd81
+    sourceElement: NIST Tenet 5
+    targetElement: CHG-02.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: acebea3e-f6c9-4ff1-a46f-2e5e1732cd9a
+    sourceElement: NIST Tenet 5
+    targetElement: DCH-13.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: adac4f46-2145-4a54-97d1-25442f70834a
+    sourceElement: NIST Tenet 5
+    targetElement: MON-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 86e058ad-e27a-46f2-b753-9f169be96eca
+    sourceElement: NIST Tenet 5
+    targetElement: MON-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1c90a396-9e8d-436e-a47f-c16075a5d6b2
+    sourceElement: NIST Tenet 5
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b2ed6cdf-5c53-4a91-a7ee-095b938b800c
+    sourceElement: NIST Tenet 5
+    targetElement: MON-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dff71f86-1c15-423e-b245-c459dda5e913
+    sourceElement: NIST Tenet 5
+    targetElement: MON-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 776362bf-8703-42c7-9b2f-4414656436ea
+    sourceElement: NIST Tenet 5
+    targetElement: MON-02.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fb580833-b59b-4415-a823-aa8c1ee4fd52
+    sourceElement: NIST Tenet 5
+    targetElement: NET-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9f0d2874-297b-426c-bea7-c9ea94624fb6
+    sourceElement: NIST Tenet 5
+    targetElement: NET-08.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9fe95e3e-f0c2-4f38-bb19-fce3d8b9419e
+    sourceElement: NIST Tenet 5
+    targetElement: NET-08.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e029548e-594e-4e8e-97b9-63128493d8ae
+    sourceElement: NIST Tenet 5
+    targetElement: NET-14.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ad6093b8-40af-45bf-938b-fbb06c2ff601
+    sourceElement: NIST Tenet 5
+    targetElement: NET-14.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 10abfb39-5b07-40ef-9733-71d8cdeecc18
+    sourceElement: NIST Tenet 6
+    targetElement: AST-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 550a9cbc-b778-411f-b26d-5e69a5af1a51
+    sourceElement: NIST Tenet 6
+    targetElement: AST-02.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0bf3ed06-6334-4a06-8bd2-1ebd83829b89
+    sourceElement: NIST Tenet 6
+    targetElement: AST-02.9
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ce5dc2c6-e6e1-4619-93f1-b7b1785f9f6a
+    sourceElement: NIST Tenet 6
+    targetElement: IAC-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 5a8803a5-d2e8-4eed-9898-8e76a0507953
+    sourceElement: NIST Tenet 6
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7748f9fb-7460-4dd3-9037-ac423b7ebea1
+    sourceElement: NIST Tenet 6
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0930cedf-6bfc-4ebc-9ccf-ca6192d6386c
+    sourceElement: NIST Tenet 6
+    targetElement: MON-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2ce8fd71-0981-4909-a7a9-b0c9f6bc4786
+    sourceElement: NIST Tenet 6
+    targetElement: NET-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2632853e-dce9-445d-bf55-5ce78b664aa0
+    sourceElement: NIST Tenet 7
+    targetElement: AST-02.6
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3cd2d866-d6a0-4986-a7cd-e39bfbe70781
+    sourceElement: NIST Tenet 7
+    targetElement: AST-02.8
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2e12d1c6-f0e4-43bd-a8af-949af86bf679
+    sourceElement: NIST Tenet 7
+    targetElement: AST-02.9
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 803b84ae-3272-4608-a972-4c5159072d56
+    sourceElement: NIST Tenet 7
+    targetElement: DCH-24.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 70bd1ec7-14a1-4801-bef7-19e1fa202288
+    sourceElement: NIST Tenet 7
+    targetElement: GOV-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 022d7b6d-4be4-4e9c-9245-ac499ae6053d
+    sourceElement: NIST Tenet 7
+    targetElement: MON-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 249048a2-6138-4182-b8e3-63b86414aff5
+    sourceElement: NIST Tenet 7
+    targetElement: MON-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2934a7b8-9efb-4697-8ad5-daabb8339d7e
+    sourceElement: NIST Tenet 7
+    targetElement: MON-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9bed979a-0247-4939-8422-36c0801f7909
+    sourceElement: NIST Tenet 7
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0379665a-1b8b-434b-abba-666652249a91
+    sourceElement: NIST Tenet 7
+    targetElement: MON-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 31cb297a-dd43-4044-8adc-dc305ca74fd9
+    sourceElement: NIST Tenet 7
+    targetElement: MON-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fcbed4a7-c106-4078-99fd-3896849600a3
+    sourceElement: NIST Tenet 7
+    targetElement: MON-02.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b93172e9-908e-414f-9851-49a9601e11ca
+    sourceElement: NIST Tenet 7
+    targetElement: NET-14.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0eb33173-7f7d-4eb4-b0b9-208402f1bf9a
+    sourceElement: NIST Tenet 7
+    targetElement: THR-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 02d6f46b-c15f-470c-a44a-5a05b9f14de3
+    sourceElement: NIST Tenet 7
+    targetElement: THR-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
