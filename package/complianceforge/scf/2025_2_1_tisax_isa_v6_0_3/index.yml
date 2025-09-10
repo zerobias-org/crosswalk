@@ -1,0 +1,9 @@
+id: 9aa49674-ffe6-4c12-9277-de0d2a728636
+name: TISAX ISA to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from TISAX ISA to the Secure Controls Framework
+  (SCF) 2025.2.1 framework
+externalId: TISAX ISA to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: tisax_isa_v6_0_3_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: tisax.isa.v6_0_3.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
