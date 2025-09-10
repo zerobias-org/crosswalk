@@ -1,0 +1,12 @@
+id: 76e85197-9200-4897-bc48-ab40f2ac50f9
+name: US DOJ / FBI - Criminal Justice Information Services (CJIS) Security
+  Policy to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from US DOJ / FBI - Criminal Justice Information
+  Services (CJIS) Security Policy to the Secure Controls Framework (SCF)
+  2025.2.1 framework
+externalId: US DOJ / FBI - Criminal Justice Information Services (CJIS) Security
+  Policy to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: us_cjis_v5_9_3_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.cjis.v5_9_3.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
