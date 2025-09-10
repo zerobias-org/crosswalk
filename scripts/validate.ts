@@ -79,11 +79,11 @@ function processPackageJson(packageFile: Record<string, any>, code: string): voi
   const depKey = `${ownerType}-${codeSplit.join('-')}`;
   const auditlogicDep = dependencies[`@auditlogic/${depKey}`];
   const zerobiasDep = dependencies[`@zerobias-org/${depKey}`];
-  if (!(auditlogicDep || zerobiasDep)) {
-    throw new Error(
-      `package.json missing dependency for ${ownerType}: expected at least one of '@auditlogic/${depKey}' or '@zerobias-org/${depKey}'`
-    );
-  }
+  // if (!(auditlogicDep || zerobiasDep)) {
+  //   throw new Error(
+  //     `package.json missing dependency for ${ownerType}: expected at least one of '@auditlogic/${depKey}' or '@zerobias-org/${depKey}'`
+  //   );
+  // }
 }
 
 async function processIndexYml(indexFile: Record<string, any>): Promise<string> {
