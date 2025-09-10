@@ -1,0 +1,11 @@
+id: 11386961-69f3-4551-b3ba-1a1c779959a4
+name: Data Privacy Framework (DPF) to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+description: Crosswalk mappings from Data Privacy Framework (DPF) to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: Data Privacy Framework (DPF) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: us_dpf_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.dpf.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
