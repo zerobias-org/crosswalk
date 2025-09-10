@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_cis_csc_v8_1"
   },
   "auditmation": {
-    "package": "cis_csc_v8_1_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_cis_csc_v8_1.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },

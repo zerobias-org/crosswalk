@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cis_csc_v8_1",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cis_csc_v8_1",
-      "version": "1.0.0",
+      "version": "1.1.0-rc.0",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/framework-cis-csc-v8_1": "latest",
