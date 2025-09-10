@@ -1,0 +1,63 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_ca_pci_v10_171",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_ca_pci_v10_171",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-ca-pci-v10_171": "latest",
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-ca-pci-v10_171": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-ca-pci-v10_171/-/framework-ca-pci-v10_171-1.1.0.tgz",
+      "integrity": "sha512-hU3tRWOK2PCNUGTukUXoV8JHdtEHbsHti+KhWCan8CUqSglcWE55vWf+lJa8/Q/Px4+uvTvHRzfFI641sVaI4g==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-ca-pci": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-ca-pci": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-ca-pci/-/suite-ca-pci-1.1.0.tgz",
+      "integrity": "sha512-ZDIUYV0uVf5HVuLMwSMZ+OWc+0fAlOp9CojZxC85liCJLCsN000CADztC+KmcxCK5UPH6VJvrHTR/AbxHzU6XA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-ca": "^1.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-ca": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-ca/-/vendor-ca-1.0.2.tgz",
+      "integrity": "sha512-dXEcJw9kZbM3yLdJq2AShkRTy7We446GRq98gLzwcz3P9L9WRGoAE8nUc7EjBfQu2OxpN9hwnkXR7fBwZbh5IA==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}
