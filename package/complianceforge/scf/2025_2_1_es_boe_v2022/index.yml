@@ -1,0 +1,9 @@
+id: e2e6e4e1-4bf6-4356-b813-18078fa94788
+name: BOE-A-2022-7191 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from BOE-A-2022-7191 to the Secure Controls
+  Framework (SCF) 2025.2.1 framework
+externalId: BOE-A-2022-7191 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: es_boe_v2022_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: es.boe.v2022.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
