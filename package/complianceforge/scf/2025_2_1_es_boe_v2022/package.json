@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_es_boe_v2022"
   },
   "auditmation": {
-    "package": "es_boe_v2022_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_es_boe_v2022.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
