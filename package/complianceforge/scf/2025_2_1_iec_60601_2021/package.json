@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_iec_60601_2021"
   },
   "auditmation": {
-    "package": "iec_60601_2021_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_iec_60601_2021.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
