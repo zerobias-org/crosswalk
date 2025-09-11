@@ -1,0 +1,63 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+        "@zerobias-org/framework-us_tx-cdpa-v1": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-complianceforge-scf-2025.2.1/-/framework-complianceforge-scf-2025.2.1-1.0.1.tgz",
+      "integrity": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/framework-us_tx-cdpa-v1": {
+      "version": "1.1.0-rc.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-us_tx-cdpa-v1/-/framework-us_tx-cdpa-v1-1.1.0-rc.0.tgz",
+      "integrity": "sha512-6/Et91YKT0jrkfMLQifHToQrAwgZefRPkX+UPl7B3pm074/anRkiZXGAgJFvAQ3G1ggAwf6lySbllLx4vD56rg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-us_tx-cdpa": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/suite-us_tx-cdpa": {
+      "version": "1.1.0",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-us_tx-cdpa/-/suite-us_tx-cdpa-1.1.0.tgz",
+      "integrity": "sha512-fHYbD9oeWxcmIXFPdYdH95it24TVV64/7oElWtjrQktnJC0gCWn1Mt8UnMQfG6bobO5FImvUOYFXebEOJfVAhg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_tx": "^1.0.0"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-us_tx": {
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.2.tgz",
+      "integrity": "sha512-fLRp7weG0jviaBIR6U0XFBJrDVIvYxlswMEd2ZLGVCzxbH8cgO4r1ixsWIj0M2utFvsvuqNziuXLPu4QsXqF6w==",
+      "license": "ISC",
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    }
+  }
+}
