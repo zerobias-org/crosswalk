@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_us_cjis_v5_9_3"
   },
   "auditmation": {
-    "package": "us_cjis_v5_9_3_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_us_cjis_v5_9_3.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
