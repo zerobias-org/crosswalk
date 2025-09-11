@@ -1,0 +1,11 @@
+id: 6dde3d3b-0276-4b36-8507-5693a5628ed6
+name: Ministry of Defence Standard 05-138 (14 May 2024) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Ministry of Defence Standard 05-138 (14 May
+  2024) to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Ministry of Defence Standard 05-138 (14 May 2024) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: gb_mds_v2024_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: gb.mds.v2024.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
