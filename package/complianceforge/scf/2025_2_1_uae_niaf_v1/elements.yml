@@ -1,0 +1,126 @@
+elements:
+  - id: 6631b83a-b552-4c2d-a178-3529ea9aecc6
+    sourceElement: 3.1.1
+    targetElement: AST-02
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 7967ee3b-91c8-4efe-b705-6e53d187e307
+    sourceElement: 3.1.2
+    targetElement: RSK-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 86ff208b-4304-48ea-8210-dcb7eb0ec54e
+    sourceElement: 3.1.3
+    targetElement: VPM-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3e58e259-6d07-41de-8a12-63974f0e65d9
+    sourceElement: "3.2"
+    targetElement: IAO-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4d64cf13-4d3f-438c-82c8-59288eca53ce
+    sourceElement: 3.2.1
+    targetElement: CFG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 181b0a16-bd51-4eac-9d3f-ffbb1620de3f
+    sourceElement: 3.2.1
+    targetElement: SEA-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 9b3992b9-2151-4d62-a6b5-2c7f6e72f135
+    sourceElement: 3.2.2
+    targetElement: PES-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 0f18c748-d9f5-406e-b40c-c619f35b1d55
+    sourceElement: 3.2.2
+    targetElement: PES-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ffcf68a6-bb6f-4b16-a286-461b672b10ca
+    sourceElement: 3.2.3
+    targetElement: HRS-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 73ee0f54-b212-4ce1-85dd-b4e7b48d807f
+    sourceElement: 3.2.3
+    targetElement: HRS-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aca54c16-adf2-466f-9442-90dc1417773d
+    sourceElement: "3.3"
+    targetElement: IRO-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: e89506b2-21df-41c7-b187-5216122c4519
+    sourceElement: 3.3.1
+    targetElement: IRO-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dd84be68-a349-41f7-803a-be39382269fd
+    sourceElement: 3.3.1
+    targetElement: IRO-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 015a698d-e1e3-480d-badd-ab04b605173b
+    sourceElement: 3.3.2
+    targetElement: IRO-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: bcb8675d-22a7-4530-88fd-d9a82d2009cc
+    sourceElement: 3.3.2
+    targetElement: IRO-02
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: b3dd84b4-03e4-4a62-80d5-d710ddf04036
+    sourceElement: 3.3.3
+    targetElement: IRO-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d4fcff33-6b62-462e-a6c7-fac797d5a63e
+    sourceElement: 3.3.3
+    targetElement: IRO-10.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bfab6a5a-d43b-4e87-9803-750cb2ffafdf
+    sourceElement: "3.4"
+    targetElement: BCD-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 8975a1a3-8607-4b2d-9c90-5ba487913124
+    sourceElement: "3.4"
+    targetElement: BCD-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ae79bee5-7803-429e-97e9-1611d00dd539
+    sourceElement: 3.4.1
+    targetElement: BCD-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 9418a65a-f394-4335-bfe6-f35d0a3d79f8
+    sourceElement: 3.4.1
+    targetElement: BCD-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dfa0789c-8150-4e82-829f-7b79c5539c48
+    sourceElement: 3.4.2
+    targetElement: BCD-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 7deeed21-6300-46f8-860c-97692e462b6a
+    sourceElement: 3.4.2
+    targetElement: BCD-01.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 09d5ac49-658e-45aa-90e5-9145503e27ce
+    sourceElement: 3.4.3
+    targetElement: BCD-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 0bfa043d-751d-4993-b5a8-03b48b6203f2
+    sourceElement: 3.4.3
+    targetElement: BCD-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
