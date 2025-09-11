@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_pci_ssc_dss_v4_0_1"
   },
   "auditmation": {
-    "package": "pci_ssc_dss_v4_0_1_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_pci_ssc_dss_v4_0_1.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
