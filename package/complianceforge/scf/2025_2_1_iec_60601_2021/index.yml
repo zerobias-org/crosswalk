@@ -1,0 +1,9 @@
+id: 91a5c7a6-4028-41ef-b061-e021af617124
+name: IEC TR 60601-4-5:2021 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from IEC TR 60601-4-5:2021 to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: IEC TR 60601-4-5:2021 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: iec_60601_2021_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: iec.60601.2021.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
