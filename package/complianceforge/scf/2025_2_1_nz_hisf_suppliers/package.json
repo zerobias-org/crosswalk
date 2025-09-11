@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_nz_hisf_suppliers"
   },
   "auditmation": {
-    "package": "nz_hisf_suppliers_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_nz_hisf_suppliers.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
