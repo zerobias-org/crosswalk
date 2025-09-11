@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_us_hipaa_v2"
   },
   "auditmation": {
-    "package": "us_hipaa_v2_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_us_hipaa_v2.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
