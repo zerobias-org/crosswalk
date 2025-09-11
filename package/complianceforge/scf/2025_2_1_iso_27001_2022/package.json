@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_iso_27001_2022"
   },
   "auditmation": {
-    "package": "iso_27001_2022_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_iso_27001_2022.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
