@@ -1,0 +1,2001 @@
+elements:
+  - id: eec4aadb-6b64-4196-ae05-d76e25cd01a3
+    sourceElement: 4.1.1
+    targetElement: CPL-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8be781df-d712-445c-8fe6-b9191efb68c6
+    sourceElement: 4.1.1
+    targetElement: DCH-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 56bcda50-23f5-4aa0-8ee0-b6fa7b0475dc
+    sourceElement: 4.2.1
+    targetElement: CPL-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 1a8131c6-900d-4097-bf86-34b35b1441a0
+    sourceElement: 4.2.1
+    targetElement: DCH-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b1ec37bf-099e-4600-836e-5047894bff51
+    sourceElement: 4.2.2
+    targetElement: CPL-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: bb74d9d8-c429-4649-96f0-c3845e47a8c3
+    sourceElement: 4.2.2
+    targetElement: DCH-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 045190ed-971e-4336-91b3-3ddd1945ef04
+    sourceElement: 4.2.2
+    targetElement: PRI-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a3ad063b-c480-4966-8c1b-01d9020584d9
+    sourceElement: 4.2.2
+    targetElement: PRI-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5bbadaaa-e08d-4126-aa86-188865cd467d
+    sourceElement: 4.2.2
+    targetElement: PRI-05.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 19cab77b-cffa-45cd-9f07-eb7a8ff20e0d
+    sourceElement: 4.2.3.1
+    targetElement: DCH-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 3b14642e-500a-40ad-8ca8-2ed0b01409c7
+    sourceElement: 4.2.3.1
+    targetElement: PRI-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 86099cb4-1daa-4f31-b84a-fe26103fc8c1
+    sourceElement: 4.2.3.1
+    targetElement: PRI-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 75a6d5f8-59e4-41d7-83d2-b4cdad9f78b6
+    sourceElement: 4.2.3.1
+    targetElement: PRI-05.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7b12dc53-4af8-4db6-90b4-8df9230ab37a
+    sourceElement: 4.2.3.2
+    targetElement: PRI-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fbc4036f-71c3-4469-9cfa-0c1ae30175da
+    sourceElement: 4.2.3.2
+    targetElement: PRI-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e54e1040-0b79-476b-89f3-ec91e5d9e77e
+    sourceElement: 4.2.3.2
+    targetElement: PRI-05.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 101a6db4-6157-41e8-ae66-a96ef6ea7ec7
+    sourceElement: 4.2.3.3
+    targetElement: DCH-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: db710374-8dd5-4344-befc-f64db326baec
+    sourceElement: 4.2.3.3
+    targetElement: DCH-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2ffddde4-b0ca-4a44-8898-096a6d178755
+    sourceElement: 4.2.4
+    targetElement: DCH-01.2
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 4ce711fe-8e6a-4ada-a2a3-d02144d27a2e
+    sourceElement: "4.3"
+    targetElement: CPL-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bf4443cf-2d3c-409d-8a8a-6990bf297b7b
+    sourceElement: "4.3"
+    targetElement: DCH-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0e4aa6dc-ec4b-4138-b1f6-3ab708c9fb59
+    sourceElement: "4.3"
+    targetElement: PRI-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7fe3def3-8daa-4127-b325-fe4e3552ed5d
+    sourceElement: "4.3"
+    targetElement: PRI-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 06cdbba4-b417-4ab8-a4ba-e3345f8e48cb
+    sourceElement: "4.3"
+    targetElement: PRI-05.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 185f43b0-c1d8-4a2a-b4ee-624f2eec9f7c
+    sourceElement: "5.1"
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 522f6a18-f16f-4c30-a817-b162ad2a0241
+    sourceElement: "5.1"
+    targetElement: GOV-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: b4ece755-e466-4e73-97d3-cb3841dd23d1
+    sourceElement: 5.1.1
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fec40b28-89b1-458a-a568-a97e8cfea8f2
+    sourceElement: 5.1.1
+    targetElement: GOV-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 58601037-4a7a-45d7-b02d-b9fe7b4ff197
+    sourceElement: 5.1.1.1
+    targetElement: DCH-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 8bd262bd-cd11-4936-8d4d-b0c18ff92773
+    sourceElement: 5.1.1.1
+    targetElement: DCH-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c9d19b69-6ca3-4acd-b46f-7a7e4f33a953
+    sourceElement: 5.1.1.1
+    targetElement: GOV-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: e50d1a5a-f5ed-4ab9-b750-f9eeaa779f73
+    sourceElement: 5.1.1.1
+    targetElement: SAT-03.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b1ecc250-15c7-4383-9945-8ce9af5101d9
+    sourceElement: 5.1.1.2
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 82cf2b83-186b-4dd0-afe6-fba1dff63046
+    sourceElement: 5.1.1.2
+    targetElement: GOV-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: f36f91dd-9e7b-48d1-992d-a6d208e1ae3b
+    sourceElement: 5.1.1.2
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7f56b95e-fabd-4e22-b8f2-d14b1501770d
+    sourceElement: 5.1.1.2
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7471688d-bf26-432d-9165-82f73c6947f5
+    sourceElement: 5.1.1.2
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3b5cdc59-7ddc-4767-94e4-923ed8150000
+    sourceElement: 5.1.1.2
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6ade2f75-309d-42ce-87b3-bd043aa2ab5a
+    sourceElement: 5.1.1.3
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ab834b74-1135-499a-8ec8-38ead9d93f9c
+    sourceElement: 5.1.1.3
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 221f74bd-f189-4bc5-9fc3-1f075f743c18
+    sourceElement: 5.1.1.3
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6189b14c-f59c-445f-9a92-53bc5d4d2e02
+    sourceElement: 5.1.1.3
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 369c6bbf-f8d9-465a-a85e-41bf177cc366
+    sourceElement: 5.1.1.3
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 567c7cd9-5b78-408d-9217-b9a3b45dbe83
+    sourceElement: 5.1.1.4
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f547cf83-f886-4c52-9d2c-a60508d09049
+    sourceElement: 5.1.1.4
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 851b7f9c-591a-4a6e-bb90-54db8513e3a8
+    sourceElement: 5.1.1.4
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0955cbdf-c1b3-40ec-8a79-40ce040caeec
+    sourceElement: 5.1.1.4
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cea0139e-8bf0-4841-aa49-6db5e35eecec
+    sourceElement: 5.1.1.4
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1c5a0cc9-b953-4302-a775-a664b823e0ff
+    sourceElement: 5.1.1.5
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 15cce4dd-874f-499a-be3b-4becad2b92d3
+    sourceElement: 5.1.1.5
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aaff6a0b-0183-4782-a499-ba24c11dc589
+    sourceElement: 5.1.1.5
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa9624f2-4de2-4ef9-9ddd-46c8d48c7c38
+    sourceElement: 5.1.1.5
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f0954426-3b8d-4e70-831b-727e479945de
+    sourceElement: 5.1.1.5
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2c0b43e6-2b26-4e5f-b152-1d035c918a8e
+    sourceElement: 5.1.1.6
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c0e6ae4a-0b1d-4a1a-9ce6-9c0a544097f1
+    sourceElement: 5.1.1.6
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 62330ba8-27af-4ce4-96d1-af5971bc4162
+    sourceElement: 5.1.1.6
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b9ea264d-5321-4ca0-a062-997ba43cba52
+    sourceElement: 5.1.1.6
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a28db7ed-0a70-4a70-87b7-ab0b7e18818c
+    sourceElement: 5.1.1.6
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e627c4a3-64df-4d55-b5c7-06e541e30b1c
+    sourceElement: 5.1.1.7
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d03927d1-54be-491c-9fe3-498311cd413d
+    sourceElement: 5.1.1.7
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3f9b4918-1780-44e3-8bca-b5450d136e21
+    sourceElement: 5.1.1.7
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8c2ab653-7474-4a6b-bff2-62f0734d0284
+    sourceElement: 5.1.1.7
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 94c4e9bf-8cc6-4be4-965b-987894414ec3
+    sourceElement: 5.1.1.7
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 70cd9b57-32b2-457a-9c0c-e22faf81d0f1
+    sourceElement: 5.1.1.8
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9b42dd52-55b3-413c-94e6-9f3a37c5bc47
+    sourceElement: 5.1.1.8
+    targetElement: IAO-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9b3a11a7-f333-45d3-91a1-59f1f041ffe1
+    sourceElement: 5.1.1.8
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 80f2167f-c963-4740-a4ad-99851c2ff16e
+    sourceElement: 5.1.1.8
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ff783306-4a39-44cd-b83a-a02f65a97b23
+    sourceElement: 5.1.1.8
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8e533f7b-1538-4a3a-b8f4-a0f972e1f752
+    sourceElement: 5.1.2
+    targetElement: OPS-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 835fa2a5-74ef-47ab-9bd7-a121c29aec1c
+    sourceElement: 5.1.2.1
+    targetElement: OPS-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1669e92f-aba9-48de-826c-161593d88c86
+    sourceElement: 5.1.3
+    targetElement: DCH-03.1
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 4e8c95f8-5b88-490f-8c24-2d590e974697
+    sourceElement: 5.1.4
+    targetElement: DCH-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: efa857f6-16b0-47e3-9fa2-1844b1d9ae57
+    sourceElement: 5.1.4
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4cfe6d45-d92d-4655-b750-f492dc76077d
+    sourceElement: 5.1.4
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c9dc2ee0-bd29-4ebe-a99f-782ffe2b6c74
+    sourceElement: 5.1.4
+    targetElement: PRI-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2afad745-e566-45d5-9110-17b42de892df
+    sourceElement: 5.1.4
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 726e6347-fc15-4eab-8528-5a1959d82a79
+    sourceElement: "5.2"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 843fcdfb-6784-4f27-9d5c-94e40df4d4d3
+    sourceElement: "5.2"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3a56c44a-06d5-4b31-96bd-4acd4d4628d7
+    sourceElement: "5.2"
+    targetElement: SAT-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 7f981f4f-32f6-41ac-a73c-6ac0439162f5
+    sourceElement: "5.3"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 93e23eb4-968c-45c7-8d50-b4183d612275
+    sourceElement: "5.3"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b162e4b8-3c11-4b9d-92fd-d658a74b61e6
+    sourceElement: "5.4"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3c6629eb-ccf5-40a5-a8fd-824c199ce94e
+    sourceElement: "5.4"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c3f07589-950e-49d1-8c5b-1b04414dafee
+    sourceElement: "5.4"
+    targetElement: MON-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: d1461ad8-97e1-4dfd-b06e-1b5a430ed664
+    sourceElement: "5.4"
+    targetElement: MON-01.13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c8e0d2dd-7610-47d8-80eb-48902dbb6238
+    sourceElement: "5.4"
+    targetElement: MON-01.16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: eefc5250-6721-4185-ad57-194e09ad2c26
+    sourceElement: "5.4"
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7214d886-7746-42bf-acce-7411bedfd736
+    sourceElement: "5.4"
+    targetElement: MON-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b58521e9-2895-4419-afc8-92da146c41de
+    sourceElement: 5.4.1
+    targetElement: MON-01.13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 99b248ee-c59a-42b5-914f-b743d2a0c6d9
+    sourceElement: 5.4.1
+    targetElement: MON-01.16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e5e46928-c78a-4f58-9c44-0390b73389fd
+    sourceElement: 5.4.1
+    targetElement: MON-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9ecfc11c-e957-4e91-ae94-2dfd40d5daf4
+    sourceElement: 5.4.1
+    targetElement: MON-01.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1c52f62d-9e83-4f86-ab9b-8ea4ee86b86a
+    sourceElement: 5.4.1
+    targetElement: MON-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 41f72770-3d9a-49c3-8562-1ee574f97179
+    sourceElement: 5.4.1
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 335ebc81-ef24-4ad0-a50b-25fac32b3173
+    sourceElement: 5.4.1
+    targetElement: MON-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 465fb6cc-d956-4235-bd16-83665defcd7f
+    sourceElement: 5.4.1
+    targetElement: MON-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0f9d5ac1-4f47-476d-aaf4-f33d17fb487c
+    sourceElement: 5.4.1.1
+    targetElement: MON-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c838646f-afcb-4f4b-9c0b-29457b0b995c
+    sourceElement: 5.4.1.1
+    targetElement: MON-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2c89e952-97ce-48df-9b06-dd1837aa7e80
+    sourceElement: 5.4.1.1.1
+    targetElement: MON-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0801f372-2214-4413-8441-fd5a84c765ee
+    sourceElement: 5.4.1.1.1
+    targetElement: MON-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ce5b1d65-ff29-43e7-a398-9726eaba0e92
+    sourceElement: 5.4.2
+    targetElement: MON-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 1db6571a-18d2-41d6-bbf7-46d09b0f5869
+    sourceElement: 5.4.3
+    targetElement: MON-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 757935ce-60f6-469c-ad11-e4bbf53b9fda
+    sourceElement: 5.4.3
+    targetElement: MON-01.13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 88168a67-620b-44a7-b745-7e12b7a1d33d
+    sourceElement: 5.4.3
+    targetElement: MON-01.16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: be5205b8-661f-45a8-977e-e27d5e1c2585
+    sourceElement: 5.4.3
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2f9349d2-21e1-434f-a033-bdd500394bf6
+    sourceElement: 5.4.3
+    targetElement: MON-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2e5a0900-507e-4b91-b0d1-80d70866499a
+    sourceElement: 5.4.4
+    targetElement: MON-07
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f801b342-0445-4585-b53f-aba68f0fc89e
+    sourceElement: 5.4.5
+    targetElement: MON-08
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 143f8774-c45c-42bd-a327-165265baa2f5
+    sourceElement: 5.4.6
+    targetElement: MON-10
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b0b4133e-5494-4db3-be90-3918ed05aebe
+    sourceElement: 5.4.7
+    targetElement: MON-10
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 664aa58f-7391-4e44-9ad9-fd67b32a3b6c
+    sourceElement: "5.5"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4bccc326-5967-4a71-b61d-e4d6fe48948a
+    sourceElement: "5.5"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0e5c8ffb-a97a-4eae-a164-982876dbed98
+    sourceElement: "5.6"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b301b0da-ee61-49c4-b187-7c9525d1c52e
+    sourceElement: "5.6"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 349f409f-36d9-47c9-9cdd-28e1b93e9ba6
+    sourceElement: 5.7.1
+    targetElement: CHG-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 80cf1068-24c7-4eb9-bf0d-23866fcd8a33
+    sourceElement: 5.7.1.1
+    targetElement: CFG-03
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 5a522d49-bb8c-435d-a683-6f9fdcacab74
+    sourceElement: 5.7.1.2
+    targetElement: AST-04
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 9fc7b15c-3b21-4ae1-bd5c-ec26007a506e
+    sourceElement: 5.7.2
+    targetElement: DCH-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 08bfda0a-b44a-4810-a90d-3657a386991b
+    sourceElement: 5.7.2
+    targetElement: IAO-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7e1633c4-ea33-462b-9d22-44519733a934
+    sourceElement: "5.8"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b78ce026-6afa-4424-b87d-d3877cecaf95
+    sourceElement: "5.8"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ac35d16b-e7e4-44e6-8e10-10b17a8fdc2b
+    sourceElement: "5.9"
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 63e526de-21e4-4484-9d7a-87f230286cea
+    sourceElement: "5.9"
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 57f41b54-3d36-48ea-b6c9-a985758b537a
+    sourceElement: "5.9"
+    targetElement: PES-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 0ed47125-68ed-4da5-bf8b-8d575e5d564e
+    sourceElement: 5.9.1
+    targetElement: PES-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: e272765f-3cfd-4f2a-9347-61e75c091ee8
+    sourceElement: 5.9.1.1
+    targetElement: PES-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fbcb215e-9b57-4b15-8684-216903322237
+    sourceElement: 5.9.1.2
+    targetElement: PES-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d8d8ff2f-2204-4433-9f54-96f7ce3fd20a
+    sourceElement: 5.9.1.3
+    targetElement: PES-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2ba11379-d1b1-4673-905f-4cb4468dae13
+    sourceElement: 5.9.1.3
+    targetElement: PES-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1ca8b374-326c-418e-aa87-d36362e64f16
+    sourceElement: 5.9.1.4
+    targetElement: PES-12.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4cf7ac5b-3ff5-4751-b970-249d60df18d2
+    sourceElement: 5.9.1.5
+    targetElement: PES-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: beb2b47e-66c2-4fd6-8eec-ba0fbf8c52db
+    sourceElement: 5.9.1.5
+    targetElement: PES-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 27948fb2-0593-4933-8ca9-ca780d92458f
+    sourceElement: 5.9.1.5
+    targetElement: PES-12.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dda57342-af94-4ac0-9181-81ac23f4f4b9
+    sourceElement: 5.9.1.6
+    targetElement: PES-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d4e0304a-e5e6-4a28-805e-996dbdbd0b68
+    sourceElement: 5.9.1.7
+    targetElement: PES-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 469482fe-75f2-4f10-a1bf-629ea8853457
+    sourceElement: 5.9.1.8
+    targetElement: PES-10
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4f93349a-5c89-428a-a7e9-ebd5277b9fe4
+    sourceElement: 5.9.2
+    targetElement: PES-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 399e8ef7-934c-46c8-8597-03a9a6f26dac
+    sourceElement: 5.9.2
+    targetElement: PES-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5fd1cf4e-979e-44c6-a6b5-c5696e2ff66a
+    sourceElement: "5.10"
+    targetElement: NET-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 2a7dd106-8ad4-4863-b90c-38ff95c19730
+    sourceElement: 5.10.1
+    targetElement: NET-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a30f8bbd-fdff-4428-ad30-fa4c3dab3ea6
+    sourceElement: 5.10.1
+    targetElement: NET-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4dafb264-4dc6-4e03-bcca-be9dd566ac5b
+    sourceElement: 5.10.1.1
+    targetElement: NET-03
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 723c7e41-008f-4e2f-8105-17bd53ea03c4
+    sourceElement: 5.10.1.2
+    targetElement: CRY-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: c1f76dac-9e09-42b9-a2a1-ffedc51bb820
+    sourceElement: 5.10.1.2
+    targetElement: CRY-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7311c123-fca8-4526-b152-0ca0f14ae285
+    sourceElement: 5.10.1.2
+    targetElement: CRY-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3c8e75ee-b670-46d2-8a45-012f2a04c978
+    sourceElement: 5.10.1.2
+    targetElement: NET-14.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5c19470b-a00f-4438-8d46-935dd711f5ae
+    sourceElement: 5.10.1.2
+    targetElement: NET-15.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 964f2c86-fd26-4e5a-8047-5e4566f0ed7c
+    sourceElement: 5.10.1.2.1
+    targetElement: CRY-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 8b7d8562-1e9b-495d-9a03-4315b7e2ef03
+    sourceElement: 5.10.1.2.1
+    targetElement: CRY-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f227cb4d-a867-49e4-b4fa-ea1881dc52b3
+    sourceElement: 5.10.1.2.2
+    targetElement: CRY-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b1dc33ac-1d81-4ab2-ab8d-b15e50f52c37
+    sourceElement: 5.10.1.2.3
+    targetElement: CRY-08
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 92d844e4-a341-40bd-a9a7-eada168baf7e
+    sourceElement: 5.10.1.3
+    targetElement: END-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8b461420-95df-4535-b8c8-ad5724eefb4c
+    sourceElement: 5.10.1.3
+    targetElement: MON-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1d9574fe-5a8d-480d-8f18-e78156ab24f8
+    sourceElement: 5.10.1.3
+    targetElement: NET-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5f9efc63-6403-48a2-9eb4-7caeac76590a
+    sourceElement: 5.10.1.3
+    targetElement: NET-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e45463b6-abdc-47b7-bec3-30bb3d005a3c
+    sourceElement: 5.10.1.4
+    targetElement: HRS-05.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 86f5ce6d-7194-4ef5-a30a-ae8a4904a401
+    sourceElement: 5.10.1.4
+    targetElement: CLD-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: a05d41a2-806e-4c46-801d-02b561c91077
+    sourceElement: 5.10.2
+    targetElement: HRS-05.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6f111a33-7f2f-4732-9e5f-745dd78925f2
+    sourceElement: 5.10.3
+    targetElement: CLD-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a5821191-14cb-4c86-b0ba-4dee0b271163
+    sourceElement: 5.10.3
+    targetElement: CLD-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 502171db-a705-402b-867b-6354b42db71d
+    sourceElement: 5.10.3
+    targetElement: SEA-13.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 07267470-53b5-414e-8bd6-36c549212f66
+    sourceElement: 5.10.3.1
+    targetElement: SEA-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 398de7bf-ae6e-4884-ac19-c085085ffda1
+    sourceElement: 5.10.3.1
+    targetElement: SEA-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7a80a974-b82c-463f-bb5f-6ab68499f272
+    sourceElement: 5.10.3.2
+    targetElement: SEA-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 6f265980-fc73-4708-837e-6feab596f6f7
+    sourceElement: 5.10.3.2
+    targetElement: SEA-13.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d1dba65c-bd52-448d-b0bb-3a189a184417
+    sourceElement: "5.11"
+    targetElement: CPL-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 51044097-5601-45de-a631-09e3963b6a27
+    sourceElement: 5.11.1.1
+    targetElement: CPL-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef51d472-8cb9-40d0-ada9-555f6dddd381
+    sourceElement: 5.11.1.2
+    targetElement: CPL-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b11763ec-012e-467a-b2c6-b34ef4d3abb3
+    sourceElement: 5.11.2
+    targetElement: CPL-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7c6c3b09-aaab-463d-910c-abfc2f9ba228
+    sourceElement: 5.11.3
+    targetElement: CPL-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e8a0b9fd-4f41-48ea-a717-6393cb2a2862
+    sourceElement: 5.12.1
+    targetElement: HRS-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 33519b3e-294a-4e78-ab02-72cc8f79e2e8
+    sourceElement: 5.12.2
+    targetElement: HRS-09
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4aea2167-70f5-4c13-a863-1cb043f5fae7
+    sourceElement: 5.12.3
+    targetElement: HRS-08
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 12b675e8-eb38-490c-a086-720c8f809849
+    sourceElement: 5.12.4
+    targetElement: HRS-07
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: df1c19f2-81bd-4cbd-866f-443cf890f8d7
+    sourceElement: "5.13"
+    targetElement: MDM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: fb276c42-d73d-4576-9204-d4b118b7e89f
+    sourceElement: 5.13.1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 055335d6-a75e-40c8-bc9f-1536d04756bc
+    sourceElement: 5.13.1
+    targetElement: NET-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 06f227cb-f5fe-4aed-85d1-d364c8046c51
+    sourceElement: 5.13.1.1
+    targetElement: NET-15
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 73aa58e1-0669-4468-8b6d-83935376e859
+    sourceElement: 5.13.1.2
+    targetElement: MDM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: f88e5228-ecdf-4f13-adc5-8df8b6f52d09
+    sourceElement: 5.13.1.2.1
+    targetElement: AST-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 920124a5-9499-4279-9f65-718b9d258d61
+    sourceElement: 5.13.1.2.1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bd5a2e69-e05b-4103-a667-c8d91a5680e5
+    sourceElement: 5.13.1.2.1
+    targetElement: MDM-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1e9d5c8c-fc1b-40e4-8e76-4892c4a0ae37
+    sourceElement: 5.13.1.2.2
+    targetElement: HRS-05.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 22f6e796-4b3c-46ec-93d1-ada9d24af184
+    sourceElement: 5.13.1.2.2
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 32bc9b0c-c9c5-49ee-86f5-68e844c20ff0
+    sourceElement: 5.13.1.3
+    targetElement: CFG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aed28397-c0fa-4ebf-b6a6-207fada842d6
+    sourceElement: 5.13.1.3
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 231d2222-f561-4286-8854-ada7059d095c
+    sourceElement: 5.13.1.4
+    targetElement: CFG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dd9ce5e3-90ca-4d44-97b1-47f1819a148e
+    sourceElement: 5.13.1.4
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 78779df4-0cbf-4143-944e-3e4ecfe85e08
+    sourceElement: 5.13.2
+    targetElement: MDM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 290b80b9-fc54-4da6-b2c2-f8144ce0e150
+    sourceElement: 5.13.2
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 831c2c89-ae6c-4d98-a3ed-47caf9b55a20
+    sourceElement: 5.13.2
+    targetElement: MDM-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b8cf1603-7869-4bbb-8ca6-48b8195bf883
+    sourceElement: 5.13.2
+    targetElement: MDM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dc5f823a-359b-4fd1-a2ab-525e9fd948a1
+    sourceElement: 5.13.3
+    targetElement: END-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4a811695-cb36-409a-8286-675e8f186da0
+    sourceElement: 5.13.3
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a790a085-f8b4-4bf1-9140-8ed4312f43ff
+    sourceElement: 5.13.4
+    targetElement: END-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d2465993-f27b-42ff-be9d-8d8333bf68c9
+    sourceElement: 5.13.4
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6edf9174-bbc9-42e9-ab11-981f0e9ea8e0
+    sourceElement: 5.13.4.1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 719fc80e-080f-4b22-86f6-1b210b447aa6
+    sourceElement: 5.13.4.2
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4ac73475-0112-4550-b815-09eb82ec9241
+    sourceElement: 5.13.4.3
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4c4435ee-7207-4e01-a672-7d873b53ed74
+    sourceElement: 5.13.5
+    targetElement: IRO-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 885763a2-e9fd-41f1-a324-8b5a7745fd9b
+    sourceElement: 5.13.6
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 32ff6b98-2dc4-4be1-a7c4-1f69c37adcae
+    sourceElement: 5.13.7
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 04f432a8-53c6-4b4a-9f03-7e992162af96
+    sourceElement: 5.13.7
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7fcb16f3-3ea2-4082-bff0-dc63b8c422e1
+    sourceElement: 5.13.7.1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 349c6958-26a4-4495-b0ae-bcce2abbbf77
+    sourceElement: 5.13.7.1
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa2ffebe-6cc9-4e52-99bb-9a163a516bb1
+    sourceElement: 5.13.7.2
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a1eaebe3-de8d-427c-95f8-889bbd0ebb81
+    sourceElement: 5.13.7.2
+    targetElement: MDM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef07b47e-a98b-4197-aa9b-602be1973284
+    sourceElement: 5.13.7.2.1
+    targetElement: MDM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 353010bb-bcaf-43d4-aaf5-149bf245719b
+    sourceElement: 5.13.7.3
+    targetElement: MDM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 1adfb3ff-1073-4fbe-91b1-4702eb28219b
+    sourceElement: AC-1
+    targetElement: IAC-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 6b59749c-7ef2-4a53-b616-e1e9a8ea390c
+    sourceElement: AC-2
+    targetElement: IAC-07.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: db48aa63-cdac-45aa-b540-b65c16cc1bcc
+    sourceElement: AC-2
+    targetElement: IAC-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b4216e5d-0597-48a3-9e3e-47b68878644d
+    sourceElement: AC-2
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cd5f73d9-7e40-44f4-ab6f-46d8cb29e285
+    sourceElement: AC-2
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 04769ee6-85c5-4ef1-9201-03bc55b49c2b
+    sourceElement: AC-2(1)
+    targetElement: IAC-15.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 68c5bede-4dab-4cde-8181-0370d2aba90b
+    sourceElement: AC-2(2)
+    targetElement: IAC-15.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 9a329c4d-fe29-40f7-b2fe-e81d87788dc1
+    sourceElement: AC-2(3)
+    targetElement: IAC-15.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: cd43c391-6482-4136-9433-b6e4df4013ea
+    sourceElement: AC-2(4)
+    targetElement: IAC-15.4
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: a80dbc59-ded8-44bc-afac-5aa01e5e2c09
+    sourceElement: AC-2(5)
+    targetElement: IAC-24
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 87cc5fc6-ce8f-4b22-a130-ab32be008984
+    sourceElement: AC-2(13)
+    targetElement: HRS-09.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2171d98c-005f-4511-8cf6-37a13a188046
+    sourceElement: AC-2(13)
+    targetElement: IAC-15.6
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4e3af2c7-b176-417d-a2c9-f58b55c7c6e9
+    sourceElement: AC-3
+    targetElement: IAC-20
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c86e5962-2a14-4283-8dc4-27073c25ba7e
+    sourceElement: AC-3
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 051da9bc-1b67-48df-bc80-d120719b6b5f
+    sourceElement: AC-3
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: de08a7d2-aa6c-4acc-9afd-ea76ddfd67ee
+    sourceElement: AC-3(14)
+    targetElement: PRI-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: dfcc6e43-618b-4425-843f-b89aa4134ebb
+    sourceElement: AC-4
+    targetElement: NET-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: dcf00779-0aa8-4ae6-a4f7-10c31fe09a96
+    sourceElement: AC-5
+    targetElement: CHG-04.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 51895caa-b106-4f72-aee9-cc4d0385cd58
+    sourceElement: AC-5
+    targetElement: HRS-11
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 116e2c0d-13ee-4561-bfa6-9956fd3999b2
+    sourceElement: AC-5
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: edd1f1e9-491f-42cb-9023-1e84da9415ba
+    sourceElement: AC-5
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2138f551-0165-4192-9eea-64705c0c7994
+    sourceElement: AC-6
+    targetElement: IAC-20
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c885973c-1fb4-49a1-8406-bb5c4640a170
+    sourceElement: AC-6
+    targetElement: IAC-21
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 347a72b8-1cd9-43d6-ad96-a13f49dc52b6
+    sourceElement: AC-6(1)
+    targetElement: IAC-21.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 5d4c30b9-075d-47b7-8b8c-7359ba3290d0
+    sourceElement: AC-6(2)
+    targetElement: IAC-21.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b1772b6d-de79-4753-a9ff-e29593886966
+    sourceElement: AC-6(5)
+    targetElement: IAC-21.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d6429ea0-4f48-4c57-b74c-3db2e7fb40cc
+    sourceElement: AC-6(7)
+    targetElement: IAC-17
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 823af829-4cfb-42d9-8ab5-53748fca1cd4
+    sourceElement: AC-6(9)
+    targetElement: IAC-21.4
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 2a99ccdb-fc01-44a0-8a33-677fa011f670
+    sourceElement: AC-6(10)
+    targetElement: IAC-21.5
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d4ab4c80-f9ce-4652-91fd-8fff6f09e5b4
+    sourceElement: AC-7
+    targetElement: IAC-22
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: e408d9a3-1a53-4746-aed7-8222b31a7ea2
+    sourceElement: AC-8
+    targetElement: SEA-18
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: e27020c9-dd0b-40e2-abb3-03d256519f82
+    sourceElement: AC-11
+    targetElement: IAC-24
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b3f3dd8b-a869-4d1b-ae5f-4b97bb167516
+    sourceElement: AC-11(1)
+    targetElement: IAC-24.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 32d3a0ec-5f4d-45ab-9494-afdc739c67c9
+    sourceElement: AC-12
+    targetElement: IAC-25
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: adf2a987-6248-4b7f-a60d-e063ee07c678
+    sourceElement: AC-14
+    targetElement: IAC-26
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4289e05a-6b73-4794-9fdf-4304f68aa765
+    sourceElement: AC-17
+    targetElement: NET-14
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 8cfb592d-77bf-4df4-b2af-f2c834c4a110
+    sourceElement: AC-17(1)
+    targetElement: NET-14.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 6a0222e7-aafa-46c0-9859-209bac2eeab6
+    sourceElement: AC-17(2)
+    targetElement: NET-14.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: cea2577f-0595-46f9-bf32-9845ea6d2f99
+    sourceElement: AC-17(3)
+    targetElement: NET-14.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 691fbcf8-9859-42d8-afd1-6b6e003b3841
+    sourceElement: AC-17(4)
+    targetElement: NET-14.4
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: afe237c4-529a-417f-be5f-8a0cfe017d96
+    sourceElement: AC-18
+    targetElement: CRY-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4b6487ec-8d81-42a5-b73f-0ef2631509c7
+    sourceElement: AC-18
+    targetElement: NET-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ee8d86cb-dcdf-4a9b-b71b-65c90aa8834a
+    sourceElement: AC-18(1)
+    targetElement: NET-15.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: ffedde06-d5f4-4c63-862c-04d66ad7ad63
+    sourceElement: AC-18(3)
+    targetElement: NET-15.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 7819baf2-8449-44ac-bb8a-9ee3105d4e0d
+    sourceElement: AC-19
+    targetElement: MDM-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 94c49e9d-04d9-447e-b6b8-e051008ab20e
+    sourceElement: AC-19(5)
+    targetElement: MDM-03
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 080c90c4-12a8-4d4c-b993-43a2c11b885f
+    sourceElement: AC-20
+    targetElement: DCH-13
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 40506a37-8e4e-406f-8cab-4766f5ba0927
+    sourceElement: AC-20(1)
+    targetElement: DCH-13.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b1c8f9ac-d74f-4d0b-bc9a-858a5a1e4070
+    sourceElement: AC-20(2)
+    targetElement: DCH-13.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: a959155e-f6d3-45b2-831a-899c49f5932a
+    sourceElement: AC-21
+    targetElement: DCH-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a587d20b-d997-4b69-a2b1-e98f97ef8be8
+    sourceElement: AC-21
+    targetElement: PRI-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f60f9b69-31f3-4c20-911b-35d66e6b83a9
+    sourceElement: AC-22
+    targetElement: DCH-15
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 730150b7-c43f-44cb-9a09-29775b1f1aee
+    sourceElement: AT-1
+    targetElement: SAT-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 02339591-133a-48e2-956e-f290aa41af80
+    sourceElement: AT-2
+    targetElement: SAT-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: aa116af3-a2c5-4011-b1f6-5b6bf5012e7d
+    sourceElement: AT-2(2)
+    targetElement: THR-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 641bd2ec-aa1e-449e-be8a-67d2d342edcc
+    sourceElement: AT-2(3)
+    targetElement: SAT-02.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b5378695-06b0-4e2e-bca3-57eeed9d2a5e
+    sourceElement: AT-3
+    targetElement: SAT-03
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 274435f4-3d90-493f-a9d6-a9015622d123
+    sourceElement: AT-3(5)
+    targetElement: SAT-03.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 10c3e23e-d60d-4c1a-a9ba-a87dc043aa4c
+    sourceElement: AT-4
+    targetElement: SAT-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f15173b4-7d22-4e01-911a-40fc479f65a8
+    sourceElement: IA-1
+    targetElement: IAC-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: b4a27b4c-621f-407a-9650-a0cc1251ddbc
+    sourceElement: IA-2
+    targetElement: IAC-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 2a481d75-7d9b-4f58-9a48-f3e28a7dc26f
+    sourceElement: IA-2(1)
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 194e7f72-54dc-44e2-a8eb-e743f6285994
+    sourceElement: IA-2(1)
+    targetElement: IAC-06.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 32b99b64-50cb-4a2c-86c9-1d0e49769367
+    sourceElement: IA-2(1)
+    targetElement: IAC-06.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d2ae731a-e2d2-4af9-a509-cb19f8e485cb
+    sourceElement: IA-2(1)
+    targetElement: IAC-06.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 98ee29e6-1452-4dc2-9d94-dc1302e309bc
+    sourceElement: IA-2(1)
+    targetElement: IAC-06.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 152e72b6-ea2e-4bc3-bf66-782369f48bfd
+    sourceElement: IA-2(1)
+    targetElement: IAC-10.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4cc1f260-4d48-4232-9aa6-3a419468622d
+    sourceElement: IA-2(1)
+    targetElement: TDA-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 80db9e80-512c-4da1-9246-ba03b7da81ed
+    sourceElement: IA-2(2)
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 12bd9dd0-820c-4c71-8ec5-cc0e221241b0
+    sourceElement: IA-2(2)
+    targetElement: IAC-06.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 54611a1a-27ba-48a8-9208-4fd599180a33
+    sourceElement: IA-2(2)
+    targetElement: IAC-06.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 302d62dd-f87e-40b7-8f44-92b4565539ec
+    sourceElement: IA-2(2)
+    targetElement: IAC-06.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f87ae7ae-94a2-42cc-a6bf-0fef431e752e
+    sourceElement: IA-2(2)
+    targetElement: IAC-06.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1188f06a-5141-47b4-9c4f-1f24f8e9f0c3
+    sourceElement: IA-2(2)
+    targetElement: IAC-10.7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c85c647c-40c2-4b35-b39d-33f578945e4b
+    sourceElement: IA-2(2)
+    targetElement: TDA-02.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 70e3c8be-5994-4427-ac22-ec9e29e7baa5
+    sourceElement: IA-2(8)
+    targetElement: IAC-02.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4ade7812-0d98-4964-ae9c-dffb6f900461
+    sourceElement: IA-2(12)
+    targetElement: IAC-02.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 3472da6a-6bb6-40d5-9f27-24bc4fd61e46
+    sourceElement: IA-3
+    targetElement: IAC-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 8c86d878-8c62-482e-9ee0-b87b1bc51ee4
+    sourceElement: IA-4
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 93d871d6-370b-41e4-b698-930d98596b6a
+    sourceElement: IA-4
+    targetElement: IAC-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 291690fd-c029-483d-82e9-1968a815976a
+    sourceElement: IA-4(4)
+    targetElement: IAC-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 072112d2-ec13-47bc-be17-691e081d0522
+    sourceElement: IA-4(4)
+    targetElement: IAC-09.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: acbfc57d-6828-45c4-96ab-2d0d56acce10
+    sourceElement: IA-4(4)
+    targetElement: IAC-09.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ad16e84f-f49b-4ced-8d22-2be1ca292c01
+    sourceElement: IA-5
+    targetElement: CFG-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: af396302-d161-4987-918c-15b619ab19aa
+    sourceElement: IA-5
+    targetElement: IAC-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 045cd58e-bdf7-4f89-9a68-d78c12d2d35b
+    sourceElement: IA-5
+    targetElement: IAC-10.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8e02e34a-39c8-4afa-9d4b-7cc2ec6a0f26
+    sourceElement: IA-5
+    targetElement: IAC-10.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d8ed644a-5e70-4154-8f0b-373d223a8068
+    sourceElement: IA-5
+    targetElement: IAC-10.8
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fc3d81d5-0ba7-43c7-a623-0488f96dbaee
+    sourceElement: IA-5(1)
+    targetElement: IAC-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 35f1dc00-06cd-4af3-92c7-d96353737fcb
+    sourceElement: IA-5(1)
+    targetElement: IAC-02.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6a369be6-a7c5-4a97-acc2-5e82057a44f7
+    sourceElement: IA-5(1)
+    targetElement: IAC-10.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4ef21cac-d2c9-42f1-b266-02b7e4324aff
+    sourceElement: IA-5(1)
+    targetElement: IAC-10.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b2ba34c-39e3-4f05-9646-861bab4a55e6
+    sourceElement: IA-5(1)
+    targetElement: IAC-10.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 25a6f89f-fb1c-4bf3-953c-e3e1fa1e534b
+    sourceElement: IA-5(2)
+    targetElement: IAC-09.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4017c5d0-c798-4ffa-9065-027dedebf5ae
+    sourceElement: IA-5(2)
+    targetElement: IAC-10.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 992501d2-7330-40ae-9708-a995604b9dee
+    sourceElement: IA-5(6)
+    targetElement: IAC-10.5
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d80c735a-4e0b-4078-aac1-eca3b126cc95
+    sourceElement: IA-6
+    targetElement: IAC-11
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b8170999-7a8c-481e-b556-982814dc1f33
+    sourceElement: IA-7
+    targetElement: CRY-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b7d1d94c-ad65-42cb-8a17-959c066dc38f
+    sourceElement: IA-7
+    targetElement: IAC-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a0997593-7421-4ea3-a697-26ecc777e520
+    sourceElement: IA-8
+    targetElement: IAC-03
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 54114fe1-752d-4164-a8e4-b6c7152b855e
+    sourceElement: IA-8(1)
+    targetElement: IAC-03.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 55abec7c-8a39-4dfe-ba39-372920b4b1af
+    sourceElement: IA-8(2)
+    targetElement: IAC-03.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: a924e473-45fc-40f1-89b2-5beaec79a10b
+    sourceElement: IA-8(4)
+    targetElement: IAC-03.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: da5fa415-0c26-4b49-96e4-933610b9e2c1
+    sourceElement: IA-11
+    targetElement: IAC-14
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 07f2af99-7a27-4dcd-a0dd-ce70b981ce12
+    sourceElement: IA-12
+    targetElement: IAC-28
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 370119e5-59db-4b79-a8c4-36f2b717339f
+    sourceElement: IA-12
+    targetElement: IAC-10.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 44c248dc-a430-4ead-ab09-06025c35067b
+    sourceElement: IA-12(2)
+    targetElement: IAC-28.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 8b706fbf-1845-428f-b6e2-159a50b40aa9
+    sourceElement: IA-12(3)
+    targetElement: IAC-28.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 41d31788-4a2e-420b-894c-5387ba99f879
+    sourceElement: IA-12(5)
+    targetElement: IAC-28.5
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 799e8b05-24eb-4767-94fd-38f6da66797c
+    sourceElement: IR-1
+    targetElement: IRO-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 2a6599d0-5bce-4a1d-9d32-b7ae67918b39
+    sourceElement: IR-1
+    targetElement: IRO-04.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d967f65d-26d9-4161-a1b8-09c61e4f63d9
+    sourceElement: IR-1
+    targetElement: IRO-13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: baf48e6d-8768-4086-958c-3a72721fa7f1
+    sourceElement: IR-2
+    targetElement: IRO-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 927f3546-1850-4ada-8b36-44aa2d2062cc
+    sourceElement: IR-2(3)
+    targetElement: IRO-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 389851ef-0d00-4d4b-9f8e-d7f3403386b2
+    sourceElement: IR-3
+    targetElement: IRO-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 3cba63a3-f44f-4244-817d-03e55f7246ae
+    sourceElement: IR-3(2)
+    targetElement: IRO-06.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: c39e1b1f-7151-4fd7-a32d-0d275e36e201
+    sourceElement: IR-4
+    targetElement: IRO-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 6cd3aa23-c630-44b2-97d1-810400dad9e8
+    sourceElement: IR-4(1)
+    targetElement: IRO-02.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 1e575561-a76d-4ac5-bddf-b402838553de
+    sourceElement: IR-5
+    targetElement: IRO-09
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: be858777-e1bf-4fc8-8a15-72b974ac217f
+    sourceElement: IR-6
+    targetElement: GOV-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c1ce1cb2-5824-460c-ad80-d5c989d32fdf
+    sourceElement: IR-6
+    targetElement: IRO-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a99903fe-3d92-4804-a435-9ebd2026f100
+    sourceElement: IR-6
+    targetElement: IRO-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e32ff361-a5db-494a-baaa-2d55ade59519
+    sourceElement: IR-6(1)
+    targetElement: IRO-10.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 5a9c0f4a-d33e-46da-8183-afe0f53c0d37
+    sourceElement: IR-6(3)
+    targetElement: IRO-10.4
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f4f019db-4c4b-4153-b694-f4804b8df7b3
+    sourceElement: IR-7
+    targetElement: IRO-11
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 8d870300-e139-4bfe-94eb-942a353b2914
+    sourceElement: IR-7(1)
+    targetElement: IRO-11.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: bac2c0da-dc6e-4cf6-b4d8-24717093b0f3
+    sourceElement: IR-8
+    targetElement: IRO-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: cf813f90-7547-4329-ab71-f3ce710117d8
+    sourceElement: IR-8(1)
+    targetElement: IRO-04.1
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 1b256aac-84f5-47cc-a69a-f9dd3361606b
+    sourceElement: MA-1
+    targetElement: GOV-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 73cb9e4e-0887-499b-b9ad-89d16282c676
+    sourceElement: MA-1
+    targetElement: GOV-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5a7ac72d-fd0a-4e78-b929-3f78a897727e
+    sourceElement: MA-1
+    targetElement: MNT-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 20fa360e-c47f-4abb-bfef-fcdc8c8feac2
+    sourceElement: MA-1
+    targetElement: MNT-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a0266f78-8e1e-48ac-8051-ba3062494ce2
+    sourceElement: MA-1
+    targetElement: MNT-05.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 698f065f-be9a-4aec-a1c6-3178226609f2
+    sourceElement: MA-2
+    targetElement: MNT-02
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 65d92b04-98eb-4926-bd06-29edba38d1b0
+    sourceElement: MA-3
+    targetElement: MNT-04
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 829f0df0-6879-4bf1-89db-20cb7b4efcd1
+    sourceElement: MA-3(1)
+    targetElement: MNT-04.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 9bb1d607-0b14-480c-9e4e-9c9b6d4f20b0
+    sourceElement: MA-3(2)
+    targetElement: MNT-04.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 147b9826-fa5c-4a83-9364-c465b654db14
+    sourceElement: MA-3(3)
+    targetElement: MNT-04.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 256b0e12-ccc5-4762-938a-a4900d7ac203
+    sourceElement: MA-4
+    targetElement: MNT-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 98c11454-8494-46f7-a000-fb7acfdd0b37
+    sourceElement: MA-4
+    targetElement: MNT-05.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8459f1f9-7f18-4399-b907-7babf3dc15d9
+    sourceElement: MA-5
+    targetElement: MNT-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: cde43467-dacc-428d-bf79-a5f0ebb0fc95
+    sourceElement: MP-1
+    targetElement: DCH-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: c4b247f6-e551-44c4-8e03-1010573132ca
+    sourceElement: MP-2
+    targetElement: DCH-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7f152ec2-a9f5-494e-b065-c0fee3fe7ddc
+    sourceElement: MP-2
+    targetElement: END-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1ae68266-c97c-4c58-a78a-be8d6ee3f4ae
+    sourceElement: MP-4
+    targetElement: DCH-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 6df79664-b487-4c8c-8445-2c9f67135ff8
+    sourceElement: MP-5
+    targetElement: DCH-07
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 9f6d5d6d-1c55-4275-8272-0bfe8dd403d2
+    sourceElement: MP-6
+    targetElement: DCH-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b574184e-578a-47b0-8bf5-c3594944078e
+    sourceElement: MP-6
+    targetElement: DCH-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 848d9ca0-1ff2-4209-b175-901780c05ecb
+    sourceElement: MP-6
+    targetElement: DCH-09.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 603eaf79-aabb-4054-9a7a-34450ea23053
+    sourceElement: MP-7
+    targetElement: DCH-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 11a8b41a-3fa8-46a1-b96c-75b07612927f
+    sourceElement: MP-7
+    targetElement: DCH-10.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b8b1dad-835d-4a94-bc8b-aa1fbd6e8dcb
+    sourceElement: MP-7
+    targetElement: DCH-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: eb2c056f-0f08-4f23-b6d3-39fa651698a5
+    sourceElement: SA-22
+    targetElement: TDA-17
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1f274c1a-b800-48d1-9d17-d83467950af9
+    sourceElement: SA-22
+    targetElement: TDA-17.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5e4b0d99-5397-415f-8c32-49b9ee23a562
+    sourceElement: SI-1
+    targetElement: SEA-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: e1e8b373-3192-43e5-9e9c-9a0d9244fb55
+    sourceElement: SI-2
+    targetElement: END-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 378a4839-25da-4f59-89a6-312726553db7
+    sourceElement: SI-2
+    targetElement: VPM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: a5982e72-a96e-4e8f-8718-8cc2364ddfa8
+    sourceElement: SI-2
+    targetElement: VPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bff22bb2-b5ed-4ee0-874b-d12867f39c9d
+    sourceElement: SI-2(2)
+    targetElement: VPM-05.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 9490fd06-0a82-4a87-9141-321c8a656086
+    sourceElement: SI-3
+    targetElement: END-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4e2e217a-7e80-4c91-a32c-d953ee53eff1
+    sourceElement: SI-3
+    targetElement: END-04.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 87ef1393-17ed-4346-9a1b-544560867011
+    sourceElement: SI-3
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 148ee813-dced-40f1-a97b-3a5762475664
+    sourceElement: SI-3
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 35c23d95-3110-4ca3-a9ea-bb199684ae10
+    sourceElement: SI-3
+    targetElement: VPM-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 10a0f4e8-1795-4fb9-a989-3c35078f1f02
+    sourceElement: SI-3
+    targetElement: VPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 32cf8de9-61f9-4a6e-9895-b73ae9d1246c
+    sourceElement: SI-4
+    targetElement: MON-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 75dda7e1-0880-4f2f-b2b4-25524a2ca595
+    sourceElement: SI-4
+    targetElement: MON-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5cdbfe3c-8a41-4e5e-a89d-fa422156776d
+    sourceElement: SI-4
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8f574127-a5b6-45ab-8912-fb80e1c1a18f
+    sourceElement: SI-4
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4b9e6450-6440-4442-8ccb-d625902c60ac
+    sourceElement: SI-4(2)
+    targetElement: MON-01.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 64b14c96-1f49-43b9-a9b3-c38e8dc667c1
+    sourceElement: SI-4(4)
+    targetElement: MON-01.3
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 91d2281c-e065-4874-85ae-b878505ab771
+    sourceElement: SI-4(5)
+    targetElement: MON-01.4
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: cbfdf7c7-c669-4691-90aa-b512f699f015
+    sourceElement: SI-5
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 66d49b9d-14ac-433b-9c2b-09508011f071
+    sourceElement: SI-5
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d8124d49-44c0-440e-9a69-eb3073ceac7e
+    sourceElement: SI-5
+    targetElement: THR-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1f327699-553f-445f-ba21-99af2d8e7430
+    sourceElement: SI-7
+    targetElement: END-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a3975218-8550-4e01-8aee-93f7a9594296
+    sourceElement: SI-7
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e5d11c04-a8b4-437f-94d7-a5634c924607
+    sourceElement: SI-7
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5a5deebe-bd8a-4824-a8f7-817e38886008
+    sourceElement: SI-7(1)
+    targetElement: END-06.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 82dd3d64-c3c3-45fb-8e4c-587317188d07
+    sourceElement: SI-7(7)
+    targetElement: CFG-02.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 4c3b1966-665a-419f-897a-ee31a802641d
+    sourceElement: SI-8
+    targetElement: END-08
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 52e2194e-1dfc-491d-92ad-d5a7c96d32bd
+    sourceElement: SI-8(2)
+    targetElement: END-08.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 7b356b71-59e7-4959-8824-993767c9b035
+    sourceElement: SI-10
+    targetElement: NET-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: acf9786e-f310-48a4-84a5-986bd1265e89
+    sourceElement: SI-10
+    targetElement: TDA-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f43c8337-390f-42f2-9c7e-1ed07bd95af4
+    sourceElement: SI-11
+    targetElement: TDA-19
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 64d5c044-ac10-43ac-8ddb-9ae3387b099b
+    sourceElement: SI-12
+    targetElement: DCH-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 052b69d2-6205-4bfe-99fb-fb32f89a4a37
+    sourceElement: SI-12
+    targetElement: PRI-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2d4625b0-87c6-4307-94f0-6f53095912b4
+    sourceElement: SI-12(1)
+    targetElement: DCH-18.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 6a4e23e1-9531-4827-907d-ceabf5120f29
+    sourceElement: SI-12(2)
+    targetElement: DCH-18.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f3a33edc-3364-4e52-b8c6-a8282a7e1beb
+    sourceElement: SI-12(3)
+    targetElement: DCH-21
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 667b9fb8-92e4-43f2-8680-04769596de0d
+    sourceElement: SI-16
+    targetElement: SEA-10
+    relationshipType: equals
+    strengthOfRelationship: 10
