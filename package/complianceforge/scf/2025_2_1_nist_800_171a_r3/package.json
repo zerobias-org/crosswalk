@@ -10,7 +10,7 @@
     "directory": "package/complianceforge/scf/2025_2_1_nist_800_171a_r3"
   },
   "auditmation": {
-    "package": "nist_800_171a_r3_complianceforge_scf_2025_2_1_crosswalk.crosswalk",
+    "package": "complianceforge.scf.2025_2_1_nist_800_171a_r3.crosswalk",
     "import-artifact": "crosswalk",
     "dataloader-version": "3.6.6"
   },
