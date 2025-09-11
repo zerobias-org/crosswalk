@@ -1,0 +1,12 @@
+id: 2751c2af-ac2d-4712-abaa-e3e7d9a5d875
+name: China Cybersecurity Law of the People's Republic of China (China
+  Cybersecurity Law) to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from China Cybersecurity Law of the People's
+  Republic of China (China Cybersecurity Law) to the Secure Controls Framework
+  (SCF) 2025.2.1 framework
+externalId: China Cybersecurity Law of the People's Republic of China (China
+  Cybersecurity Law) to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: cn_csl_v1_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: cn.csl.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
