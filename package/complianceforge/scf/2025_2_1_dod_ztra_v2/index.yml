@@ -1,0 +1,11 @@
+id: bcdb9f25-7109-46dd-8dd4-958f1fb4436c
+name: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from DOD Zero Trust Reference Architecture
+  (ZTRA) to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: dod_ztra_v2_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: dod.ztra.v2.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
