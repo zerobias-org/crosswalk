@@ -1,0 +1,13 @@
+id: db3800d2-7f82-49e3-9c4f-f352f9e13fbc
+name: North American Electric Reliability Corporation Critical Infrastructure
+  Protection (NERC CIP) to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from North American Electric Reliability
+  Corporation Critical Infrastructure Protection (NERC CIP) to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: North American Electric Reliability Corporation Critical
+  Infrastructure Protection (NERC CIP) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: us_nerc_2024_complianceforge_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.nerc.2024.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
