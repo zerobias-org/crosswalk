@@ -2,8 +2,29 @@
 import fs from 'fs/promises';
 import path from 'path';
 import yaml from 'yaml';
-import { UUID, URL } from '@auditmation/types-core-js';
-import { CatalogPublishStatusEnum, StandardCategory } from '@auditmation/module-auditmation-auditmation-portal';
+import { UUID, URL } from '@zerobias-org/types-core-js';
+
+// Local enum for catalog publish status validation
+const CatalogPublishStatusEnum = {
+  values: ['active', 'verified', 'inactive', 'deprecated'] as const,
+  from(value: string): string {
+    if (!this.values.includes(value as any)) {
+      throw new Error(`Invalid CatalogPublishStatus: ${value}. Valid values: ${this.values.join(', ')}`);
+    }
+    return value;
+  }
+};
+
+// Local enum for standard category validation
+const StandardCategory = {
+  values: ['security', 'privacy', 'compliance', 'audit', 'risk', 'governance', 'other'] as const,
+  from(value: string): string {
+    if (!this.values.includes(value as any)) {
+      throw new Error(`Invalid StandardCategory: ${value}. Valid values: ${this.values.join(', ')}`);
+    }
+    return value;
+  }
+};
 
 const elementTypes: string[] = [];
 const elements: string[] = [];
