@@ -1,0 +1,2092 @@
+{
+  "package/aiuc/aiuc_1/v1_nist_rmf_v1": {
+    "root": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/nist/800-218/v1_1_cncf_sscp_v1": {
+    "root": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/nist/800-218/v1_1_nist_ir8397_v1": {
+    "root": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/nist/800-218/v1_1_nist_label_2022": {
+    "root": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/nist/800-218/v1_1_nist_label_2022/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_csa_ccm_v4_0_12": {
+    "root": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_iso_27001_2022a": {
+    "root": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_iso_27001_2022a/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_nist_800218_v1_1": {
+    "root": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_800218_v1_1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_nist_80053_rev5": {
+    "root": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_owasp_asvs_v4_0_3": {
+    "root": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_asvs_v4_0_3/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_owasp_samm_v1_0": {
+    "root": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "package/opencre/opencre/v1_owasp_wstg_v5": {
+    "root": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/opencre/opencre/v1_owasp_wstg_v5/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}
