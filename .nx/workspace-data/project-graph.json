@@ -801,7 +801,7 @@
           "description": "AIUC-1 AI Agent Standard v1 to EU AI Act Crosswalk",
           "js": {
             "packageName": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
-            "packageVersion": "1.0.0",
+            "packageVersion": "1.0.1",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -849,6 +849,58 @@
             },
             "metadata": {
               "scriptContent": "ts-node ../../../../scripts/validate.ts",
+              "runCommand": "npm run validate"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1": {
+      "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
+      "type": "app",
+      "data": {
+        "root": "package/aiuc/aiuc_1/v1_csa_aicm_v1",
+        "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "correct:deps",
+              "validate"
+            ]
+          },
+          "description": "Crosswalk mapping AIUC-1 AI Agent Standard requirements to CSA AI Controls Matrix controls",
+          "js": {
+            "packageName": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
+            "packageVersion": "0.0.1",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "correct:deps": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "correct:deps"
+            },
+            "metadata": {
+              "scriptContent": "tsx ../../../../scripts/correctDeps.ts",
+              "runCommand": "npm run correct:deps"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "validate": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "validate"
+            },
+            "metadata": {
+              "scriptContent": "tsx ../../../../scripts/validate.ts",
               "runCommand": "npm run validate"
             },
             "configurations": {},
@@ -3476,6 +3528,15 @@
         "hash": "sha512-fstsJBG0WifgMwFDbqYiRdv3jfBf0P2j3YBZyN7fgLHMXT/XeyjsE457i26+Aq4AeXxoYWgpbr1QHktMwsDZZA=="
       }
     },
+    "npm:@zerobias-org/framework-csa-aicm-v1": {
+      "type": "npm",
+      "name": "npm:@zerobias-org/framework-csa-aicm-v1",
+      "data": {
+        "version": "0.0.2",
+        "packageName": "@zerobias-org/framework-csa-aicm-v1",
+        "hash": "sha512-5xT5tCEe2BPyp2Z2tlmoBEHywZtfl8gWcurB62mbl7ai7fRI0gX9q6newDv2f+Qh/3EizV0ECBS7QesUTsB/Cg=="
+      }
+    },
     "npm:@zerobias-org/framework-eu-ai-v2024": {
       "type": "npm",
       "name": "npm:@zerobias-org/framework-eu-ai-v2024",
@@ -3537,6 +3598,15 @@
         "version": "1.0.3",
         "packageName": "@zerobias-org/suite-aiuc-aiuc_1",
         "hash": "sha512-hW/lQrdftkyF2WvlXDKtbRlZp9Fp3b6MBWCnJxMrnKt7IGFj5Rn4GGR4RxgJ4SlinalixqrK4vuttkRbZkc+ZA=="
+      }
+    },
+    "npm:@zerobias-org/suite-csa-aicm": {
+      "type": "npm",
+      "name": "npm:@zerobias-org/suite-csa-aicm",
+      "data": {
+        "version": "0.0.2",
+        "packageName": "@zerobias-org/suite-csa-aicm",
+        "hash": "sha512-DtpVkc1TxHl9VJ1PF+zZgyOuJ+pP2pyBbPHA/ETypv2vo2V6lVa2MP+FTLX4vAj4dknVWWQKMaNEIoVCXSzXvA=="
       }
     },
     "npm:@zerobias-org/suite-eu-ai": {
@@ -3609,6 +3679,15 @@
         "version": "1.1.2",
         "packageName": "@zerobias-org/vendor-aiuc",
         "hash": "sha512-P4xTnVQhUiCg9wcqGMawog7DVyayEPrtFHqR2WfFXGbJUyesKl85Lpuem8w107Voq5QdCw+uB+4dGUYqdYh+JQ=="
+      }
+    },
+    "npm:@zerobias-org/vendor-csa": {
+      "type": "npm",
+      "name": "npm:@zerobias-org/vendor-csa",
+      "data": {
+        "version": "1.0.6",
+        "packageName": "@zerobias-org/vendor-csa",
+        "hash": "sha512-RtqxNFwK2ltuteRqX1/WGU45EXbfPHJg8ZntAfDhocvk799JlqrfZWLbpGCSYTCr73r0Jv96WPo+WO1LRfduAA=="
       }
     },
     "npm:@zerobias-org/vendor-eu": {
@@ -9795,6 +9874,18 @@
       {
         "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
         "target": "npm:@zerobias-org/framework-eu-ai-v2024",
+        "type": "static"
+      }
+    ],
+    "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1": [
+      {
+        "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
+        "target": "npm:@zerobias-org/framework-aiuc-aiuc_1-v1",
+        "type": "static"
+      },
+      {
+        "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
+        "target": "npm:@zerobias-org/framework-csa-aicm-v1",
         "type": "static"
       }
     ],
@@ -19928,5 +20019,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1770230670243
+  "computedAt": 1770248158219
 }

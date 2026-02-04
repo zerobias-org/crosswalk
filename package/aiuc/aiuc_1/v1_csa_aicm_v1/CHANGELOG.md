@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## <small>0.0.2 (2026-02-04)</small>
+
+* feat(aiuc-1): add AIUC-1 to CSA AI Controls Matrix crosswalk ([eba082a](https://github.com/zerobias-org/crosswalk/commit/eba082a))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

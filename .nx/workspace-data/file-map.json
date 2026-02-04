@@ -5,76 +5,6 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": [
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/CHANGELOG.md",
-          "hash": "9749745128261398421"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/elements.yml",
-          "hash": "15422020664895916074"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/index.yml",
-          "hash": "11104804346937011767"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/npm-shrinkwrap.json",
-          "hash": "13066359238762449061"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
-          "hash": "15758082004816534173",
-          "deps": [
-            "npm:@auditlogic/framework-nist-800218-v1.1",
-            "npm:@auditlogic/suite-nist-ir8397",
-            "npm:@zerobias-org/framework-nist-ir8397-v1"
-          ]
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/versions/1.0.0.yml",
-          "hash": "13178042604243465978"
-        }
-      ],
-      "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": [
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/CHANGELOG.md",
-          "hash": "16829997370751719854"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/elements.yml",
-          "hash": "1288472258695086439"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/index.yml",
-          "hash": "14951919342590227593"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/npm-shrinkwrap.json",
-          "hash": "8706175614512802452"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
-          "hash": "6059701731465716277",
-          "deps": [
-            "npm:@auditlogic/framework-nist-800218-v1.1",
-            "npm:@auditlogic/suite-nist-800-218",
-            "npm:@zerobias-org/framework-cncf-sscp-v1"
-          ]
-        },
-        {
-          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/versions/1.0.0.yml",
-          "hash": "12798824451542120700"
-        }
-      ],
       "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_asvs_v4_0_3": [
         {
           "file": "package/opencre/opencre/v1_owasp_asvs_v4_0_3/.npmrc",
@@ -110,76 +40,6 @@
           "hash": "1268110347536346166"
         }
       ],
-      "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12": [
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/CHANGELOG.md",
-          "hash": "14264436855136955488"
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/elements.yml",
-          "hash": "3757809552511294779"
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/index.yml",
-          "hash": "13275426564232298276"
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/npm-shrinkwrap.json",
-          "hash": "7121424880374128432"
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
-          "hash": "3118183181781196147",
-          "deps": [
-            "npm:@auditlogic/framework-csa-ccm-v4.0.12",
-            "npm:@auditlogic/suite-opencre-opencre",
-            "npm:@zerobias-org/framework-opencre-opencre-v1"
-          ]
-        },
-        {
-          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/versions/1.0.0.yml",
-          "hash": "4455659664274053174"
-        }
-      ],
-      "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5": [
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/CHANGELOG.md",
-          "hash": "1191279414181628228"
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/elements.yml",
-          "hash": "14487875100114809692"
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/index.yml",
-          "hash": "1142268547838549295"
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/npm-shrinkwrap.json",
-          "hash": "1330205702533185376"
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/package.json",
-          "hash": "13033279520118051325",
-          "deps": [
-            "npm:@auditlogic/framework-nist-80053-rev5",
-            "npm:@auditlogic/suite-opencre-opencre",
-            "npm:@zerobias-org/framework-opencre-opencre-v1"
-          ]
-        },
-        {
-          "file": "package/opencre/opencre/v1_nist_80053_rev5/versions/1.0.0.yml",
-          "hash": "16426863387682694455"
-        }
-      ],
       "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_wstg_v5": [
         {
           "file": "package/opencre/opencre/v1_owasp_wstg_v5/.npmrc",
@@ -213,76 +73,6 @@
         {
           "file": "package/opencre/opencre/v1_owasp_wstg_v5/versions/1.0.0.yml",
           "hash": "17037501172616995468"
-        }
-      ],
-      "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0": [
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/CHANGELOG.md",
-          "hash": "12013529284668746455"
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/elements.yml",
-          "hash": "5765490477119626687"
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/index.yml",
-          "hash": "2103905631074206833"
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/npm-shrinkwrap.json",
-          "hash": "5722332957160617256"
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
-          "hash": "1000742640211229417",
-          "deps": [
-            "npm:@auditlogic/framework-owasp-samm-v1.0",
-            "npm:@auditlogic/suite-opencre-opencre",
-            "npm:@zerobias-org/framework-opencre-opencre-v1"
-          ]
-        },
-        {
-          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/versions/1.0.0.yml",
-          "hash": "13910640091502876303"
-        }
-      ],
-      "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": [
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/.npmrc",
-          "hash": "9857280824204667624"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/CHANGELOG.md",
-          "hash": "3849544257050346055"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/elements.yml",
-          "hash": "14411678570472348065"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/index.yml",
-          "hash": "15705236249254224418"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/npm-shrinkwrap.json",
-          "hash": "3432799243949580418"
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/package.json",
-          "hash": "12864895376468296295",
-          "deps": [
-            "npm:@auditlogic/framework-nist-800218-v1.1",
-            "npm:@auditlogic/suite-nist-800-218",
-            "npm:@zerobias-org/framework-nist-label-2022"
-          ]
-        },
-        {
-          "file": "package/nist/800-218/v1_1_nist_label_2022/versions/1.0.0.yml",
-          "hash": "5724282709653582285"
         }
       ],
       "@zerobias-org/crosswalk-opencre-opencre-v1_nist_800218_v1_1": [
@@ -327,7 +117,7 @@
         },
         {
           "file": "package/aiuc/aiuc_1/v1_eu_ai_act_v1/CHANGELOG.md",
-          "hash": "14703574759370406293"
+          "hash": "703344047702016832"
         },
         {
           "file": "package/aiuc/aiuc_1/v1_eu_ai_act_v1/elements.yml",
@@ -343,7 +133,7 @@
         },
         {
           "file": "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
-          "hash": "12899807254021151452",
+          "hash": "5341027567546397701",
           "deps": [
             "npm:@zerobias-org/framework-aiuc-aiuc_1-v1",
             "npm:@zerobias-org/framework-eu-ai-v2024"
@@ -352,6 +142,181 @@
         {
           "file": "package/aiuc/aiuc_1/v1_eu_ai_act_v1/versions/1.0.0.yml",
           "hash": "16909963144038011616"
+        }
+      ],
+      "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5": [
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/CHANGELOG.md",
+          "hash": "1191279414181628228"
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/elements.yml",
+          "hash": "14487875100114809692"
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/index.yml",
+          "hash": "1142268547838549295"
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/npm-shrinkwrap.json",
+          "hash": "1330205702533185376"
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/package.json",
+          "hash": "13033279520118051325",
+          "deps": [
+            "npm:@auditlogic/framework-nist-80053-rev5",
+            "npm:@auditlogic/suite-opencre-opencre",
+            "npm:@zerobias-org/framework-opencre-opencre-v1"
+          ]
+        },
+        {
+          "file": "package/opencre/opencre/v1_nist_80053_rev5/versions/1.0.0.yml",
+          "hash": "16426863387682694455"
+        }
+      ],
+      "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": [
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/CHANGELOG.md",
+          "hash": "3849544257050346055"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/elements.yml",
+          "hash": "14411678570472348065"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/index.yml",
+          "hash": "15705236249254224418"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/npm-shrinkwrap.json",
+          "hash": "3432799243949580418"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/package.json",
+          "hash": "12864895376468296295",
+          "deps": [
+            "npm:@auditlogic/framework-nist-800218-v1.1",
+            "npm:@auditlogic/suite-nist-800-218",
+            "npm:@zerobias-org/framework-nist-label-2022"
+          ]
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_label_2022/versions/1.0.0.yml",
+          "hash": "5724282709653582285"
+        }
+      ],
+      "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": [
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/CHANGELOG.md",
+          "hash": "16829997370751719854"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/elements.yml",
+          "hash": "1288472258695086439"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/index.yml",
+          "hash": "14951919342590227593"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/npm-shrinkwrap.json",
+          "hash": "8706175614512802452"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/package.json",
+          "hash": "6059701731465716277",
+          "deps": [
+            "npm:@auditlogic/framework-nist-800218-v1.1",
+            "npm:@auditlogic/suite-nist-800-218",
+            "npm:@zerobias-org/framework-cncf-sscp-v1"
+          ]
+        },
+        {
+          "file": "package/nist/800-218/v1_1_cncf_sscp_v1/versions/1.0.0.yml",
+          "hash": "12798824451542120700"
+        }
+      ],
+      "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0": [
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/CHANGELOG.md",
+          "hash": "12013529284668746455"
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/elements.yml",
+          "hash": "5765490477119626687"
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/index.yml",
+          "hash": "2103905631074206833"
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/npm-shrinkwrap.json",
+          "hash": "5722332957160617256"
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/package.json",
+          "hash": "1000742640211229417",
+          "deps": [
+            "npm:@auditlogic/framework-owasp-samm-v1.0",
+            "npm:@auditlogic/suite-opencre-opencre",
+            "npm:@zerobias-org/framework-opencre-opencre-v1"
+          ]
+        },
+        {
+          "file": "package/opencre/opencre/v1_owasp_samm_v1_0/versions/1.0.0.yml",
+          "hash": "13910640091502876303"
+        }
+      ],
+      "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12": [
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/CHANGELOG.md",
+          "hash": "14264436855136955488"
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/elements.yml",
+          "hash": "3757809552511294779"
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/index.yml",
+          "hash": "13275426564232298276"
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/npm-shrinkwrap.json",
+          "hash": "7121424880374128432"
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/package.json",
+          "hash": "3118183181781196147",
+          "deps": [
+            "npm:@auditlogic/framework-csa-ccm-v4.0.12",
+            "npm:@auditlogic/suite-opencre-opencre",
+            "npm:@zerobias-org/framework-opencre-opencre-v1"
+          ]
+        },
+        {
+          "file": "package/opencre/opencre/v1_csa_ccm_v4_0_12/versions/1.0.0.yml",
+          "hash": "4455659664274053174"
         }
       ],
       "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": [
@@ -388,6 +353,41 @@
           "hash": "224024288520015372"
         }
       ],
+      "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": [
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/.npmrc",
+          "hash": "9857280824204667624"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/CHANGELOG.md",
+          "hash": "9749745128261398421"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/elements.yml",
+          "hash": "15422020664895916074"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/index.yml",
+          "hash": "11104804346937011767"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/npm-shrinkwrap.json",
+          "hash": "13066359238762449061"
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/package.json",
+          "hash": "15758082004816534173",
+          "deps": [
+            "npm:@auditlogic/framework-nist-800218-v1.1",
+            "npm:@auditlogic/suite-nist-ir8397",
+            "npm:@zerobias-org/framework-nist-ir8397-v1"
+          ]
+        },
+        {
+          "file": "package/nist/800-218/v1_1_nist_ir8397_v1/versions/1.0.0.yml",
+          "hash": "13178042604243465978"
+        }
+      ],
       "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a": [
         {
           "file": "package/opencre/opencre/v1_iso_27001_2022a/.npmrc",
@@ -421,6 +421,36 @@
         {
           "file": "package/opencre/opencre/v1_iso_27001_2022a/versions/1.0.0.yml",
           "hash": "11937323940510412842"
+        }
+      ],
+      "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1": [
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/.npmrc",
+          "hash": "4007931420466134675"
+        },
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/CHANGELOG.md",
+          "hash": "9862973044165002751"
+        },
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/elements.yml",
+          "hash": "17463473575677829445"
+        },
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/index.yml",
+          "hash": "17336717265769924098"
+        },
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/package.json",
+          "hash": "6169070106071461616",
+          "deps": [
+            "npm:@zerobias-org/framework-aiuc-aiuc_1-v1",
+            "npm:@zerobias-org/framework-csa-aicm-v1"
+          ]
+        },
+        {
+          "file": "package/aiuc/aiuc_1/v1_csa_aicm_v1/versions/1.0.0.yml",
+          "hash": "17010572452101103239"
         }
       ]
     },
@@ -467,11 +497,11 @@
       },
       {
         "file": "bundle/npm-shrinkwrap.json",
-        "hash": "13798676269712098383"
+        "hash": "3635097397771021543"
       },
       {
         "file": "bundle/package.json",
-        "hash": "9917176141809259011"
+        "hash": "15597515884683328650"
       },
       {
         "file": "examples/testvendor/testsuite/v1_5/.npmrc",
@@ -503,7 +533,7 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "13013356955562374875"
+        "hash": "10956415876191976786"
       },
       {
         "file": "package.json",
@@ -555,5 +585,5 @@
       }
     ]
   },
-  "externalNodesHash": "5668949698902469482"
+  "externalNodesHash": "8056538607170933380"
 }
