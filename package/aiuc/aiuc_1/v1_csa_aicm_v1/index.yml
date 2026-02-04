@@ -1,0 +1,9 @@
+id: 2a7c9e3f-8b1d-4c5e-9a6f-3d2e1f4b8c7a
+name: AIUC-1 v1 to CSA AI Controls Matrix v1
+description: This crosswalk maps AIUC-1 AI Agent Standard requirements to Cloud Security Alliance (CSA) AI Controls Matrix controls, demonstrating alignment with cloud-focused AI security controls.
+externalId: AIUC-1 to CSA AICM
+code: aiuc_aiuc_1_v1_csa_aicm_v1
+status: verified
+targetStandard: csa.aicm.v1.framework
+sourceStandard: aiuc.aiuc_1.v1.framework
+url: https://www.aiuc-1.com/crosswalks/csa-aicm

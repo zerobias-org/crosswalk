@@ -1,0 +1,424 @@
+elements:
+  # Domain A (Data & Privacy) → DSP (Data Security & Privacy)
+  - id: 9a49d6d1-4fcf-4155-b552-321d0d402970
+    targetElement: DSP-01
+    sourceElement: A001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a4d6758b-c06f-424f-b70a-82cf1d098845
+    targetElement: DSP-02
+    sourceElement: A001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3ea7cd76-6e2b-4e47-9ff8-4a4afb8ea17a
+    targetElement: DSP-03
+    sourceElement: A002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7a20a00c-983b-4be9-a971-afb6ba07ea19
+    targetElement: DSP-04
+    sourceElement: A002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 02d746c1-d93c-4ee4-a771-0fdb3c46791e
+    targetElement: DSP-05
+    sourceElement: A003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6f186279-a194-4920-8886-f66a24575a29
+    targetElement: DSP-06
+    sourceElement: A003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: df0a1ae0-1585-413b-a806-0bb0b9f7e2ca
+    targetElement: DSP-07
+    sourceElement: A004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d8e962b5-95ea-4aae-b49d-94838b9144e3
+    targetElement: DSP-08
+    sourceElement: A004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fe19e176-0854-48d2-9c40-7b48e941c3c6
+    targetElement: DSP-09
+    sourceElement: A005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4bf76ffb-9fea-4626-9184-02bc99d1f4ea
+    targetElement: DSP-10
+    sourceElement: A005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 114ad69b-dabd-4807-b6c1-7b37a206a797
+    targetElement: DSP-11
+    sourceElement: A006
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef6d3197-7ecf-46e7-a863-44c59a57908f
+    targetElement: DSP-17
+    sourceElement: A007
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2a402dd7-52fc-48a1-a2ae-4800682ea327
+    targetElement: MDS-01
+    sourceElement: A001
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: e89caaef-aae4-446e-8c5e-2e7a17c37d25
+    targetElement: MDS-02
+    sourceElement: A002
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # Domain B (Security) → AIS (AI Security), IAM, CEK, TVM
+  - id: 8fe611a3-5caf-4dbd-84d5-51d284e7059b
+    targetElement: AIS-01
+    sourceElement: B001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 04569603-0e8a-44c6-b72b-62e598aa1ef3
+    targetElement: AIS-02
+    sourceElement: B001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0bd8a5c4-c9ad-43dd-8a95-97e57ce42692
+    targetElement: AIS-03
+    sourceElement: B002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 16a2af31-7ae0-4bb4-9941-ac80f421ca72
+    targetElement: AIS-04
+    sourceElement: B002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 55a10826-2868-4ba2-aded-064f1c802565
+    targetElement: AIS-05
+    sourceElement: B003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8d5b6ba1-5dd3-4ad5-94ef-2b111ff7cb30
+    targetElement: AIS-06
+    sourceElement: B003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dbd9264b-a553-43ad-a2a4-516d69636443
+    targetElement: AIS-07
+    sourceElement: B004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9d653c44-2f62-4975-84f1-64448b0b23f8
+    targetElement: AIS-08
+    sourceElement: B004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d2d59943-a40f-4354-b5d3-3d15d466beb8
+    targetElement: AIS-09
+    sourceElement: B005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 65d513be-8355-4f02-a5a0-0edb7ec0de5a
+    targetElement: AIS-10
+    sourceElement: B005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 36cb43ac-966b-4055-8934-3f94d35bacd9
+    targetElement: IAM-01
+    sourceElement: B006
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4754f7db-3835-42b8-83c3-e4fa55c29554
+    targetElement: IAM-02
+    sourceElement: B006
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c6681e18-73ce-4c19-8d4d-1cd5d18da3c6
+    targetElement: IAM-03
+    sourceElement: B007
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2f711e6b-0fb7-4e27-883b-10db5b1ab079
+    targetElement: IAM-04
+    sourceElement: B007
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bcee2173-0eac-4bad-84e6-c0ef35969058
+    targetElement: CEK-01
+    sourceElement: B008
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6f74b1f0-9e3b-4283-9b76-bfe25cf13086
+    targetElement: CEK-02
+    sourceElement: B008
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cc45fc62-c959-40a2-bc87-ca1331e9df8d
+    targetElement: TVM-01
+    sourceElement: B009
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f9c1382a-5993-460a-8584-766444efbb79
+    targetElement: TVM-02
+    sourceElement: B009
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 22f3a939-4e6b-4a79-9666-e675e3fd4751
+    targetElement: TVM-03
+    sourceElement: B001
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # Domain C (Safety) → AIS, SEF, GRC
+  - id: 53855c95-5804-43c4-8d2e-5fb9dbb750f2
+    targetElement: AIS-11
+    sourceElement: C001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: abf9986f-9fee-4a2c-9a53-2919ff51a1cc
+    targetElement: AIS-12
+    sourceElement: C002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9fa219b8-5ff3-491f-ab6a-b11b57d0fb54
+    targetElement: AIS-13
+    sourceElement: C003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 52300e58-2c88-47dd-a1d0-b80239c53b01
+    targetElement: AIS-14
+    sourceElement: C004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bbda7d03-f4a2-483c-94eb-ec9cdb8b396f
+    targetElement: AIS-15
+    sourceElement: C005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e5360d0e-0b1a-49d1-81ff-fb9b803a4eae
+    targetElement: SEF-01
+    sourceElement: C006
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e060a192-0a2a-4429-893d-f6f789c38dcf
+    targetElement: SEF-02
+    sourceElement: C007
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ffea863a-064f-4a77-b73a-6215887c3b9f
+    targetElement: SEF-03
+    sourceElement: C008
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 363f8889-cf7f-43be-86ea-35649d490ade
+    targetElement: SEF-04
+    sourceElement: C009
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9298824a-3fa2-40fb-9898-734337baeec6
+    targetElement: SEF-05
+    sourceElement: C010
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dfd81b4c-2319-48cb-bba4-69a7986f5798
+    targetElement: GRC-01
+    sourceElement: C011
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 0d533fa0-bbd7-4b97-af87-f886ae8e5411
+    targetElement: GRC-02
+    sourceElement: C012
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # Domain D (Reliability) → BCR, MDS
+  - id: ff9314ac-1067-4ae8-ae09-918ac41ebd07
+    targetElement: BCR-01
+    sourceElement: D001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2a096d8c-480d-48b9-bb73-287f7f12d752
+    targetElement: BCR-02
+    sourceElement: D001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 67114f9d-4aac-4140-a8f5-51b18cf5d0a9
+    targetElement: BCR-03
+    sourceElement: D002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5abdc0a4-1643-401b-bb0c-da7fc909161a
+    targetElement: BCR-04
+    sourceElement: D002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 50794d9a-b9ed-48b0-ab43-c272f4bb4d06
+    targetElement: MDS-03
+    sourceElement: D003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa6d0835-01b2-4c1c-9a73-ed6fd6208a21
+    targetElement: MDS-04
+    sourceElement: D003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 648576bd-75cc-4e94-b305-2fe0d05bbd09
+    targetElement: MDS-05
+    sourceElement: D004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 549dd493-b725-4c1a-9ab3-77898f0ebf4d
+    targetElement: MDS-06
+    sourceElement: D004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # Domain E (Accountability) → GRC, A&A, STA
+  - id: 96ba5f46-9a14-4a4f-ad9f-86f1d52822f8
+    targetElement: GRC-03
+    sourceElement: E001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0e6f0961-6492-40a8-886d-6b2e9749b7d3
+    targetElement: GRC-04
+    sourceElement: E002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9ab0256b-71d7-4f3e-9bd5-1607701106b2
+    targetElement: GRC-05
+    sourceElement: E003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 410a35c7-6395-4ee8-bab0-4af48422b3f6
+    targetElement: GRC-06
+    sourceElement: E004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9a3486d2-eaf2-4905-8f8a-a6fd84296a71
+    targetElement: GRC-07
+    sourceElement: E005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 835924cc-9d4b-4513-a266-477be9617f55
+    targetElement: GRC-08
+    sourceElement: E006
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c6cee297-a477-47c7-a83e-b0199e15d753
+    targetElement: GRC-09
+    sourceElement: E007
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1361fb92-0791-40d6-acb7-4175ef4e208d
+    targetElement: GRC-10
+    sourceElement: E008
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d9a6bea0-8e40-4ae9-83a2-0304f7274a4d
+    targetElement: A&A-01
+    sourceElement: E009
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4c101eb8-8fc9-4ed8-aeaf-4aef4aee8726
+    targetElement: A&A-02
+    sourceElement: E010
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 715a955f-9207-4801-99c6-54ba6a5710f0
+    targetElement: A&A-03
+    sourceElement: E011
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ffdf9a25-2b0e-486a-a2a7-d2ce60b18a36
+    targetElement: A&A-04
+    sourceElement: E012
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 48470ff1-86b7-488e-b111-6ee70f14a3f5
+    targetElement: STA-01
+    sourceElement: E013
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 29f7f2bb-e95c-49b9-99b8-dac716608886
+    targetElement: STA-02
+    sourceElement: E014
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4a649767-bef8-415a-ab35-940d722ddef4
+    targetElement: STA-03
+    sourceElement: E015
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a57bcc90-2987-4c75-a9ff-f0bd2a930e43
+    targetElement: STA-04
+    sourceElement: E016
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa767ee4-3437-42c8-853e-4cadbc3eb471
+    targetElement: STA-05
+    sourceElement: E017
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # Domain F (Society) → AIS, GRC
+  - id: 7e306723-f5d0-4479-aa84-91ae9c1e4f1a
+    targetElement: GRC-11
+    sourceElement: F001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3a07e3c5-b773-4856-ab6f-22f8d642ca6e
+    targetElement: GRC-12
+    sourceElement: F001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4acd577e-6872-4ffb-8d35-5d0430a76f13
+    targetElement: GRC-13
+    sourceElement: F002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cd7c5ed3-8327-477c-9ac5-605312a76d99
+    targetElement: GRC-14
+    sourceElement: F002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # Additional cross-domain mappings for comprehensive coverage
+  - id: a9ff4036-3e31-4906-800b-ac1a1c6d37ca
+    targetElement: LOG-01
+    sourceElement: E008
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: fcb55594-4f40-4794-a182-4c538c608c8f
+    targetElement: LOG-02
+    sourceElement: E009
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 23021734-6578-4458-87c5-f6ea2c8ee391
+    targetElement: HRS-01
+    sourceElement: E006
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 71445004-8f40-4828-90c9-a5c0f3b5ddd2
+    targetElement: HRS-02
+    sourceElement: E007
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 720b278d-50c0-4f95-a6b7-d7726dd30b56
+    targetElement: CCC-01
+    sourceElement: C011
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 1b79ce87-b4e1-4f2b-8bbe-31883ce20cba
+    targetElement: CCC-02
+    sourceElement: C012
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 8c23aa24-f81a-4ec9-94d8-def250da5508
+    targetElement: UEM-01
+    sourceElement: B006
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 262483a9-ab94-41b5-9603-ab316a929c8f
+    targetElement: UEM-02
+    sourceElement: B007
+    relationshipType: intersects
+    strengthOfRelationship: 4
