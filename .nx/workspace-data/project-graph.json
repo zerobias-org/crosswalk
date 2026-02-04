@@ -780,6 +780,84 @@
         "implicitDependencies": []
       }
     },
+    "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1": {
+      "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
+      "type": "app",
+      "data": {
+        "root": "package/aiuc/aiuc_1/v1_eu_ai_act_v1",
+        "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "nx:publish",
+              "prepublishtest",
+              "correct:deps",
+              "validate"
+            ]
+          },
+          "description": "AIUC-1 AI Agent Standard v1 to EU AI Act Crosswalk",
+          "js": {
+            "packageName": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
+            "packageVersion": "1.0.0",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx:publish": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "nx:publish"
+            },
+            "metadata": {
+              "scriptContent": "../../../../scripts/publish.sh",
+              "runCommand": "npm run nx:publish"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "prepublishtest": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "prepublishtest"
+            },
+            "metadata": {
+              "scriptContent": "../../../../scripts/prepublish.sh",
+              "runCommand": "npm run prepublishtest"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "correct:deps": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "correct:deps"
+            },
+            "metadata": {
+              "scriptContent": "ts-node ../../../../scripts/correctDeps.ts",
+              "runCommand": "npm run correct:deps"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "validate": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "validate"
+            },
+            "metadata": {
+              "scriptContent": "ts-node ../../../../scripts/validate.ts",
+              "runCommand": "npm run validate"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": {
       "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1",
       "type": "app",
@@ -801,7 +879,7 @@
           "description": "Crosswalk mapping AIUC-1 AI Agent Standard requirements to NIST AI Risk Management Framework (AI RMF) controls",
           "js": {
             "packageName": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1",
-            "packageVersion": "0.0.0",
+            "packageVersion": "0.0.1",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -3389,78 +3467,6 @@
         "hash": "sha512-vyxRh2GmdQNASFUWNVaDEFYsHnV6RiPy64LdNgGspOE40oySKa64FUDYjstMP8sg4Mw4ownsM/4iBPoMp/JLbA=="
       }
     },
-    "npm:@zerobias-org/framework-au-aee-v1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-au-aee-v1",
-      "data": {
-        "version": "1.1.1",
-        "packageName": "@zerobias-org/framework-au-aee-v1",
-        "hash": "sha512-EtEwK+Wnlo4SnEoCGd2qyt048qe+O5HVIgAXwq5mQQXKnmZxqvvUgY97qybJJRYq8CSvViuwrLp8sUb6HOw3hg=="
-      }
-    },
-    "npm:@zerobias-org/framework-au-ism-v1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-au-ism-v1",
-      "data": {
-        "version": "1.1.1",
-        "packageName": "@zerobias-org/framework-au-ism-v1",
-        "hash": "sha512-Ddql3sg5k6/9ce+U/CcFRpuMBddr7gVtON3yDnwHgY++N/48oy0VdBCWe0bMlzb9bM2RaHjZR/J2Q0UUHP7+Jg=="
-      }
-    },
-    "npm:@zerobias-org/framework-ca-osfi-v1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-ca-osfi-v1",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-ca-osfi-v1",
-        "hash": "sha512-ojSVxpeLwu5X6NzCZggJo50Dih8lX4GY06msM4BcgtyrsYag2qXbPLjH8N6i5Tg8epTz8bGLsZQ2A6RZ1c8qvw=="
-      }
-    },
-    "npm:@zerobias-org/framework-ca-pci-v10_171": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-ca-pci-v10_171",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-ca-pci-v10_171",
-        "hash": "sha512-hU3tRWOK2PCNUGTukUXoV8JHdtEHbsHti+KhWCan8CUqSglcWE55vWf+lJa8/Q/Px4+uvTvHRzfFI641sVaI4g=="
-      }
-    },
-    "npm:@zerobias-org/framework-cis-csc-v8_1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-cis-csc-v8_1",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-cis-csc-v8_1",
-        "hash": "sha512-vM4HjXjZrR7iaIb2386NZ/aYGCBltnJuJWRlSqpWMSf09DU1KlFnLvK7jKJNM+qQRdA15jx67Z+8BevrttwTxw=="
-      }
-    },
-    "npm:@zerobias-org/framework-cisa-ssdaf-v1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-cisa-ssdaf-v1",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-cisa-ssdaf-v1",
-        "hash": "sha512-Ic5mmPogkmOkuBjuMr5hTwuVn1qlOSMXzWs/rXaSgjHMiOxgbasnp6PacRQQ6PKOw0tGg+4gwijNNJlTftigEQ=="
-      }
-    },
-    "npm:@zerobias-org/framework-cisa-tic-v3": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-cisa-tic-v3",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-cisa-tic-v3",
-        "hash": "sha512-tFzOG+k3u0dOAEASPpxyHZpceX/2g9q9BsWIiHV7Jse2HtsIw8oLNrGe4lnis1Xly4qL5gJz+SJxvwT3o6V94A=="
-      }
-    },
-    "npm:@zerobias-org/framework-cn-csl-v1": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-cn-csl-v1",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-cn-csl-v1",
-        "hash": "sha512-fJys0mDuhmb3gla/5Rz3ECOmBWTNYhjJcKxyroo1H0+Kj2DEzIDswu6ZJ0BI9DvyjJR9DY42X42Ue7KOaE4fOw=="
-      }
-    },
     "npm:@zerobias-org/framework-cncf-sscp-v1": {
       "type": "npm",
       "name": "npm:@zerobias-org/framework-cncf-sscp-v1",
@@ -3470,22 +3476,13 @@
         "hash": "sha512-fstsJBG0WifgMwFDbqYiRdv3jfBf0P2j3YBZyN7fgLHMXT/XeyjsE457i26+Aq4AeXxoYWgpbr1QHktMwsDZZA=="
       }
     },
-    "npm:@zerobias-org/framework-complianceforge-scf-2025.2.1": {
+    "npm:@zerobias-org/framework-eu-ai-v2024": {
       "type": "npm",
-      "name": "npm:@zerobias-org/framework-complianceforge-scf-2025.2.1",
+      "name": "npm:@zerobias-org/framework-eu-ai-v2024",
       "data": {
-        "version": "1.0.1",
-        "packageName": "@zerobias-org/framework-complianceforge-scf-2025.2.1",
-        "hash": "sha512-odK923QAy8MuDiLyX0hFYoSmNumHOZHLnkIEgQFw/i0p8gz8kAnTWCcO4gKGHmsYABv2baQ+eHlxdTlv9E12gQ=="
-      }
-    },
-    "npm:@zerobias-org/framework-es-boe-v2022": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-es-boe-v2022",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-es-boe-v2022",
-        "hash": "sha512-Jw5tJ116w6rEKeziYpW9S8AY8lWqs8VHbPOlpavDOsKzxYAg83vlmtSZwwZLOTV0YVLFg4WRRjcz8PjZxSiDbA=="
+        "version": "1.1.1",
+        "packageName": "@zerobias-org/framework-eu-ai-v2024",
+        "hash": "sha512-dRiPp7oyLRiMdBsA23nIijFmP7WxfPXopYHT5Q6MXXco/wcmKGjd8kGWGus/9Bj6H4qE31SfdVojemLwhWirYQ=="
       }
     },
     "npm:@zerobias-org/framework-iso-27001-2022a": {
@@ -3495,15 +3492,6 @@
         "version": "1.1.0",
         "packageName": "@zerobias-org/framework-iso-27001-2022a",
         "hash": "sha512-6ozv4vi/Ly6x3jh/j46LmJ6cZFuVX4O7ZTy494GJjrmPc+OfjkyfB36ZV9849qmA8184++AwUdFFCvSremALSQ=="
-      }
-    },
-    "npm:@zerobias-org/framework-nist-800-171-rev2": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/framework-nist-800-171-rev2",
-      "data": {
-        "version": "1.1.0",
-        "packageName": "@zerobias-org/framework-nist-800-171-rev2",
-        "hash": "sha512-KMgmJAMaBxOuqGXDB7/9EePgF+mNulZ7N5uDTbUOJ34MgSVf4EschHwzR82koloiv9l8NLqzCCNoIFNI5yK7ew=="
       }
     },
     "npm:@zerobias-org/framework-nist-ir8397-v1": {
@@ -3551,94 +3539,13 @@
         "hash": "sha512-hW/lQrdftkyF2WvlXDKtbRlZp9Fp3b6MBWCnJxMrnKt7IGFj5Rn4GGR4RxgJ4SlinalixqrK4vuttkRbZkc+ZA=="
       }
     },
-    "npm:@zerobias-org/suite-au-aee": {
+    "npm:@zerobias-org/suite-eu-ai": {
       "type": "npm",
-      "name": "npm:@zerobias-org/suite-au-aee",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-au-aee",
-        "hash": "sha512-Ddo2YzbKE7II8xJNCNbK5ABPz1Yb7U8EdrGvaCeYl6cZUCdOZtjxDpwHMv+R3pqlXexxVZCQOZYu7k59kVPViA=="
-      }
-    },
-    "npm:@zerobias-org/suite-au-ism": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-au-ism",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-au-ism",
-        "hash": "sha512-XuSWNQs3+j/RAVy5Osm+hy4GW9yT6LooMvhvRA1AffiyJhaNwl97PcUQDN59pEiQl7iwjZfxrAIED54mr9fqzw=="
-      }
-    },
-    "npm:@zerobias-org/suite-ca-osfi": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-ca-osfi",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-ca-osfi",
-        "hash": "sha512-N8Fm9birIKxrx6tdH/cHWda3O+1MwZ+NqSJqX6/O1iXzmjWNO4yUbmyfo++xAuvTeSqNBH638Er/j5IMZPEFjA=="
-      }
-    },
-    "npm:@zerobias-org/suite-ca-pci": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-ca-pci",
+      "name": "npm:@zerobias-org/suite-eu-ai",
       "data": {
         "version": "1.1.1",
-        "packageName": "@zerobias-org/suite-ca-pci",
-        "hash": "sha512-WwR5PpF8SXNxQ+Y4gGSvDtpQ4f4V6A80n+OpSWOtAEuvl+mQgAr7yQDMxpc4mlUgPQZIoqKK0T7UVqa8Gu/tIw=="
-      }
-    },
-    "npm:@zerobias-org/suite-cis-csc": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-cis-csc",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-cis-csc",
-        "hash": "sha512-1ZrZNug3lk+i5tlLWLD2jjV/UfhdiQ2bbZABjy5Htm/b5tCJYLIcZqKwVnCal5Ro/1jZpx0sAqtfdSGlrPKuDw=="
-      }
-    },
-    "npm:@zerobias-org/suite-cisa-ssdaf": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-cisa-ssdaf",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-cisa-ssdaf",
-        "hash": "sha512-mibyPVqAegfPAAARtTp3ItjkfMsGGEbZUKQaSIUUHAobrl+W6/PN/eBIiW5+fzyz81yLFBLfUwKewn2Lj9y7oQ=="
-      }
-    },
-    "npm:@zerobias-org/suite-cisa-tic": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-cisa-tic",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-cisa-tic",
-        "hash": "sha512-izuZJGi6SOjfqyLCPr6F8P/DH43CGDZ/oZPCPmufcO1SWFOxkgsns1VDjYprhzWguhpKYhGan973xCIffS01hw=="
-      }
-    },
-    "npm:@zerobias-org/suite-cn-csl": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-cn-csl",
-      "data": {
-        "version": "1.0.3",
-        "packageName": "@zerobias-org/suite-cn-csl",
-        "hash": "sha512-Mv0QYWMJayrU/CgsNAs9xfuuvCjuOc1V5244SOlZzym1rQND4GHxG4YF5LM6dapYK7YPGQ6iPmgPu6rK5MG6Xw=="
-      }
-    },
-    "npm:@zerobias-org/suite-es-boe": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-es-boe",
-      "data": {
-        "version": "1.1.1",
-        "packageName": "@zerobias-org/suite-es-boe",
-        "hash": "sha512-SiJbxw/XAHtsLmHPSiGpEgV7Is24b8glE5ISBmIintExFLSUFhKXcBiGbq1FGryq67zEyIonzgMf8KYzR5iGBQ=="
-      }
-    },
-    "npm:@zerobias-org/suite-nist-800-171": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/suite-nist-800-171",
-      "data": {
-        "version": "0.1.7",
-        "packageName": "@zerobias-org/suite-nist-800-171",
-        "hash": "sha512-UlsiyVd+U3UB8MmXd4q6wWWRMcAvFK0PovrOikDCVJhRGC++b5NByDZKp6uIvCK/GkwQGFshJ9V138q2b3aeSg=="
+        "packageName": "@zerobias-org/suite-eu-ai",
+        "hash": "sha512-3rUEuAvu8+plPJTCkd6GMDUM0QBJWxyupQBZ0jvq9HNdlTrAfcTb8w7KaLLhCcbC0HgFBb4ED3OEHnAkEeNOwQ=="
       }
     },
     "npm:@zerobias-org/suite-nist-rmf": {
@@ -3704,58 +3611,13 @@
         "hash": "sha512-P4xTnVQhUiCg9wcqGMawog7DVyayEPrtFHqR2WfFXGbJUyesKl85Lpuem8w107Voq5QdCw+uB+4dGUYqdYh+JQ=="
       }
     },
-    "npm:@zerobias-org/vendor-au": {
+    "npm:@zerobias-org/vendor-eu": {
       "type": "npm",
-      "name": "npm:@zerobias-org/vendor-au",
+      "name": "npm:@zerobias-org/vendor-eu",
       "data": {
         "version": "1.0.4",
-        "packageName": "@zerobias-org/vendor-au",
-        "hash": "sha512-/hMVvGtfKIX7HVml/3+K4cuLh6UmEdMU+XTDZ5Wyv/wlUIm4V9nM5AaKkfZ1VDxVLhTbXjWQmF0Yy9Dz9LdoaA=="
-      }
-    },
-    "npm:@zerobias-org/vendor-ca": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/vendor-ca",
-      "data": {
-        "version": "1.0.4",
-        "packageName": "@zerobias-org/vendor-ca",
-        "hash": "sha512-MELJIDvmxWBa8nzcuL7lu8oITgQxSIW58c6ClDKL/H/lqWQnSMnFFdkUTeoalP5zxLGRF3eYtkZYy7Ygtb7KFQ=="
-      }
-    },
-    "npm:@zerobias-org/vendor-cis": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/vendor-cis",
-      "data": {
-        "version": "0.1.8",
-        "packageName": "@zerobias-org/vendor-cis",
-        "hash": "sha512-HJy73Rvf+qhncuk8i29NJsKYxeeXirLwaXdpO3bzvMWTgTKtnRp3AohaB/kUPUp2jB+jrtN0i4+BxUvLYlJn5A=="
-      }
-    },
-    "npm:@zerobias-org/vendor-cisa": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/vendor-cisa",
-      "data": {
-        "version": "1.0.7",
-        "packageName": "@zerobias-org/vendor-cisa",
-        "hash": "sha512-pZAFk9So/4jpjlTkaWC26kuFka6hMh7c/ZbpFnJNUa3Nj5eH8frXhF1z2wXt16h4eKqfawKeM5V7f1zjBHQJWg=="
-      }
-    },
-    "npm:@zerobias-org/vendor-cn": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/vendor-cn",
-      "data": {
-        "version": "1.1.3",
-        "packageName": "@zerobias-org/vendor-cn",
-        "hash": "sha512-9QBMtv+n0DodhGJ1Ls+1Wq9CNxixY5dqkTJwPsvf+6fBb+bBybnxXOe6+nsc/QMR9kGM8TwVzx4umbf0gKwDCQ=="
-      }
-    },
-    "npm:@zerobias-org/vendor-es": {
-      "type": "npm",
-      "name": "npm:@zerobias-org/vendor-es",
-      "data": {
-        "version": "1.0.4",
-        "packageName": "@zerobias-org/vendor-es",
-        "hash": "sha512-ms/tzjn2nR5p69J+aPgBnl8YWVAsQfpNTna8KeTII6jnBj6XzC2dZ6wqBPx5AyU7Q7XNzTY0wsVr0pCff6oIHQ=="
+        "packageName": "@zerobias-org/vendor-eu",
+        "hash": "sha512-rKYkNqAkYzCZJFU5htPs3rBv44A5chTr1YvZk91Dw8M+sfcLuOLyBgoLImZFqFDSCZpfFPgUdkFKxRhdM8iT+g=="
       }
     },
     "npm:@zerobias-org/vendor-nist": {
@@ -9924,6 +9786,18 @@
         "type": "static"
       }
     ],
+    "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1": [
+      {
+        "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
+        "target": "npm:@zerobias-org/framework-aiuc-aiuc_1-v1",
+        "type": "static"
+      },
+      {
+        "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1",
+        "target": "npm:@zerobias-org/framework-eu-ai-v2024",
+        "type": "static"
+      }
+    ],
     "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": [
       {
         "source": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1",
@@ -12564,17 +12438,10 @@
         "type": "static"
       }
     ],
-    "npm:@zerobias-org/suite-ca-pci": [
+    "npm:@zerobias-org/suite-eu-ai": [
       {
-        "source": "npm:@zerobias-org/suite-ca-pci",
-        "target": "npm:@zerobias-org/vendor-ca",
-        "type": "static"
-      }
-    ],
-    "npm:@zerobias-org/suite-es-boe": [
-      {
-        "source": "npm:@zerobias-org/suite-es-boe",
-        "target": "npm:@zerobias-org/vendor-es",
+        "source": "npm:@zerobias-org/suite-eu-ai",
+        "target": "npm:@zerobias-org/vendor-eu",
         "type": "static"
       }
     ],
@@ -20061,5 +19928,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1770159011964
+  "computedAt": 1770230670243
 }

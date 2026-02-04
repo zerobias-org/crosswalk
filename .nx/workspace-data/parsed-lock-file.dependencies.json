@@ -2410,13 +2410,8 @@
     "type": "static"
   },
   {
-    "source": "npm:@zerobias-org/suite-ca-pci",
-    "target": "npm:@zerobias-org/vendor-ca",
-    "type": "static"
-  },
-  {
-    "source": "npm:@zerobias-org/suite-es-boe",
-    "target": "npm:@zerobias-org/vendor-es",
+    "source": "npm:@zerobias-org/suite-eu-ai",
+    "target": "npm:@zerobias-org/vendor-eu",
     "type": "static"
   },
   {

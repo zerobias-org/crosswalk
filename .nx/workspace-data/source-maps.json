@@ -1,4 +1,194 @@
 {
+  "package/aiuc/aiuc_1/v1_eu_ai_act_v1": {
+    "root": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.executor": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.options.script": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx:publish.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.executor": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.options.script": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepublishtest.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.executor": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.options.script": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.correct:deps.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.executor": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.options.script": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.scriptContent": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.metadata.runCommand": [
+      "package/aiuc/aiuc_1/v1_eu_ai_act_v1/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.validate.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
   "package/aiuc/aiuc_1/v1_nist_rmf_v1": {
     "root": [
       "package/aiuc/aiuc_1/v1_nist_rmf_v1/package.json",

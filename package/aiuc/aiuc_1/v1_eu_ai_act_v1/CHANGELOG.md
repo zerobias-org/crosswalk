@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## <small>1.0.1 (2026-02-04)</small>
+
+* feat: add AIUC-1 to EU AI Act crosswalk (#88) ([99ac1e1](https://github.com/zerobias-org/crosswalk/commit/99ac1e1)), closes [#88](https://github.com/zerobias-org/crosswalk/issues/88)
+
+
+
+
+
 # Changelog
 
 All notable changes to the AIUC-1 to EU AI Act Crosswalk will be documented in this file.
