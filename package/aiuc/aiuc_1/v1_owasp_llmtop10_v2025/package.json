@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-owasp-llmtop10-v2025",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Crosswalk mapping AIUC-1 AI Agent Standard to OWASP Top 10 for LLM Applications",
   "author": "team@zerobias.com",
   "license": "ISC",
