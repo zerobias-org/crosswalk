@@ -1,16 +1,17 @@
 {
   "name": "@zerobias-org/crosswalk-bundle",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-bundle",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1": "1.0.1",
         "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1": "0.0.2",
+        "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023": "0.0.2",
         "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": "0.0.1",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "1.0.0",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "1.0.0",
@@ -447,6 +448,16 @@
         "@zerobias-org/framework-csa-aicm-v1": "latest"
       }
     },
+    "node_modules/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023": {
+      "version": "0.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023/-/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023-0.0.2.tgz",
+      "integrity": "sha512-OVWOZVi1UbSHqo0/+BgTxqyvP0kHBZp8HORZ2C+G8Uyfl0puUfVxZDH5m7pooOZ0Pg2g9LHiS5PNpnoLOF43ig==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-aiuc-aiuc_1-v1": "latest",
+        "@zerobias-org/framework-iso-42001-2023": "latest"
+      }
+    },
     "node_modules/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": {
       "version": "0.0.1",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1/-/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1-0.0.1.tgz",
@@ -612,6 +623,19 @@
         "npm": ">=8.0.0"
       }
     },
+    "node_modules/@zerobias-org/framework-iso-42001-2023": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-iso-42001-2023/-/framework-iso-42001-2023-1.0.1.tgz",
+      "integrity": "sha512-b8J5jor1K5lLNQoKLxjoRsCM8yGI2XghVDtWwdb1slmeeVX6yvLUPZ+Pi9kpFFosSqsmydsxtwmMPlCtiMBlRw==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-iso-42001": "latest"
+      },
+      "engines": {
+        "node": ">=16.11.0",
+        "npm": ">=8.0.0"
+      }
+    },
     "node_modules/@zerobias-org/framework-nist-ir8397-v1": {
       "version": "1.0.0",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-ir8397-v1/-/framework-nist-ir8397-v1-1.0.0.tgz",
@@ -676,6 +700,15 @@
         "@zerobias-org/vendor-eu": "^1.0.0"
       }
     },
+    "node_modules/@zerobias-org/suite-iso-42001": {
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-iso-42001/-/suite-iso-42001-1.0.4.tgz",
+      "integrity": "sha512-6dn5XrSaBKA5EcwOSLyekLJDMN9RqtlPOJFgIrUFwVPQjOnK8U1b9n1fzZc0+CxKmN8pZBuIb/A/B9iEPnOOPQ==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-iso": "latest"
+      }
+    },
     "node_modules/@zerobias-org/suite-nist-rmf": {
       "version": "1.0.4",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-nist-rmf/-/suite-nist-rmf-1.0.4.tgz",
@@ -701,6 +734,12 @@
       "version": "1.0.4",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-eu/-/vendor-eu-1.0.4.tgz",
       "integrity": "sha512-rKYkNqAkYzCZJFU5htPs3rBv44A5chTr1YvZk91Dw8M+sfcLuOLyBgoLImZFqFDSCZpfFPgUdkFKxRhdM8iT+g==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/vendor-iso": {
+      "version": "1.0.9",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-iso/-/vendor-iso-1.0.9.tgz",
+      "integrity": "sha512-y11cY7ynHQd0v8vczsU6V11EuMaPpYkhlnFjaGc7E7JaNYeSXwqtdLmefBHcu3zz46jSfLLUBEWpH5bWvzZv5g==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-nist": {
@@ -4663,6 +4702,15 @@
         "@zerobias-org/framework-csa-aicm-v1": "latest"
       }
     },
+    "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023": {
+      "version": "0.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023/-/crosswalk-aiuc-aiuc_1-v1-iso-42001-2023-0.0.2.tgz",
+      "integrity": "sha512-OVWOZVi1UbSHqo0/+BgTxqyvP0kHBZp8HORZ2C+G8Uyfl0puUfVxZDH5m7pooOZ0Pg2g9LHiS5PNpnoLOF43ig==",
+      "requires": {
+        "@zerobias-org/framework-aiuc-aiuc_1-v1": "latest",
+        "@zerobias-org/framework-iso-42001-2023": "latest"
+      }
+    },
     "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1": {
       "version": "0.0.1",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1/-/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1-0.0.1.tgz",
@@ -4812,6 +4860,14 @@
         "@auditlogic/suite-iso-27001": "latest"
       }
     },
+    "@zerobias-org/framework-iso-42001-2023": {
+      "version": "1.0.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-iso-42001-2023/-/framework-iso-42001-2023-1.0.1.tgz",
+      "integrity": "sha512-b8J5jor1K5lLNQoKLxjoRsCM8yGI2XghVDtWwdb1slmeeVX6yvLUPZ+Pi9kpFFosSqsmydsxtwmMPlCtiMBlRw==",
+      "requires": {
+        "@zerobias-org/suite-iso-42001": "latest"
+      }
+    },
     "@zerobias-org/framework-nist-ir8397-v1": {
       "version": "1.0.0",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/framework-nist-ir8397-v1/-/framework-nist-ir8397-v1-1.0.0.tgz",
@@ -4868,6 +4924,14 @@
         "@zerobias-org/vendor-eu": "^1.0.0"
       }
     },
+    "@zerobias-org/suite-iso-42001": {
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-iso-42001/-/suite-iso-42001-1.0.4.tgz",
+      "integrity": "sha512-6dn5XrSaBKA5EcwOSLyekLJDMN9RqtlPOJFgIrUFwVPQjOnK8U1b9n1fzZc0+CxKmN8pZBuIb/A/B9iEPnOOPQ==",
+      "requires": {
+        "@zerobias-org/vendor-iso": "latest"
+      }
+    },
     "@zerobias-org/suite-nist-rmf": {
       "version": "1.0.4",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/suite-nist-rmf/-/suite-nist-rmf-1.0.4.tgz",
@@ -4890,6 +4954,11 @@
       "version": "1.0.4",
       "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-eu/-/vendor-eu-1.0.4.tgz",
       "integrity": "sha512-rKYkNqAkYzCZJFU5htPs3rBv44A5chTr1YvZk91Dw8M+sfcLuOLyBgoLImZFqFDSCZpfFPgUdkFKxRhdM8iT+g=="
+    },
+    "@zerobias-org/vendor-iso": {
+      "version": "1.0.9",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-iso/-/vendor-iso-1.0.9.tgz",
+      "integrity": "sha512-y11cY7ynHQd0v8vczsU6V11EuMaPpYkhlnFjaGc7E7JaNYeSXwqtdLmefBHcu3zz46jSfLLUBEWpH5bWvzZv5g=="
     },
     "@zerobias-org/vendor-nist": {
       "version": "1.0.13",
