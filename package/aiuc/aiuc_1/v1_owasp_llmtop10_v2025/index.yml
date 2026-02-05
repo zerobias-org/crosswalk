@@ -1,0 +1,9 @@
+id: 2e8f946b-28b2-4b18-adf3-12244e464971
+name: AIUC-1 v1 to OWASP LLM Top 10 v2025
+description: Crosswalk mapping AIUC-1 AI Agent Standard controls to OWASP Top 10 for LLM Applications vulnerabilities
+externalId: AIUC-1 to OWASP LLM Top 10
+code: aiuc_aiuc_1_v1_owasp_llmtop10_v2025
+status: verified
+targetStandard: owasp.llmtop10.v2025.framework
+sourceStandard: aiuc.aiuc_1.v1.framework
+url: https://www.aiuc-1.com/crosswalks/owasp-llm-top10

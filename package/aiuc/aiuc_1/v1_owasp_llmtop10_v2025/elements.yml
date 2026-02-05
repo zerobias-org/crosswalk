@@ -1,0 +1,190 @@
+elements:
+  # LLM01: Prompt Injection - Maps to Security domain controls
+  - id: b1ff45eb-686d-4625-b7c9-ea4b9abb7d5c
+    targetElement: LLM01
+    sourceElement: B001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3a5f258f-8303-4f68-9e67-fe459d21fc80
+    targetElement: LLM01
+    sourceElement: B002
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 25bfbaf1-eb79-4fe6-9cf5-c83d1585ea88
+    targetElement: LLM01
+    sourceElement: B006
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM02: Insecure Output Handling - Maps to Security domain controls
+  - id: b95f4f36-71d7-415a-9515-8f4341f4ae89
+    targetElement: LLM02
+    sourceElement: B003
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dbe3264b-7ccd-4d13-a969-58523dc641df
+    targetElement: LLM02
+    sourceElement: B007
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: ad9aebbf-bb9b-45d7-bef2-2c1e28489516
+    targetElement: LLM02
+    sourceElement: B004
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM03: Training Data Poisoning - Maps to Data domain controls
+  - id: 92de618c-38bf-4283-870c-d1a45b39f0e2
+    targetElement: LLM03
+    sourceElement: A001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5d793546-8235-4cef-8773-eec52be3f7cb
+    targetElement: LLM03
+    sourceElement: A002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0e76678b-03e6-4d2a-8585-c5f248dee314
+    targetElement: LLM03
+    sourceElement: A003
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM04: Model Denial of Service - Maps to Reliability domain controls
+  - id: ad5495f6-8055-45b3-9d1a-0b77d7eefb20
+    targetElement: LLM04
+    sourceElement: D001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: abc063c8-ecd6-453b-9a75-b71661564318
+    targetElement: LLM04
+    sourceElement: D002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 23ac2e53-c744-4a1d-adc3-97767f8b944b
+    targetElement: LLM04
+    sourceElement: D003
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM05: Supply Chain Vulnerabilities - Maps to Security and Accountability domain controls
+  - id: 688c1b1d-11f6-4d4c-817a-8e4508f56bfe
+    targetElement: LLM05
+    sourceElement: B005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 96c8fc45-4cdd-491e-95fc-c831b5d4493e
+    targetElement: LLM05
+    sourceElement: E013
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 63112391-5b13-4140-b403-dae2978f2c38
+    targetElement: LLM05
+    sourceElement: B008
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM06: Sensitive Information Disclosure - Maps to Data & Privacy domain controls
+  - id: c26d0574-ea08-4fbc-bd62-4256aef9cf3b
+    targetElement: LLM06
+    sourceElement: A004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 83b825f9-2be2-4bee-afb5-cd2bcf3180b4
+    targetElement: LLM06
+    sourceElement: A005
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d2768ab9-3032-4f4d-a486-6f6dee1461a6
+    targetElement: LLM06
+    sourceElement: A006
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 433c5320-cb05-4c24-8d21-e440b98d89cb
+    targetElement: LLM06
+    sourceElement: A007
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM07: Insecure Plugin Design - Maps to Security domain controls
+  - id: 75622f5a-70a4-4e21-82b5-683dead183b9
+    targetElement: LLM07
+    sourceElement: B004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1c002960-8eb3-45a8-88f7-b13c026e62f2
+    targetElement: LLM07
+    sourceElement: B008
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b3e36536-f5fe-44a4-b808-e1fb15fdadd6
+    targetElement: LLM07
+    sourceElement: B009
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM08: Excessive Agency - Maps to Safety and Accountability domain controls
+  - id: 27a84377-47d6-4c51-999b-346c8771231b
+    targetElement: LLM08
+    sourceElement: C001
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f072d867-c15c-4a3e-951a-4bf16b44081b
+    targetElement: LLM08
+    sourceElement: C002
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 15febc8e-6bb1-4801-a248-6041513aa77e
+    targetElement: LLM08
+    sourceElement: E001
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: f39d5fc1-3843-43b3-a4dc-b59e779bdb35
+    targetElement: LLM08
+    sourceElement: E003
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM09: Overreliance - Maps to Reliability, Safety and Accountability domain controls
+  - id: 0b7a3e8a-0e1a-45da-8720-1c5ebf9e8c56
+    targetElement: LLM09
+    sourceElement: D004
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1aa473e8-1077-4328-853c-5ad206e78ee9
+    targetElement: LLM09
+    sourceElement: C003
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: f1e3d55c-2b72-4d0f-bf38-0f1f8c17681c
+    targetElement: LLM09
+    sourceElement: E002
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: 966e692a-190d-4b0e-8981-b65a0afbfbfe
+    targetElement: LLM09
+    sourceElement: E011
+    relationshipType: intersects
+    strengthOfRelationship: 4
+
+  # LLM10: Model Theft - Maps to Security domain controls
+  - id: 5b7efa51-28ed-4897-bebb-6007781b0677
+    targetElement: LLM10
+    sourceElement: B009
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5801fba5-0b4d-4130-a03f-7e26a5f4e8e6
+    targetElement: LLM10
+    sourceElement: B002
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: f4b8bcdd-7eeb-4255-8c37-19dd9436110a
+    targetElement: LLM10
+    sourceElement: A007
+    relationshipType: intersects
+    strengthOfRelationship: 4
+  - id: b2a1e53e-9789-4483-8fc5-13521d21d904
+    targetElement: LLM10
+    sourceElement: B001
+    relationshipType: intersects
+    strengthOfRelationship: 3
