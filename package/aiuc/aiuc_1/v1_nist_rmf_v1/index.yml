@@ -1,0 +1,9 @@
+id: 8f3e2a1c-5d7b-4c9e-a8f6-2b4d6e8f0a1c
+name: AIUC-1 v1 to NIST AI RMF v1
+description: This crosswalk maps AIUC-1 AI Agent Standard requirements to NIST Artificial Intelligence Risk Management Framework (AI RMF) controls, demonstrating alignment with US federal AI risk management guidance.
+externalId: AIUC-1 to NIST AI RMF
+code: aiuc_aiuc_1_v1_nist_rmf_v1
+status: draft
+targetStandard: nist.rmf.v1.framework
+sourceStandard: aiuc.aiuc_1.v1.framework
+url: https://www.aiuc-1.com/crosswalks/nist-ai-rmf

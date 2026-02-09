@@ -83,3 +83,4 @@ image/**/package-lock.json
 dbz-config.json
 
 scripts/clean**
+.nx/

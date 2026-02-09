@@ -1,0 +1,14 @@
+id: f8a3c2d1-7e56-4b9a-8c3d-2e1f9a8b7c6d
+name: AIUC-1 v1 to EU AI Act Crosswalk
+description: >-
+  This crosswalk maps requirements from AIUC-1 AI Agent Standard v1 to the
+  European Union Artificial Intelligence Act (EU AI Act). AIUC-1 provides
+  practical controls that operationalize EU AI Act compliance requirements,
+  particularly for high-risk AI systems under Articles 6-15. The mapping
+  demonstrates how organizations implementing AIUC-1 can demonstrate
+  compliance with EU regulatory requirements.
+externalId: AIUC-1 to EU AI Act
+code: aiuc.aiuc_1.v1_eu.ai.v2024
+status: draft
+targetStandard: aiuc.aiuc_1.v1.framework
+sourceStandard: eu.ai.v2024.framework

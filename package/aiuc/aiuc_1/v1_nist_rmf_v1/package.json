@@ -1,0 +1,37 @@
+{
+  "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1",
+  "version": "0.0.1",
+  "description": "Crosswalk mapping AIUC-1 AI Agent Standard requirements to NIST AI Risk Management Framework (AI RMF) controls",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/aiuc/aiuc_1/v1_nist_rmf_v1/"
+  },
+  "scripts": {
+    "nx:publish": "../../../../scripts/publish.sh",
+    "prepublishtest": "../../../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**",
+    "baselines/**",
+    "elements/**"
+  ],
+  "auditmation": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "crosswalk",
+    "package": "aiuc.aiuc_1.v1_nist_rmf_v1.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-aiuc-aiuc_1-v1": "latest",
+    "@zerobias-org/framework-nist-rmf-v1": "latest"
+  }
+}
