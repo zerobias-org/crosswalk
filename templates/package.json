@@ -4,31 +4,32 @@
   "description": "{standardName}",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/standard.git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
     "directory": "package/{vendor}/{suite}/{version}/"
   },
   "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "index.yml",
+    "elements.yml",
+    "versions/**",
     "baselines/**",
     "elements/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
     "package": "{vendor}.{suite}.{version}.crosswalk"
   },
   "dependencies": {
-    "@auditlogic/suite-{vendor}-{suite}": "latest"
+    "@zerobias-org/suite-{vendor}-{suite}": "latest"
   }
 }

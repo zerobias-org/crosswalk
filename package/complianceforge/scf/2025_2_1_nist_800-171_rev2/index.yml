@@ -7,6 +7,6 @@ description: Crosswalk mappings from SP 800-171 - Protecting CUI in Nonfederal
 externalId: SP 800-171 - Protecting CUI in Nonfederal Systems and Organizations
   to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 code: nist_800-171_rev2_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: nist.800-171.rev2.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

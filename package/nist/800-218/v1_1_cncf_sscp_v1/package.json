@@ -4,16 +4,15 @@
   "description": "CNCF SSCP v1.1 Crosswalk for NIST 800-218 v1.1",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/standard.git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
     "directory": "package/nist/800-218/v1_1_cncf_sscp_v1/"
   },
   "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,14 +24,14 @@
     "baselines/**",
     "elements/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
     "package": "nist.800218.v1_1_cncf_sscp_v1.crosswalk"
   },
   "dependencies": {
     "@auditlogic/framework-nist-800218-v1.1": "latest",
-    "@auditlogic/suite-nist-800-218": "latest",
+    "@zerobias-org/suite-nist-800-218": "latest",
     "@zerobias-org/framework-cncf-sscp-v1": "latest"
   }
 }

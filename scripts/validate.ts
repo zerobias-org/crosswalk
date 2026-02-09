@@ -81,16 +81,16 @@ function processPackageJson(packageFile: Record<string, any>, code: string): voi
 
   codeSplit[codeSplit.length - 1] = codeSplit[codeSplit.length - 1].replace('.', '_')
   console.log(`Validating code split: ${codeSplit}`);
-  if (packageFile.auditmation && typeof packageFile.auditmation === 'object') {
-    const auditmation = packageFile.auditmation;
-    check = auditmation['import-artifact'] !== undefined && auditmation['import-artifact'] !== null && auditmation['import-artifact'] === 'crosswalk'
-      ? true : new Error('package.json auditmation section missing import-artifact or not set to crosswalk');
-    check = auditmation.package !== undefined && auditmation.package !== null && auditmation.package === `zerobias.${codeSplit.join('.')}.crosswalk`
-      ? true : new Error(`package.json auditmation section missing package or not set to zerobias.${codeSplit.join('.')}.crosswalk`);
-    check = auditmation['dataloader-version'] !== undefined && auditmation['dataloader-version'] !== null ? true
-      : new Error('package.json auditmation section missing dataloader-version');
+  const meta = packageFile.zerobias ?? packageFile.auditmation;
+  if (meta && typeof meta === 'object') {
+    check = meta['import-artifact'] !== undefined && meta['import-artifact'] !== null && meta['import-artifact'] === 'crosswalk'
+      ? true : new Error('package.json zerobias section missing import-artifact or not set to crosswalk');
+    check = meta.package !== undefined && meta.package !== null && meta.package === `${codeSplit.join('.')}.crosswalk`
+      ? true : new Error(`package.json zerobias section missing package or not set to ${codeSplit.join('.')}.crosswalk`);
+    check = meta['dataloader-version'] !== undefined && meta['dataloader-version'] !== null ? true
+      : new Error('package.json zerobias section missing dataloader-version');
   } else {
-    throw new Error(`package.json missing auditmation section`);
+    throw new Error(`package.json missing zerobias section`);
   }
 
   codeSplit = codeSplit.slice(0, 3);

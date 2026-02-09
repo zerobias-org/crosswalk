@@ -6,6 +6,6 @@ description: Crosswalk mappings from CISA Trusted Internet Connection (TIC) 3.0
 externalId: CISA Trusted Internet Connection (TIC) 3.0 to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: cisa_tic_v3_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: cisa.tic.v3.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

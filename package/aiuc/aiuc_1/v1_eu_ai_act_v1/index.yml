@@ -9,6 +9,6 @@ description: >-
   compliance with EU regulatory requirements.
 externalId: AIUC-1 to EU AI Act
 code: aiuc.aiuc_1.v1_eu.ai.v2024
-status: draft
+status: active
 targetStandard: aiuc.aiuc_1.v1.framework
 sourceStandard: eu.ai.v2024.framework

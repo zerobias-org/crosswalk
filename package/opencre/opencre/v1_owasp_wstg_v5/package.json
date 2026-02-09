@@ -4,16 +4,15 @@
   "description": "OpenCRE v1 to OWASP WSTG v5 Crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/standard.git",
-    "directory": "package/opencre/opencre/v1_owasp_wstg_v5"
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/opencre/opencre/v1_owasp_wstg_v5/"
   },
   "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,14 +24,14 @@
     "elements/**",
     "versions/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
     "package": "opencre.opencre.v1_owasp_wstg_v5.crosswalk"
   },
   "dependencies": {
     "@auditlogic/benchmark-owasp-wstg-v5": "latest",
-    "@auditlogic/suite-opencre-opencre": "latest",
+    "@zerobias-org/suite-opencre-opencre": "latest",
     "@zerobias-org/framework-opencre-opencre-v1": "latest"
   }
 }

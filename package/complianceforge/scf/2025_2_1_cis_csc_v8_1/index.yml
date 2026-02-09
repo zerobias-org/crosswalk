@@ -6,6 +6,6 @@ description: Crosswalk mappings from Critical Security Controls (CSC) to the
 externalId: Critical Security Controls (CSC) to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: cis_csc_v8_1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: cis.csc.v8_1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

@@ -2,21 +2,17 @@
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_au_ism_v1",
   "version": "1.1.0-rc.1",
   "description": "Crosswalk for au_ism_v1_complianceforge_scf_2025_2_1_crosswalk",
-  "author": "team@neverfail.com",
+  "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/crosswalk.git",
-    "directory": "package/complianceforge/scf/2025_2_1_au_ism_v1"
+    "directory": "package/complianceforge/scf/2025_2_1_au_ism_v1/"
   },
-  "auditmation": {
-    "package": "complianceforge.scf.2025_2_1_au_ism_v1.crosswalk",
-    "import-artifact": "crosswalk",
-    "dataloader-version": "3.6.6"
-  },
-  "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -26,14 +22,13 @@
     "elements.yml",
     "versions/**"
   ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "complianceforge.scf.2025_2_1_au_ism_v1.crosswalk"
+  },
   "dependencies": {
     "@zerobias-org/framework-au-ism-v1": "latest",
     "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
-  },
-  "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
   }
 }

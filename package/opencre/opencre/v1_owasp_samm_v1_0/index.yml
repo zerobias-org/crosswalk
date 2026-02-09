@@ -3,6 +3,6 @@ name: OpenCRE v1 to OWASP SAMM v1.0 Crosswalk
 description: This package maps controls from OpenCRE v1 to OWASP SAMM v1.0.
 externalId: OpenCRE v1 to OWASP SAMM v1.0
 code: opencre_opencre_v1_owasp_samm_v1_0
-status: draft
+status: active
 targetStandard: opencre.opencre.v1.framework
 sourceStandard: owasp.samm.v1_0.framework

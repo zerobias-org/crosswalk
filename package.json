@@ -42,5 +42,8 @@
     "lerna": "^9.0.3",
     "nx": "^22.4.2",
     "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-cncf-sscp-v1": "^1.0.3"
   }
 }

@@ -9,6 +9,6 @@ externalId: Protecting controlled information in non-Government of Canada
   systems and organizations (ITSP.10.171) to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: ca_pci_v10.171_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: ca.pci.v10_171.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

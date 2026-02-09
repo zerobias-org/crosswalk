@@ -4,16 +4,15 @@
   "description": "NIST 800-218 v1.1 NIST Label 2022 Crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/standard.git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
     "directory": "package/nist/800-218/v1_1_nist_label_2022/"
   },
   "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,14 +24,14 @@
     "elements/**",
     "versions/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
     "package": "nist.800218.v1_1_nist_label_2022.crosswalk"
   },
   "dependencies": {
     "@auditlogic/framework-nist-800218-v1.1": "latest",
-    "@auditlogic/suite-nist-800-218": "latest",
+    "@zerobias-org/suite-nist-800-218": "latest",
     "@zerobias-org/framework-nist-label-2022": "latest"
   }
 }

@@ -6,6 +6,6 @@ description: Crosswalk mappings from Australian Government Information Security
 externalId: Australian Government Information Security Manual (ISM) to Secure
   Controls Framework (SCF) 2025.2.1 Crosswalk
 code: au_ism_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: au.ism.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

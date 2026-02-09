@@ -4,6 +4,7 @@
   "description": "Crosswalk mapping AIUC-1 AI Agent Standard to OWASP Top 10 for LLM Applications",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/crosswalk.git",
@@ -23,8 +24,8 @@
     "baselines/**",
     "elements/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
     "package": "aiuc.aiuc_1.v1_owasp_llmtop10_v2025.crosswalk"
   },
