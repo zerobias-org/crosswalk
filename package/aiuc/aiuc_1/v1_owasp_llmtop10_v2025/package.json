@@ -1,0 +1,35 @@
+{
+  "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-owasp-llmtop10-v2025",
+  "version": "0.0.2",
+  "description": "Crosswalk mapping AIUC-1 AI Agent Standard to OWASP Top 10 for LLM Applications",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/aiuc/aiuc_1/v1_owasp_llmtop10_v2025/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**",
+    "baselines/**",
+    "elements/**"
+  ],
+  "auditmation": {
+    "dataloader-version": "3.29.26",
+    "import-artifact": "crosswalk",
+    "package": "aiuc.aiuc_1.v1_owasp_llmtop10_v2025.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-aiuc-aiuc_1-v1": "latest",
+    "@zerobias-org/framework-owasp-llmtop10-v2025": "latest"
+  }
+}

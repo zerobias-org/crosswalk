@@ -1,0 +1,9 @@
+id: e35b6d2a-9ba2-40bb-9bcd-2ce3bd977e65
+name: AIUC-1 v1 to ISO 42001:2023
+description: This crosswalk maps AIUC-1 AI Agent Standard requirements to ISO/IEC 42001:2023 AI Management System clauses and Annex A controls, enabling organizations to achieve ISO certification while implementing AIUC-1.
+externalId: AIUC-1 to ISO 42001
+code: aiuc_aiuc_1_v1_iso_42001_2023
+status: verified
+targetStandard: iso.42001.2023.framework
+sourceStandard: aiuc.aiuc_1.v1.framework
+url: https://www.aiuc-1.com/crosswalks/iso-42001

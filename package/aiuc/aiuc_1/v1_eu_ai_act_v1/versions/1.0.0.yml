@@ -1,0 +1,72 @@
+id: c4e5f6a7-b8c9-4d0e-8f1a-2b3c4d5e6f7a
+name: AIUC-1 to EU AI Act Crosswalk v1.0.0
+description: Initial release mapping AIUC-1 AI Agent Standard to EU AI Act requirements
+status: draft
+elements:
+  # Domain A mappings
+  - a1b2c3d4-1001-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1002-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1003-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1004-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1005-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1006-4a5b-8c7d-9e0f1a2b3c4d
+  - a1b2c3d4-1007-4a5b-8c7d-9e0f1a2b3c4d
+  # Domain B mappings
+  - b1c2d3e4-2001-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2002-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2003-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2004-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2005-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2006-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2006-4b5c-8d7e-9f0a1b2c3d4f
+  - b1c2d3e4-2007-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2007-4b5c-8d7e-9f0a1b2c3d4f
+  - b1c2d3e4-2008-4b5c-8d7e-9f0a1b2c3d4e
+  - b1c2d3e4-2009-4b5c-8d7e-9f0a1b2c3d4e
+  # Domain C mappings
+  - c1d2e3f4-3001-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3002-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3003-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3003-4c5d-8e7f-9a0b1c2d3e5f
+  - c1d2e3f4-3004-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3005-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3006-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3007-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3007-4c5d-8e7f-9a0b1c2d3e5f
+  - c1d2e3f4-3008-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3008-4c5d-8e7f-9a0b1c2d3e5f
+  - c1d2e3f4-3009-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3010-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3011-4c5d-8e7f-9a0b1c2d3e4f
+  - c1d2e3f4-3012-4c5d-8e7f-9a0b1c2d3e4f
+  # Domain D mappings
+  - d1e2f3a4-4001-4d5e-8f7a-9b0c1d2e3f4a
+  - d1e2f3a4-4002-4d5e-8f7a-9b0c1d2e3f4a
+  - d1e2f3a4-4002-4d5e-8f7a-9b0c1d2e3f4b
+  - d1e2f3a4-4003-4d5e-8f7a-9b0c1d2e3f4a
+  - d1e2f3a4-4004-4d5e-8f7a-9b0c1d2e3f4a
+  # Domain E mappings
+  - e1f2a3b4-5001-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5001-4e5f-8a7b-9c0d1e2f3a4c
+  - e1f2a3b4-5002-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5003-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5004-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5004-4e5f-8a7b-9c0d1e2f3a4c
+  - e1f2a3b4-5005-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5006-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5008-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5009-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5010-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5011-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5012-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5012-4e5f-8a7b-9c0d1e2f3a4c
+  - e1f2a3b4-5013-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5015-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5016-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5016-4e5f-8a7b-9c0d1e2f3a4c
+  - e1f2a3b4-5017-4e5f-8a7b-9c0d1e2f3a4b
+  - e1f2a3b4-5017-4e5f-8a7b-9c0d1e2f3a4c
+  # Domain F mappings
+  - f1a2b3c4-6001-4f5a-8b7c-9d0e1f2a3b4c
+  - f1a2b3c4-6001-4f5a-8b7c-9d0e1f2a3b4d
+  - f1a2b3c4-6002-4f5a-8b7c-9d0e1f2a3b4c

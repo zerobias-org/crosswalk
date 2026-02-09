@@ -1,0 +1,378 @@
+elements:
+  # Domain A: Data & Privacy → EU AI Act Articles 10, 13
+  - id: a1b2c3d4-1001-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A001
+    sourceElement: article_10_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Input data policy aligns with Article 10 data governance requirements
+  - id: a1b2c3d4-1002-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A002
+    sourceElement: article_10_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Output data policy supports Article 10 data governance
+  - id: a1b2c3d4-1003-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A003
+    sourceElement: article_10_3
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Data collection limits align with Article 10(3) data minimization
+  - id: a1b2c3d4-1004-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A004
+    sourceElement: article_13_1
+    relationshipType: intersects
+    strengthOfRelationship: 6
+    notes: IP protection relates to transparency requirements
+  - id: a1b2c3d4-1005-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A005
+    sourceElement: article_10_5
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Cross-customer data protection aligns with Article 10(5)
+  - id: a1b2c3d4-1006-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A006
+    sourceElement: article_10_5
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: PII leakage prevention directly supports Article 10(5) personal data protection
+  - id: a1b2c3d4-1007-4a5b-8c7d-9e0f1a2b3c4d
+    targetElement: A007
+    sourceElement: article_13_1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+    notes: IP violation prevention relates to transparency considerations
+
+  # Domain B: Security → EU AI Act Article 15 (Cybersecurity)
+  - id: b1c2d3e4-2001-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B001
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Adversarial robustness testing directly supports Article 15(4) cybersecurity
+  - id: b1c2d3e4-2002-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B002
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Adversarial input detection supports cybersecurity measures
+  - id: b1c2d3e4-2003-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B003
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 6
+    notes: Technical detail management supports security posture
+  - id: b1c2d3e4-2004-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B004
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Endpoint protection directly supports cybersecurity requirements
+  - id: b1c2d3e4-2005-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B005
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Input filtering supports cybersecurity measures
+  - id: b1c2d3e4-2006-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B006
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Unauthorized action prevention supports security
+  - id: b1c2d3e4-2006-4b5c-8d7e-9f0a1b2c3d4f
+    targetElement: B006
+    sourceElement: article_14_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Action controls relate to human oversight requirements
+  - id: b1c2d3e4-2007-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B007
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Access controls support cybersecurity
+  - id: b1c2d3e4-2007-4b5c-8d7e-9f0a1b2c3d4f
+    targetElement: B007
+    sourceElement: article_14_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: User privileges relate to human oversight
+  - id: b1c2d3e4-2008-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B008
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Deployment environment protection directly supports cybersecurity
+  - id: b1c2d3e4-2009-4b5c-8d7e-9f0a1b2c3d4e
+    targetElement: B009
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Output limitation supports security measures
+
+  # Domain C: Safety → EU AI Act Articles 9, 15
+  - id: c1d2e3f4-3001-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C001
+    sourceElement: article_9_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Risk taxonomy directly supports Article 9(1) risk management system
+  - id: c1d2e3f4-3002-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C002
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Pre-deployment testing aligns with Article 9(6) testing requirements
+  - id: c1d2e3f4-3003-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C003
+    sourceElement: article_9_2_c
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Harmful output prevention supports risk mitigation measures
+  - id: c1d2e3f4-3003-4c5d-8e7f-9a0b1c2d3e5f
+    targetElement: C003
+    sourceElement: article_15_3
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Harmful output prevention supports robustness requirements
+  - id: c1d2e3f4-3004-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C004
+    sourceElement: article_9_2_c
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Out-of-scope prevention relates to risk mitigation
+  - id: c1d2e3f4-3005-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C005
+    sourceElement: article_9_2
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Custom risk prevention supports risk management
+  - id: c1d2e3f4-3006-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C006
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Output vulnerability prevention supports cybersecurity
+  - id: c1d2e3f4-3007-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C007
+    sourceElement: article_9_4
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: High-risk flagging supports risk management monitoring
+  - id: c1d2e3f4-3007-4c5d-8e7f-9a0b1c2d3e5f
+    targetElement: C007
+    sourceElement: article_14_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Human review supports human oversight requirements
+  - id: c1d2e3f4-3008-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C008
+    sourceElement: article_9_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Risk monitoring aligns with continuous risk management
+  - id: c1d2e3f4-3008-4c5d-8e7f-9a0b1c2d3e5f
+    targetElement: C008
+    sourceElement: article_72_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Monitoring supports post-market monitoring requirements
+  - id: c1d2e3f4-3009-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C009
+    sourceElement: article_14_4
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Real-time feedback supports human oversight intervention capabilities
+  - id: c1d2e3f4-3010-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C010
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Third-party testing directly supports testing requirements
+  - id: c1d2e3f4-3011-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C011
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Out-of-scope testing supports testing requirements
+  - id: c1d2e3f4-3012-4c5d-8e7f-9a0b1c2d3e4f
+    targetElement: C012
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Custom risk testing supports testing requirements
+
+  # Domain D: Reliability → EU AI Act Articles 9, 15
+  - id: d1e2f3a4-4001-4d5e-8f7a-9b0c1d2e3f4a
+    targetElement: D001
+    sourceElement: article_15_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Hallucination prevention directly supports accuracy requirements
+  - id: d1e2f3a4-4002-4d5e-8f7a-9b0c1d2e3f4a
+    targetElement: D002
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Hallucination testing supports testing requirements
+  - id: d1e2f3a4-4002-4d5e-8f7a-9b0c1d2e3f4b
+    targetElement: D002
+    sourceElement: article_15_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Hallucination testing supports accuracy verification
+  - id: d1e2f3a4-4003-4d5e-8f7a-9b0c1d2e3f4a
+    targetElement: D003
+    sourceElement: article_15_3
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Tool call restrictions support robustness requirements
+  - id: d1e2f3a4-4004-4d5e-8f7a-9b0c1d2e3f4a
+    targetElement: D004
+    sourceElement: article_9_6
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Tool call testing supports testing requirements
+
+  # Domain E: Accountability → EU AI Act Articles 11, 12, 13, 14, 16, 17
+  - id: e1f2a3b4-5001-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E001
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Security breach planning supports record-keeping requirements
+  - id: e1f2a3b4-5001-4e5f-8a7b-9c0d1e2f3a4c
+    targetElement: E001
+    sourceElement: article_16_a
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Breach response relates to provider obligations
+  - id: e1f2a3b4-5002-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E002
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Harmful output planning supports incident documentation
+  - id: e1f2a3b4-5003-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E003
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Hallucination response planning supports record-keeping
+  - id: e1f2a3b4-5004-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E004
+    sourceElement: article_16_a
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Accountability assignment directly supports provider obligations
+  - id: e1f2a3b4-5004-4e5f-8a7b-9c0d1e2f3a4c
+    targetElement: E004
+    sourceElement: article_26_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Accountability supports deployer obligations
+  - id: e1f2a3b4-5005-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E005
+    sourceElement: article_10_5
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Processing location assessment relates to data governance
+  - id: e1f2a3b4-5006-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E006
+    sourceElement: article_16_a
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Vendor due diligence supports provider obligations for supply chain
+  - id: e1f2a3b4-5008-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E008
+    sourceElement: article_17_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Internal process review supports quality management system
+  - id: e1f2a3b4-5009-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E009
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Third-party access monitoring supports record-keeping
+  - id: e1f2a3b4-5010-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E010
+    sourceElement: article_26_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Acceptable use policy supports deployer obligations
+  - id: e1f2a3b4-5011-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E011
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Processing location documentation supports record-keeping
+  - id: e1f2a3b4-5012-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E012
+    sourceElement: article_11_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Regulatory compliance documentation directly supports technical documentation
+  - id: e1f2a3b4-5012-4e5f-8a7b-9c0d1e2f3a4c
+    targetElement: E012
+    sourceElement: article_17_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Compliance documentation supports quality management
+  - id: e1f2a3b4-5013-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E013
+    sourceElement: article_17_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: QMS implementation directly supports Article 17 requirements
+  - id: e1f2a3b4-5015-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E015
+    sourceElement: article_12_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Model activity logging directly supports record-keeping requirements
+  - id: e1f2a3b4-5016-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E016
+    sourceElement: article_13_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: AI disclosure directly supports transparency requirements
+  - id: e1f2a3b4-5016-4e5f-8a7b-9c0d1e2f3a4c
+    targetElement: E016
+    sourceElement: article_50_1
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: AI disclosure supports transparency for AI interaction
+  - id: e1f2a3b4-5017-4e5f-8a7b-9c0d1e2f3a4b
+    targetElement: E017
+    sourceElement: article_11_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: System transparency documentation supports technical documentation
+  - id: e1f2a3b4-5017-4e5f-8a7b-9c0d1e2f3a4c
+    targetElement: E017
+    sourceElement: article_13_1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Transparency policy supports information provision requirements
+
+  # Domain F: Society → EU AI Act Articles 9, 15
+  - id: f1a2b3c4-6001-4f5a-8b7c-9d0e1f2a3b4c
+    targetElement: F001
+    sourceElement: article_9_2
+    relationshipType: intersects
+    strengthOfRelationship: 8
+    notes: Cyber misuse prevention supports risk management for societal harm
+  - id: f1a2b3c4-6001-4f5a-8b7c-9d0e1f2a3b4d
+    targetElement: F001
+    sourceElement: article_15_4
+    relationshipType: intersects
+    strengthOfRelationship: 7
+    notes: Cyber misuse prevention relates to cybersecurity
+  - id: f1a2b3c4-6002-4f5a-8b7c-9d0e1f2a3b4c
+    targetElement: F002
+    sourceElement: article_9_2_b
+    relationshipType: intersects
+    strengthOfRelationship: 9
+    notes: Catastrophic misuse prevention directly supports risk management for serious harm
