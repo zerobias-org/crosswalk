@@ -6,6 +6,6 @@ description: Crosswalk mappings from Food & Drug Administration (FDA) to the
 externalId: Food & Drug Administration (FDA) to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: us_fda_v21_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: us.fda.v21.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

@@ -3,7 +3,7 @@ name: Food & Drug Administration (FDA) to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 description: Crosswalk mappings from Food & Drug Administration (FDA) to the
   Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - b6f28eb4-5695-44a7-b132-f9b410c75f8e
   - 42e12932-36ab-4b4b-a754-31fbdd263fa8
