@@ -3,7 +3,7 @@ name: HIPAA Administrative Simplification (2013) to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from HIPAA Administrative Simplification (2013)
   to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 06852390-fb02-44a0-b28c-dc674350fa0a
   - 9b140403-258c-436c-9504-b183bdad07f8
