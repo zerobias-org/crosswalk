@@ -2,7 +2,7 @@ id: 6b6f06ce-4e19-4bb6-b44c-89990fef4ee8
 name: NIST SP 800-171 R3 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from NIST SP 800-171 R3 to the Secure Controls
   Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 802cbd2f-eda8-4b72-9b2c-943c19dc0722
   - f0858cfe-ba68-4f1f-8b6a-31d4b6069fc2
