@@ -9,6 +9,6 @@ externalId: NIST SP 800-161 - Cybersecurity Supply Chain Risk Management
   Practices for Systems and Organizations to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: nist_800_161_rev1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: nist.800_161.rev1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

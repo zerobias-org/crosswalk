@@ -5,7 +5,7 @@ name: NIST SP 800-161 - Cybersecurity Supply Chain Risk Management Practices for
 description: Crosswalk mappings from NIST SP 800-161 - Cybersecurity Supply
   Chain Risk Management Practices for Systems and Organizations to the Secure
   Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 160f0759-de8c-488f-b28a-5c790f2ffbef
   - 387d762a-5050-4a97-b23b-c9e4761f285e
