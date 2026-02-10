@@ -4,7 +4,7 @@ name: NIST SP 800-53 R5 - Security and Privacy Controls for Information Systems
 description: Crosswalk mappings from NIST SP 800-53 R5 - Security and Privacy
   Controls for Information Systems and Organizations to the Secure Controls
   Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - e70cb8f3-aa10-4fdd-bf7c-98e8177b3755
   - 5293e1f9-1f4b-4c09-92f3-12463c4cc9db
