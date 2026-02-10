@@ -4,7 +4,7 @@ name: US DOJ / FBI - Criminal Justice Information Services (CJIS) Security
 description: Crosswalk mappings from US DOJ / FBI - Criminal Justice Information
   Services (CJIS) Security Policy to the Secure Controls Framework (SCF)
   2025.2.1 framework
-status: draft
+status: active
 elements:
   - eec4aadb-6b64-4196-ae05-d76e25cd01a3
   - 8be781df-d712-445c-8fe6-b9191efb68c6
