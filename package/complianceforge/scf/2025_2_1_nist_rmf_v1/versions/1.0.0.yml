@@ -4,7 +4,7 @@ name: NIST Artificial Intelligence Risk Management Framework (AI RMF) to Secure
 description: Crosswalk mappings from NIST Artificial Intelligence Risk
   Management Framework (AI RMF) to the Secure Controls Framework (SCF) 2025.2.1
   framework
-status: draft
+status: active
 elements:
   - 45b0c77b-d9b2-406d-a0ff-348037c354fe
   - b5776ebe-6654-4381-839e-524e1a616367
