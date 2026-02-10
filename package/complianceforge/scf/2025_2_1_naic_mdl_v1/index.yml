@@ -6,6 +6,6 @@ description: Crosswalk mappings from Insurance Data Security Model Law (MDL-668)
 externalId: Insurance Data Security Model Law (MDL-668) to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: naic_mdl_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: naic.mdl.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

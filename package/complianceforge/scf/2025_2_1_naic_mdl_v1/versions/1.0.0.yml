@@ -3,7 +3,7 @@ name: Insurance Data Security Model Law (MDL-668) to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from Insurance Data Security Model Law (MDL-668)
   to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 1f3ad704-0d02-4270-9db5-2e7affd246da
   - 80842677-1fcb-4448-9e21-f84b0bc29e45
