@@ -6,6 +6,6 @@ description: Crosswalk mappings from UAE National Information Assurance
 externalId: UAE National Information Assurance Framework (NIAF) to Secure
   Controls Framework (SCF) 2025.2.1 Crosswalk
 code: uae_niaf_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: uae.niaf.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
