@@ -3,7 +3,7 @@ name: ENISA NIS2 (Directive (EU) 2022/2555) to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 description: Crosswalk mappings from ENISA NIS2 (Directive (EU) 2022/2555) to
   the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 36c207e7-e30c-4087-b595-cfb65cd33eba
   - a6082d68-78c8-4a53-98fc-de0c6941fbb1
