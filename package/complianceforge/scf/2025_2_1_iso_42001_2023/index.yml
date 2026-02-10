@@ -8,6 +8,6 @@ externalId: ISO/IEC 42001:2023 - Information technology - Artificial
   intelligence - Management system to Secure Controls Framework (SCF) 2025.2.1
   Crosswalk
 code: iso_42001_2023_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: iso.42001.2023.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

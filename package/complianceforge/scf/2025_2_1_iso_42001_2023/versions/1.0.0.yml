@@ -4,7 +4,7 @@ name: ISO/IEC 42001:2023 - Information technology - Artificial intelligence -
 description: Crosswalk mappings from ISO/IEC 42001:2023 - Information technology
   - Artificial intelligence - Management system to the Secure Controls Framework
   (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 2833d0fe-148a-4b71-9718-915e96499389
   - 1a10e22f-4f70-4f86-b133-5970a0fd9f7c
