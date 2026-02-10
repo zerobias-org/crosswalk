@@ -6,6 +6,6 @@ description: Crosswalk mappings from Digital Personal Data Protection Act, 2023
 externalId: Digital Personal Data Protection Act, 2023 to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: in_dpdpa_2023_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: in.dpdpa.2023.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
