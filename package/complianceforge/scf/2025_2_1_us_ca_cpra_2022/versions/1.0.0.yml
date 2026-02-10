@@ -3,7 +3,7 @@ name: Privacy Rights Act (CPRA) - November 2022 version to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from Privacy Rights Act (CPRA) - November 2022
   version to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 0f29299c-c10f-4704-9bac-95e3225cd01c
   - 05d621ef-ede5-473c-a0bd-95370d2408c2
