@@ -6,6 +6,6 @@ description: Crosswalk mappings from NZ Health Information Security Framework to
 externalId: NZ Health Information Security Framework to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: nz_hisf_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: nz.hisf.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

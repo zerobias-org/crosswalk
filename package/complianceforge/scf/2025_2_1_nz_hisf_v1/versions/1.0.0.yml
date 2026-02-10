@@ -3,7 +3,7 @@ name: NZ Health Information Security Framework to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from NZ Health Information Security Framework to
   the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 7afde8be-938e-45d0-b276-ad62edbf807a
   - 63a6ca47-b921-4100-bf76-d779b924021a
