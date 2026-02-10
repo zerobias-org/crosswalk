@@ -4,7 +4,7 @@ name: "SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1: to
 description: "Crosswalk mappings from SP 800-218 - Secure Software Development
   Framework (SSDF) Version 1.1: to the Secure Controls Framework (SCF) 2025.2.1
   framework"
-status: draft
+status: active
 elements:
   - 553a547f-34dd-445c-ae12-535d91d00a70
   - fc20bb87-ecc7-4327-8811-aaf7f5010327
