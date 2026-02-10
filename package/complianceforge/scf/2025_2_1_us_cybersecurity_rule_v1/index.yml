@@ -10,6 +10,6 @@ externalId: Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy,
   Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and
   249 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 code: us_cybersecurity_rule_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: us.cybersecurity_rule.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
