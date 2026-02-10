@@ -6,6 +6,6 @@ description: Crosswalk mappings from DOD Zero Trust Reference Architecture
 externalId: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: dod_ztra_v2_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: dod.ztra.v2.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

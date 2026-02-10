@@ -3,7 +3,7 @@ name: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from DOD Zero Trust Reference Architecture
   (ZTRA) to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - fac8889f-0edd-4f51-93ec-69800b113944
   - fa303215-df00-49c6-a73f-b20afebaf682
