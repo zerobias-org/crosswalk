@@ -2,56 +2,119 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with crosswalk content in this repository.
 
-## Project Overview
+## Common Development Commands
 
-This is the **ZeroBias Community Crosswalk Repository** containing open-source crosswalk mappings between different compliance frameworks. Crosswalks enable requirement-to-requirement mapping across standards, allowing organizations to demonstrate compliance with multiple frameworks simultaneously.
+### Setup and Installation
+- **Initial setup**: `npm install` (run in root directory)
+- **Full reset**: `npm run reset` (clean, install)
 
-**Repository Role:** Community-contributed crosswalk mappings between compliance frameworks
+### Validation and Testing
+- **Validate all crosswalks**: `npm run validate`
+- **Validate single crosswalk**: `npm run validate` (in individual package directory)
+- **Clean Nx cache**: `npm run clean`
+- **Full clean**: `npm run clean:full` (reset Nx + remove node_modules)
 
-This repository follows the same structure as `auditlogic/crosswalk` but contains community-contributed, open-source crosswalk mappings.
+### Lerna Operations
+- **Dry run version bump**: `npm run lerna:dry-run`
+- **Version packages**: `npm run lerna:version`
 
-## Current Status
+### Individual Package Commands
+When working in a specific crosswalk package (e.g., `package/nist/800-218/v1_1_cncf_sscp_v1/`):
+- **Validate crosswalk**: `npm run validate`
+- **Correct dependencies**: `npm run correct:deps`
 
-⚠️ **AI-Assisted Development Workflows Needed**
+## Repository Architecture
 
-This CLAUDE.md is a placeholder. Comprehensive AI-assisted development workflows for creating and maintaining crosswalks are planned but not yet implemented.
+### Monorepo Structure
+This is a Lerna-managed monorepo with npm workspaces containing crosswalk packages. Key directories:
 
-**What's Needed:**
-- Step-by-step workflows for creating new crosswalks
-- Requirement alignment and mapping strategies
-- Validation procedures for mapping accuracy
-- Publishing and versioning guidelines
-- Testing with framework updates
-- Collaboration with standards organizations
+- **`package/`**: Contains all crosswalk packages organized by vendor/suite/version
+  - Structure: `package/{vendor}/{suite}/{version}/`
+  - Example: `package/nist/800-218/v1_1_cncf_sscp_v1/`, `package/opencre/opencre/v1_owasp_samm_v1_0/`
+- **`scripts/`**: Validation and utility scripts
+- **`templates/`**: Template files for creating new crosswalks
+- **`bundle/`**: Bundled package artifacts
+- **`examples/`**: Example crosswalk package
 
-## Repository Structure
+### Crosswalk Package Structure
+Each crosswalk package follows this structure:
+- **`index.yml`**: Main crosswalk definition (metadata, source/target frameworks)
+- **`elements.yml`**: Crosswalk mapping elements
+- **`versions/`**: Version-specific mapping data
+- **`package.json`**: NPM package configuration with `zerobias` metadata key
+- **`.npmrc`**: NPM registry configuration
 
+### Technology Stack
+- **Lerna**: Monorepo management and versioning
+- **Nx**: Build system and caching
+- **TypeScript**: Validation scripts (run via `tsx`)
+- **YAML**: Crosswalk definition format
+
+### Package Naming Conventions
+- **Package name**: `@zerobias-org/crosswalk-{vendor}-{suite}-{version}`
+- **Metadata key**: `zerobias` (not `auditmation`)
+- **Metadata package value**: `{vendor}.{suite}.{version}.crosswalk` (no prefix)
+- **Dataloader version**: `"1.0.0"`
+- **Import artifact**: `"crosswalk"`
+- **Runner**: `tsx` (not `ts-node`)
+
+### Package.json Template
+```json
+{
+  "name": "@zerobias-org/crosswalk-{vendor}-{suite}-{version}",
+  "version": "1.0.0",
+  "type": "module",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "{vendor}.{suite}.{version}.crosswalk"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
+  },
+  "dependencies": {
+    "@zerobias-org/suite-{vendor}-{suite}": "latest"
+  }
+}
 ```
-crosswalk/
-├── package/zerobias/          # Community crosswalk packages
-│   └── <crosswalk-name>/      # Individual crosswalk mapping
-│       ├── package.json       # NPM package configuration
-│       ├── index.yml          # Crosswalk metadata
-│       ├── mappings.yml       # Requirement-to-requirement mappings
-│       ├── CHANGELOG.md       # Version history
-│       └── npm-shrinkwrap.json
-├── scripts/                   # Creation and validation scripts
-├── lerna.json                 # Monorepo configuration
-└── README.md
+
+### Registry Configuration (.npmrc)
+Packages use `@zerobias-org` scoped registry. Packages that depend on `@auditlogic` packages (frameworks/benchmarks not yet migrated) also include:
 ```
+@auditlogic:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
+```
+
+### Dependency Notes
+Some framework and benchmark dependencies only exist on the `@auditlogic` registry (not yet published to `@zerobias-org`):
+- `@auditlogic/framework-nist-800218-v1.1`
+- `@auditlogic/framework-owasp-samm-v1.0`
+- `@auditlogic/framework-csa-ccm-v4.0.12`
+- `@auditlogic/framework-owasp-asvs-v4.0.3`
+- `@auditlogic/framework-nist-80053-rev5`
+- `@auditlogic/benchmark-owasp-wstg-v5`
+
+Suite packages exist on `@zerobias-org`:
+- `@zerobias-org/suite-nist-800-218`
+- `@zerobias-org/suite-opencre-opencre`
+- `@zerobias-org/suite-nist-ir8397`
 
 ## File Format Reference
 
-**Source of Truth:** `../../auditmation/platform/dataloader/src/processors/crosswalk/`
+**Source of Truth:** `../../com/platform/dataloader/src/processors/crosswalk/`
 
 **Key Files:**
 - `CrosswalkArtifactLoader.ts` - Main processor
 - `CrosswalkFileHandler.ts` - File processing
 
 **Expected Structure:**
-- `index.yml` - Crosswalk metadata (name, description, source/target frameworks)
-- `mappings.yml` - Requirement mappings
-- `package.json` - Must include `auditmation.import-artifact: "crosswalk"`
+- `index.yml` - Crosswalk metadata (name, description, source/target frameworks, status)
+- `elements.yml` - Mapping elements
+- `versions/` - Version-specific data
+- `package.json` - Must include `zerobias.import-artifact: "crosswalk"`
+
+**Valid index.yml statuses:** `active`, `verified`, `inactive`, `deprecated`
 
 ## Crosswalk Concept
 
@@ -59,7 +122,7 @@ crosswalk/
 
 A crosswalk maps requirements between two compliance frameworks:
 
-**Example: SOC 2 → ISO 27001**
+**Example: SOC 2 -> ISO 27001**
 ```yaml
 # mappings.yml
 mappings:
@@ -82,7 +145,7 @@ mappings:
 ## Integration with Platform
 
 ### Dataloader Integration
-**Handler Location:** `../../auditmation/platform/dataloader/src/processors/crosswalk/`
+**Handler Location:** `../../com/platform/dataloader/src/processors/crosswalk/`
 **Database Table:** `catalog.crosswalk`
 
 ### Usage in Platform
@@ -96,8 +159,7 @@ mappings:
 - **[Root CLAUDE.md](../../CLAUDE.md)** - Meta-repo guidance
 - **[ContentArtifacts.md](../../ContentArtifacts.md)** - Content catalog system
 - **[auditlogic/crosswalk/CLAUDE.md](../../auditlogic/crosswalk/CLAUDE.md)** - Proprietary crosswalks (same pattern)
-- **[auditmation/platform/dataloader/CLAUDE.md](../../auditmation/platform/dataloader/CLAUDE.md)** - Dataloader processor
-- **[auditlogic/standard/CLAUDE.md](../../auditlogic/standard/CLAUDE.md)** - Framework definitions
+- **[com/platform/dataloader/CLAUDE.md](../../com/platform/dataloader/CLAUDE.md)** - Dataloader processor
 - **[zerobias-org/framework/CLAUDE.md](../framework/CLAUDE.md)** - Community frameworks
 
 ## Important Notes
@@ -118,6 +180,13 @@ mappings:
 
 Both follow identical structure and use same dataloader processor.
 
+### Commit and Versioning
+- Follow Conventional Commits specification
+- Commit messages format: `<type>(<scope>): <subject>`
+- Types: feat, fix, docs, style, refactor, perf, test, chore
+- Lerna automatically handles versioning and changelog generation
+- PRs must target the `dev` branch (not `main`)
+
 ### Mapping Accuracy
 
 Crosswalk mappings should be:
@@ -127,18 +196,7 @@ Crosswalk mappings should be:
 - Tested with real-world use cases
 - Peer-reviewed by community
 
-## Future Development
-
-Once AI-assisted development workflows are implemented, this CLAUDE.md will include:
-- Creating new crosswalk from template
-- Mapping requirements between frameworks
-- Validation and testing procedures
-- Publishing to NPM registry
-- Updating mappings when frameworks change
-- Collaboration workflows for community review
-
 ---
 
-**Last Updated:** 2025-11-11
+**Last Updated:** 2026-02-09
 **Maintainers:** ZeroBias Community
-
