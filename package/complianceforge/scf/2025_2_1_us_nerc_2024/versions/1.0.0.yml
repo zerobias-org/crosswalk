@@ -4,7 +4,7 @@ name: North American Electric Reliability Corporation Critical Infrastructure
 description: Crosswalk mappings from North American Electric Reliability
   Corporation Critical Infrastructure Protection (NERC CIP) to the Secure
   Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - fc508594-7fa0-4c52-8016-f98c075c6703
   - 169598dc-4184-4b48-b136-2062c02b9f85
