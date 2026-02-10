@@ -5,7 +5,7 @@ name: 27002 - Information security, cybersecurity and privacy protection -
 description: Crosswalk mappings from 27002 - Information security, cybersecurity
   and privacy protection - Information security controls to the Secure Controls
   Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 24c8551b-75d4-44b3-8881-73cf78790ce8
   - 637371a1-c160-4778-acd9-add2f737913b
