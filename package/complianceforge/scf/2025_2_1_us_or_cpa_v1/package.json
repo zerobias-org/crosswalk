@@ -1,0 +1,36 @@
+{
+  "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1",
+  "version": "1.0.0",
+  "description": "Crosswalk for us_or_cpa_v1_complianceforge_scf_2025_2_1_crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/complianceforge/scf/2025_2_1_us_or_cpa_v1"
+  },
+  "zerobias": {
+    "package": "complianceforge.scf.2025_2_1_us_or_cpa_v1.crosswalk",
+    "import-artifact": "crosswalk",
+    "dataloader-version": "1.0.0"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**",
+    "baselines/**",
+    "elements/**"
+  ],
+  "dependencies": {
+    "@zerobias-org/framework-us_or-cpa-v1": "latest",
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+  }
+}
