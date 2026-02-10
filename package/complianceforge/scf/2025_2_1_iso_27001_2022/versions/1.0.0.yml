@@ -4,7 +4,7 @@ name: 27001 - Information Security Management Systems (ISMS) - Requirements to
 description: Crosswalk mappings from 27001 - Information Security Management
   Systems (ISMS) - Requirements to the Secure Controls Framework (SCF) 2025.2.1
   framework
-status: draft
+status: active
 elements:
   - c5dbb32f-011f-4c60-b250-f811d3bdd1c9
   - 5e671171-3bb3-4a4f-a155-11ea7b5fcab0
