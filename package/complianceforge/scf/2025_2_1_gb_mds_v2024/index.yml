@@ -6,6 +6,6 @@ description: Crosswalk mappings from Ministry of Defence Standard 05-138 (14 May
 externalId: Ministry of Defence Standard 05-138 (14 May 2024) to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: gb_mds_v2024_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: gb.mds.v2024.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
