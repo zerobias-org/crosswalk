@@ -6,6 +6,6 @@ description: Crosswalk mappings from Gramm Leach Bliley Act (GLBA) - CFR 314 to
 externalId: Gramm Leach Bliley Act (GLBA) - CFR 314 to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 code: us_glba_2023_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: us.glba.2023.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

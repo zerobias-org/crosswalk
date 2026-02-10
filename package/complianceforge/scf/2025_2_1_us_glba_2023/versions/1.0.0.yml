@@ -3,7 +3,7 @@ name: Gramm Leach Bliley Act (GLBA) - CFR 314 to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 description: Crosswalk mappings from Gramm Leach Bliley Act (GLBA) - CFR 314 to
   the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - dddf92ca-d211-4b68-b4d9-f458febe7f86
   - b48bd299-1aa1-4596-a0d8-113c45f223ca
