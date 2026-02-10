@@ -79,11 +79,6 @@ elements:
     targetElement: PRI-03.7
     relationshipType: intersects
     strengthOfRelationship: 5
-  - id: 0699cb7d-be06-4a83-abbe-5b66b53eee77
-    sourceElement: 541.052(f)(2)
-    targetElement: PRI-05.9
-    relationshipType: intersects
-    strengthOfRelationship: 5
   - id: 7e05aba1-568a-4303-86c5-39c54f2d0e4c
     sourceElement: 541.053(a)
     targetElement: PRI-06.3
