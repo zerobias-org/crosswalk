@@ -7,6 +7,6 @@ description: Crosswalk mappings from EU Artificial Intelligence (AI) Act
 externalId: EU Artificial Intelligence (AI) Act (Regulation (EU) 2024/1689) to
   Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 code: eu_ai_v2024_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: eu.ai.v2024.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
