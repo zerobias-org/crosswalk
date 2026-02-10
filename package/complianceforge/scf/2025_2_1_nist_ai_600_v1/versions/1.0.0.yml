@@ -4,7 +4,7 @@ name: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile) to
 description: Crosswalk mappings from NIST AI 600-1 (AI RMF Generative Artificial
   Intelligence Profile) to the Secure Controls Framework (SCF) 2025.2.1
   framework
-status: draft
+status: active
 elements:
   - 19b66b7e-3d1f-420c-b994-6a1c6508870f
   - 6fb68b12-f3ed-4cda-821a-5992c918454d
