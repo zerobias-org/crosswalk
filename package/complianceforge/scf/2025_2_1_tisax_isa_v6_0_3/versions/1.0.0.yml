@@ -2,7 +2,7 @@ id: 68876b7e-9efb-4ed6-9e26-28daf6bdfa27
 name: TISAX ISA to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from TISAX ISA to the Secure Controls Framework
   (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 7c7b1d77-1974-4ec6-a20c-1aa65339fbd3
   - 45c74d58-db8e-4482-85ed-484c81c00957
