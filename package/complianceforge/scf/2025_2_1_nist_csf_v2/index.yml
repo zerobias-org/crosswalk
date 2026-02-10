@@ -6,6 +6,6 @@ description: Crosswalk mappings from Cybersecurity Framework (CSF) 2.0 to the
 externalId: Cybersecurity Framework (CSF) 2.0 to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: nist_csf_v2_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: nist.csf.v2.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

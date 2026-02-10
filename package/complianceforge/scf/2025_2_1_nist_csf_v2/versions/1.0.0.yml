@@ -3,7 +3,7 @@ name: Cybersecurity Framework (CSF) 2.0 to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 description: Crosswalk mappings from Cybersecurity Framework (CSF) 2.0 to the
   Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 1d3aa2f2-7231-482a-b254-a28a0a36a97d
   - f348f8ae-8a6b-48b9-8125-4c88614f3638
