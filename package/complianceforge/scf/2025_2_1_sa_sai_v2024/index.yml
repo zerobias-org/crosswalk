@@ -6,6 +6,6 @@ description: Crosswalk mappings from Saudi Arabia IoT CGIoT-1:2024 to the Secure
 externalId: Saudi Arabia IoT CGIoT-1:2024 to Secure Controls Framework (SCF)
   2025.2.1 Crosswalk
 code: sa_sai_v2024_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: sa.sai.v2024.framework
 targetStandard: complianceforge.scf.2025_2_1.framework

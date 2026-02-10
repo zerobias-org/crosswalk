@@ -3,7 +3,7 @@ name: Saudi Arabia IoT CGIoT-1:2024 to Secure Controls Framework (SCF) 2025.2.1
   Crosswalk
 description: Crosswalk mappings from Saudi Arabia IoT CGIoT-1:2024 to the Secure
   Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 5c6ab280-3030-4a45-b645-9f7155364111
   - 92281e81-2647-4c9b-b52b-076d1a9a8628
