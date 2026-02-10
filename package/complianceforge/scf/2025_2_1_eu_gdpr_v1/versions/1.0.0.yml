@@ -3,7 +3,7 @@ name: General Data Protection Regulation (GDPR) to Secure Controls Framework
   (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from General Data Protection Regulation (GDPR)
   to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 7881b19a-414c-4085-87e3-17c5233ae8a2
   - 67c1f108-16d8-403a-ad84-a4c31c77e0d2

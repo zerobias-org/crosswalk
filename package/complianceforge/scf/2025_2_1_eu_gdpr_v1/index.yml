@@ -6,6 +6,6 @@ description: Crosswalk mappings from General Data Protection Regulation (GDPR)
 externalId: General Data Protection Regulation (GDPR) to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 code: eu_gdpr_v1_complianceforge_scf_2025_2_1_crosswalk
-status: published
+status: active
 sourceStandard: eu.gdpr.v1.framework
 targetStandard: complianceforge.scf.2025_2_1.framework
