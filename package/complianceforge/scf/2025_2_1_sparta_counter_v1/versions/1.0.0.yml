@@ -4,7 +4,7 @@ name: Space Attack Research & Tactic Analysis (SPARTA) Countermeasures to Secure
 description: Crosswalk mappings from Space Attack Research & Tactic Analysis
   (SPARTA) Countermeasures to the Secure Controls Framework (SCF) 2025.2.1
   framework
-status: draft
+status: active
 elements:
   - b2d0dc47-9584-4a74-9cb2-330b087b971d
   - 19471d0e-31d8-4e51-a041-55af1cc7560c
