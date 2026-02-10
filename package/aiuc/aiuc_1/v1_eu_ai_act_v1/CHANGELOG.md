@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.2 (2026-02-10)</small>
+
+* chore: modernize crosswalk packages to zerobias conventions ([c71cf85](https://github.com/zerobias-org/crosswalk/commit/c71cf85))
+
+
+
+
+
 ## <small>1.0.1 (2026-02-04)</small>
 
 * feat: add AIUC-1 to EU AI Act crosswalk (#88) ([99ac1e1](https://github.com/zerobias-org/crosswalk/commit/99ac1e1)), closes [#88](https://github.com/zerobias-org/crosswalk/issues/88)

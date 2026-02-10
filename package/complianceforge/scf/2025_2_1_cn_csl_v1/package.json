@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cn_csl_v1",
-  "version": "1.1.0-rc.0",
+  "version": "1.1.0",
   "description": "Crosswalk for cn_csl_v1_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",

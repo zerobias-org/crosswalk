@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NIST 800-218 v1.1 NIST Label 2022 Crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@auditlogic/framework-nist-800218-v1.1": "latest",
-    "@zerobias-org/suite-nist-800-218": "latest",
-    "@zerobias-org/framework-nist-label-2022": "latest"
+    "@zerobias-org/framework-nist-label-2022": "latest",
+    "@zerobias-org/suite-nist-800-218": "latest"
   }
 }

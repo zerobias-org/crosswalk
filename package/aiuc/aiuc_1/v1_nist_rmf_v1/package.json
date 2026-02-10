@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-nist-rmf-v1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Crosswalk mapping AIUC-1 AI Agent Standard requirements to NIST AI Risk Management Framework (AI RMF) controls",
   "author": "team@zerobias.com",
   "license": "ISC",

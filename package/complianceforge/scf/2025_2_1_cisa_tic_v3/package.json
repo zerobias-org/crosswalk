@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cisa_tic_v3",
-  "version": "1.1.0-rc.0",
+  "version": "1.1.0",
   "description": "Crosswalk for cisa_tic_v3_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",

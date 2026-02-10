@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OpenCRE v1 NIST 800-53 Revision 5 Crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@auditlogic/framework-nist-80053-rev5": "latest",
-    "@zerobias-org/suite-opencre-opencre": "latest",
-    "@zerobias-org/framework-opencre-opencre-v1": "latest"
+    "@zerobias-org/framework-opencre-opencre-v1": "latest",
+    "@zerobias-org/suite-opencre-opencre": "latest"
   }
 }

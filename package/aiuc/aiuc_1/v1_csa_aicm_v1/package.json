@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-aiuc-aiuc_1-v1-csa-aicm-v1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Crosswalk mapping AIUC-1 AI Agent Standard requirements to CSA AI Controls Matrix controls",
   "author": "team@zerobias.com",
   "license": "ISC",

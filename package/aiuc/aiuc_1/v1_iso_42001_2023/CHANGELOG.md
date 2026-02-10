@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.3 (2026-02-10)</small>
+
+* chore: modernize crosswalk packages to zerobias conventions ([c71cf85](https://github.com/zerobias-org/crosswalk/commit/c71cf85))
+
+
+
+
+
 ## <small>0.0.2 (2026-02-05)</small>
 
 * feat(aiuc): add AIUC-1 v1 to ISO 42001:2023 crosswalk ([20f77ae](https://github.com/zerobias-org/crosswalk/commit/20f77ae))

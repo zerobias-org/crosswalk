@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "OpenCRE v1 CSA CCM v4.0.12 Crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@auditlogic/framework-csa-ccm-v4.0.12": "latest",
-    "@zerobias-org/suite-opencre-opencre": "latest",
-    "@zerobias-org/framework-opencre-opencre-v1": "latest"
+    "@zerobias-org/framework-opencre-opencre-v1": "latest",
+    "@zerobias-org/suite-opencre-opencre": "latest"
   }
 }
