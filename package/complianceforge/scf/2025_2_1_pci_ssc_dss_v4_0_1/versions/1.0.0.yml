@@ -3,7 +3,7 @@ name: Payment Card Industry Data Security Standard (PCI DSS) to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from Payment Card Industry Data Security
   Standard (PCI DSS) to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 882ea4b7-496a-408e-820b-89991723e80c
   - 23ee9cf5-5246-4ebc-9d95-41f9f9550e30
