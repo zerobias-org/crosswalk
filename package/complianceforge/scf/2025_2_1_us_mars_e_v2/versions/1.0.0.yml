@@ -4,7 +4,7 @@ name: US Centers for Medicare & Medicaid Services MARS-E Document Suite, Version
 description: Crosswalk mappings from US Centers for Medicare & Medicaid Services
   MARS-E Document Suite, Version 2.0 to the Secure Controls Framework (SCF)
   2025.2.1 framework
-status: draft
+status: active
 elements:
   - 8faeccbc-9fef-425c-a79b-811ac5a4f192
   - 1e748c0e-5a52-499d-af12-5c2aa5bced1b
