@@ -4,7 +4,7 @@ name: SP 800-171A - Assessing Security Requirements for Controlled Unclassified
 description: Crosswalk mappings from SP 800-171A - Assessing Security
   Requirements for Controlled Unclassified Information to the Secure Controls
   Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 1a579337-2ff5-4346-846a-afe492d3e45a
   - 1194c88f-29e0-4a28-a976-6ff34da17d4d
