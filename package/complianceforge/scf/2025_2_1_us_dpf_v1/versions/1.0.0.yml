@@ -3,7 +3,7 @@ name: Data Privacy Framework (DPF) to Secure Controls Framework (SCF) 2025.2.1
   Crosswalk
 description: Crosswalk mappings from Data Privacy Framework (DPF) to the Secure
   Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 7397a6db-19bb-4c3d-bcbf-76de23a53883
   - 6b9c819e-1424-41d9-a46d-769cee14a3a5
