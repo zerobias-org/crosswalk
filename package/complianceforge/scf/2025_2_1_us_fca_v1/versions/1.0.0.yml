@@ -3,7 +3,7 @@ name: Farm Credit Administration (FCA) Cyber Risk Management to Secure Controls
   Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from Farm Credit Administration (FCA) Cyber Risk
   Management to the Secure Controls Framework (SCF) 2025.2.1 framework
-status: draft
+status: active
 elements:
   - 997f90e3-352b-436e-b804-2446d962eeb3
   - badfc6b0-f929-48d7-a76d-4e9e3e3cf6f2
