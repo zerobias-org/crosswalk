@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_naic_mdl_v1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crosswalk for naic_mdl_v1_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "elements/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-naic-mdl-v1": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-naic-mdl-v1": "latest"
   }
 }

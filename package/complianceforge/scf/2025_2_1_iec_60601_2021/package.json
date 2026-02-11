@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iec_60601_2021",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crosswalk for iec_60601_2021_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "elements/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-iec-60601-2021": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-iec-60601-2021": "latest"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iso_27001_2022",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crosswalk for iso_27001_2022_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "elements/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-iso-27001-2022": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-iso-27001-2022": "latest"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_dora_2023",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crosswalk for eu_dora_2023_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "elements/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-eu-dora-2023": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-eu-dora-2023": "latest"
   }
 }

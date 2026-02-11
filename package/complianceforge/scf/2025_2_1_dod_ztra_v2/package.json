@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_dod_ztra_v2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crosswalk for dod_ztra_v2_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -30,7 +30,7 @@
     "elements/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-dod-ztra-v2": "latest",
-    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-dod-ztra-v2": "latest"
   }
 }
