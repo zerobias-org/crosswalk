@@ -1,0 +1,12 @@
+id: 8494e4da-5ee1-408f-955e-72a15cdc99d5
+name: CoSAI MCP Security to OWASP LLM Top 10 v2025
+description: >-
+  Crosswalk mapping CoSAI MCP Security threat categories to OWASP Top 10
+  for LLM Applications vulnerabilities, identifying intersections between
+  MCP-specific security threats and general LLM security risks.
+externalId: CoSAI-MCP-Security to OWASP LLM Top 10
+code: oasisopen_cosai_mcp_security_owasp_llmtop10_v2025
+status: active
+targetStandard: owasp.llmtop10.v2025.framework
+sourceStandard: oasisopen.cosai.mcp_security.framework
+url: https://github.com/cosai-oasis/ws4-secure-design-agentic-systems/blob/main/model-context-protocol-security.md

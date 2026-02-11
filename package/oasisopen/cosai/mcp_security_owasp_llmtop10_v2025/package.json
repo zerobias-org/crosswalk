@@ -1,0 +1,36 @@
+{
+  "name": "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security-owasp-llmtop10-v2025",
+  "version": "0.0.0",
+  "description": "Crosswalk mapping CoSAI MCP Security threat categories to OWASP Top 10 for LLM Applications",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/oasisopen/cosai/mcp_security_owasp_llmtop10_v2025/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
+    "validate": "tsx ../../../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**",
+    "baselines/**",
+    "elements/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "oasisopen.cosai.mcp_security_owasp_llmtop10_v2025.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-oasisopen-cosai-mcp_security": "latest",
+    "@zerobias-org/framework-owasp-llmtop10-v2025": "latest"
+  }
+}

@@ -1,0 +1,123 @@
+elements:
+  # Primary mappings (12) - intersects relationships
+
+  # MCP-T1: Improper Authentication → LLM06: Sensitive Information Disclosure
+  - id: b4c1db1a-b62c-4012-869a-372423b2356f
+    targetElement: LLM06
+    sourceElement: MCP-T1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # MCP-T2: Missing Access Control → LLM08: Excessive Agency
+  - id: 392db39d-44e2-4594-a27e-b99a247331ee
+    targetElement: LLM08
+    sourceElement: MCP-T2
+    relationshipType: intersects
+    strengthOfRelationship: 7
+
+  # MCP-T3: Input Validation Failures → LLM01: Prompt Injection
+  - id: b35af371-14c6-44eb-8e2d-208dffcd98a3
+    targetElement: LLM01
+    sourceElement: MCP-T3
+    relationshipType: intersects
+    strengthOfRelationship: 8
+
+  # MCP-T4: Instruction Boundary Failure → LLM01: Prompt Injection
+  - id: 2426c6a8-1601-42e2-9748-2ecdd6b9c430
+    targetElement: LLM01
+    sourceElement: MCP-T4
+    relationshipType: intersects
+    strengthOfRelationship: 9
+
+  # MCP-T5: Inadequate Data Protection → LLM06: Sensitive Information Disclosure
+  - id: c22beda7-55c3-4051-b043-0b70e7414a72
+    targetElement: LLM06
+    sourceElement: MCP-T5
+    relationshipType: intersects
+    strengthOfRelationship: 7
+
+  # MCP-T6: Missing Integrity Controls → LLM02: Insecure Output Handling
+  - id: 16d66467-fed6-4d24-b7a7-615089d96cb1
+    targetElement: LLM02
+    sourceElement: MCP-T6
+    relationshipType: intersects
+    strengthOfRelationship: 6
+
+  # MCP-T7: Transport Security Failures → LLM06: Sensitive Information Disclosure
+  - id: e9257fd4-a87f-4705-9850-bed0077d2d8b
+    targetElement: LLM06
+    sourceElement: MCP-T7
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # MCP-T8: Network Isolation Failures → LLM08: Excessive Agency
+  - id: 53e0a625-116b-4912-9450-9803e4aba47f
+    targetElement: LLM08
+    sourceElement: MCP-T8
+    relationshipType: intersects
+    strengthOfRelationship: 5
+
+  # MCP-T9: Trust Boundary Failures → LLM08: Excessive Agency
+  - id: 71846218-1222-4147-a5b7-60ad281ce741
+    targetElement: LLM08
+    sourceElement: MCP-T9
+    relationshipType: intersects
+    strengthOfRelationship: 8
+
+  # MCP-T10: Resource Management Absence → LLM04: Model Denial of Service
+  - id: 18b64adb-b371-408a-9f1f-8d60af763426
+    targetElement: LLM04
+    sourceElement: MCP-T10
+    relationshipType: intersects
+    strengthOfRelationship: 7
+
+  # MCP-T11: Supply Chain Failures → LLM05: Supply Chain Vulnerabilities
+  - id: 154fef1b-5d7c-47aa-b275-885d2e62c3fa
+    targetElement: LLM05
+    sourceElement: MCP-T11
+    relationshipType: intersects
+    strengthOfRelationship: 9
+
+  # MCP-T12: Insufficient Logging → LLM09: Overreliance
+  - id: e73cd1ef-a712-43f5-a3a1-6cd63a0e3545
+    targetElement: LLM09
+    sourceElement: MCP-T12
+    relationshipType: related
+    strengthOfRelationship: 4
+
+  # Secondary mappings (5) - related relationships
+
+  # MCP-T3: Input Validation → LLM02: Insecure Output Handling
+  - id: 2d2a6fee-ec75-4898-9e0c-baec38d08a7f
+    targetElement: LLM02
+    sourceElement: MCP-T3
+    relationshipType: related
+    strengthOfRelationship: 5
+
+  # MCP-T4: Instruction Boundary → LLM07: Insecure Plugin Design
+  - id: b34e476c-2cf9-42ec-bdcf-467d6ca5bdb9
+    targetElement: LLM07
+    sourceElement: MCP-T4
+    relationshipType: related
+    strengthOfRelationship: 6
+
+  # MCP-T5: Data Protection → LLM08: Excessive Agency
+  - id: 13035953-1f44-41fc-9358-4d5e6de89472
+    targetElement: LLM08
+    sourceElement: MCP-T5
+    relationshipType: related
+    strengthOfRelationship: 5
+
+  # MCP-T9: Trust Boundary → LLM07: Insecure Plugin Design
+  - id: 97b111f9-137f-4de4-93f3-f09571dddc5e
+    targetElement: LLM07
+    sourceElement: MCP-T9
+    relationshipType: related
+    strengthOfRelationship: 4
+
+  # MCP-T11: Supply Chain → LLM02: Insecure Output Handling
+  - id: e822b8dd-79d4-4b3c-b370-40ff295cc437
+    targetElement: LLM02
+    sourceElement: MCP-T11
+    relationshipType: related
+    strengthOfRelationship: 4
