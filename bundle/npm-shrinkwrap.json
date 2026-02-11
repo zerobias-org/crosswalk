@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-bundle",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-bundle",
-      "version": "0.0.18",
+      "version": "0.0.19",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1": "1.0.2",
@@ -22,14 +22,44 @@
         "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cisa_ssdaf_v1": "1.1.0",
         "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cisa_tic_v3": "1.1.0",
         "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_cn_csl_v1": "1.1.0",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_dod_ztra_v2": "1.0.1",
         "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_es_boe_v2022": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_ai_v2024": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_cra_annex_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_cra_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_dora_2023": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_enisa_annex": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_enisa_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_gdpr_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_gb_mds_v2024": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iec_60601_2021": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_in_dpdpa_2023": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iso_27001_2022": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iso_27002_2022": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_iso_42001_2023": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_naic_mdl_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_161_rev1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_171a_r3": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_171a_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_207_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800_218_v1_1": "1.0.1",
         "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800-171_rev2": "1.1.0",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2": "1.0.1",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024": "1.0.1",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023": "1.0.1",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1": "1.0.1",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1": "1.0.1",
-        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800-171_rev3": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_800-53_v5": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_ai_600_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_csf_v2": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nist_rmf_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nz_hisf_suppliers": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_nz_hisf_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_pci_ssc_dss_v4_0_1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_sa_pdpl_v1": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_sa_sai_v2024": "1.0.1",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2": "1.0.2",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024": "1.0.2",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023": "1.0.2",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1": "1.0.2",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1": "1.0.2",
+        "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1": "1.0.2",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "1.0.1",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "1.0.1",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "1.0.1",
@@ -5462,8 +5492,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2/-/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2/-/crosswalk-complianceforge-scf-2025_2_1_us_mars_e_v2-1.0.1.tgz",
       "integrity": "sha512-Se5te6/2yl7/lX240Z6JBFivjdUlJ2WZRVTyyVNjyuhf/kfi8rlpv+AYUirCgiVkuxHKu6GsVOVH0Y82bAtdIA==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
@@ -5471,8 +5500,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024/-/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024/-/crosswalk-complianceforge-scf-2025_2_1_us_nerc_2024-1.0.1.tgz",
       "integrity": "sha512-7KQA3PmIQ0mner5RDd9qz3HE/rFvkdw1LZ+arlFoKD6xM3OjykTHbIqT9IRe0j/0LJ3CuwFjnq8V93ZmH1SEHg==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
@@ -5480,8 +5508,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023/-/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023/-/crosswalk-complianceforge-scf-2025_2_1_us_ny_dfs_2023-1.0.1.tgz",
       "integrity": "sha512-OkkLfkMhiPwANxtwy0F0w4e7LTPTsMG1zXVhaHeQuzy5w7tGVUV+IQxR/XrzagvXF8918Gz3Jji8TH9UiAhH0Q==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
@@ -5489,8 +5516,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_or_cpa_v1-1.0.1.tgz",
       "integrity": "sha512-pFLAoKBY+RjfuATULdnVV0rhzY1+3KZ3AM7LObikz3RADXuyLoY27qYwUC7kHn3+grVcCCBRHJkxsFmyoLV9TQ==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
@@ -5498,8 +5524,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_tn_ipa_v1-1.0.1.tgz",
       "integrity": "sha512-Pc4CWWXcWcMJ3dZBUj7LOyJksVa33yxeTtMPP0GoytEtk+nQ+mVF0W+H2tvWXsLc4lXliTCC0uWulK4IspzISA==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
@@ -5507,8 +5532,7 @@
       }
     },
     "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1-1.0.1.tgz",
+      "version": "https://pkg.zerobias.org/@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1/-/crosswalk-complianceforge-scf-2025_2_1_us_tx_cdpa_v1-1.0.1.tgz",
       "integrity": "sha512-MXgyAXbXnfhgBtvdT81woPWdAKv1TlyIyfsrkAwv7lE3ij+jZeCohA1jxsbHEQShHuJjkuo8hWprKC+RpQ2T7Q==",
       "requires": {
         "@zerobias-org/framework-complianceforge-scf-2025.2.1": "latest",
