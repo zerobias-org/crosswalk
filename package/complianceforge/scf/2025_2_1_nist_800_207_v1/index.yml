@@ -1,0 +1,11 @@
+id: bca4ab3c-cd43-4e9b-9922-16c45736572b
+name: NIST SP 800-207 - Zero Trust Architecture to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from NIST SP 800-207 - Zero Trust Architecture
+  to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: NIST SP 800-207 - Zero Trust Architecture to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: nist_800_207_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: nist.800_207.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework

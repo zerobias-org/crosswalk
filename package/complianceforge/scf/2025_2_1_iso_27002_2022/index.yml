@@ -1,0 +1,14 @@
+id: 3768b382-5aa1-4382-adc1-d413075cf523
+name: 27002 - Information security, cybersecurity and privacy protection -
+  Information security controls to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+description: Crosswalk mappings from 27002 - Information security, cybersecurity
+  and privacy protection - Information security controls to the Secure Controls
+  Framework (SCF) 2025.2.1 framework
+externalId: 27002 - Information security, cybersecurity and privacy protection -
+  Information security controls to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+code: iso_27002_2022_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: iso.27002.2022.framework
+targetStandard: complianceforge.scf.2025_2_1.framework

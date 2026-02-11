@@ -1,0 +1,11 @@
+id: 6e07fd9e-9d1d-495b-8dc6-a6fc9d107ece
+name: EU Digital Operational Resilience Act (DORA) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from EU Digital Operational Resilience Act
+  (DORA) to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: EU Digital Operational Resilience Act (DORA) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: eu_dora_2023_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: eu.dora.2023.framework
+targetStandard: complianceforge.scf.2025_2_1.framework

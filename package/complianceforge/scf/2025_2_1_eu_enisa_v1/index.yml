@@ -1,0 +1,11 @@
+id: 2f0854cd-cefb-4611-933b-9e67d0943a8d
+name: ENISA NIS2 (Directive (EU) 2022/2555) to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from ENISA NIS2 (Directive (EU) 2022/2555) to
+  the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: ENISA NIS2 (Directive (EU) 2022/2555) to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+code: eu_enisa_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: eu.enisa.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework

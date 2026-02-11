@@ -1,0 +1,65 @@
+id: e767cb89-27eb-43c1-aba4-82117b898efd
+name: IEC TR 60601-4-5:2021 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from IEC TR 60601-4-5:2021 to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+status: active
+elements:
+  - 2f239d0b-43e8-4849-bfcd-06eee89d156a
+  - 8b9614e3-9e42-4c9d-9ee6-50e5cb1e190f
+  - 0de92f9d-0130-4b57-99d7-fcd067dd24e0
+  - e079ef8b-0128-4a1c-958b-24fc1e2eab78
+  - 92537d03-2d3d-4bf3-8ba6-bccfda8980dc
+  - 7af727d3-a8d4-478d-892c-ca164fedea0f
+  - 54aaed6a-a3e8-44ba-bca2-95507ea7dc5e
+  - 2666abbb-87b2-4fcd-96f3-4077db16de42
+  - 6166ac49-9f3c-4598-89ff-8b1db34324fd
+  - 083a3b22-cbfa-40d4-84c0-16dc1263d1d1
+  - 3213d12d-25aa-468a-b11c-1825c375cb47
+  - 21e84ea7-5bd6-44cd-b8bf-5676b38e928d
+  - 49ef382c-8013-44ea-a865-93d384ea02b0
+  - 8e2424c9-0d6e-4dfd-b8ff-d8bb26512bf9
+  - fdc9853f-8293-4786-81e6-d0602b611d19
+  - e46dd5ff-50dc-4046-9c34-c6020bda1979
+  - 8a640ba1-116f-4c60-98bb-ef7789c7ba1d
+  - ceb6cfbe-b9d6-4dca-9d9b-455307cd241c
+  - 77598002-692b-410f-aeef-0ceb20166af5
+  - c72c911b-98a8-428a-953c-5d4f6f5f7409
+  - 09339336-26fe-458f-8739-fb9aee66a963
+  - 67e9c056-49d0-4a12-a821-b873924d01e2
+  - 613904f1-ce8d-4373-9ee6-0ceefa59ffd2
+  - 9ba7a822-7289-43b3-b4ff-4a83bf0c5fa1
+  - a2685e8e-9821-4b0c-b39e-d399ce1affae
+  - 96205770-4f5f-46ea-bc42-de1be36db53b
+  - 483adb50-b973-48b7-862c-60c76ff8643b
+  - c0fd0e8a-f5b2-4975-b51b-b2c8ce36d098
+  - 42e15b64-2abb-4257-8dd5-9f88f96c8479
+  - 053d58b0-676d-461b-a656-bd01f0d32015
+  - 9e90dad7-e5bc-456c-8ce1-e7b194826e07
+  - c3b4427a-6ba6-4877-a8ad-29f84ad7734b
+  - 6ec1d740-50e6-4bbc-9c95-af5de2a3a752
+  - bdff9315-96bf-497f-8f03-62c4434ac8af
+  - f923cf70-3253-4193-abf5-6a89e597d0e1
+  - 8db51674-83e8-49e8-b90c-42fcb9e4b68d
+  - 174922d0-6e9b-44bd-95dc-d62745e5443c
+  - 840b6809-f5aa-4799-9c49-969a0dbdd88e
+  - c50a34d7-58ad-4d88-a17b-ba7523ecad15
+  - 214e47fb-40fc-4b9a-abe6-a1d0602bc687
+  - fbb9260c-2289-4f39-8d08-7ebf0d5b9d3f
+  - 5cb0343c-c1e5-4d2d-861c-a805e1b2246d
+  - 1322d71c-43e3-4a23-9eca-4131df562504
+  - 9173d96f-3bfe-4537-96df-b908fbe2e386
+  - b7852a0b-c2bf-4713-aaeb-4929fa0e305d
+  - b6bf426a-2ef8-4685-abd5-fbf17448b394
+  - f23b5c34-e461-49b5-9a0d-41ba8cbf6d9c
+  - a314c5a8-a640-498c-b2ae-dd70afc1508c
+  - 5892f831-cf63-44a6-ad62-fdec1c2968e9
+  - 02055f55-6698-4a1c-978a-d0478e40efdf
+  - b9478c7c-c697-4e32-a53f-99ae2ea4cf5c
+  - 377f0760-e773-4150-ac42-49690c23fb12
+  - 9cf44606-c88d-4afb-957e-5af13881a1c9
+  - f2742c7d-fa6e-4089-8b98-e824e358f42f
+  - 804080cb-adc9-4750-9654-bf319517d809
+  - de01a9c9-47ca-4974-8751-c5a51b237e29
+  - 1390ab5f-b837-43a1-b1c2-f38093c9b695
+  - d1140e19-2565-4111-bb56-f9cb85dc10df
+  - 91afb123-bedc-4965-8544-ada4a6e83159
