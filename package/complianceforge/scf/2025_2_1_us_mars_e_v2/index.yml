@@ -1,0 +1,12 @@
+id: 1c668388-07ca-4667-9dd8-391faccf631f
+name: US Centers for Medicare & Medicaid Services MARS-E Document Suite, Version
+  2.0 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from US Centers for Medicare & Medicaid Services
+  MARS-E Document Suite, Version 2.0 to the Secure Controls Framework (SCF)
+  2025.2.1 framework
+externalId: US Centers for Medicare & Medicaid Services MARS-E Document Suite,
+  Version 2.0 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: us_mars_e_v2_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: us.mars_e.v2.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
