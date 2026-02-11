@@ -154,6 +154,74 @@ mappings:
 - **Multi-Framework Compliance:** Leverage existing controls across frameworks
 - **Evidence Reuse:** Use same evidence for multiple framework requirements
 
+## ZeroBias Task Integration
+
+For creating crosswalks from ZeroBias tasks, use the skill:
+
+```
+/create-crosswalk [task-id]
+```
+
+See **[.claude/skills/create-crosswalk.md](.claude/skills/create-crosswalk.md)** for the complete workflow.
+
+### Quick Reference
+
+**Orchestration Documentation:**
+- [Meta-repo: DEPENDENCY_CHAIN.md](../../docs/orchestration/DEPENDENCY_CHAIN.md) - **STRICT dependency rules**
+- [Meta-repo: TASK_MANAGEMENT.md](../../docs/orchestration/TASK_MANAGEMENT.md) - Task API patterns
+- [Meta-repo: API_REFERENCE.md](../../docs/orchestration/API_REFERENCE.md) - Quick API reference
+
+**Dependency Chain:**
+```
+vendor → suite → framework/standard/benchmark → crosswalk
+```
+
+**CRITICAL:** Crosswalks require BOTH source and target frameworks. Check/create the full chain first.
+
+### Key APIs
+
+```javascript
+// Check if source framework exists (REQUIRED before crosswalk)
+zerobias_execute("portal.Framework.search", { searchFrameworkBody: { search: "source framework" }})
+
+// Check if target framework exists (REQUIRED before crosswalk)
+zerobias_execute("portal.Framework.search", { searchFrameworkBody: { search: "target framework" }})
+
+// Check if crosswalk already exists
+zerobias_execute("portal.Crosswalk.search", { searchCrosswalkBody: { search: "crosswalk" }})
+
+// Get your party ID for assignment
+zerobias_execute("platform.Party.getMyParty", {})
+
+// Transition task to in_progress (use transitionId, NOT status)
+zerobias_execute("platform.Task.update", {
+  id: taskId,
+  updateTask: {
+    assigned: partyId,
+    transitionId: "7f140bbe-4c10-54ac-922c-460c66392fad"
+  }
+})
+
+// Link tasks together
+zerobias_execute("platform.Resource.linkResources", {
+  fromResource: sourceTaskId,
+  toResource: targetTaskId,  // Note: toResource, NOT toResourceId
+  linkType: "b8bd95d0-b33c-11f0-8af3-dfaccf31600e"  // relates_to
+})
+```
+
+### Workflow Transitions
+
+| Transition | Target Status | ID |
+|------------|---------------|-----|
+| Start | in_progress | `7f140bbe-4c10-54ac-922c-460c66392fad` |
+| Peer Review | awaiting_approval | `f017a447-0994-594d-9417-39cbc9a4de88` |
+| Accept | released | `1d2e9381-f609-5e26-8bc6-7bbb65a9048d` |
+
+**Note:** Always get actual IDs from `task.nextTransitions`.
+
+---
+
 ## Related Documentation
 
 - **[Root CLAUDE.md](../../CLAUDE.md)** - Meta-repo guidance
@@ -198,5 +266,5 @@ Crosswalk mappings should be:
 
 ---
 
-**Last Updated:** 2026-02-09
+**Last Updated:** 2026-02-11
 **Maintainers:** ZeroBias Community
