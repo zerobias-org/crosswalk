@@ -1,0 +1,9 @@
+id: 8c57ab45-799e-47ca-ab49-11ee5e9348bd
+name: EU Cyber Resilience Act to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from EU Cyber Resilience Act to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: EU Cyber Resilience Act to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: eu_cra_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: eu.cra.v1.framework
+targetStandard: complianceforge.scf.2025_2_1.framework
