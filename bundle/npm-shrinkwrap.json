@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-bundle",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-bundle",
-      "version": "0.0.19",
+      "version": "0.0.20",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/crosswalk-aiuc-aiuc_1-v1_eu_ai_act_v1": "1.0.2",
@@ -63,6 +63,7 @@
         "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "1.0.1",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "1.0.1",
         "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "1.0.1",
+        "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security-owasp-llmtop10-v2025": "0.0.1",
         "@zerobias-org/crosswalk-opencre-opencre-v1_csa_ccm_v4_0_12": "1.1.1",
         "@zerobias-org/crosswalk-opencre-opencre-v1_iso_27001_2022a": "1.0.2",
         "@zerobias-org/crosswalk-opencre-opencre-v1_nist_800218_v1_1": "1.0.2",
