@@ -132,15 +132,16 @@ mappings:
     target:
       framework: iso.27001.2022
       requirement: A.9.1.1  # Access Control Policy
-    relationship: equivalent
+    relationship: equals
 ```
 
-**Relationship Types:**
-- `equivalent` - Requirements are essentially the same
-- `subset` - Source is a subset of target
-- `superset` - Source encompasses target
-- `related` - Requirements are related but not equivalent
-- `complementary` - Requirements work together
+**Valid Relationship Types (from platform schema `crosswalkElementRelationshipType`):**
+- `equals` - Requirements are essentially the same
+- `subset_of` - Source is a subset of target
+- `superset_of` - Source encompasses target
+- `intersects` - Requirements overlap but are not equivalent
+
+**IMPORTANT:** Only these 4 values are accepted by the dataloader. Do NOT use `related`, `equivalent`, `complementary`, or any other values.
 
 ## Integration with Platform
 
