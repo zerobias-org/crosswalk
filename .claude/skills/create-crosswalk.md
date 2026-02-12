@@ -356,13 +356,13 @@ elements:
     strengthOfRelationship: {1-10}
 ```
 
-**Relationship types:**
-- `equivalent` - Requirements are essentially the same
-- `subset` - Source is a subset of target
-- `superset` - Source encompasses target
+**Valid relationship types (from platform schema `crosswalkElementRelationshipType`):**
+- `equals` - Requirements are essentially the same
+- `subset_of` - Source is a subset of target
+- `superset_of` - Source encompasses target
 - `intersects` - Partial overlap between requirements
-- `related` - Requirements are related but not equivalent
-- `complementary` - Requirements work together
+
+**IMPORTANT:** Only these 4 values are accepted by the dataloader. Do NOT use `related`, `equivalent`, `complementary`, or any other values.
 
 **Strength of relationship:** Integer 1-10 (10 = strongest alignment)
 
