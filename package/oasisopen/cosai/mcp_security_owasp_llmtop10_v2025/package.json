@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security-owasp-llmtop10-v2025",
-  "version": "0.0.0",
+  "version": "0.0.1-rc.0",
   "description": "Crosswalk mapping CoSAI MCP Security threat categories to OWASP Top 10 for LLM Applications",
   "author": "team@zerobias.com",
   "license": "ISC",
