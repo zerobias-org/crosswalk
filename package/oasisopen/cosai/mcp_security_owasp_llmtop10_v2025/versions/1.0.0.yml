@@ -1,0 +1,22 @@
+id: a7f3c1d2-8e4b-4a6f-9c5d-3b2e1f0a8d7c
+name: CoSAI MCP Security to OWASP LLM Top 10 v2025 Crosswalk
+description: Initial release mapping CoSAI MCP Security threat categories to OWASP LLM Top 10 vulnerabilities
+status: active
+elements:
+  - b4c1db1a-b62c-4012-869a-372423b2356f
+  - 392db39d-44e2-4594-a27e-b99a247331ee
+  - b35af371-14c6-44eb-8e2d-208dffcd98a3
+  - 2426c6a8-1601-42e2-9748-2ecdd6b9c430
+  - c22beda7-55c3-4051-b043-0b70e7414a72
+  - 16d66467-fed6-4d24-b7a7-615089d96cb1
+  - e9257fd4-a87f-4705-9850-bed0077d2d8b
+  - 53e0a625-116b-4912-9450-9803e4aba47f
+  - 71846218-1222-4147-a5b7-60ad281ce741
+  - 18b64adb-b371-408a-9f1f-8d60af763426
+  - 154fef1b-5d7c-47aa-b275-885d2e62c3fa
+  - e73cd1ef-a712-43f5-a3a1-6cd63a0e3545
+  - 2d2a6fee-ec75-4898-9e0c-baec38d08a7f
+  - b34e476c-2cf9-42ec-bdcf-467d6ca5bdb9
+  - 13035953-1f44-41fc-9358-4d5e6de89472
+  - 97b111f9-137f-4de4-93f3-f09571dddc5e
+  - e822b8dd-79d4-4b3c-b370-40ff295cc437
