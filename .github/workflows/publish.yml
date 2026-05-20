@@ -1,23 +1,27 @@
-name: Publish
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+name: Publish Crosswalk
 
-concurrency:
-  group: publish-${{ github.ref }}
-  cancel-in-progress: true
+on:
+  push:
+    branches: [main, qa, dev, uat]
+    paths:
+      - 'package/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+    inputs:
+      crosswalk:
+        description: 'Crosswalk to publish (e.g. aiuc/aiuc_1/v1_csa_aicm_v1). Leave blank for all changed.'
+        required: false
 
 permissions:
   contents: write
-  id-token: write
   packages: write
-  pull-requests: write
+  id-token: write
 
 jobs:
   publish:
-    uses: zerobias-org/devops/.github/workflows/publish-reusable-nx.yml@main
-    secrets: inherit
+    uses: zerobias-org/devops/.github/workflows/zbb-publish-reusable.yml@main
     with:
-      skip-publish-announcement: 'false'
+      ghcr-namespace: zerobias-org
+      dispatch-input-name: crosswalk
+      dispatch-input-value: ${{ inputs.crosswalk }}
+    secrets: inherit
