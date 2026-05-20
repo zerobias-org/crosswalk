@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_eu_cra_v1",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Crosswalk for eu_cra_v1_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -16,8 +16,7 @@
     "dataloader-version": "1.0.0"
   },
   "scripts": {
-    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
-    "validate": "tsx ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
