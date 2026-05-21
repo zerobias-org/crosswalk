@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "NIST IR 8397 v1.1 Crosswalk for NIST 800-218 v1.1",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -11,8 +11,7 @@
     "directory": "package/nist/800-218/v1_1_nist_ir8397_v1/"
   },
   "scripts": {
-    "correct:deps": "tsx ../../../../scripts/correctDeps.ts",
-    "validate": "tsx ../../../../scripts/validate.ts"
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -27,7 +26,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "crosswalk",
-    "package": "nist.ir8397.v1.crosswalk"
+    "package": "nist.800218.v1_1_nist_ir8397_v1.crosswalk"
   },
   "dependencies": {
     "@auditlogic/framework-nist-800218-v1.1": "latest",
