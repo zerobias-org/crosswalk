@@ -1,9 +1,14 @@
+// settings.gradle.kts — crosswalk monorepo
+//
+// Plugin resolution order: mavenLocal (for `publishToMavenLocal` dev builds
+// of build-tools) → GitHub Packages Maven → gradle plugin portal → mavenCentral.
+// Never via `includeBuild` of a sibling repo path: dev iteration goes through
+// `./gradlew publishToMavenLocal` from build-tools so CI and local resolve
+// the artifact the same way.
+
 pluginManagement {
-    val localBuildTools = file("../util/packages/build-tools")
-    if (localBuildTools.exists()) {
-        includeBuild(localBuildTools)
-    }
     repositories {
+        mavenLocal()
         maven {
             url = uri("https://maven.pkg.github.com/zerobias-org/util")
             credentials {
