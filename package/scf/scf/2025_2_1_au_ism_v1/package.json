@@ -1,0 +1,34 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_au_ism_v1",
+  "version": "3.0.0",
+  "description": "Crosswalk for au_ism_v1_complianceforge_scf_2025_2_1_crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2025_2_1_au_ism_v1/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2025_2_1_au_ism_v1.crosswalk",
+    "migrates-from": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_au_ism_v1"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-au-ism-v1": "latest",
+    "@zerobias-org/framework-scf-scf-2025.2.1": "latest"
+  }
+}

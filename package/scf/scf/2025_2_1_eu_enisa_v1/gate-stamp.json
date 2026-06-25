@@ -1,0 +1,21 @@
+{
+  "version": "3.0.0-uat.0",
+  "branch": "feat/scf-vendor-migration",
+  "sourceHash": "b2dbce516d22869e6db8bc0b3a6929265a9d4c73fd2bb3dffa2e3fe5de2524ce",
+  "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tasks": {
+    "validate": "passed",
+    "lint": "passed",
+    "compile": "passed",
+    "test": "passed",
+    "testDirect": "passed",
+    "testDocker": "passed",
+    "testDataloader": "passed",
+    "buildArtifacts": "passed"
+  },
+  "tests": {
+      "unit": { "expected": 0, "ran": 0, "status": "skipped" },
+      "integration": { "expected": 0, "ran": 0, "status": "skipped" },
+      "e2e": { "expected": 0, "ran": 0, "status": "skipped" }
+  }
+}
