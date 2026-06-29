@@ -1,7 +1,7 @@
 {
-  "version": "3.0.0-uat.0",
-  "branch": "feat/scf-vendor-migration",
-  "sourceHash": "71c75c635b4eaca3693ed4df1c77c7e49afd5e762ed193183b7b86a0e27a3360",
+  "version": "3.0.0-dev.0",
+  "branch": "dev",
+  "sourceHash": "05f9ca47bc8ab600ccfe733895d81b8a9aee576fdc1052b5364a10f3976c93cc",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
