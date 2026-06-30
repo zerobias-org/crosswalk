@@ -8,5 +8,5 @@ externalId: "SP 800-218 - Secure Software Development Framework (SSDF) Version
   1.1: to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
 code: nist_800_218_v1_1_complianceforge_scf_2025_2_1_crosswalk
 status: active
-sourceStandard: nist.800218.v1_1.framework
+sourceStandard: nist.800_218.v1_1.framework
 targetStandard: scf.scf.2025_2_1.framework

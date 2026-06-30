@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_nist_800-171_rev2",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Crosswalk for nist_800-171_rev2_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "@zerobias-org/framework-scf-scf-2025.2.1": "latest",
-    "@auditlogic/framework-nist-800171-rev2": "latest"
+    "@zerobias-org/framework-nist-800-171-rev2": "latest"
   }
 }
