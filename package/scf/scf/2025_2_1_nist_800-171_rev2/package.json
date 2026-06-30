@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "@zerobias-org/framework-scf-scf-2025.2.1": "latest",
-    "@zerobias-org/framework-nist-800-171-rev2": "latest"
+    "@auditlogic/framework-nist-800171-rev2": "latest"
   }
 }
