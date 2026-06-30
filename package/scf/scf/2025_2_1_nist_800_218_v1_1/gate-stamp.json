@@ -1,7 +1,7 @@
 {
-  "version": "3.0.0-dev.0",
-  "branch": "dev",
-  "sourceHash": "79df819a8d6f7581ca9eb4088400135f6c0b554968372b9044b560c6c33955ec",
+  "version": "3.0.1-uat.0",
+  "branch": "fix/scf-crosswalk-nist-code-align",
+  "sourceHash": "84227b053d4d61f47c9b5197c0adaf38c0b641051df213ad4f60c3a8599075e2",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
