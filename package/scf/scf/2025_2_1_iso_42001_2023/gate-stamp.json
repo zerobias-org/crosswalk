@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0-dev.0",
-  "branch": "dev",
+  "version": "3.0.1-uat.0",
+  "branch": "fix/scf-crosswalk-modea-dep-align",
   "sourceHash": "ee5adef6a7644b834a087c22fc35825c4138d5e429c20b74748afdcce9e6f2be",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
