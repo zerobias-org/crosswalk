@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0-uat.0",
-  "branch": "feat/scf-vendor-migration",
+  "version": "3.0.1-uat.0",
+  "branch": "fix/scf-load-9-missed-crosswalks",
   "sourceHash": "87707f06629da639762ce73b9a92f10c60a54e4d6c036370da65ae85960164b3",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
