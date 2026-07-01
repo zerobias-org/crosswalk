@@ -1,0 +1,21 @@
+{
+  "version": "3.0.1-uat.0",
+  "branch": "fix/scf-load-9-missed-crosswalks",
+  "sourceHash": "1ad020ac4377a4229a4a2c25a2c9d27e362c3a4a86056eb99e61f472b06b254f",
+  "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tasks": {
+    "validate": "passed",
+    "lint": "passed",
+    "compile": "passed",
+    "test": "passed",
+    "testDirect": "passed",
+    "testDocker": "passed",
+    "testDataloader": "passed",
+    "buildArtifacts": "passed"
+  },
+  "tests": {
+      "unit": { "expected": 0, "ran": 0, "status": "skipped" },
+      "integration": { "expected": 0, "ran": 0, "status": "skipped" },
+      "e2e": { "expected": 0, "ran": 0, "status": "skipped" }
+  }
+}

@@ -1,0 +1,11 @@
+id: 59e41acf-fbb5-4d6b-a394-d1a43f7f8b65
+name: Digital Personal Data Protection Act, 2023 to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Digital Personal Data Protection Act, 2023
+  to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Digital Personal Data Protection Act, 2023 to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: in_dpdpa_2023_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: in.dpdpa.2023.framework
+targetStandard: scf.scf.2025_2_1.framework

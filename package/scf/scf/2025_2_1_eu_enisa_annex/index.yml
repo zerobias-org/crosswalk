@@ -1,0 +1,9 @@
+id: fc97b5b2-4d0a-428d-8228-cb4a50e7e59a
+name: ENISA NIS2 Annex to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from ENISA NIS2 Annex to the Secure Controls
+  Framework (SCF) 2025.2.1 framework
+externalId: ENISA NIS2 Annex to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: eu_enisa_annex_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: eu.enisa.annex.framework
+targetStandard: scf.scf.2025_2_1.framework

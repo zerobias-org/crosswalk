@@ -1,0 +1,11 @@
+id: 6d4dd98d-898f-4bb2-a19c-3375fdf497f2
+name: Information Protection Act to Secure Controls Framework (SCF) 2025.2.1
+  Crosswalk
+description: Crosswalk mappings from Information Protection Act to the Secure
+  Controls Framework (SCF) 2025.2.1 framework
+externalId: Information Protection Act to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: us_tn_ipa_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: us_tn.ipa.v1.framework
+targetStandard: scf.scf.2025_2_1.framework

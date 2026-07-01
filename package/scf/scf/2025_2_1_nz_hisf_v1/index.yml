@@ -1,0 +1,11 @@
+id: 4d0044d4-7a38-4b62-9ba7-af7e570acffe
+name: NZ Health Information Security Framework to Secure Controls Framework
+  (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from NZ Health Information Security Framework to
+  the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: NZ Health Information Security Framework to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+code: nz_hisf_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: nz.hisf.v1.framework
+targetStandard: scf.scf.2025_2_1.framework
