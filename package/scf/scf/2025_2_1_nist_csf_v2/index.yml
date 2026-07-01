@@ -1,0 +1,11 @@
+id: 49a222bd-10ea-4737-8dfb-79f179f3138f
+name: Cybersecurity Framework (CSF) 2.0 to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+description: Crosswalk mappings from Cybersecurity Framework (CSF) 2.0 to the
+  Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: Cybersecurity Framework (CSF) 2.0 to Secure Controls Framework (SCF)
+  2025.2.1 Crosswalk
+code: nist_csf_v2_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: nist.csf.v2.framework
+targetStandard: scf.scf.2025_2_1.framework

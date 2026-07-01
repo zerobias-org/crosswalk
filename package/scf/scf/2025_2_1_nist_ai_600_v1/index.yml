@@ -1,0 +1,12 @@
+id: dc663233-288e-4d71-8a77-528df6a5af2c
+name: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile) to
+  Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from NIST AI 600-1 (AI RMF Generative Artificial
+  Intelligence Profile) to the Secure Controls Framework (SCF) 2025.2.1
+  framework
+externalId: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile) to
+  Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: nist_ai_600_v1_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: nist.ai_600.v1.framework
+targetStandard: scf.scf.2025_2_1.framework
