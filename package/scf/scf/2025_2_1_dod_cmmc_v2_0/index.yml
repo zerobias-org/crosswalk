@@ -1,0 +1,8 @@
+id: 40de4abd-697c-49d0-b933-fa6a3532a914
+name: "DoD CMMC v2.0 (Level 2): to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+description: "Crosswalk mappings from DoD CMMC v2.0 (Level 2): to the Secure Controls Framework (SCF) 2025.2.1 framework"
+externalId: "DoD CMMC v2.0 (Level 2): to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+code: dod_cmmc_v2_0_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: dod.cmmc.v2_0.framework
+targetStandard: scf.scf.2025_2_1.framework
