@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_aicpa_soc2_2022",
+  "version": "1.0.0",
+  "description": "Crosswalk for aicpa_soc2_2022_complianceforge_scf_2025_2_1_crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": { "type": "git", "url": "git@github.com:zerobias-org/crosswalk.git", "directory": "package/scf/scf/2025_2_1_aicpa_soc2_2022/" },
+  "zerobias": { "package": "scf.scf.2025_2_1_aicpa_soc2_2022.crosswalk", "import-artifact": "crosswalk", "dataloader-version": "1.0.0" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "files": ["index.yml","elements.yml","versions/**"],
+  "dependencies": { "@zerobias-org/framework-scf-scf-2025.2.1": "latest", "@auditlogic/framework-aicpa-soc2-2022": "latest" }
+}

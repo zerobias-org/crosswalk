@@ -1,0 +1,8 @@
+id: ba8b599b-9d5e-4b0d-89bc-3a8e602aa6f8
+name: "AICPA SOC 2 2022 (TSC): to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+description: "Crosswalk mappings from AICPA SOC 2 2022 (TSC): to the Secure Controls Framework (SCF) 2025.2.1 framework"
+externalId: "AICPA SOC 2 2022 (TSC): to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+code: aicpa_soc2_2022_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: aicpa.soc2.2022.framework
+targetStandard: scf.scf.2025_2_1.framework
