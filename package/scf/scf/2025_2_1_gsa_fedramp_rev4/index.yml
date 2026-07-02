@@ -1,0 +1,8 @@
+id: b04a60fa-a9dd-4f6e-8fe6-54436648654a
+name: "US FedRAMP R4: to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+description: "Crosswalk mappings from US FedRAMP R4: to the Secure Controls Framework (SCF) 2025.2.1 framework"
+externalId: "US FedRAMP R4: to Secure Controls Framework (SCF) 2025.2.1 Crosswalk"
+code: gsa_fedramp_rev4_complianceforge_scf_2025_2_1_crosswalk
+status: active
+sourceStandard: gsa.fedramp.rev4.framework
+targetStandard: scf.scf.2025_2_1.framework
