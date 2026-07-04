@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
   "branch": "feat/scf-soc2-2017-crosswalk",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "sourceHash": "9dda934790c2c42267c753cb4512a3351538833db2a46875fa6325fd16f83252",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
