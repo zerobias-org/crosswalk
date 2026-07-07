@@ -26,8 +26,5 @@
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-conventional": "^20.3.1",
     "tsx": "^4.21.0"
-  },
-  "dependencies": {
-    "@zerobias-org/framework-cncf-sscp-v1": "^1.0.3"
   }
 }
