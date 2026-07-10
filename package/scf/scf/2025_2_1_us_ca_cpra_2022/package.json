@@ -1,0 +1,34 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_ca_cpra_2022",
+  "version": "3.0.0",
+  "description": "Crosswalk mappings from Privacy Rights Act (CPRA) - November 2022 version to the Secure Controls Framework (SCF) 2025.2.1 framework",
+  "author": "team@zerobias.com",
+  "license": "CC-BY-ND-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2025_2_1_us_ca_cpra_2022/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "dependencies": {
+    "@zerobias-org/framework-scf-scf-2025.2.1": "latest",
+    "@zerobias-org/framework-us_ca-cpra-2022": "latest"
+  },
+  "zerobias": {
+    "package": "scf.scf.2025_2_1_us_ca_cpra_2022.crosswalk",
+    "import-artifact": "crosswalk",
+    "dataloader-version": "1.0.0",
+    "migrates-from": "@auditlogic/crosswalk-complianceforge-scf-2025_2_1_us_ca_cpra_2022"
+  },
+  "type": "module",
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
+  }
+}
