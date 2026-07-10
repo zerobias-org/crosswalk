@@ -2,6 +2,10 @@
 
 ZeroBias crosswalk artifacts — element-to-element mappings between two compliance frameworks. Each `package/<vendor>/<suite>/<versionPair>/` directory is one publishable crosswalk (e.g. `aiuc/aiuc_1/v1_csa_aicm_v1` maps AIUC-1 v1 ✕ CSA AICM v1).
 
+## Content licensing & attribution
+
+Mapping data reproduced from third-party sources is used under those sources' published licenses — see **[NOTICE.md](NOTICE.md)** for the required attributions. In particular, the SCF crosswalks (`package/scf/scf/*`) reproduce [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) STRM mapping data: redistribute verbatim with attribution; never distribute modified mapping data. The `"license"` field in each `package.json` covers packaging/scaffolding only, not the mapped content.
+
 ## Authentication
 
 Set `ZB_TOKEN` in your environment to authenticate with the npm registry. Get one from [ZeroBias](https://app.zerobias.com).
