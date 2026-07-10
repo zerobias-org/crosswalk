@@ -1,0 +1,371 @@
+elements:
+  - id: dcdc8e48-d18b-4de8-8d52-42911ae9caea
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: GOV-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8a02d4ac-761a-4788-a1a7-d0aebf5c036c
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: GOV-16.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 61e2a687-b1dd-446f-8f3d-db3f9b26b81f
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: GOV-16.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0b10603c-5ea8-4315-9dd7-9a1810a8f6b8
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: RSK-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 6690d4ec-2be4-4b5e-91bf-52df7007fe3b
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: RSK-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef25a4bc-9aaa-446c-9cd8-6dae77ea2c61
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: RSK-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0f0df21e-d1e5-4d23-b571-3e0e030aa776
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: RSK-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 42678be7-3f5f-4567-8c71-dd87625119e3
+    sourceElement: 17 CFR 229.105(a)
+    targetElement: RSK-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: acd6b182-cda3-47d5-9241-f502e7ef1d4b
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: GOV-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0ddb529b-3251-4417-a15c-fffc11e85f6d
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: GOV-16.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f4335c34-8ad2-4f83-8434-4436fee7ff7f
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: GOV-16.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 75117f9b-fe31-44d7-930d-ec35c03d2d84
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: GOV-17
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 00fd9802-2f2c-4594-a4e9-fdc7fc096d3a
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: RSK-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 64c4c7b8-d747-4ca1-99a0-f4131e6bb549
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: RSK-03.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fd57d7d1-9794-4fc7-bc13-6f52308fcf8d
+    sourceElement: 17 CFR 229.105(b)
+    targetElement: RSK-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 226bb2b6-c504-415d-963d-c8c35c0eede9
+    sourceElement: 17 CFR 229.106(a)
+    targetElement: GOV-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a3c2d207-cc19-467a-b582-aa50c3df20be
+    sourceElement: 17 CFR 229.106(a)
+    targetElement: GOV-16.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 702bc0c2-fa93-417a-937e-7563bccc6c77
+    sourceElement: 17 CFR 229.106(a)
+    targetElement: RSK-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 681e6069-9b04-4de3-aec0-63cf3236b6d4
+    sourceElement: 17 CFR 229.106(a)
+    targetElement: THR-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ad076a40-f096-4e6b-b7c4-f970e2624212
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 0b51b6c0-a7ec-43cd-a8bf-d1d1cc02d805
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7346767f-fba4-4253-bf68-cdef050795a5
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-01.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4d62813e-5968-4807-9ce1-3a1d6fb37285
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aec690ff-951b-4ed1-a018-634be6cbcfd7
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-01.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 45f71523-b18a-4333-be40-b9f4bf00fd62
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-02.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b4df0d79-c3df-4b7d-a9e4-4af65b7d299b
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 787fd154-1d22-4cab-ad1e-db9e7ba35ea5
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e0c693c1-e105-4025-96ee-fd010fdf72a3
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2d8ca86-d34a-40a4-9bc4-243c4ec2ce23
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1f2b0d9b-05e3-4f47-85bd-f66bd6776d48
+    sourceElement: 17 CFR 229.106(b)(1)
+    targetElement: RSK-06.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8ffd9f41-42cc-422c-9bc6-60c1c3a5cf80
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: GOV-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 28f4f2c0-de9a-4856-a81b-89d74c77d74c
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: ea7fe624-0a82-4a5f-a5f3-3338be546ceb
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 16d18b96-38c0-4cd2-8831-e4b1e7944534
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-01.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a61b0434-6ae8-441c-8786-1cb78bc36846
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-01.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6c13fc98-61ca-47a6-a8e4-8373d7748ca3
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-01.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e23a9bff-8107-459d-b315-f3c215e5b650
+    sourceElement: 17 CFR 229.106(b)(1)(i)
+    targetElement: RSK-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6f9dedc0-ff9b-45bd-b68a-7772457aea1f
+    sourceElement: 17 CFR 229.106(b)(1)(ii)
+    targetElement: GOV-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0cbd33ab-d57d-49a0-b063-07fb5aa0f41e
+    sourceElement: 17 CFR 229.106(b)(1)(ii)
+    targetElement: HRS-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b899308-91f0-432b-b18e-7c0921a0c1f3
+    sourceElement: 17 CFR 229.106(b)(1)(ii)
+    targetElement: TPM-05.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1e7a3f89-af6d-4cc4-8050-8ee3d10fec64
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: RSK-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 94a6921f-eae9-401f-a524-c70bd7feea22
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: GOV-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2e049f95-0c01-4bf6-a477-d2050714a130
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: GOV-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7ec96996-c526-493f-945c-a5ed96aad812
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: RSK-09.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e48bd90a-49f8-4a87-8ae7-74ad17b4606d
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: TPM-01
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 6880a4c0-eed6-49e9-a447-8ace5c4b60ba
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: TPM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 000375a0-5e75-4960-81fc-f55ac1a8743c
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: TPM-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6462f94a-6cf9-4905-9f85-4cea63e7e6b5
+    sourceElement: 17 CFR 229.106(b)(1)(iii)
+    targetElement: TPM-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f8aba0b4-aedb-44b1-bcd6-6f80b0b467da
+    sourceElement: 17 CFR 229.106(b)(2)
+    targetElement: GOV-16
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 7aa5d89c-54ea-4c56-86e0-455c8fa95481
+    sourceElement: 17 CFR 229.106(b)(2)
+    targetElement: GOV-16.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: be4f19e2-fa1e-4877-836c-35af31873d38
+    sourceElement: 17 CFR 229.106(b)(2)
+    targetElement: GOV-16.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 75f2ceee-989f-46e9-bf74-c237c906e4d9
+    sourceElement: 17 CFR 229.106(c)(1)
+    targetElement: GOV-01.1
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: f780c625-fce0-49f5-a4ec-6d225948c8a6
+    sourceElement: 17 CFR 229.106(c)(1)
+    targetElement: GOV-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1a7087fc-c2ba-4c66-ad6e-5d6cdfbb35b0
+    sourceElement: 17 CFR 229.106(c)(1)
+    targetElement: GOV-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3db426da-9709-4278-9a25-6578aad230b0
+    sourceElement: 17 CFR 229.106(c)(1)
+    targetElement: GOV-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e32cac3f-fe75-4bcc-af19-6c395329f9c2
+    sourceElement: 17 CFR 229.106(c)(1)
+    targetElement: GOV-04.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5d8d960c-2790-4257-82ff-eb97f6a8979c
+    sourceElement: 17 CFR 229.106(c)(2)
+    targetElement: GOV-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2ba345c-cabd-42f5-b5a6-81df8b3ae6f7
+    sourceElement: 17 CFR 229.106(c)(2)
+    targetElement: GOV-16
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 044afd3c-aa0e-4c43-a36f-d0f5fcbf38c3
+    sourceElement: 17 CFR 229.106(c)(2)(i)
+    targetElement: GOV-01.1
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: ed6df530-aab1-481d-8c54-759d23a20a88
+    sourceElement: 17 CFR 229.106(c)(2)(i)
+    targetElement: GOV-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 54dd4342-82a6-4fdc-8517-5c46d84687f4
+    sourceElement: 17 CFR 229.106(c)(2)(ii)
+    targetElement: GOV-01.2
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: c51debc8-414c-4617-b295-42424aa3e6cd
+    sourceElement: 17 CFR 229.106(c)(2)(iii)
+    targetElement: GOV-01.1
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: 34ebd540-96ce-4050-917e-a5a78db9efec
+    sourceElement: 17 CFR 229.106(c)(2)(iii)
+    targetElement: GOV-01.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3c6d70fb-55c2-4aaa-8f76-9111c0f175c9
+    sourceElement: 17 CFR 229.106(d)
+    targetElement: GOV-17
+    relationshipType: subset_of
+    strengthOfRelationship: 8
+  - id: a0ac6cab-dcbf-4a3c-ac8f-6f92dd925289
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: GOV-01.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8faa9b9e-5425-465b-a705-6a678269e37f
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: GOV-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5b7c91d8-582e-4adf-903f-58c3cc81a8cb
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: GOV-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: abb28100-e115-4e53-bdab-ae54146807f0
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-01
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 37965e6b-c5bf-40e4-8288-6b134cb70264
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4b5b2a21-6197-4d03-9256-8ff76f37a1e9
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-02.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0b592b20-098f-4170-84fe-54c2c18f7a4c
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ad8beada-bc95-4491-a8b0-190fa1386db5
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a2c0c074-848c-4ff6-9c57-19623bc08427
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: IRO-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7e98433f-ed7b-4700-8931-e10dafab281c
+    sourceElement: Form 8-K Item 1.05(a)
+    targetElement: GOV-04
+    relationshipType: intersects
+    strengthOfRelationship: 5

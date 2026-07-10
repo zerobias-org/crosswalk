@@ -1,0 +1,11 @@
+id: 70625fff-c647-4e83-8949-a81fc213c415
+name: CISA Cross-Sector Cybersecurity Performance Goals (CPG) to Secure Controls
+  Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from CISA Cross-Sector Cybersecurity Performance
+  Goals (CPG) to the Secure Controls Framework (SCF) 2025.2.1 framework
+externalId: CISA Cross-Sector Cybersecurity Performance Goals (CPG) to Secure
+  Controls Framework (SCF) 2025.2.1 Crosswalk
+code: us_cisa_2022_scf_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.cisa.2022.framework
+targetStandard: scf.scf.2025_2_1.framework
