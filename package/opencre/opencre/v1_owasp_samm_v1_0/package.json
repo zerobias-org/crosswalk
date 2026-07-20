@@ -1,9 +1,9 @@
 {
   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_samm_v1_0",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "OpenCRE v1 OWASP SAMM v1.0 Crosswalk",
   "author": "team@zerobias.com",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "type": "module",
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "package": "opencre.opencre.v1_owasp_samm_v1_0.crosswalk"
   },
   "dependencies": {
-    "@auditlogic/framework-owasp-samm-v1.0": "latest",
+    "@zerobias-org/framework-owasp-samm-v1.0": "latest",
     "@zerobias-org/framework-opencre-opencre-v1": "latest",
     "@zerobias-org/suite-opencre-opencre": "latest"
   }
