@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0-uat.0",
-  "branch": "chore/bootstrap-gradle-zbb",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "2.0.1-uat.0",
+  "branch": "fix/nist-crosswalks-consolidate-public",
+  "sourceHash": "59cbe88a3d9c8bfd3110db19427451282be36da6bd7d5183f26d2cf464b72b68",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
