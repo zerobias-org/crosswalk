@@ -254,7 +254,7 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
     "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org/"
   },
   "files": [
     "index.yml",
@@ -311,10 +311,9 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
 //pkg.zerobias.org/:_authToken=${ZB_TOKEN}
 ```
 
-**If package depends on @auditlogic packages, also add:**
+**If package depends on @auditlogic packages, also add the scope (same registry):**
 ```
-@auditlogic:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
+@auditlogic:registry=https://pkg.zerobias.org/
 @zerobias-org:registry=https://pkg.zerobias.org/
 //pkg.zerobias.org/:_authToken=${ZB_TOKEN}
 ```
