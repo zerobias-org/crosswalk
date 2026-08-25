@@ -1481,12 +1481,12 @@ elements:
     strengthOfRelationship: 5
   - id: d3b38c0b-8d4e-47d4-ba11-b7bda2f0d674
     targetElement: 457-165
-    sourceElement: sc-23_1
+    sourceElement: sc-23_1_
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: 45a344f3-d781-42fb-94f7-0b22bf10a8f3
     targetElement: 002-630
-    sourceElement: sc-23_3
+    sourceElement: sc-23_3_
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: de386606-a4b5-41a8-aa17-7de7bc2c860b

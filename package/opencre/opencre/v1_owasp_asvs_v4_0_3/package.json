@@ -1,9 +1,9 @@
 {
   "name": "@zerobias-org/crosswalk-opencre-opencre-v1_owasp_asvs_v4_0_3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "OpenCRE v1 OWASP ASVS v4.0.3 Crosswalk",
   "author": "team@zerobias.com",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "type": "module",
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "package": "opencre.opencre.v1_owasp_asvs_v4_0_3.crosswalk"
   },
   "dependencies": {
-    "@auditlogic/framework-owasp-asvs-v4.0.3": "latest",
+    "@zerobias-org/framework-owasp-asvs-v4.0.3": "latest",
     "@zerobias-org/framework-opencre-opencre-v1": "latest",
     "@zerobias-org/suite-opencre-opencre": "latest"
   }

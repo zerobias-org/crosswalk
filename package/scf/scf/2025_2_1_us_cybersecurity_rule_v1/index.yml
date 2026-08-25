@@ -1,0 +1,15 @@
+id: 3b8f4421-9990-45e5-b2b9-f9e86feacf72
+name: Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy,
+  Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and
+  249 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+description: Crosswalk mappings from Cybersecurity Final Rule (Cybersecurity
+  Risk Management, Strategy, Governance, and Incident Disclosure) - 17 CFR Parts
+  229, 232, 239, 240, and 249 to the Secure Controls Framework (SCF) 2025.2.1
+  framework
+externalId: Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy,
+  Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and
+  249 to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
+code: us_cybersecurity_rule_v1_scf_scf_2025_2_1_crosswalk
+status: published
+sourceStandard: us.cybersecurity_rule.v1.framework
+targetStandard: scf.scf.2025_2_1.framework
