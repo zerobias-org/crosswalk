@@ -1,4 +1,4 @@
-id: 3d5fafed-9586-4fa0-b406-f4f94a04d1f6
+id: 245dfbf6-4b3e-4a42-909b-bd2e68aad7b9
 name: NIST SP 800-53 R5 - Security and Privacy Controls for Information Systems
   and Organizations to Secure Controls Framework (SCF) 2025.2.1 Crosswalk
 description: Crosswalk mappings from NIST SP 800-53 R5 - Security and Privacy
@@ -7,7 +7,7 @@ description: Crosswalk mappings from NIST SP 800-53 R5 - Security and Privacy
 externalId: NIST SP 800-53 R5 - Security and Privacy Controls for Information
   Systems and Organizations to Secure Controls Framework (SCF) 2025.2.1
   Crosswalk
-code: nist_800-53_v5_complianceforge_scf_2025_2_1_crosswalk
+code: scf_scf_2025_2_1_nist_80053_rev5
 status: active
 sourceStandard: nist.80053.rev5.framework
 targetStandard: scf.scf.2025_2_1.framework

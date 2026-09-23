@@ -1,7 +1,7 @@
 {
-  "version": "3.1.0-uat.0",
+  "version": "4.0.0-uat.0",
   "branch": "fix/nist-800-53-v5-enhancement-codes",
-  "sourceHash": "cb047327f2af02eee4c4891a2eacc50a5ab73d3377deae0f546174a8f63e4222",
+  "sourceHash": "24b989eec9456dabc590552246ef27d42ac2a52a529dae366adc30a448932f76",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
