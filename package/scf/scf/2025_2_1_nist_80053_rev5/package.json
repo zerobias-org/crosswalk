@@ -1,0 +1,35 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_nist_80053_rev5",
+  "version": "4.0.0",
+  "description": "Crosswalk for nist_800-53_v5_complianceforge_scf_2025_2_1_crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2025_2_1_nist_80053_rev5/"
+  },
+  "zerobias": {
+    "package": "scf.scf.2025_2_1_nist_80053_rev5.crosswalk",
+    "import-artifact": "crosswalk",
+    "dataloader-version": "1.0.0"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**",
+    "baselines/**",
+    "elements/**"
+  ],
+  "dependencies": {
+    "@zerobias-org/framework-nist-80053-rev5": "latest",
+    "@zerobias-org/framework-scf-scf-2025.2.1": "latest"
+  }
+}
