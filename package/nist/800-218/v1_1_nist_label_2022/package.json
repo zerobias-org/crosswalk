@@ -1,7 +1,7 @@
 {
   "name": "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022",
-  "version": "2.0.1",
-  "description": "NIST 800-218 v1.1 NIST Label 2022 Crosswalk",
+  "version": "2.1.0",
+  "description": "Deprecated \u2014 superseded by @zerobias-org/crosswalk-nist-800_218-v1_1_nist_label_2022",
   "author": "team@zerobias.com",
   "license": "ISC",
   "type": "module",
@@ -17,20 +17,13 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
-    "baselines/**",
-    "elements/**",
-    "versions/**"
+    "index.yml"
   ],
   "zerobias": {
-    "dataloader-version": "1.0.0",
+    "package": "nist.800218.v1_1_nist_label_2022.crosswalk",
     "import-artifact": "crosswalk",
-    "package": "nist.800218.v1_1_nist_label_2022.crosswalk"
+    "dataloader-version": "1.0.0",
+    "deprecated": true
   },
-  "dependencies": {
-    "@zerobias-org/framework-nist-800_218-v1_1": "latest",
-    "@zerobias-org/framework-nist-label-2022": "latest",
-    "@zerobias-org/suite-nist-800-218": "latest"
-  }
+  "dependencies": {}
 }
