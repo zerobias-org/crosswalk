@@ -18,9 +18,6 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "2.1.0",
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "2.1.0",
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "2.1.0",
     "@zerobias-org/crosswalk-nist-800_218-v1_1_cncf_sscp_v1": "3.0.0",
     "@zerobias-org/crosswalk-nist-800_218-v1_1_nist_ir8397_v1": "3.0.0",
     "@zerobias-org/crosswalk-nist-800_218-v1_1_nist_label_2022": "3.0.0",
