@@ -1,7 +1,7 @@
 {
-  "version": "2.1.0-uat.0",
-  "branch": "fix/ssdf-crosswalks-to-800_218-suite",
-  "sourceHash": "a281622c90aac9d76a1c0a39639baf390c1b17b59f9a6f57ec8a2c57f6c36f9f",
+  "version": "1.0.0-uat.0",
+  "branch": "feat/scf-2025-2026-version-crosswalk",
+  "sourceHash": "3750a570506b7b33a55897b455edc32956d6f465c176cb9d48f05c1f9523fc3d",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

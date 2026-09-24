@@ -1,0 +1,8 @@
+id: eb90d2ef-3f1c-4ac0-8999-7e9e35015e40
+name: Secure Controls Framework (SCF) 2025.2.1 to Secure Controls Framework (SCF) 2026.1.1 Crosswalk
+description: Crosswalk mappings from the Secure Controls Framework (SCF) 2025.2.1 framework to the Secure Controls Framework (SCF) 2026.1.1 framework
+externalId: Secure Controls Framework (SCF) 2025.2.1 to Secure Controls Framework (SCF) 2026.1.1 Crosswalk
+code: complianceforge_scf_2025_2_1_complianceforge_scf_2026_1_1_crosswalk
+status: active
+sourceStandard: scf.scf.2025_2_1.framework
+targetStandard: scf.scf.2026_1_1.framework
