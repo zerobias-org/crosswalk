@@ -1,0 +1,8 @@
+id: 9e289b4a-c2d0-4515-ab25-4220a4cb45cc
+name: NIST 800-218 v1.1 to CNCF SSCP v1
+description: This package maps controls from NIST 800-218 v1.1 to the CNCF Security Standards Compliance Profile (SSCP) v1.
+externalId: NIST SSDF to CNCF SSCP
+code: nist_800_218_v1_1_cncf_sscp_v1
+status: active
+targetStandard: nist.800_218.v1_1.framework
+sourceStandard: cncf.sscp.v1.framework

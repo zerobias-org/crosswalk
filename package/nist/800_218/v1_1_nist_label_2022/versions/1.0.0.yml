@@ -1,0 +1,15 @@
+id: ce1bb0be-8c93-4595-bf41-a2745c6b7dea
+name: NIST 800-218 v1.1 to NIST Label 2022
+description: This package maps controls from NIST 800-218 v1.1 to the NIST Label 2022 standard.
+status: published
+elements:
+  - 9a030e64-606a-4927-8e6e-2b2028c21c09
+  - 1c7239b7-aae3-468e-91a4-3bebc549be55
+  - f5857268-1aa4-4948-af08-753bcb6e1846
+  - ec92e4bf-6e6c-41b2-8a88-4a49214b38b1
+  - 618c7628-ef50-432c-ac0a-5a494cc863cb
+  - d7f07f69-e2ee-4650-9cee-1db4c0d20e0e
+  - 9dccd637-4768-43f6-884a-2503bba71e29
+  - c4bbf6f3-49f6-4077-9eb8-7cf32a18478c
+  - a55c7a71-ebdb-47a0-b256-6f754cb57c57
+  - 104f99a1-8fe9-442b-a9a3-578e694a19d6
