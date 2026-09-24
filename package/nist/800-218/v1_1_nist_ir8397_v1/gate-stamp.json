@@ -1,0 +1,21 @@
+{
+  "version": "2.1.0-uat.0",
+  "branch": "fix/ssdf-crosswalks-to-800_218-suite",
+  "sourceHash": "c608115be2a5044e1e7abc5410a37080c12d1fbb61d9b0b8d3da97dc676c2ab5",
+  "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tasks": {
+    "validate": "passed",
+    "lint": "passed",
+    "compile": "passed",
+    "test": "passed",
+    "testDirect": "passed",
+    "testDocker": "passed",
+    "testDataloader": "passed",
+    "buildArtifacts": "passed"
+  },
+  "tests": {
+      "unit": { "expected": 0, "ran": 0, "status": "skipped" },
+      "integration": { "expected": 0, "ran": 0, "status": "skipped" },
+      "e2e": { "expected": 0, "ran": 0, "status": "skipped" }
+  }
+}
