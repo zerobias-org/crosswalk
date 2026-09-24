@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-bundle",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "All installable crosswalks",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -18,9 +18,12 @@
     "dataloader-version": "0.5.4"
   },
   "dependencies": {
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "2.0.1",
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "2.0.1",
-    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "2.0.1",
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_cncf_sscp_v1": "2.1.0",
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_ir8397_v1": "2.1.0",
+    "@zerobias-org/crosswalk-nist-800-218-v1_1_nist_label_2022": "2.1.0",
+    "@zerobias-org/crosswalk-nist-800_218-v1_1_cncf_sscp_v1": "3.0.0",
+    "@zerobias-org/crosswalk-nist-800_218-v1_1_nist_ir8397_v1": "3.0.0",
+    "@zerobias-org/crosswalk-nist-800_218-v1_1_nist_label_2022": "3.0.0",
     "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security_owasp_llmtop10_v2025": "1.0.0",
     "@zerobias-org/crosswalk-opencre-opencre-v1_nist_800218_v1_1": "2.0.1",
     "@zerobias-org/crosswalk-opencre-opencre-v1_nist_80053_rev5": "2.1.0",
@@ -64,6 +67,7 @@
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_nz_hisf_suppliers": "3.0.0",
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_nz_hisf_v1": "3.0.0",
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_sa_pdpl_v1": "3.0.0",
+    "@zerobias-org/crosswalk-scf-scf-2025_2_1_scf_2026_1_1": "1.0.0",
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_ca_cpra_2022": "3.0.0",
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_cisa_2022": "3.0.0",
     "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_cjis_v5_9_3": "3.0.0",
