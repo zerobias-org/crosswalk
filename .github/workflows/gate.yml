@@ -1,0 +1,239 @@
+name: Gate
+
+# Run `zbb gate` in CI for every package a PR touches, and push the refreshed
+# gate-stamp.json back to the PR branch.
+#
+# Why this exists: the full gate (validate → lint → build → testDataloader)
+# can only produce a stamp locally — `zbb publish` fails fast in CI when the
+# committed stamp is stale ("run zbb gate locally and commit the stamp"), and
+# nothing else runs the gate on a PR. That leaves every package's validation
+# depending on a developer laptop holding a 30+ minute Postgres connection to
+# Neon, which large frameworks (800-53: 1,027 elements, ~40 min) routinely
+# lose to `read ECONNRESET`. A GitHub runner sits next to the database and
+# does not.
+#
+# Ported from zerobias-org/framework's gate.yml (keep the two in sync), itself
+# adapted from auditlogic/module's renovate-gate.yml, whose header notes it is
+# "a candidate for extraction into a devops reusable later" — that extraction
+# is the right long-term home for this; keep the two in sync until then.
+# Differences from that workflow: any PR branch (not just renovate/), no ECR
+# login (content packages build no images), and the stamp is pushed with
+# GITHUB_TOKEN, whose pushes deliberately do not retrigger this workflow.
+
+on:
+  pull_request:
+    paths: ['package/**', '.github/workflows/gate.yml']
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: PR number to gate-stamp (manual run)
+        required: true
+
+concurrency:
+  group: gate-${{ github.head_ref || inputs.pr }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: read
+  id-token: write
+
+env:
+  AWS_REGION: us-east-1
+  # Required by the gate's testDataloader step. When unset, NeonDataloaderTask
+  # skips cleanly and the stamp records a structural pass only — the log says
+  # which, and the gate-result job fails the check rather than let a
+  # dataloader-less stamp look like a full pass.
+  ZB_TOKEN: ${{ secrets.ZB_TOKEN }}
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      branch: ${{ steps.branch.outputs.branch }}
+      packages: ${{ steps.detect.outputs.packages }}
+      skip: ${{ steps.guard.outputs.skip }}
+    steps:
+      - name: Resolve PR branch (dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        id: resolve
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          branch=$(gh pr view "${{ inputs.pr }}" --repo "$GITHUB_REPOSITORY" --json headRefName -q .headRefName)
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Pin the branch every job checks out
+        id: branch
+        run: echo "branch=${{ steps.resolve.outputs.branch || github.head_ref }}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.branch.outputs.branch }}
+          fetch-depth: 0
+
+      - name: Loop guard — skip if HEAD is our own stamp commit
+        id: guard
+        run: |
+          if [ "$(git log -1 --pretty=%s)" = "chore: refresh gate-stamps [ci-gate]" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Stamps already current (HEAD is a stamp commit)"
+          fi
+
+      - name: Detect touched packages
+        if: steps.guard.outputs.skip != 'true'
+        id: detect
+        run: |
+          base=$(git merge-base origin/${{ github.base_ref || 'main' }} HEAD)
+          # package/<vendor>/<suite>/<versionPair>; update/ is the private STRM
+          # generator (package/scf/scf/update), not a package.
+          dirs=$(git diff --name-only "$base" HEAD -- 'package/**' \
+            | sed -E 's|^(package/[^/]+/[^/]+/[^/]+)/.*|\1|' | grep -v '/update$' | sort -u)
+          gradle_dirs=""
+          for d in $dirs; do
+            if [ -f "$d/build.gradle.kts" ]; then
+              gradle_dirs="$gradle_dirs $d"
+            else
+              echo "::warning::$d has no build.gradle.kts — cannot gate-stamp"
+            fi
+          done
+          gradle_dirs=$(echo "$gradle_dirs" | xargs)
+          if [ -z "$gradle_dirs" ]; then json='[]'; else json=$(printf '%s\n' $gradle_dirs | jq -R . | jq -sc .); fi
+          echo "packages=$json" >> "$GITHUB_OUTPUT"
+          echo "Touched gradle packages: ${gradle_dirs:-none}"
+
+  gate:
+    needs: detect
+    if: needs.detect.outputs.skip != 'true' && needs.detect.outputs.packages != '[]'
+    name: gate (${{ matrix.package }})
+    runs-on: ubuntu-latest
+    # A crosswalk gate also loads both frameworks it maps between; SCF 2026.3
+    # alone is 1,625 elements (~45 min in CI).
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        package: ${{ fromJSON(needs.detect.outputs.packages) }}
+    env:
+      # zbb lifecycle commands require a loaded slot. In CI the slot snapshots
+      # process.env at create time — every secret must be exported first.
+      ZB_SLOT: ci-gate-${{ github.run_id }}-${{ github.run_attempt }}-${{ strategy.job-index }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.detect.outputs.branch }}
+
+      - name: Authenticate to Vault
+        uses: hashicorp/vault-action@v3
+        with:
+          url: ${{ secrets.VAULT_ADDR }}
+          method: jwt
+          role: publishing-role
+          path: gh-actions
+          # Read-only npm token: nothing in this slot can publish.
+          secrets: |
+            operations-kv/data/ci/github readPackagesToken | NPM_TOKEN;
+            operations-kv/data/neon/content api-key         | NEON_API_KEY;
+            operations-kv/data/neon/content project-id      | NEON_PROJECT_ID
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Configure git user
+        run: |
+          git config --global user.email "ci-gate@zerobias.com"
+          git config --global user.name "ci-gate"
+
+      - name: Install global tools
+        run: |
+          cp .npmrc "$HOME/.npmrc"
+          npm i -g @zerobias-org/zbb
+          npm i -g @zerobias-com/platform-dataloader@prod --ignore-scripts
+          chmod +x gradlew
+
+      - name: Bootstrap zbb slot
+        run: |
+          zbb slot create $ZB_SLOT --ephemeral
+          zbb stack add .
+
+      - name: Gate ${{ matrix.package }}
+        run: |
+          cd "${{ matrix.package }}"
+          cp "$HOME/.npmrc" .npmrc
+          npm install --no-workspaces --no-audit --no-fund
+          zbb gate
+
+      - name: Stage refreshed stamp
+        if: success()
+        run: |
+          mkdir -p "/tmp/stamps/${{ matrix.package }}"
+          cp "${{ matrix.package }}/gate-stamp.json" "/tmp/stamps/${{ matrix.package }}/"
+
+      - name: Upload refreshed stamp
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gate-stamp-${{ strategy.job-index }}
+          path: /tmp/stamps
+          if-no-files-found: ignore
+          retention-days: 7
+
+  stamp:
+    needs: [detect, gate]
+    if: needs.detect.outputs.skip != 'true' && needs.detect.outputs.packages != '[]' && needs.gate.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.detect.outputs.branch }}
+          fetch-depth: 0
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/stamps
+          pattern: gate-stamp-*
+          merge-multiple: true
+
+      - name: Commit refreshed gate-stamps
+        run: |
+          git config --global user.email "ci-gate@zerobias.com"
+          git config --global user.name "ci-gate"
+          if [ -d /tmp/stamps/package ]; then
+            cp -r /tmp/stamps/package/. package/
+          fi
+          git add 'package/**/gate-stamp.json' 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Gate passed; stamps unchanged — nothing to push"
+          else
+            git commit -m "chore: refresh gate-stamps [ci-gate]"
+            git push
+          fi
+
+  # Stable single check for the PR to report against — the matrix job names
+  # vary run to run, and a skipped matrix renders as the literal
+  # `gate (${{ matrix.package }})`, which reads as if the gate never ran.
+  gate-result:
+    name: gate
+    needs: [detect, gate]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Aggregate package gate results
+        run: |
+          detect='${{ needs.detect.result }}'
+          gate='${{ needs.gate.result }}'
+          echo "detect=$detect gate=$gate"
+          if [ "$detect" != 'success' ]; then
+            echo "::error::detect failed — could not determine which packages to gate"; exit 1
+          fi
+          case "$gate" in
+            success|skipped) echo "All touched packages gated clean ($gate)" ;;
+            *) echo "::error::one or more packages failed to gate — see the per-package gate (...) jobs"; exit 1 ;;
+          esac
