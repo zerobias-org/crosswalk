@@ -1,0 +1,20 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-update",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates SCF STRM crosswalk packages from the SCF Council's Excel STRM bundle",
+  "type": "module",
+  "scripts": {
+    "update": "tsx index.ts"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "js-yaml": "^4.1.1",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}

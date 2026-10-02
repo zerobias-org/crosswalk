@@ -1,0 +1,8 @@
+id: 59654c28-2b2f-4371-8e4f-3c8a023a28d5
+name: 27001 - Information Security Management Systems (ISMS) - Requirements to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from 27001 - Information Security Management Systems (ISMS) - Requirements to the Secure Controls Framework (SCF) 2026.3 framework
+externalId: 27001 - Information Security Management Systems (ISMS) - Requirements to Secure Controls Framework (SCF) 2026.3 Crosswalk
+code: iso_27001_2022_scf_scf_2026_3_crosswalk
+status: active
+sourceStandard: iso.27001.2022.framework
+targetStandard: scf.scf.2026_3.framework

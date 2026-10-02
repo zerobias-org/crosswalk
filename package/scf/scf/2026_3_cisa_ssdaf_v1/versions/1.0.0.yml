@@ -1,0 +1,59 @@
+id: f8dba251-7ef1-4453-9ab3-aee92cddc22e
+name: CISA Secure Software Development Attestation Form (SSDAF) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from CISA Secure Software Development Attestation Form (SSDAF) to the Secure Controls Framework (SCF) 2026.3 framework
+status: active
+elements:
+  - fd3b67d4-12d6-4c7e-b451-38b34c6b6519
+  - 2997718e-57c6-4868-ae4c-57ca0d148425
+  - 0173ffe1-58a1-4c19-8e59-0e9e821fe11e
+  - 0e31a10c-5482-4794-ac3c-51f05bf192a8
+  - 152ae5eb-1e0d-44a5-8ec0-9f40eb53ef02
+  - b2c380b8-cdc3-49a3-bd6e-eec0c0da96d7
+  - bce4b5a0-f54d-48c7-8eaa-e039f6faf7c1
+  - 0e26a943-fe5a-4be5-a07b-9d5e2e7116b5
+  - 01d3e266-c8c3-413a-b23e-43175833f2e6
+  - b89653c8-13b5-4676-b566-e3a3ad1e04e9
+  - 02822c7c-7efe-46a7-ab06-e4b4908a42a0
+  - 1b018d8a-e7ca-4fe7-b8bd-5534f6e243e3
+  - b5b2eaa4-db75-479e-b6ed-5b1d2802f636
+  - 1d046638-9c75-4ead-8972-6bffde5acf54
+  - e722b284-ed1f-4715-b244-da404241e6a1
+  - ece49c82-ba97-40b5-876e-cc9eadd4b6cf
+  - 1b8a72b2-107e-4f2d-a496-085ae2fd73b8
+  - 446bc83e-b1d9-4c00-9547-328f0821c53c
+  - 331e8265-3fb8-4af5-bf13-f8303c8010b6
+  - 83574d5c-b576-4044-ab0c-25e2cdcb250d
+  - b30f95a1-35ea-45b7-a3f2-8e90b2d4a6e5
+  - 2cfcbf69-302d-4b00-b683-7547a92a2e17
+  - a9c7bea8-ac1b-40f1-be95-2e6187bb5662
+  - 9ca8e1bb-c6d7-4e08-9e0f-07a034ca8fad
+  - 200c53fa-b7a3-4c1c-9e4e-93ccc43d4286
+  - a91cb44b-0c76-43e0-aa44-5134f20eac1f
+  - c04d53b7-9b81-48ab-8754-7165f516b202
+  - 234ba4f6-4208-49c3-85fb-4d6c7cd20ce5
+  - 476a0f7a-120c-4349-bf87-ff7243299dad
+  - 4bbcc167-39a0-408c-924b-a78c77c031fa
+  - f27b9737-9f54-4ae1-b7f5-f90a65766589
+  - da6aa487-ef84-4bce-82c2-a8e47ed6cbea
+  - 0f0b7dc5-ee82-496a-87a5-d19d402d8a9d
+  - 00154327-5bfc-4c2a-a291-6bad6c003438
+  - be6a11f7-541d-46c1-8b90-3c28ca793256
+  - 32274607-d48d-44f4-bc74-14f4667402bc
+  - 5a49edca-8535-460b-9df7-1c99d82eedde
+  - 575b3fdd-3837-4299-aea1-db61633c76e8
+  - d35643af-e599-4519-9829-7208f97da249
+  - 0c5c3559-d438-4cc0-913a-7e571eae2e58
+  - dfffa4d2-0082-42ad-bf1f-9fb3b436f0be
+  - 205c4a52-e04f-4023-8a95-42a2f68e4457
+  - 2587a49b-7879-4439-b813-c1946656d24e
+  - 9bd2968f-5154-4e4a-ac5d-680def03dddc
+  - e7bcc080-1aad-44d8-bab5-3be4002846e7
+  - 21b00a30-a888-4c75-bbf7-eb9bd2e3d76b
+  - 1a5f37ed-a404-4ced-9c98-1a111785e545
+  - 3d475e95-1797-4348-8bb5-ecd8a6341cbc
+  - df4be59f-5189-4bf3-bf87-4a34e514c9a5
+  - f1973591-ed71-487d-bfa3-9a4b4007e6c7
+  - aab87ab7-38ae-4a70-ab07-57dfc6e27a47
+  - e6a43bdc-9a62-4d12-9139-ef32a176f5d9
+  - f49090e7-71ef-4181-90ab-c3c1ee4cd860
+  - 990e5b98-9ed4-4656-99a0-08634e2f42c6

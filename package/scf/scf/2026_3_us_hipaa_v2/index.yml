@@ -1,0 +1,8 @@
+id: 3d01c16a-0b66-4f4c-98e8-8034532209d1
+name: HIPAA Security Rule (includes mapping to NIST SP 800-66 R2) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from HIPAA Security Rule (includes mapping to NIST SP 800-66 R2) to the Secure Controls Framework (SCF) 2026.3 framework
+externalId: HIPAA Security Rule (includes mapping to NIST SP 800-66 R2) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+code: us_hipaa_v2_scf_scf_2026_3_crosswalk
+status: active
+sourceStandard: us.hipaa.v2.framework
+targetStandard: scf.scf.2026_3.framework

@@ -39,6 +39,12 @@ The npm name keeps everything verbatim; only `zerobias.package` normalizes. The 
 - `mappings/*.yml` — the element-to-element mappings (each with a unique `id`)
 - `package.json`, `.npmrc`, `build.gradle.kts` (`plugins { id("zb.content") }`), `gate-stamp.json`
 
+## Generated packages: SCF STRM crosswalks
+
+`package/scf/scf/<scfVer>_<code>/` are generated from the SCF Council's Excel STRM bundle
+by `package/scf/scf/update/` — see its [CLAUDE.md](package/scf/scf/update/CLAUDE.md). Fix the
+generator, not its output. The bundle is a paid download and must never be committed.
+
 ## Validator philosophy
 
 Dataloader is the source of truth for schema rules. The gate validator only enforces what it can't see: (1) filesystem ↔ npm-name ↔ `zerobias.package` triangulation with the hyphen normalization above, and (2) repo-wide unique `id` UUIDs across `index.yml` + every `mappings/*.yml`.

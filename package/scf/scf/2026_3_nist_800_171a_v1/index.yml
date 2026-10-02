@@ -1,0 +1,8 @@
+id: e3d71f29-d1e5-4084-982c-cde681524567
+name: SP 800-171A - Assessing Security Requirements for Controlled Unclassified Information to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from SP 800-171A - Assessing Security Requirements for Controlled Unclassified Information to the Secure Controls Framework (SCF) 2026.3 framework
+externalId: SP 800-171A - Assessing Security Requirements for Controlled Unclassified Information to Secure Controls Framework (SCF) 2026.3 Crosswalk
+code: nist_800_171a_v1_scf_scf_2026_3_crosswalk
+status: active
+sourceStandard: nist.800_171a.v1.framework
+targetStandard: scf.scf.2026_3.framework

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2026_3_cisa_tic_v3",
+  "version": "1.0.0",
+  "description": "CISA Trusted Internet Connection (TIC) 3.0 to Secure Controls Framework (SCF) 2026.3 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2026_3_cisa_tic_v3/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2026_3_cisa_tic_v3.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-cisa-tic-v3": "latest",
+    "@zerobias-org/framework-scf-scf-2026.3": "latest"
+  }
+}
