@@ -1,0 +1,401 @@
+elements:
+  - id: 63274637-a350-4a0f-aae6-e85f498a89ec
+    sourceElement: Article 2.1
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: a26f83fe-39a2-4f03-a876-bfa729646f35
+    sourceElement: Article 2.2
+    targetElement: CPL-03
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: 31957fee-7f5d-4f8d-b89a-ae6a3bcb4cc5
+    sourceElement: Article 4.1
+    targetElement: PRI-21
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 183b8bfd-ce19-4677-bba8-6d30e139649d
+    sourceElement: Article 4.2
+    targetElement: PRI-39.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ef2f343f-d75a-4e0a-ad9f-c4f752f97e7b
+    sourceElement: Article 4.3
+    targetElement: PRI-39.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7eb3c6cb-c8d5-4a42-962c-f6fa02ef9c90
+    sourceElement: Article 4.4
+    targetElement: PRI-39.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fc05f055-c44e-4bfe-b0d1-737b857dd31e
+    sourceElement: Article 4.5
+    targetElement: PRI-39.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 18bbe6a2-ebfe-400b-a597-562371845cf3
+    sourceElement: Article 5.1
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6b4b6401-7e20-43e3-a162-0b151b7b1938
+    sourceElement: Article 5.2
+    targetElement: PRI-24.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7f8388bb-b3d2-4f55-ac97-f6f9a610181b
+    sourceElement: Article 7
+    targetElement: PRI-13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 66e73165-47f0-42c8-982b-618f208beef9
+    sourceElement: Article 8
+    targetElement: PRI-16
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d606c82e-b844-4ee7-a28f-a200cfda1c4b
+    sourceElement: Article 8
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 80c33c93-f3b8-4624-8fac-b291f3f1701d
+    sourceElement: Article 8
+    targetElement: TPM-15
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1be2d715-5900-4851-bb88-3a68955c0684
+    sourceElement: Article 10
+    targetElement: PRI-32
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8cc249ab-a699-4cfc-a23a-354e46c16e70
+    sourceElement: Article 10
+    targetElement: PRI-34
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 603d3e64-17fa-46a9-b602-dc205975922e
+    sourceElement: Article 10.1
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: db244514-b75d-4ae7-a4d0-7257bf818626
+    sourceElement: Article 11.1
+    targetElement: PRI-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b0a569d2-188a-494c-80e8-d4faf0b4d78a
+    sourceElement: Article 11.2
+    targetElement: PRI-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d3b4d866-2a34-411d-961c-fb0e41794819
+    sourceElement: Article 11.2
+    targetElement: PRI-31
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3ac60fa7-49f4-4c42-bbdd-b7ce1e37baf5
+    sourceElement: Article 11.3
+    targetElement: DCH-27.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 94646819-b8cd-47d9-b0de-b892f99d767a
+    sourceElement: Article 11.3
+    targetElement: PRI-29
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e22a52e8-a5ba-4ee3-8c9a-41279b5bf1ae
+    sourceElement: Article 11.4
+    targetElement: PRI-30
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2909676b-c6fc-47e6-8eee-feeb4f553dca
+    sourceElement: Article 12
+    targetElement: PRI-21
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 88354ec0-9ee3-415c-bc73-3ce5688712b4
+    sourceElement: Article 13.1
+    targetElement: PRI-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5ab68582-b4b9-4796-993d-b87de9f3a365
+    sourceElement: Article 13.2
+    targetElement: PRI-21
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d1a71861-72d9-4015-9a11-034da3091fd7
+    sourceElement: Article 13.2
+    targetElement: PRI-22
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4a4ae92d-2602-4ee5-b248-c504f1ac3fcb
+    sourceElement: Article 13.3
+    targetElement: PRI-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b3a0857e-3557-4187-936e-04f6f048e5ff
+    sourceElement: Article 13.4
+    targetElement: PRI-21
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 81a38f2c-3656-400b-9948-2ed7bda44b0d
+    sourceElement: Article 13.5
+    targetElement: PRI-21
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 6f216b7c-59e3-4ec7-a9ce-0aa7eb2ddb80
+    sourceElement: Article 13.6
+    targetElement: PRI-21
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 9c454ef3-7b4c-48fb-b5fe-cb70e9315fbf
+    sourceElement: Article 14
+    targetElement: PRI-34
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0f7b8dd5-0ef8-4bae-9a4b-7698f3379524
+    sourceElement: Article 14
+    targetElement: PRI-35
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b680cb00-2586-469f-b651-9a7ccbd8f743
+    sourceElement: Article 14
+    targetElement: PRI-35.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b7d1aa62-2bf5-40a9-b923-18bb0743932b
+    sourceElement: Article 15.1
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f6251bc0-50ec-4ebb-92e2-ce6df6a563f0
+    sourceElement: Article 15.2
+    targetElement: PRI-34
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 99181a28-c60b-4842-9173-07bbddebaa31
+    sourceElement: Article 15.3
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d1aea621-2764-4816-9ff9-752b40262b6b
+    sourceElement: Article 15.4
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 051cf255-60d6-4be5-91bb-c5668515549e
+    sourceElement: Article 15.5
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 11c84adb-794c-4765-b6a6-c87aa5dc601b
+    sourceElement: Article 15.6
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2f1bd657-d05a-4d02-8426-c1d105b3f339
+    sourceElement: Article 16.1
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9cf5d8c6-5947-4fa8-ae48-b2b855fc2a18
+    sourceElement: Article 16.2
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9ac73801-808e-40cc-807b-43fccf8e7491
+    sourceElement: Article 16.3
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b79f2308-d75f-4c0c-b939-6ca8cc86947f
+    sourceElement: Article 16.4
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 578d9756-e5fc-491e-8bd0-bd5f616c87f2
+    sourceElement: Article 16.5
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 117b3de8-46c3-4b81-b25f-530709da15eb
+    sourceElement: Article 16.6
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 35948257-9abf-45e4-97a5-02d1b1f4f4d1
+    sourceElement: Article 16.7
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b5daed8c-fe7e-425f-adb0-bf6b3b816071
+    sourceElement: Article 16.8
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 25d71966-a44e-43c1-96ff-b3881add1e41
+    sourceElement: Article 16.9
+    targetElement: DCH-08.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3af8b488-aeeb-4470-8907-f3311c7ff679
+    sourceElement: Article 17.1
+    targetElement: PRI-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: fc1df3ee-7d15-4644-a72c-4191ca1f8caa
+    sourceElement: Article 17.1
+    targetElement: PRI-08.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d0bcd709-b9df-4bdf-8721-6011673d9690
+    sourceElement: Article 18.1
+    targetElement: PRI-30
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 20dad202-fd27-4e58-88e0-4f87c83fbb2e
+    sourceElement: Article 18.2.a
+    targetElement: PRI-30
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1d717183-c3c3-43a6-93b0-ba4d54c3c4c2
+    sourceElement: Article 18.2.b
+    targetElement: PRI-30
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9223f65d-cc52-491e-a5e9-7576a929302f
+    sourceElement: Article 19
+    targetElement: PRI-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0f28faf0-70bd-442e-a114-02449d490da7
+    sourceElement: Article 20.1
+    targetElement: IRO-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 75bd8db7-bd9e-4a2d-b432-54ac97eece1e
+    sourceElement: Article 20.2
+    targetElement: IRO-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3e3519a7-48a8-424a-965d-9d244a2f6850
+    sourceElement: Article 21
+    targetElement: PRI-39.1
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: b7c5ae6e-a0b5-4d2c-9aa9-74bc9eeb0743
+    sourceElement: Article 22
+    targetElement: RSK-19
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 66f59198-e334-4aaf-a5dd-d98275cc4bea
+    sourceElement: Article 23.1
+    targetElement: PRI-17
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: eeeee438-bb41-4554-81c0-815dcdc4dd93
+    sourceElement: Article 23.2
+    targetElement: PRI-17
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 775cbb8d-5037-4842-8e8d-25bef2bed280
+    sourceElement: Article 24.1
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2ee9ef8c-a1c2-4903-aeac-c081451efa28
+    sourceElement: Article 24.2
+    targetElement: PRI-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0ef56a28-c13c-461b-b55f-22a7984ea2f3
+    sourceElement: Article 25.1
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 40bdaf82-f3bb-412b-9fb8-dfc52abf8aee
+    sourceElement: Article 25.2
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e026b2ae-ebcc-4587-ba09-4ae3ad4e96af
+    sourceElement: Article 25.3
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 22bcfd2e-a99e-4a1d-9509-05bc25122509
+    sourceElement: Article 26
+    targetElement: PRI-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b6e6182f-4173-4fc5-aa34-2bd4e0468ed2
+    sourceElement: Article 29.1
+    targetElement: DCH-32
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 2002172b-8f11-4835-a1a9-058087eeb949
+    sourceElement: Article 29.2.b
+    targetElement: PRI-15
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: b053fa68-8dc1-4c09-882d-417427726887
+    sourceElement: Article 29.2.c
+    targetElement: PRI-17
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5a90a622-e757-4660-9d95-3e912ea07f06
+    sourceElement: Article 30.2
+    targetElement: HRS-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 633a661b-f582-4c5a-9410-9c5f95befc85
+    sourceElement: Article 30.2
+    targetElement: PRI-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 554309ca-a75d-475a-be3b-bbc14d606609
+    sourceElement: Article 30.3
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 9c78a99b-20d9-4547-807a-325c3e97ac5b
+    sourceElement: Article 30.4.a
+    targetElement: CPL-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 3ebddcda-2a23-41b0-ac76-28e4eb93ed4f
+    sourceElement: Article 31
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: fb35be04-8263-4d9d-aa14-bfcd63c37d41
+    sourceElement: Article 31.1
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 14085ef6-82e5-474a-a3d5-23487924f3ba
+    sourceElement: Article 31.2
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 37c20814-9edf-423a-9cc6-a081843746a2
+    sourceElement: Article 31.3
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ad01f6e0-1c6b-4614-8a1a-a58641e85d43
+    sourceElement: Article 31.4
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 51ddbf14-6194-4937-97da-0da3304359b3
+    sourceElement: Article 31.5
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 99f88938-1d9d-4874-b70f-ddae2c1416a9
+    sourceElement: Article 31.6
+    targetElement: PRI-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10

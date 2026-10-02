@@ -1,0 +1,275 @@
+# One entry per SCF STRM crosswalk this tool generates: package/scf/scf/<scfVer>_<code>/.
+#   focalDocument    — the STRM's Focal Document Identifier (bundle file scf-strm-<id>.xlsx)
+#   sourceStandard   — zerobias.package of the source framework (the focal document)
+#   sourceDependency — npm package of that framework; its elements validate every FDE #
+#   blocked          — do not generate: the source framework is a different edition than
+#                      the one the STRM maps. Element ids can still match across editions,
+#                      so resolution alone cannot catch this. Unblock once the framework
+#                      package for the STRM's edition exists (and repoint sourceStandard).
+crosswalks:
+- code: au_aee_v1
+  focalDocument: apac-aus-essential-8-2024
+  sourceName: Australia Essential Eight
+  sourceStandard: au.aee.v1.framework
+  sourceDependency: '@zerobias-org/framework-au-aee-v1'
+- code: au_ism_v1
+  focalDocument: apac-aus-ism-2026-june
+  sourceName: Australian Government Information Security Manual (ISM)
+  sourceStandard: au.ism.v1.framework
+  sourceDependency: '@zerobias-org/framework-au-ism-v1'
+  blocked: framework is ISM June 2024; 2026.3 STRM maps ISM June 2026
+- code: ca_osfi_v1
+  focalDocument: americas-can-osfi-b13-2022
+  sourceName: B-13
+  sourceStandard: ca.osfi.v1.framework
+  sourceDependency: '@zerobias-org/framework-ca-osfi-v1'
+- code: ca_pci_v10_171
+  focalDocument: americas-can-itsp-10-171-2025
+  sourceName: Protecting controlled information in non-Government of Canada systems and organizations (ITSP.10.171)
+  sourceStandard: ca.pci.v10_171.framework
+  sourceDependency: '@zerobias-org/framework-ca-pci-v10_171'
+- code: cisa_ssdaf_v1
+  focalDocument: usa-federal-dhs-cisa-ssdaf-2024
+  sourceName: CISA Secure Software Development Attestation Form (SSDAF)
+  sourceStandard: cisa.ssdaf.v1.framework
+  sourceDependency: '@zerobias-org/framework-cisa-ssdaf-v1'
+- code: cisa_tic_v3
+  focalDocument: usa-federal-dhs-cisa-tic-3-0
+  sourceName: CISA Trusted Internet Connection (TIC) 3.0
+  sourceStandard: cisa.tic.v3.framework
+  sourceDependency: '@zerobias-org/framework-cisa-tic-v3'
+- code: cn_csl_v1
+  focalDocument: apac-chn-cybersecurity-law-2017
+  sourceName: China Cybersecurity Law of the People's Republic of China (China Cybersecurity Law)
+  sourceStandard: cn.csl.v1.framework
+  sourceDependency: '@zerobias-org/framework-cn-csl-v1'
+- code: dod_ztra_v2
+  focalDocument: usa-federal-dow-zta-reference-architecture-2-0
+  sourceName: DOD Zero Trust Reference Architecture (ZTRA)
+  sourceStandard: dod.ztra.v2.framework
+  sourceDependency: '@zerobias-org/framework-dod-ztra-v2'
+- code: es_boe_v2022
+  focalDocument: emea-esp-decree-311-2022
+  sourceName: BOE-A-2022-7191
+  sourceStandard: es.boe.v2022.framework
+  sourceDependency: '@zerobias-org/framework-es-boe-v2022'
+- code: eu_ai_v2024
+  focalDocument: emea-eu-ai-act-2024
+  sourceName: EU Artificial Intelligence (AI) Act (Regulation (EU) 2024/1689)
+  sourceStandard: eu.ai.v2024.framework
+  sourceDependency: '@zerobias-org/framework-eu-ai-v2024'
+- code: eu_cra_annex_v1
+  focalDocument: emea-eu-cyber-resilience-act-annex-i-2024
+  sourceName: EU Cyber Resilience Act - Annexes
+  sourceStandard: eu.cra_annex.v1.framework
+  sourceDependency: '@zerobias-org/framework-eu-cra_annex-v1'
+- code: eu_cra_v1
+  focalDocument: emea-eu-cyber-resilience-act-2024
+  sourceName: EU Cyber Resilience Act
+  sourceStandard: eu.cra.v1.framework
+  sourceDependency: '@zerobias-org/framework-eu-cra-v1'
+- code: eu_dora_2023
+  focalDocument: emea-eu-dora-2023
+  sourceName: EU Digital Operational Resilience Act (DORA)
+  sourceStandard: eu.dora.2023.framework
+  sourceDependency: '@zerobias-org/framework-eu-dora-2023'
+- code: eu_enisa_annex
+  focalDocument: emea-eu-nis2-annex-2024
+  sourceName: ENISA NIS2 Annex
+  sourceStandard: eu.enisa.annex.framework
+  sourceDependency: '@zerobias-org/framework-eu-enisa-annex'
+- code: eu_enisa_v1
+  focalDocument: emea-eu-nis2-2022
+  sourceName: ENISA NIS2 (Directive (EU) 2022/2555)
+  sourceStandard: eu.enisa.v1.framework
+  sourceDependency: '@zerobias-org/framework-eu-enisa-v1'
+- code: eu_gdpr_v1
+  focalDocument: emea-eu-gdpr-2016
+  sourceName: General Data Protection Regulation (GDPR)
+  sourceStandard: eu.gdpr.v1.framework
+  sourceDependency: '@zerobias-org/framework-eu-gdpr-v1'
+- code: gb_mds_v2024
+  focalDocument: emea-gbr-def-stan-05-138-2024
+  sourceName: Ministry of Defence Standard 05-138 (14 May 2024)
+  sourceStandard: gb.mds.v2024.framework
+  sourceDependency: '@zerobias-org/framework-gb-mds-v2024'
+- code: iec_60601_2021
+  focalDocument: general-iec-tr-60601-4-5-2021
+  sourceName: IEC TR 60601-4-5:2021
+  sourceStandard: iec.60601.2021.framework
+  sourceDependency: '@zerobias-org/framework-iec-60601-2021'
+- code: in_dpdpa_2023
+  focalDocument: apac-ind-dpdpa-2023
+  sourceName: Digital Personal Data Protection Act, 2023
+  sourceStandard: in.dpdpa.2023.framework
+  sourceDependency: '@zerobias-org/framework-in-dpdpa-2023'
+- code: iso_27001_2022
+  focalDocument: general-iso-27001-2022
+  sourceName: 27001 - Information Security Management Systems (ISMS) - Requirements
+  sourceStandard: iso.27001.2022.framework
+  sourceDependency: '@zerobias-org/framework-iso-27001-2022'
+- code: iso_27002_2022
+  focalDocument: general-iso-27002-2022
+  sourceName: 27002 - Information security, cybersecurity and privacy protection - Information security controls
+  sourceStandard: iso.27002.2022.framework
+  sourceDependency: '@zerobias-org/framework-iso-27002-2022'
+- code: iso_42001_2023
+  focalDocument: general-iso-42001-2023
+  sourceName: ISO/IEC 42001:2023 - Information technology - Artificial intelligence - Management system
+  sourceStandard: iso.42001.2023.framework
+  sourceDependency: '@zerobias-org/framework-iso-42001-2023'
+- code: naic_mdl_v1
+  focalDocument: general-naic-insurance-data-security-model-law-668-2017
+  sourceName: Insurance Data Security Model Law (MDL-668)
+  sourceStandard: naic.mdl.v1.framework
+  sourceDependency: '@zerobias-org/framework-naic-mdl-v1'
+- code: nist_800-171_rev2
+  focalDocument: general-nist-800-171-r2
+  sourceName: SP 800-171 - Protecting CUI in Nonfederal Systems and Organizations
+  sourceStandard: nist.800-171.rev2.framework
+  sourceDependency: '@zerobias-org/framework-nist-800-171-rev2'
+- code: nist_800-171_rev3
+  focalDocument: general-nist-800-171-r3
+  sourceName: NIST SP 800-171 R3
+  sourceStandard: nist.800-171.rev3.framework
+  sourceDependency: '@zerobias-org/framework-nist-800-171-rev3'
+- code: nist_80053_rev5
+  focalDocument: general-nist-800-53-r5-2
+  sourceName: NIST SP 800-53 R5 - Security and Privacy Controls for Information Systems and Organizations
+  sourceStandard: nist.80053.rev5.framework
+  sourceDependency: '@zerobias-org/framework-nist-80053-rev5'
+  blocked: framework is SP 800-53 R5 (5.1.x); 2026.3 STRM maps R5.2 (adds SA-15(13), SI-02(07))
+- code: nist_800_161_rev1
+  focalDocument: general-nist-800-161-r1
+  sourceName: NIST SP 800-161 - Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations
+  sourceStandard: nist.800_161.rev1.framework
+  sourceDependency: '@zerobias-org/framework-nist-800_161-rev1'
+- code: nist_800_171a_r3
+  focalDocument: general-nist-800-171a-r3
+  sourceName: NIST 800-171A R3
+  sourceStandard: nist.800_171a.r3.framework
+  sourceDependency: '@zerobias-org/framework-nist-800_171a-r3'
+- code: nist_800_171a_v1
+  focalDocument: general-nist-800-171a
+  sourceName: SP 800-171A - Assessing Security Requirements for Controlled Unclassified Information
+  sourceStandard: nist.800_171a.v1.framework
+  sourceDependency: '@zerobias-org/framework-nist-800_171a-v1'
+- code: nist_800_207_v1
+  focalDocument: general-nist-800-207
+  sourceName: NIST SP 800-207 - Zero Trust Architecture
+  sourceStandard: nist.800_207.v1.framework
+  sourceDependency: '@zerobias-org/framework-nist-800_207-v1'
+- code: nist_800_218_v1_1
+  focalDocument: general-nist-800-218
+  sourceName: 'SP 800-218 - Secure Software Development Framework (SSDF) Version 1.1:'
+  sourceStandard: nist.800_218.v1_1.framework
+  sourceDependency: '@zerobias-org/framework-nist-800_218-v1_1'
+- code: nist_ai_600_v1
+  focalDocument: general-nist-600-1-gen-ai-profile
+  sourceName: NIST AI 600-1 (AI RMF Generative Artificial Intelligence Profile)
+  sourceStandard: nist.ai_600.v1.framework
+  sourceDependency: '@zerobias-org/framework-nist-ai_600-v1'
+- code: nist_csf_v2
+  focalDocument: general-nist-csf-2-0
+  sourceName: Cybersecurity Framework (CSF) 2.0
+  sourceStandard: nist.csf.v2.framework
+  sourceDependency: '@zerobias-org/framework-nist-csf-v2'
+- code: nist_rmf_v1
+  focalDocument: general-nist-100-1-ai-rmf
+  sourceName: NIST Artificial Intelligence Risk Management Framework (AI RMF)
+  sourceStandard: nist.rmf.v1.framework
+  sourceDependency: '@zerobias-org/framework-nist-rmf-v1'
+- code: nz_hisf_suppliers
+  focalDocument: apac-nzl-hisf-suppliers-2023
+  sourceName: NZ Health Information Security Framework for Suppliers
+  sourceStandard: nz.hisf.suppliers.framework
+  sourceDependency: '@zerobias-org/framework-nz-hisf-suppliers'
+- code: nz_hisf_v1
+  focalDocument: apac-nzl-hisf-mlhsp-2023
+  sourceName: NZ Health Information Security Framework
+  sourceStandard: nz.hisf.v1.framework
+  sourceDependency: '@zerobias-org/framework-nz-hisf-v1'
+  blocked: framework is NZ HISF 2022; upstream split it into MLHSP and Micro/Small (2023)
+- code: sa_pdpl_v1
+  focalDocument: emea-sau-pdpl-2023
+  sourceName: Personal Data Protection Law (PDPL)
+  sourceStandard: sa.pdpl.v1.framework
+  sourceDependency: '@zerobias-org/framework-sa-pdpl-v1'
+- code: us_ca_cpra_2022
+  focalDocument: usa-state-ca-ccpa-cpra-2026
+  sourceName: Privacy Rights Act (CPRA) - November 2022 version
+  sourceStandard: us_ca.cpra.2022.framework
+  sourceDependency: '@zerobias-org/framework-us_ca-cpra-2022'
+  blocked: framework is CPRA (Nov 2022); 2026.3 STRM maps CCPA/CPRA 2026
+- code: us_cisa_2022
+  focalDocument: usa-federal-dhs-cisa-cpg-2-0
+  sourceName: CISA Cross-Sector Cybersecurity Performance Goals (CPG)
+  sourceStandard: us.cisa.2022.framework
+  sourceDependency: '@zerobias-org/framework-us-cisa-2022'
+  blocked: framework is CISA CPG 1.0 (2022); 2026.3 STRM maps CPG 2.0
+- code: us_cjis_v5_9_3
+  focalDocument: usa-federal-fbi-cjis-6-0
+  sourceName: US DOJ / FBI - Criminal Justice Information Services (CJIS) Security Policy
+  sourceStandard: us.cjis.v5_9_3.framework
+  sourceDependency: '@zerobias-org/framework-us-cjis-v5_9_3'
+  blocked: framework is CJIS 5.9.3; 2026.3 STRM maps CJIS 6.0
+- code: us_cybersecurity_rule_v1
+  focalDocument: usa-federal-sec-cybersecurity-rule-2023
+  sourceName: Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and 249
+  sourceStandard: us.cybersecurity_rule.v1.framework
+  sourceDependency: '@zerobias-org/framework-us-cybersecurity_rule-v1'
+- code: us_dpf_v1
+  focalDocument: usa-federal-doc-data-privacy-framework-2023
+  sourceName: Data Privacy Framework (DPF)
+  sourceStandard: us.dpf.v1.framework
+  sourceDependency: '@zerobias-org/framework-us-dpf-v1'
+- code: us_fca_v1
+  focalDocument: usa-federal-sro-fca-crm-2023
+  sourceName: Farm Credit Administration (FCA) Cyber Risk Management
+  sourceStandard: us.fca.v1.framework
+  sourceDependency: '@zerobias-org/framework-us-fca-v1'
+- code: us_fda_v21
+  focalDocument: usa-federal-fda-21-cfr-part-11-2025
+  sourceName: Food & Drug Administration (FDA)
+  sourceStandard: us.fda.v21.framework
+  sourceDependency: '@zerobias-org/framework-us-fda-v21'
+- code: us_glba_2023
+  focalDocument: usa-federal-law-glba-cfr-314-2023
+  sourceName: Gramm Leach Bliley Act (GLBA) - CFR 314
+  sourceStandard: us.glba.2023.framework
+  sourceDependency: '@zerobias-org/framework-us-glba-2023'
+- code: us_hipaa_v2
+  focalDocument: usa-federal-law-hipaa-security-rule-2013
+  sourceName: HIPAA Security Rule (includes mapping to NIST SP 800-66 R2)
+  sourceStandard: us.hipaa.v2.framework
+  sourceDependency: '@zerobias-org/framework-us-hipaa-v2'
+- code: us_hipaa_v2013
+  focalDocument: usa-federal-law-hipaa-simplification-2013
+  sourceName: HIPAA Administrative Simplification (2013)
+  sourceStandard: us.hipaa.v2013.framework
+  sourceDependency: '@zerobias-org/framework-us-hipaa-v2013'
+- code: us_mars_e_v2
+  focalDocument: usa-federal-cms-marse-2-0
+  sourceName: US Centers for Medicare & Medicaid Services MARS-E Document Suite, Version 2.0
+  sourceStandard: us.mars_e.v2.framework
+  sourceDependency: '@zerobias-org/framework-us-mars_e-v2'
+- code: us_ny_dfs_2023
+  focalDocument: usa-state-ny-dfs-23-nycrr500-2023-amd2
+  sourceName: Cybersecurity Requirements for Financial Services Companies (DFS 23 NYCRR500) - 2023 Amendment 2
+  sourceStandard: us_ny.dfs.2023.framework
+  sourceDependency: '@zerobias-org/framework-us_ny-dfs-2023'
+- code: us_or_cpa_v1
+  focalDocument: usa-state-or-cpa-2023
+  sourceName: OR - Consumer Privacy Act (SB 619)
+  sourceStandard: us_or.cpa.v1.framework
+  sourceDependency: '@zerobias-org/framework-us_or-cpa-v1'
+- code: us_tn_ipa_v1
+  focalDocument: usa-state-tn-tipa-2025
+  sourceName: Information Protection Act
+  sourceStandard: us_tn.ipa.v1.framework
+  sourceDependency: '@zerobias-org/framework-us_tn-ipa-v1'
+- code: us_tx_cdpa_v1
+  focalDocument: usa-state-tx-cdpa-2025
+  sourceName: Texas Consumer Data Protection Act
+  sourceStandard: us_tx.cdpa.v1.framework
+  sourceDependency: '@zerobias-org/framework-us_tx-cdpa-v1'

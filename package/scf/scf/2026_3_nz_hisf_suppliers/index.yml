@@ -1,0 +1,8 @@
+id: 2c59b53b-88e1-4e35-9833-30248e888b5f
+name: NZ Health Information Security Framework for Suppliers to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from NZ Health Information Security Framework for Suppliers to the Secure Controls Framework (SCF) 2026.3 framework
+externalId: NZ Health Information Security Framework for Suppliers to Secure Controls Framework (SCF) 2026.3 Crosswalk
+code: nz_hisf_suppliers_scf_scf_2026_3_crosswalk
+status: active
+sourceStandard: nz.hisf.suppliers.framework
+targetStandard: scf.scf.2026_3.framework

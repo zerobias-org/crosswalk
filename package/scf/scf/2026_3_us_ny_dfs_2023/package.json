@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2026_3_us_ny_dfs_2023",
+  "version": "1.0.0",
+  "description": "Cybersecurity Requirements for Financial Services Companies (DFS 23 NYCRR500) - 2023 Amendment 2 to Secure Controls Framework (SCF) 2026.3 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2026_3_us_ny_dfs_2023/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2026_3_us_ny_dfs_2023.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-us_ny-dfs-2023": "latest",
+    "@zerobias-org/framework-scf-scf-2026.3": "latest"
+  }
+}

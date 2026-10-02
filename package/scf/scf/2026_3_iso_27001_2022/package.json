@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2026_3_iso_27001_2022",
+  "version": "1.0.0",
+  "description": "27001 - Information Security Management Systems (ISMS) - Requirements to Secure Controls Framework (SCF) 2026.3 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2026_3_iso_27001_2022/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2026_3_iso_27001_2022.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-iso-27001-2022": "latest",
+    "@zerobias-org/framework-scf-scf-2026.3": "latest"
+  }
+}

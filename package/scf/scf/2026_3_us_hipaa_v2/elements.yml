@@ -1,0 +1,1131 @@
+elements:
+  - id: 5d6c74c1-dcdc-4c1b-aa0b-3e2e38c15913
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 6137c0e4-842a-42e0-ba54-1d2113e3754e
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 84d1b730-7910-4fab-938b-ba527b7d9cff
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11.1
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 63c1fc53-472f-4afa-be5a-270c5653d864
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11.2
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ac3a2cfa-ffb2-4f0e-9a9f-4fc14d71db2d
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 15b52bdf-0ea9-4096-8364-fdceea2943cd
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11.4
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e6d77034-84c7-4974-8185-dc46d6b92fa8
+    sourceElement: § 164.306(a)(1)
+    targetElement: GOV-11.5
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 5a22d91b-0e0d-43ab-8d8d-a1152a022245
+    sourceElement: § 164.306(a)(2)
+    targetElement: GOV-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 42baf356-5320-473f-a783-01bd098acfa8
+    sourceElement: § 164.306(a)(3)
+    targetElement: DCH-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ec9d1d1f-62e4-45ea-84c9-a56cc39b3096
+    sourceElement: § 164.306(a)(3)
+    targetElement: GOV-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 5fbed176-16e2-4873-80b2-d3026a89591a
+    sourceElement: § 164.306(a)(3)
+    targetElement: RSK-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 8e0dd6b1-3e49-4963-95e1-b83643c99b36
+    sourceElement: § 164.306(b)(1)
+    targetElement: GOV-03.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0a233955-ccd6-49d4-b395-d7af5adad13e
+    sourceElement: § 164.306(b)(1)
+    targetElement: GOV-11
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 58eb068e-371a-4c83-b3d9-93b145e5b248
+    sourceElement: § 164.306(b)(1)
+    targetElement: SEA-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: dae29f9d-a91f-415f-9c64-d681a7e4af33
+    sourceElement: § 164.306(b)(1)
+    targetElement: SEA-05
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ac00a2b8-5bb0-45fa-89eb-3edf5c860617
+    sourceElement: § 164.306(b)(1)
+    targetElement: SEA-06
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 0b88f6f8-36bd-43b4-a2ab-a9372ee86079
+    sourceElement: § 164.306(b)(2)(i)
+    targetElement: GOV-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 94354359-f9cd-4a04-8b2a-b57cb9021c91
+    sourceElement: § 164.306(b)(2)(i)
+    targetElement: PRM-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1a32e675-d206-4d61-bcf5-04ef1e0f0f28
+    sourceElement: § 164.306(b)(2)(ii)
+    targetElement: PRM-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 22a70c79-806e-40cd-bf86-6c71c3cd3c71
+    sourceElement: § 164.306(b)(2)(ii)
+    targetElement: SEA-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 18007dc2-a338-40d4-bde8-c310c6ff1aea
+    sourceElement: § 164.306(b)(2)(iii)
+    targetElement: PRM-06
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: f033f757-a081-4605-9cff-c756528bea5d
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 82b7de99-bb6e-4a7d-a49f-a2a9dd33e09a
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d75ee0d4-50b5-4c78-91eb-51b6875b2833
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a0884b28-173f-471b-acac-a86465ee2bab
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b36301c-a5a3-4ad1-949b-4b941e8b219e
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b0e1aac2-cd70-445b-b561-4221346ff070
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: RSK-13
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f83e8e96-1721-424f-9346-5a23d30e4d41
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: THR-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 42a72f3c-3ec0-4d9d-9af1-8469ce3efd2b
+    sourceElement: § 164.306(b)(2)(iv)
+    targetElement: THR-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1fa5d6dc-1d95-437e-a715-7ed4d52bb06c
+    sourceElement: § 164.306(c)
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: c3b457bf-b514-46af-b40e-3ea881b60ecf
+    sourceElement: § 164.306(d)(1)
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: bb047dfc-e58e-476b-b434-5b7f0cd704f1
+    sourceElement: § 164.306(d)(2)
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 361e79e5-257d-4197-98c2-f2fecb002281
+    sourceElement: § 164.306(d)(3)(i)
+    targetElement: CPL-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 33cfcb4a-7745-4e63-820d-d9b2aee8641b
+    sourceElement: § 164.306(d)(3)(i)
+    targetElement: CPL-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2fe4253a-3036-4eb1-9f50-b62d01b97abc
+    sourceElement: § 164.306(d)(3)(i)
+    targetElement: CPL-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ea6277b6-e17e-46d1-b914-3393a7c87772
+    sourceElement: § 164.306(d)(3)(ii)(A)
+    targetElement: GOV-11.2
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 365127e5-f1e1-4c2e-8c79-0036695ed4c8
+    sourceElement: § 164.306(d)(3)(ii)(B)(1)
+    targetElement: GOV-04.2
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4326d6d5-eb29-42ce-8c78-58a734b66725
+    sourceElement: § 164.306(d)(3)(ii)(B)(2)
+    targetElement: RSK-18
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 5050ff6f-23f4-43a4-bd3c-a311ae341fb7
+    sourceElement: § 164.306(e)
+    targetElement: CPL-05.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: c2d693f3-f253-4241-b822-2006aab814b0
+    sourceElement: § 164.308(a)(1)(i)
+    targetElement: CFG-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: f303a627-6a06-489d-b0f5-c41e7ef92484
+    sourceElement: § 164.308(a)(1)(i)
+    targetElement: CHG-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d9658271-591b-4d04-a3d8-8ba35b27b032
+    sourceElement: § 164.308(a)(1)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ccff56eb-f843-4fb8-8ad5-5cfa2a0098af
+    sourceElement: § 164.308(a)(1)(i)
+    targetElement: IRO-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 606ef7de-f8c8-4ada-aae7-c36e5554debc
+    sourceElement: § 164.308(a)(1)(i)
+    targetElement: MON-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d2f7fc0d-d3df-4493-bcae-92e7ee5a6f34
+    sourceElement: § 164.308(a)(1)(ii)(A)
+    targetElement: RSK-13
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 9af217fd-5abd-4b36-82e2-619f9b504a3e
+    sourceElement: § 164.308(a)(1)(ii)(B)
+    targetElement: GOV-03.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 14ab11d6-3943-4941-b2cf-5d42011fe49a
+    sourceElement: § 164.308(a)(1)(ii)(B)
+    targetElement: GOV-11.2
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 59c79eab-8799-4f94-b773-48b4fa94faa4
+    sourceElement: § 164.308(a)(1)(ii)(C)
+    targetElement: HRS-10
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b98a9216-6fb4-4ca6-973f-9bbe969448eb
+    sourceElement: § 164.308(a)(1)(ii)(D)
+    targetElement: IRO-16.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 37a9bd7e-d694-46b3-a096-122f9338d3f5
+    sourceElement: § 164.308(a)(1)(ii)(D)
+    targetElement: MON-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 342d8e2f-2235-4790-bff7-7e3fb8ec6b55
+    sourceElement: § 164.308(a)(1)(ii)(D)
+    targetElement: MON-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3397f16b-5e74-4d8e-bf31-b4350f463469
+    sourceElement: § 164.308(a)(2)
+    targetElement: GOV-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: dfa82a81-6301-4cb5-a72e-72b3032f6864
+    sourceElement: § 164.308(a)(3)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 28182cee-ba28-4fab-98b2-aba743df2a2e
+    sourceElement: § 164.308(a)(3)(i)
+    targetElement: IAC-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 463c4b96-3cef-4fb6-9843-d186f1c43095
+    sourceElement: § 164.308(a)(3)(i)
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 628a7052-fb82-4ec3-94f9-4700d19a6fde
+    sourceElement: § 164.308(a)(3)(i)
+    targetElement: IAC-30
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0498ce01-5b8f-4300-bf86-67c152f948bb
+    sourceElement: § 164.308(a)(3)(i)
+    targetElement: IAC-49
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 533e67b9-eb30-4223-8967-6516329efbd6
+    sourceElement: § 164.308(a)(3)(ii)(A)
+    targetElement: HRS-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: bb3428de-7e06-4d5c-9c90-221c7db4a375
+    sourceElement: § 164.308(a)(3)(ii)(A)
+    targetElement: IAC-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 694ca598-f917-4a3e-86d8-604f72f3a9ba
+    sourceElement: § 164.308(a)(3)(ii)(A)
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 74c1c00f-81bb-41fe-abcd-7cc293d540bd
+    sourceElement: § 164.308(a)(3)(ii)(A)
+    targetElement: IAC-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2ac9aa8-9a50-4345-ab49-1c938ea8f24f
+    sourceElement: § 164.308(a)(3)(ii)(B)
+    targetElement: HRS-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a324e6e3-10cd-4797-81dd-e286983c15b7
+    sourceElement: § 164.308(a)(3)(ii)(B)
+    targetElement: HRS-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7f51a644-2959-47fe-981b-24dbc3e810ad
+    sourceElement: § 164.308(a)(3)(ii)(B)
+    targetElement: IAC-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1470711d-3921-43f4-a539-42b5dc3baadc
+    sourceElement: § 164.308(a)(3)(ii)(C)
+    targetElement: HRS-11
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 164aaa99-53b7-4ecb-b4da-fd47aba3c674
+    sourceElement: § 164.308(a)(3)(ii)(C)
+    targetElement: HRS-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 269ac6fe-4238-4406-b079-f2b55bd510d0
+    sourceElement: § 164.308(a)(3)(ii)(C)
+    targetElement: IAC-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3f85488c-53da-4e83-8a99-d510b2f0d856
+    sourceElement: § 164.308(a)(3)(ii)(C)
+    targetElement: IAC-04.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 0535cb05-36c4-4205-9e24-377a153a3c33
+    sourceElement: § 164.308(a)(4)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 3bef8628-c442-477e-942c-e74a6bb277a4
+    sourceElement: § 164.308(a)(4)(i)
+    targetElement: IAC-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4011e8d7-9570-4012-bc1b-c908fc6f0b89
+    sourceElement: § 164.308(a)(4)(ii)(A)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 9b3d79d3-e3b8-4095-a4fa-56b64653ba5e
+    sourceElement: § 164.308(a)(4)(ii)(B)
+    targetElement: IAC-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 34ab03b8-8b45-40f3-946a-472caad302aa
+    sourceElement: § 164.308(a)(4)(ii)(C)
+    targetElement: IAC-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 6be9a646-5560-4540-a3f6-b34611516448
+    sourceElement: § 164.308(a)(5)(i)
+    targetElement: SAT-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 77232e10-5175-41a1-9ebf-d26a9aaef340
+    sourceElement: § 164.308(a)(5)(i)
+    targetElement: SAT-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: ad617379-d666-4449-b7fe-fffd4eb40367
+    sourceElement: § 164.308(a)(5)(ii)(A)
+    targetElement: SAT-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: b09ce389-396b-4e97-821a-f2dada563781
+    sourceElement: § 164.308(a)(5)(ii)(B)
+    targetElement: SAT-06.2
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 08b9ed46-8d57-4fde-b874-1b17eb0920d1
+    sourceElement: § 164.308(a)(5)(ii)(C)
+    targetElement: SAT-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: bd1f1c60-fe1c-4690-9a9d-95fa348af0b5
+    sourceElement: § 164.308(a)(5)(ii)(D)
+    targetElement: SAT-05
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: aae24207-ff71-4d14-abe3-79ec108fe2ac
+    sourceElement: § 164.308(a)(6)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4a4bfac2-f6c1-4128-b120-c5169cf95d11
+    sourceElement: § 164.308(a)(6)(i)
+    targetElement: IRO-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 32ea2ecd-80bb-4393-a53a-9ed308b04e2a
+    sourceElement: § 164.308(a)(6)(ii)
+    targetElement: IRO-06
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 248039b1-3ce6-4557-aec0-8c88eab692a4
+    sourceElement: § 164.308(a)(7)(i)
+    targetElement: BCD-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 0bb312c3-317d-44b7-834f-983ae1419d63
+    sourceElement: § 164.308(a)(7)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d9368f3d-b694-41a5-b09a-775e5a551525
+    sourceElement: § 164.308(a)(7)(i)
+    targetElement: IRO-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: bab006b1-c6f3-4c88-b2b9-1771e8d12a4b
+    sourceElement: § 164.308(a)(7)(ii)(A)
+    targetElement: BCD-24
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 368ef68f-b350-4be1-af16-6e5e211a1fc1
+    sourceElement: § 164.308(a)(7)(ii)(B)
+    targetElement: BCD-18
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: aec5951b-eba1-4bca-b3a4-f3259b46542b
+    sourceElement: § 164.308(a)(7)(ii)(C)
+    targetElement: BCD-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 2a789a3c-5d6a-4450-8841-86a6c1729a13
+    sourceElement: § 164.308(a)(7)(ii)(C)
+    targetElement: BCD-08.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a4330ca7-8408-45a5-971a-c2007f2e5707
+    sourceElement: § 164.308(a)(7)(ii)(D)
+    targetElement: BCD-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4969242b-7c3a-4686-87a4-d0beb03f7471
+    sourceElement: § 164.308(a)(7)(ii)(D)
+    targetElement: BCD-11
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8448463e-418c-4f9c-9e5e-9951d9c4a368
+    sourceElement: § 164.308(a)(7)(ii)(E)
+    targetElement: AST-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 70c27ee7-0ce7-42e2-b514-a46741c2c8f0
+    sourceElement: § 164.308(a)(7)(ii)(E)
+    targetElement: AST-05
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: 48979084-4b03-4cf1-8c74-1849e84b78e1
+    sourceElement: § 164.308(a)(7)(ii)(E)
+    targetElement: AST-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: f2b8d0ee-2295-4731-a4c3-9b44540bae67
+    sourceElement: § 164.308(a)(7)(ii)(E)
+    targetElement: AST-06
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: 1862181d-2708-4f3a-81e5-b5ad39ab2672
+    sourceElement: § 164.308(a)(7)(ii)(E)
+    targetElement: TPM-09
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: ec008909-3d3c-420d-be7d-9081bfbf8016
+    sourceElement: § 164.308(a)(8)
+    targetElement: CPL-05.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1ed8951c-933f-4884-a752-75b4ead61b4b
+    sourceElement: § 164.308(a)(8)
+    targetElement: IAO-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 49437744-d679-4c74-8bb5-ee671daf90d8
+    sourceElement: § 164.308(a)(8)
+    targetElement: IAO-04
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 94a348b5-287d-4bf1-b6d4-2656a10a10db
+    sourceElement: § 164.308(b)(1)
+    targetElement: TPM-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: a0303ba3-5aa3-4c37-9922-d2d812613594
+    sourceElement: § 164.308(b)(1)
+    targetElement: TPM-11
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 482f4acc-9822-439e-a333-cea1570b4672
+    sourceElement: § 164.308(b)(1)
+    targetElement: TPM-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c2b81c47-7c79-4d7a-9683-d8086f59f6c4
+    sourceElement: § 164.308(b)(1)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 016d32c1-cbd6-4672-8b17-fb8f4ea3552f
+    sourceElement: § 164.308(b)(1)
+    targetElement: TPM-14.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5c252d7e-fb7c-4f7f-b9e7-56827dbe4ae8
+    sourceElement: § 164.308(b)(2)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8108b43c-10d0-46fd-81c5-7859d9efebea
+    sourceElement: § 164.308(b)(2)
+    targetElement: TPM-14.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: cbf9ec5a-f486-4267-862e-7b84e1224731
+    sourceElement: § 164.308(b)(2)
+    targetElement: TPM-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 23784d6c-f677-4461-924a-8312b79984a3
+    sourceElement: § 164.308(b)(3)
+    targetElement: IAO-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4346b49c-129b-4757-b5cd-07349383bc4a
+    sourceElement: § 164.308(b)(3)
+    targetElement: TPM-14
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: aa478bd3-e1e8-4e4b-b04c-6a3534ce52c7
+    sourceElement: § 164.310(a)(1)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 83dd16ec-f88f-43c0-a81d-ca6b5326e085
+    sourceElement: § 164.310(a)(1)
+    targetElement: PES-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 3cb8dfce-11b6-4021-9584-bc4dd19ee167
+    sourceElement: § 164.310(a)(2)(i)
+    targetElement: BCD-13.2
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: 4a03c9b6-a511-44cf-8725-7606de392421
+    sourceElement: § 164.310(a)(2)(i)
+    targetElement: HRS-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5b665b71-968d-4c7c-9704-4754475f1f98
+    sourceElement: § 164.310(a)(2)(i)
+    targetElement: PES-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b6b890a-555e-4014-9d41-726afa5b5614
+    sourceElement: § 164.310(a)(2)(i)
+    targetElement: PES-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 25df1118-1dff-47cf-b593-e55442304137
+    sourceElement: § 164.310(a)(2)(ii)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: c8fbedfb-6e52-416c-adea-2f158208949b
+    sourceElement: § 164.310(a)(2)(ii)
+    targetElement: PES-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 21a750cb-14fa-4ab3-a146-2f46866d1ad0
+    sourceElement: § 164.310(a)(2)(ii)
+    targetElement: PES-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b2268355-1090-43bd-855e-6f8e73041776
+    sourceElement: § 164.310(a)(2)(iii)
+    targetElement: IAC-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: aab1344f-2f44-4a9d-b8bf-6a731580a243
+    sourceElement: § 164.310(a)(2)(iii)
+    targetElement: PES-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8f2f205e-b134-43b8-8049-281c8105654b
+    sourceElement: § 164.310(a)(2)(iii)
+    targetElement: PES-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7032c176-e26a-4afd-8ade-72266976b894
+    sourceElement: § 164.310(a)(2)(iii)
+    targetElement: PES-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2e23be89-b1a3-4950-8e0d-9f064f9b6932
+    sourceElement: § 164.310(a)(2)(iv)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 55672d66-1255-49a1-b4f7-7e6d8a2f2a3f
+    sourceElement: § 164.310(a)(2)(iv)
+    targetElement: MNT-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 40f5088d-2441-4d6d-af5d-290381782d00
+    sourceElement: § 164.310(a)(2)(iv)
+    targetElement: MNT-03
+    relationshipType: intersects
+    strengthOfRelationship: 8
+  - id: f54acbcc-810c-4efb-850c-9a374af2835c
+    sourceElement: § 164.310(a)(2)(iv)
+    targetElement: PES-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ad55969f-60a0-4b45-ad32-c8abc29db3b7
+    sourceElement: § 164.310(b)
+    targetElement: END-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: d766d003-825d-474a-a97a-eaae72beb6ac
+    sourceElement: § 164.310(b)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 02e44dce-f58a-4222-8307-1ee49c057c1b
+    sourceElement: § 164.310(b)
+    targetElement: HRS-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e7e5aab1-23c9-4e0c-8a7a-0518b6f16a27
+    sourceElement: § 164.310(b)
+    targetElement: HRS-06.1
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 125ad66e-2926-4d32-bdfb-25ea82c8180a
+    sourceElement: § 164.310(b)
+    targetElement: HRS-06.3
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 682339b5-4c31-4986-80db-2e6b3007f4a5
+    sourceElement: § 164.310(b)
+    targetElement: OPS-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 933ce4fc-1e2a-42b0-9b0a-2e96b2bf16f7
+    sourceElement: § 164.310(b)
+    targetElement: OPS-05
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: cdab8f3a-a48f-46c0-9204-a6b5846bb576
+    sourceElement: § 164.310(b)
+    targetElement: PES-10
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 2c90836c-85ae-4745-a1a7-6528bfd19e8c
+    sourceElement: § 164.310(b)
+    targetElement: PES-12
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: ef979164-581e-4b9d-b4cc-cd5551a94b1a
+    sourceElement: § 164.310(c)
+    targetElement: END-03
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: b2e6ceaf-f252-417e-96aa-8640ebead766
+    sourceElement: § 164.310(c)
+    targetElement: PES-08
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3f1890f6-0d99-42d1-b803-642fdcaaebb0
+    sourceElement: § 164.310(c)
+    targetElement: PES-10
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: db401e0a-3d4d-41c3-8a72-d1bea231ca6a
+    sourceElement: § 164.310(c)
+    targetElement: PES-11
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9e1dd2de-75bc-407c-aa55-6707fa51d475
+    sourceElement: § 164.310(c)
+    targetElement: PES-12
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 89eec39b-1a9f-4da2-bd49-21236a7b874d
+    sourceElement: § 164.310(d)(1)
+    targetElement: AST-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 1bafb096-8055-4217-ac3a-c880d2c96005
+    sourceElement: § 164.310(d)(1)
+    targetElement: AST-24
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 5ab6b869-c3e9-4c30-82df-0eb8bff8a63e
+    sourceElement: § 164.310(d)(1)
+    targetElement: DCH-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 28a7ee4f-6141-4728-b75f-876da49796e6
+    sourceElement: § 164.310(d)(1)
+    targetElement: DCH-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 02de46b1-dff9-4c6b-9704-a60fa69f3ee4
+    sourceElement: § 164.310(d)(1)
+    targetElement: DCH-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 56cf9b91-bcb0-46b4-8f4a-203d6b137508
+    sourceElement: § 164.310(d)(1)
+    targetElement: DCH-16.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 570f5e7b-de9e-41aa-8f37-9a1e9b4cd1db
+    sourceElement: § 164.310(d)(1)
+    targetElement: DCH-20
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1f036976-e1a8-487e-acec-da30bb735c4b
+    sourceElement: § 164.310(d)(1)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 885185d0-b5fa-4c4b-95c4-0cd3549592f2
+    sourceElement: § 164.310(d)(1)
+    targetElement: MNT-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4ee64e02-47b7-4c26-bb6e-86d811e2d6cb
+    sourceElement: § 164.310(d)(1)
+    targetElement: MNT-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 06da69b9-f50e-464a-8fa1-76762aa4adf2
+    sourceElement: § 164.310(d)(2)(i)
+    targetElement: AST-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 3e16307f-5433-435d-a909-f0b785d498a1
+    sourceElement: § 164.310(d)(2)(i)
+    targetElement: AST-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a8105ec3-b25b-4bec-b9ef-9a7b1db83719
+    sourceElement: § 164.310(d)(2)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: cc92dad3-6de9-4508-bfe6-541d506ed20c
+    sourceElement: § 164.310(d)(2)(ii)
+    targetElement: AST-22
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4aa8a121-d2d8-4b82-8f9f-d257d663d87d
+    sourceElement: § 164.310(d)(2)(ii)
+    targetElement: DCH-18
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1efcaa1f-2612-4a7f-a267-7a2bba351c5f
+    sourceElement: § 164.310(d)(2)(iii)
+    targetElement: AST-04
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 58bf0362-c9bb-44f5-bf7a-2fecbb0cd15c
+    sourceElement: § 164.310(d)(2)(iii)
+    targetElement: AST-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: f5ae0160-36bb-462b-95c9-1da0fb21a027
+    sourceElement: § 164.310(d)(2)(iii)
+    targetElement: AST-07.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 60a52284-2926-4151-905b-830862e206df
+    sourceElement: § 164.310(d)(2)(iii)
+    targetElement: AST-07.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: be77387e-5885-43ca-82ee-9eee39601411
+    sourceElement: § 164.310(d)(2)(iii)
+    targetElement: AST-08.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8a89d39d-85b0-45fc-b62e-e1686392cdf6
+    sourceElement: § 164.310(d)(2)(iv)
+    targetElement: BCD-24
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 542159f4-1876-4473-97fe-d603d5ba8d72
+    sourceElement: § 164.312(a)(1)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 405dfbc3-5cd6-4cf5-86f8-8c81d40ccc65
+    sourceElement: § 164.312(a)(1)
+    targetElement: HRS-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 38093718-aa9e-4b17-904c-7154c16b432c
+    sourceElement: § 164.312(a)(1)
+    targetElement: HRS-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9f1dc123-46ff-481f-9a2a-0fcd224c1f50
+    sourceElement: § 164.312(a)(1)
+    targetElement: IAC-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 631ec26c-0199-45f9-af9e-7aa0759e8079
+    sourceElement: § 164.312(a)(1)
+    targetElement: IAC-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e51fc971-8dec-4acf-806f-a6eef8972cad
+    sourceElement: § 164.312(a)(1)
+    targetElement: IAC-30
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: c26c1f37-59a6-4f94-8cd2-de133444e173
+    sourceElement: § 164.312(a)(2)(i)
+    targetElement: IAC-13.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 05ff31a1-c427-4d4d-b465-9d1974ec1ba7
+    sourceElement: § 164.312(a)(2)(i)
+    targetElement: IAC-32
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ef0de75b-2bd6-411f-9616-0c54f4f8a568
+    sourceElement: § 164.312(a)(2)(ii)
+    targetElement: IAC-08
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 68de8aee-b5b6-4758-92cd-16d83e299561
+    sourceElement: § 164.312(a)(2)(ii)
+    targetElement: IAC-11
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 69fd2f70-f329-416b-954f-b8e790232ff2
+    sourceElement: § 164.312(a)(2)(ii)
+    targetElement: IAC-11.1
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 5a67457e-0cab-4eb8-a2be-24ec2dd414cf
+    sourceElement: § 164.312(a)(2)(iii)
+    targetElement: CFG-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a3b24706-16de-4aab-87e4-01d19cc96d0f
+    sourceElement: § 164.312(a)(2)(iii)
+    targetElement: CFG-04.5
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 821e6aab-0e90-4f5c-9dc3-230497ffa5c3
+    sourceElement: § 164.312(a)(2)(iv)
+    targetElement: CRY-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 2acd1810-4df9-4c1c-bd4f-04eea9af449e
+    sourceElement: § 164.312(b)
+    targetElement: MON-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 9054dce9-aa43-45b2-bd6b-c26158f9c039
+    sourceElement: § 164.312(b)
+    targetElement: MON-03
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 45c399d9-d968-4eae-baff-a050d7cf304a
+    sourceElement: § 164.312(b)
+    targetElement: MON-03.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 793e83b2-785b-47b6-9b93-a974c28081e9
+    sourceElement: § 164.312(b)
+    targetElement: MON-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8eb982eb-e32e-4f44-90a7-723e2c9475bf
+    sourceElement: § 164.312(b)
+    targetElement: MON-09
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: d7fecb73-2afb-4eca-9f09-3fdaa5a4c41b
+    sourceElement: § 164.312(b)
+    targetElement: MON-09.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6fdc7dea-18f0-42e3-9df2-6b4f13cd713d
+    sourceElement: § 164.312(b)
+    targetElement: MON-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8243a51b-99a9-44b2-a384-6ed10b93ebf3
+    sourceElement: § 164.312(c)(1)
+    targetElement: DCH-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: a8f97847-0d12-4a05-a9ae-476d40a7d43b
+    sourceElement: § 164.312(c)(1)
+    targetElement: DCH-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 9e3529cf-21f5-40a3-a8a5-d79e2699a1fa
+    sourceElement: § 164.312(c)(1)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 60f0a327-7889-4fd5-b6d1-d549b31d69ad
+    sourceElement: § 164.312(c)(2)
+    targetElement: IAC-49
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 7079ef11-7388-4ae3-840e-f8b19f37974e
+    sourceElement: § 164.312(c)(2)
+    targetElement: IAC-49.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2a1f7cb-626e-48b4-965a-c007a52eee81
+    sourceElement: § 164.312(c)(2)
+    targetElement: MON-14.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4fef622d-2e4f-4d89-a79a-445aa746713b
+    sourceElement: § 164.312(c)(2)
+    targetElement: MON-16
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 35f27de8-6a6f-4c91-9701-380ee5f45809
+    sourceElement: § 164.312(c)(2)
+    targetElement: MON-27
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3615f415-3271-4fed-b12e-4871d323297a
+    sourceElement: § 164.312(d)
+    targetElement: HRS-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6035d68a-ce34-4d02-bee2-0513131ac4dc
+    sourceElement: § 164.312(d)
+    targetElement: HRS-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e346d9df-4beb-4761-bd91-e9708491273c
+    sourceElement: § 164.312(d)
+    targetElement: IAC-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: e026e555-2035-478a-b488-cf239d6f8ae0
+    sourceElement: § 164.312(d)
+    targetElement: IAC-05.2
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 8a00b834-ac74-4ebe-9b4c-d4a4ef211964
+    sourceElement: § 164.312(d)
+    targetElement: IAC-05.3
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 6e616982-225d-4035-9d63-88facf70a1ec
+    sourceElement: § 164.312(d)
+    targetElement: TPM-02
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1d922067-4caa-4ab2-bfa5-22eafb9e056a
+    sourceElement: § 164.312(e)(1)
+    targetElement: CFG-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f252b9f1-f782-4d96-bb71-e5e7011695c4
+    sourceElement: § 164.312(e)(1)
+    targetElement: CRY-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: bfa490a3-8755-4778-b8a1-c3b4205421aa
+    sourceElement: § 164.312(e)(1)
+    targetElement: NET-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 4bab79db-35b5-400f-b72e-be483cf8662a
+    sourceElement: § 164.312(e)(2)(i)
+    targetElement: CFG-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 541f5265-5d2f-4e41-8d91-e9a1a8b2bcf3
+    sourceElement: § 164.312(e)(2)(i)
+    targetElement: CRY-06
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: b706d6f6-a149-42a0-9ec2-055ff1c49599
+    sourceElement: § 164.312(e)(2)(i)
+    targetElement: NET-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: ec7dff14-e6ed-4925-b320-a8e72a855cf6
+    sourceElement: § 164.312(e)(2)(ii)
+    targetElement: CFG-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 4cd29195-d5bd-48ab-8a17-fd3a1b20ddd4
+    sourceElement: § 164.312(e)(2)(ii)
+    targetElement: CRY-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 6e464447-2536-4892-8a8e-3c13d43860c1
+    sourceElement: § 164.312(e)(2)(ii)
+    targetElement: OPS-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: a6bfc57b-a1a1-4b53-9800-6e871fa8929b
+    sourceElement: § 164.314(a)(1)
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: c948dbf8-c90c-4fbc-bb8a-0059840fc3fc
+    sourceElement: § 164.314(a)(2)(i)(B)
+    targetElement: TPM-14.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f76e55db-0073-4bfb-98b4-efde57ccc6d4
+    sourceElement: § 164.314(a)(2)(i)(C)
+    targetElement: TPM-21.1
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: f93e556b-1cc0-42c2-af76-df405645373d
+    sourceElement: § 164.314(a)(2)(ii)
+    targetElement: CPL-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: 745101d0-103c-4055-a75a-96bceec6ae98
+    sourceElement: § 164.314(a)(2)(iii)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: caaa944d-bd5c-4180-aa58-a5b8b2b39059
+    sourceElement: § 164.314(a)(2)(iii)
+    targetElement: TPM-14.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 3cd6a0e8-74a8-4c20-98fa-26f319fd7b1d
+    sourceElement: § 164.314(b)(1)
+    targetElement: TPM-14
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: d3ced5b7-bd50-4533-a7fa-2e7b50dd08ce
+    sourceElement: § 164.314(b)(2)(i)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: aa97e17d-c18a-4133-9a64-9fedaff76325
+    sourceElement: § 164.314(b)(2)(ii)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2d6266c0-99f6-4fa9-a7c3-0c00553df6d7
+    sourceElement: § 164.314(b)(2)(iii)
+    targetElement: TPM-14
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 90e5a982-b753-4f58-bc73-cdf8b3c47df2
+    sourceElement: § 164.314(b)(2)(iv)
+    targetElement: TPM-21.1
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 2b7e0029-1ada-46d4-9b3b-c233e1877bf8
+    sourceElement: § 164.316(a)
+    targetElement: GOV-02
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: f61771cf-ea0c-4498-b551-ee4e1acfe541
+    sourceElement: § 164.316(a)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: f574ac1e-8912-42be-ad22-02e6239df02d
+    sourceElement: § 164.316(b)(1)(i)
+    targetElement: GOV-04
+    relationshipType: subset_of
+    strengthOfRelationship: 10
+  - id: f57ecc5c-f867-4abf-b31a-116b60332a6b
+    sourceElement: § 164.316(b)(1)(ii)
+    targetElement: CPL-05
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: c6e50c5b-8456-4839-b442-57ce2734cc78
+    sourceElement: § 164.316(b)(1)(ii)
+    targetElement: GOV-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 3
+  - id: 97bc359e-48ed-48e5-b9d1-ff09403b37ff
+    sourceElement: § 164.316(b)(2)(i)
+    targetElement: DCH-27
+    relationshipType: equals
+    strengthOfRelationship: 10
+  - id: 8ee70f21-897d-49a8-aefe-ae6e81357a0b
+    sourceElement: § 164.316(b)(2)(ii)
+    targetElement: OPS-04
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 1292b61c-c4e1-4f9c-9a1e-67747110a164
+    sourceElement: § 164.316(b)(2)(ii)
+    targetElement: OPS-05
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: 13ba0896-a9de-42cf-9561-f5f0d9909fda
+    sourceElement: § 164.316(b)(2)(iii)
+    targetElement: CPL-07
+    relationshipType: intersects
+    strengthOfRelationship: 5
+  - id: f2744a52-c742-474c-bf5a-2a240af818ba
+    sourceElement: § 164.316(b)(2)(iii)
+    targetElement: GOV-04.1
+    relationshipType: intersects
+    strengthOfRelationship: 5

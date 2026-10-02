@@ -1,0 +1,49 @@
+id: 55560b7a-62f5-423b-a367-445bb19a92fb
+name: DOD Zero Trust Reference Architecture (ZTRA) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from DOD Zero Trust Reference Architecture (ZTRA) to the Secure Controls Framework (SCF) 2026.3 framework
+status: active
+elements:
+  - fc2202af-a291-4ede-85fc-e6066f0d4b51
+  - ecfe168e-ffd1-4f36-9e11-7fd8ed393391
+  - b2a6c379-9e65-4771-bc91-e27902c7bf79
+  - cc07ba6e-d22e-448d-9793-c026014c369d
+  - e6512f8f-559f-423e-b41a-5523c42aeedd
+  - 250614e4-bc37-4da5-9ad9-a50c0f642993
+  - b13edfe0-22e3-4d32-b3bc-a9a109bb68ea
+  - 58f33ed2-051d-4403-8daa-bda4617523d9
+  - a2c7b782-50df-45c6-b40b-8abc6fcad0b7
+  - 93d97896-7f84-4bcc-ad57-f7ccd361933c
+  - 8ac14d9d-1f27-4f06-b9e9-7ed379f0d603
+  - 7e16b056-8bcf-472b-b7f2-fb25984553a6
+  - 7b2a3b80-f079-4ce7-ad5a-d9f404ba161a
+  - eba0e112-c5da-4e13-887d-6727c7f79151
+  - 3785479a-f75e-4e89-837d-8d999eb36f26
+  - d1378d05-7be4-4a98-9c1d-a5d05fd94bf1
+  - 832150fe-cf4e-4711-be08-e211384b88f5
+  - 186c0a81-0761-4d81-9b85-57a7b5b41323
+  - 4240c2f8-1304-45b1-9e43-0a4a4dd8f50a
+  - 4a2cd1e2-99ae-4a6f-bdec-d334262be618
+  - 22b6013e-8364-4a55-ba25-e8339139f1c5
+  - 50cba54c-dcae-4f16-8fa4-b5da458dc0c6
+  - 1a20254a-4bbd-40a7-85ec-b149386cd964
+  - 12ae2ca4-d35b-4348-992b-ca3a10b3b99b
+  - b0b95f29-0256-4e1d-94ed-abb64f9d1511
+  - a37a87d0-f5a3-411b-a1bf-5d840737508a
+  - 11c32f28-025e-4f56-9c1d-c51a083599c7
+  - 79e0e5a2-307e-4249-ac3f-5e42390d4d3b
+  - 2981e72b-807c-4a8e-9705-edc396dd2c32
+  - 75d48457-ce61-43a3-bdbc-e40a87a9572a
+  - 864a0da3-4c77-4cf1-b7fe-0809232a7f6a
+  - 92f4824b-40ba-4c5e-8e5d-ba27dd31cb5e
+  - 8125455b-a8a8-4ae4-ade3-c709732a8bc9
+  - ebb01193-f630-4ea3-a635-dfb3df3fdbd6
+  - f84a8cce-4569-43fe-b9ac-69f32a558995
+  - b1f2c2b5-fe07-4a31-8750-a87cc10fc3c8
+  - 0ef3ae2c-5f0d-4a5f-846c-3440884e52e7
+  - c6fbbfda-ac32-4f0f-98fb-c134167add04
+  - d7bb5bba-f63d-40b6-a6aa-31cbce9745c3
+  - 8a63741e-9415-4221-bcd6-5407f088c386
+  - 9ec27866-d3fc-43ab-b29a-5a7fc8ba43fa
+  - 76682b66-bf0a-4882-86a6-de36f844b33b
+  - 0143da35-22a3-427e-9ee0-0dd5c21ecd8e
+  - bccc2104-af4c-4179-b92c-68c5c8e89d65

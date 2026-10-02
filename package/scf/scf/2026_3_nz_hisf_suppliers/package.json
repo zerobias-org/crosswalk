@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2026_3_nz_hisf_suppliers",
+  "version": "1.0.0",
+  "description": "NZ Health Information Security Framework for Suppliers to Secure Controls Framework (SCF) 2026.3 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2026_3_nz_hisf_suppliers/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2026_3_nz_hisf_suppliers.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-nz-hisf-suppliers": "latest",
+    "@zerobias-org/framework-scf-scf-2026.3": "latest"
+  }
+}

@@ -1,0 +1,8 @@
+id: 6715f6b0-6d68-4c3c-9efe-516ef9a77517
+name: CISA Secure Software Development Attestation Form (SSDAF) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+description: Crosswalk mappings from CISA Secure Software Development Attestation Form (SSDAF) to the Secure Controls Framework (SCF) 2026.3 framework
+externalId: CISA Secure Software Development Attestation Form (SSDAF) to Secure Controls Framework (SCF) 2026.3 Crosswalk
+code: cisa_ssdaf_v1_scf_scf_2026_3_crosswalk
+status: active
+sourceStandard: cisa.ssdaf.v1.framework
+targetStandard: scf.scf.2026_3.framework

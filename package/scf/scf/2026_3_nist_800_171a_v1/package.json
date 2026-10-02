@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2026_3_nist_800_171a_v1",
+  "version": "1.0.0",
+  "description": "SP 800-171A - Assessing Security Requirements for Controlled Unclassified Information to Secure Controls Framework (SCF) 2026.3 Crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/crosswalk.git",
+    "directory": "package/scf/scf/2026_3_nist_800_171a_v1/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "elements.yml",
+    "versions/**"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "crosswalk",
+    "package": "scf.scf.2026_3_nist_800_171a_v1.crosswalk"
+  },
+  "dependencies": {
+    "@zerobias-org/framework-nist-800_171a-v1": "latest",
+    "@zerobias-org/framework-scf-scf-2026.3": "latest"
+  }
+}
