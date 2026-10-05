@@ -1,0 +1,17 @@
+# One entry per SCF STRM crosswalk this tool generates: package/scf/scf/<scfVer>_<code>/.
+#   focalDocument    — the STRM's Focal Document Identifier (bundle file scf-strm-<id>.xlsx)
+#   sourceStandard   — zerobias.package of the source framework (the focal document)
+#   sourceDependency — npm package of that framework; its elements validate every FDE #
+#   blocked          — do not generate: the source framework is a different edition than
+#                      the one the STRM maps. Element ids can still match across editions,
+#                      so resolution alone cannot catch this. Unblock once the framework
+#                      package for the STRM's edition exists (and repoint sourceStandard).
+target:
+  npmScope: '@zerobias-org'
+  registry: https://pkg.zerobias.org/
+  repository: git@github.com:zerobias-org/crosswalk.git
+# 2026-10: no SCF STRM crosswalks are generated into this public repo for now. All of them
+# (restricted- and public-license frameworks alike) are generated into auditlogic/crosswalk,
+# whose config lives there: package/scf/scf/update/crosswalks.yml. Moving an entry back here
+# later is a scope-only republish (same zerobias.package code, higher version).
+crosswalks: []
