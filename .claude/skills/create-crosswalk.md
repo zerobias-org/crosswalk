@@ -229,7 +229,8 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
 ├── package.json          # @zerobias-org/crosswalk-{name}
 ├── index.yml             # Crosswalk metadata (source/target frameworks)
 ├── elements.yml          # Mapping elements
-├── .npmrc                # Registry configuration
+├── .npmrc                # Byte-identical copy of the repo-root .npmrc
+├── npm-shrinkwrap.json   # Shipped lockfile, no resolved URLs (in files[])
 └── versions/
     └── 1.0.0.yml         # Version-specific data (optional)
 ```
@@ -254,14 +255,15 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
     "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
     "elements.yml",
     "versions/**",
     "baselines/**",
-    "elements/**"
+    "elements/**",
+    "npm-shrinkwrap.json"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
@@ -269,11 +271,16 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
     "package": "{sourceVendor}.{sourceSuite}.{sourceVersion}_{targetVendor}_{targetSuite}_{targetVersion}.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/framework-{sourceVendor}-{sourceSuite}-{sourceVersion}": "latest",
-    "@zerobias-org/framework-{targetVendor}-{targetSuite}-{targetVersion}": "latest"
+    "@zerobias-org/framework-{sourceVendor}-{sourceSuite}-{sourceVersion}": "*",
+    "@zerobias-org/framework-{targetVendor}-{targetSuite}-{targetVersion}": "*"
   }
 }
 ```
+
+Dependency specs are always `"*"` — never `"latest"` or a `^` range. The
+shipped `npm-shrinkwrap.json` (see Step 10) pins the version; `npm ci`
+accepts any pin under `*`, and a fresh resolve follows `NPM_CONFIG_TAG` /
+`latest`.
 
 **CRITICAL package.json rules:**
 - **Metadata key**: `zerobias` (NOT `auditmation`)
@@ -297,27 +304,36 @@ package/{sourceVendor}/{sourceSuite}/{sourceVersion}_{target}/
 **Some crosswalks also include a suite dependency:**
 ```json
 "dependencies": {
-  "@auditlogic/framework-nist-800218-v1.1": "latest",
-  "@zerobias-org/framework-cncf-sscp-v1": "latest",
-  "@zerobias-org/suite-nist-800-218": "latest"
+  "@auditlogic/framework-nist-800218-v1.1": "*",
+  "@zerobias-org/framework-cncf-sscp-v1": "*",
+  "@zerobias-org/suite-nist-800-218": "*"
 }
 ```
 
-### Step 10: Create .npmrc
+### Step 10: `.npmrc` and `npm-shrinkwrap.json`
 
-**Default (all deps on @zerobias-org):**
-```
-@zerobias-org:registry=https://pkg.zerobias.org/
-//pkg.zerobias.org/:_authToken=${ZB_TOKEN}
+**`.npmrc`** is a byte-identical copy of the repo-root `.npmrc` — `cp` it,
+never hand-write it. It routes every scope (`@zerobias-org`, `@zerobias-com`,
+`@auditlogic`, `@auditmation`) to `pkg.zerobias.org` with `${ZB_TOKEN}` and
+sets `omit-lockfile-registry-resolved=true`. There is no GitHub Packages
+variant any more: `@auditlogic` packages resolve from `pkg.zerobias.org` too.
+
+```bash
+cp .npmrc package/<vendor>/<suite>/<versionPair>/.npmrc
 ```
 
-**If package depends on @auditlogic packages, also add:**
+**`npm-shrinkwrap.json`** is required and ships in the tarball (listed in
+`files[]`). Generate it AFTER `package.json` is final, inside the package
+dir — never `npm shrinkwrap` (ENOWORKSPACES):
+
+```bash
+npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json
+grep -c '"resolved"' npm-shrinkwrap.json   # must print 0
 ```
-@auditlogic:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken=${NPM_TOKEN}
-@zerobias-org:registry=https://pkg.zerobias.org/
-//pkg.zerobias.org/:_authToken=${ZB_TOKEN}
-```
+
+Refresh later with `npm update --package-lock-only --no-workspaces`. Commit
+it and `git add` it BEFORE the final gate — it is part of the gate-stamp
+`sourceHash`.
 
 ### Step 11: Create index.yml
 

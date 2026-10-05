@@ -1,7 +1,7 @@
 {
   "version": "3.0.2-uat.0",
-  "branch": "fix/scf-nist-crosswalk-revert-to-zerobias-org",
-  "sourceHash": "79df819a8d6f7581ca9eb4088400135f6c0b554968372b9044b560c6c33955ec",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "2cedf885205bf56b3e1d7607d71164bda56607b16f97933982079074cf34102a",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

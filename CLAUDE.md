@@ -37,7 +37,7 @@ The npm name keeps everything verbatim; only `zerobias.package` normalizes. The 
 ### Required files per package
 - `index.yml` — crosswalk metadata
 - `mappings/*.yml` — the element-to-element mappings (each with a unique `id`)
-- `package.json`, `.npmrc`, `build.gradle.kts` (`plugins { id("zb.content") }`), `gate-stamp.json`
+- `package.json` (deps with the `"*"` spec), `.npmrc` (byte-identical copy of the repo-root one), `npm-shrinkwrap.json` (shipped, in `files[]`, no `resolved` URLs — generate with `npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json`), `build.gradle.kts` (`plugins { id("zb.content") }`), `gate-stamp.json`
 
 ## Validator philosophy
 

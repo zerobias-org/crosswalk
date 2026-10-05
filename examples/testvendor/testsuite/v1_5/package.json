@@ -15,7 +15,7 @@
     "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
@@ -30,6 +30,6 @@
     "package": "testvendor.testsuite.v1_5.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/suite-testvendor-testsuite": "latest"
+    "@zerobias-org/suite-testvendor-testsuite": "*"
   }
 }

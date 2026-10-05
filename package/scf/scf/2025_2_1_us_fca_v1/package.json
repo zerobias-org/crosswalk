@@ -10,16 +10,17 @@
     "directory": "package/scf/scf/2025_2_1_us_fca_v1/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
     "elements.yml",
+    "index.yml",
+    "npm-shrinkwrap.json",
     "versions/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-scf-scf-2025.2.1": "latest",
-    "@zerobias-org/framework-us-fca-v1": "latest"
+    "@zerobias-org/framework-scf-scf-2025.2.1": "*",
+    "@zerobias-org/framework-us-fca-v1": "*"
   },
   "zerobias": {
     "package": "scf.scf.2025_2_1_us_fca_v1.crosswalk",

@@ -1,0 +1,59 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_cisa_tic_v3",
+  "version": "3.0.1",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_cisa_tic_v3",
+      "version": "3.0.1",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-cisa-tic-v3": "*",
+        "@zerobias-org/framework-scf-scf-2025.2.1": "*"
+      }
+    },
+    "node_modules/@zerobias-org/framework-cisa-tic-v3": {
+      "version": "2.0.0",
+      "integrity": "sha512-piTuZzWAzdreum12gjlPjL37HZyQCxblAI3cvSY0qy2QUw8LjvAs9woUX+dIkZYboPZxY9Y0tnyYwBe3YNhcng==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-cisa-tic": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/framework-scf-scf-2025.2.1": {
+      "version": "3.0.1",
+      "integrity": "sha512-zppiZwQ5/DzYcU34BTsT4u0ojRHprI5GP3GefsMvOSRvdJodnuuWPms1ws1fO0b0QshR8BZobDFbX6WYSJnGGg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-scf-scf": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-cisa-tic": {
+      "version": "2.0.1",
+      "integrity": "sha512-1nsEHUZnTfUImSN+w+k6+frCuu+NTZoBgJMvdJOItNN3//MW/1n9QGI9AL707EFCUtOOgXd7K2VxAwUruJUG3A==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-cisa": "*"
+      }
+    },
+    "node_modules/@zerobias-org/suite-scf-scf": {
+      "version": "1.0.1",
+      "integrity": "sha512-vDXOHEuoIbHPk7rCUWlt0NoqXjg2Xa0ChNhc+kRw5vUTpwN6IdPUVLArWSv/s0t4wSgibDeCnmscP+exEWdcmA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-scf": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-cisa": {
+      "version": "2.0.1",
+      "integrity": "sha512-f24O17E5hQiudNtWhON5q+mA81a3PMSA5I6zU5FUBvbsfkW9HY3faitEMXKjl5ESFXBmeR7bQwyWecR3DlsUfw==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/vendor-scf": {
+      "version": "1.0.3",
+      "integrity": "sha512-mfxbF5SD/tZkN7WlfaRGTT/KIQDcqP1zyto8A9T3fN4F27A654lB6M7tZVQpApt5TOeBqAh/kr3WTuItMebeVw==",
+      "license": "ISC"
+    }
+  }
+}

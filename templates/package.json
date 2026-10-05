@@ -15,14 +15,15 @@
     "validate": "tsx ../../../../scripts/validate.ts"
   },
   "publishConfig": {
-    "registry": "https://pkg.zerobias.org/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
-    "versions/**",
     "baselines/**",
-    "elements/**"
+    "elements.yml",
+    "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
+    "versions/**"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
@@ -31,6 +32,6 @@
     "orgId": "{target-org-uuid}"
   },
   "dependencies": {
-    "@zerobias-org/suite-{vendor}-{suite}": "latest"
+    "@zerobias-org/suite-{vendor}-{suite}": "*"
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "3.0.1-uat.0",
-  "branch": "fix/scf-load-9-missed-crosswalks",
-  "sourceHash": "09af0cf754d36bea76033c380256abee7d1e4c97b029ddde5b145348504bc7ed",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "01acea4ca5b021de33dac06ee1428433f1647c0b5f5a77dc03e0ed7968d5d48f",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

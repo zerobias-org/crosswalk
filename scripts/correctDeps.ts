@@ -27,7 +27,7 @@ import path from 'path';
     if (packageJson.dependencies) {
       for (const depKey of Object.keys(packageJson.dependencies)) {
         if (!packageJson.dependencies[depKey].includes('-rc.')) {
-          packageJson.dependencies[depKey] = 'latest';
+          packageJson.dependencies[depKey] = '*';
         }
       }
     }

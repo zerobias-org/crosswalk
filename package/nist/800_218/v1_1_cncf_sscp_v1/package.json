@@ -14,14 +14,15 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
-    "versions/**",
     "baselines/**",
-    "elements/**"
+    "elements.yml",
+    "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
+    "versions/**"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
@@ -29,8 +30,8 @@
     "package": "nist.800_218.v1_1_cncf_sscp_v1.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/framework-cncf-sscp-v1": "latest",
-    "@zerobias-org/framework-nist-800_218-v1_1": "latest",
-    "@zerobias-org/suite-nist-800_218": "latest"
+    "@zerobias-org/framework-cncf-sscp-v1": "*",
+    "@zerobias-org/framework-nist-800_218-v1_1": "*",
+    "@zerobias-org/suite-nist-800_218": "*"
   }
 }

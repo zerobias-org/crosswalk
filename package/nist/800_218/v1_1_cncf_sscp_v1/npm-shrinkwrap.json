@@ -1,0 +1,44 @@
+{
+  "name": "@zerobias-org/crosswalk-nist-800_218-v1_1_cncf_sscp_v1",
+  "version": "3.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-nist-800_218-v1_1_cncf_sscp_v1",
+      "version": "3.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-cncf-sscp-v1": "*",
+        "@zerobias-org/framework-nist-800_218-v1_1": "*",
+        "@zerobias-org/suite-nist-800_218": "*"
+      }
+    },
+    "node_modules/@zerobias-org/framework-cncf-sscp-v1": {
+      "version": "2.0.0",
+      "integrity": "sha512-qz7RoJRYEi9GtpHOdtk/BYkbANkVhaEu6a/mHMdNWB8cAVb15gpabJSUbvdFwBnU+xhZo6eS5Cg6uWRfd6euPg==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/framework-nist-800_218-v1_1": {
+      "version": "2.2.0",
+      "integrity": "sha512-tXqtORuD6CW8E5ays8VSgPc//ZvMAc/y21lXn9An8zDYsE17czb4Zyt9les1i4mhsfkwN9EAsXbzSVNlurL43g==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-nist-800_218": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-nist-800_218": {
+      "version": "2.0.3",
+      "integrity": "sha512-sC2Dlj1MZVOxUaRlYUm9IHyMGLZ2ImVAFDPm6/y2eD6FmUblB/CleoIu+heIn5fYt4thZJOBt+HMfzpBHY2fjQ==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-nist": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-nist": {
+      "version": "2.0.1",
+      "integrity": "sha512-NjIQ5u841I/1TAl3W9ogHMYPbywAuofDzibEawFXszvSgXiZ4j2tjIe38JmpHUrws/6wo3ij2TYxBA1GzbQtpw==",
+      "license": "ISC"
+    }
+  }
+}

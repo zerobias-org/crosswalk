@@ -1,7 +1,7 @@
 {
   "version": "2.0.1-uat.0",
-  "branch": "fix/opencre-owasp-repoint-public-deps",
-  "sourceHash": "365a72bdc8232e03d84ab8bc0342c168e8bcbdf6a76afc8c421d2b849bdf5515",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "19bdd82f462b35617de29601f5ac1109be26473d4ac619b1994b0c6a5243536d",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
