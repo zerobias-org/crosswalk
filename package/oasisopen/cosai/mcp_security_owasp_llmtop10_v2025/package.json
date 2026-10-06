@@ -14,14 +14,15 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
-    "versions/**",
     "baselines/**",
-    "elements/**"
+    "elements.yml",
+    "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
+    "versions/**"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
@@ -29,7 +30,7 @@
     "package": "oasisopen.cosai.mcp_security_owasp_llmtop10_v2025.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/framework-oasisopen-cosai-mcp_security": "latest",
-    "@zerobias-org/framework-owasp-llmtop10-v2025": "latest"
+    "@zerobias-org/framework-oasisopen-cosai-mcp_security": "*",
+    "@zerobias-org/framework-owasp-llmtop10-v2025": "*"
   }
 }

@@ -14,11 +14,12 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
     "elements.yml",
+    "index.yml",
+    "npm-shrinkwrap.json",
     "versions/**"
   ],
   "zerobias": {
@@ -28,7 +29,7 @@
     "migrates-from": "@zerobias-org/crosswalk-complianceforge-scf-2025_2_1_au_ism_v1"
   },
   "dependencies": {
-    "@zerobias-org/framework-au-ism-v1": "latest",
-    "@zerobias-org/framework-scf-scf-2025.2.1": "latest"
+    "@zerobias-org/framework-au-ism-v1": "*",
+    "@zerobias-org/framework-scf-scf-2025.2.1": "*"
   }
 }

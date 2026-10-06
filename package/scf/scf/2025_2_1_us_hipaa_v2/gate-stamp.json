@@ -1,7 +1,7 @@
 {
   "version": "3.0.0-uat.0",
-  "branch": "feat/scf-migrate-complianceforge-crosswalks",
-  "sourceHash": "c6c33eee7f08b208d58946710ed729f7d1ea520881d611d5529040459aea5ae3",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "2e03267e017b7834b9f497ce72de4cbe0184108321a4bbfb18e7e8e827d201c8",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

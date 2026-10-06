@@ -19,10 +19,10 @@ Per-repo companion to `/migrate-content-to-zbb`. Migrate crosswalk packages one 
 ## Per-package loop
 
 1. Drop `package/<path>/build.gradle.kts` = `plugins { id("zb.content") }`.
-2. Ensure `.npmrc`.
+2. Ensure `.npmrc` — byte-identical to the repo-root `.npmrc` (`cp .npmrc package/<path>/.npmrc`; never from a sibling). Set every `dependencies` spec to `"*"`, then generate `npm-shrinkwrap.json` with zero `"resolved"` entries — `npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json` inside the package — and make sure it is listed in `package.json` `files[]`. `git add` all of it BEFORE the gate (untracked files are invisible to the stamp's `sourceHash`).
 3. Run **full** `./gradlew :<v>:<s>:<vp>:gate` (writes the mandatory `gate-stamp.json`).
 4. Major-bump: `1.x → 2.0.0`, `0.x → 1.0.0`, `2.x → no-op`.
-5. Commit per package: `feat(crosswalk-<v>-<s>-<vp>)!: migrate to gradle pipeline (<old> → <new>)`. Stage marker + `gate-stamp.json` + `package.json` + drift fixes.
+5. Commit per package: `feat(crosswalk-<v>-<s>-<vp>)!: migrate to gradle pipeline (<old> → <new>)`. Stage marker + `gate-stamp.json` + `package.json` + `.npmrc` + `npm-shrinkwrap.json` + drift fixes.
 
 Common drift:
 - **`package.json name` not verbatim** — must be `@zerobias-org/crosswalk-<v>-<s>-<vp>` with `<vp>` underscores preserved (NOT hyphenated). A handful of legacy packages hand-hyphenated the version pair; fix them to match their own `zerobias.package`.

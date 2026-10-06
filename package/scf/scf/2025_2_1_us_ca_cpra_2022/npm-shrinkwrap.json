@@ -1,0 +1,59 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_ca_cpra_2022",
+  "version": "3.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_ca_cpra_2022",
+      "version": "3.0.0",
+      "license": "CC-BY-ND-4.0",
+      "dependencies": {
+        "@zerobias-org/framework-scf-scf-2025.2.1": "*",
+        "@zerobias-org/framework-us_ca-cpra-2022": "*"
+      }
+    },
+    "node_modules/@zerobias-org/framework-scf-scf-2025.2.1": {
+      "version": "3.0.1",
+      "integrity": "sha512-zppiZwQ5/DzYcU34BTsT4u0ojRHprI5GP3GefsMvOSRvdJodnuuWPms1ws1fO0b0QshR8BZobDFbX6WYSJnGGg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-scf-scf": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/framework-us_ca-cpra-2022": {
+      "version": "2.0.0",
+      "integrity": "sha512-2TMxJWQWy8jmCKYMs310lGdTW/RVl5tmEFaM5TsQtzgqD4x2WkE1wjLD2CrcYY4JR1omkwYLYagagdDTlbGH4A==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-us_ca-cpra": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-scf-scf": {
+      "version": "1.0.1",
+      "integrity": "sha512-vDXOHEuoIbHPk7rCUWlt0NoqXjg2Xa0ChNhc+kRw5vUTpwN6IdPUVLArWSv/s0t4wSgibDeCnmscP+exEWdcmA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-scf": "*"
+      }
+    },
+    "node_modules/@zerobias-org/suite-us_ca-cpra": {
+      "version": "2.0.1",
+      "integrity": "sha512-mKiTIoCugNBly0otsXcmlNhnpOp4yNViznN3ZMCuqAli//3m4MdUzb07cYuKkWHGQ8/un6mmEDVZy8MDPhHs/A==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-us_ca": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-scf": {
+      "version": "1.0.3",
+      "integrity": "sha512-mfxbF5SD/tZkN7WlfaRGTT/KIQDcqP1zyto8A9T3fN4F27A654lB6M7tZVQpApt5TOeBqAh/kr3WTuItMebeVw==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/vendor-us_ca": {
+      "version": "2.0.1",
+      "integrity": "sha512-DoNOsIKY0FeTlf9p93Jh6aMkER2JyJu/TTOfBnY0T5BOJ7XW1AAn2hYdwlgaAUy/Q2ARk7fUI95dNGLAjbp/Kg==",
+      "license": "ISC"
+    }
+  }
+}

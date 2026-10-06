@@ -20,17 +20,18 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
-    "versions/**",
     "baselines/**",
-    "elements/**"
+    "elements.yml",
+    "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
+    "versions/**"
   ],
   "dependencies": {
-    "@zerobias-org/framework-scf-scf-2025.2.1": "latest",
-    "@zerobias-org/framework-us_tn-ipa-v1": "latest"
+    "@zerobias-org/framework-scf-scf-2025.2.1": "*",
+    "@zerobias-org/framework-us_tn-ipa-v1": "*"
   }
 }

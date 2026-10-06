@@ -14,13 +14,14 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
     "baselines/**",
+    "elements.yml",
     "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
     "versions/**"
   ],
   "zerobias": {
@@ -29,8 +30,8 @@
     "package": "opencre.opencre.v1_owasp_wstg_v5.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/benchmark-owasp-wstg-v5": "latest",
-    "@zerobias-org/framework-opencre-opencre-v1": "latest",
-    "@zerobias-org/suite-opencre-opencre": "latest"
+    "@zerobias-org/benchmark-owasp-wstg-v5": "*",
+    "@zerobias-org/framework-opencre-opencre-v1": "*",
+    "@zerobias-org/suite-opencre-opencre": "*"
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "2.1.0-uat.0",
-  "branch": "fix/nist-800-53-v5-enhancement-codes",
-  "sourceHash": "69b20bddd3c2208f5864d70348ac9d0a279dc9b9c5af15a77c909f4f1a1edd03",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "3b4d265fdb2b00cfbebd126900964f6676d9bd45ba437beaa943b63eb77072cd",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

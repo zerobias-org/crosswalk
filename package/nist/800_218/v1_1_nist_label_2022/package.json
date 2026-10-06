@@ -14,13 +14,14 @@
     "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
-    "index.yml",
-    "elements.yml",
     "baselines/**",
+    "elements.yml",
     "elements/**",
+    "index.yml",
+    "npm-shrinkwrap.json",
     "versions/**"
   ],
   "zerobias": {
@@ -29,8 +30,8 @@
     "package": "nist.800_218.v1_1_nist_label_2022.crosswalk"
   },
   "dependencies": {
-    "@zerobias-org/framework-nist-800_218-v1_1": "latest",
-    "@zerobias-org/framework-nist-label-2022": "latest",
-    "@zerobias-org/suite-nist-800_218": "latest"
+    "@zerobias-org/framework-nist-800_218-v1_1": "*",
+    "@zerobias-org/framework-nist-label-2022": "*",
+    "@zerobias-org/suite-nist-800_218": "*"
   }
 }

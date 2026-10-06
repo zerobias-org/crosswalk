@@ -1,0 +1,59 @@
+{
+  "name": "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security_owasp_llmtop10_v2025",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/crosswalk-oasisopen-cosai-mcp_security_owasp_llmtop10_v2025",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/framework-oasisopen-cosai-mcp_security": "*",
+        "@zerobias-org/framework-owasp-llmtop10-v2025": "*"
+      }
+    },
+    "node_modules/@zerobias-org/framework-oasisopen-cosai-mcp_security": {
+      "version": "2.0.0",
+      "integrity": "sha512-sjy03yFuAvYCi9XF5135RJ1BWANL/bf2NfzfKhcLL5AVDIoB2cAXnAWQiqfJiF/WzQ//4vl0awBXLqsNMBw1AA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-oasisopen-cosai": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/framework-owasp-llmtop10-v2025": {
+      "version": "2.0.0",
+      "integrity": "sha512-PVALpbXQNqSq4dZ65OPTXgQ9lhb7v8QuD2ACNjVjSG//nfNG0SXm4AzxnweAJpLdVxJDwEqkrQFg9N9/+ln/Hw==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/suite-owasp-llmtop10": "latest"
+      }
+    },
+    "node_modules/@zerobias-org/suite-oasisopen-cosai": {
+      "version": "1.0.1",
+      "integrity": "sha512-pHG3QG54idELFaJvQBAG6TfufRU42BBuDJvEM+i1KBneWvvLoTezr5nLo6K2Y0ajlCQblp03McZi7H9cYIsUOA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-oasisopen": "*"
+      }
+    },
+    "node_modules/@zerobias-org/suite-owasp-llmtop10": {
+      "version": "2.0.1",
+      "integrity": "sha512-7MMz1/Um2etOdyx92E2WokctWn8NnnwE4Nz66PQ5cAU8KJyjmgdYA9nZJXMaaDYXxvUdixGUVdQXdCQuq87zAg==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-owasp": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-oasisopen": {
+      "version": "2.0.1",
+      "integrity": "sha512-igr3Zio7kQ40xhrPQ3H1rmKQfaxPJjrZbnIOeEomBBoxHksEy0rGOIn9uUYJuPYwIU2iQqH2qYiALPSBzosWEg==",
+      "license": "ISC"
+    },
+    "node_modules/@zerobias-org/vendor-owasp": {
+      "version": "2.0.1",
+      "integrity": "sha512-khldXyzaYbh5rB9M5kVL0PNecpfXeHSlH454YRb/njfw3ZBLhEOZaoU3I/d0sRYMd2+RA//IXyLJPXbSnH9dxw==",
+      "license": "ISC"
+    }
+  }
+}
