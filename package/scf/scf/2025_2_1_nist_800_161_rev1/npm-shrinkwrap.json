@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_nist_800_161_rev1",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_nist_800_161_rev1",
-      "version": "3.0.0",
+      "version": "3.0.2",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/framework-nist-800_161-rev1": "*",
