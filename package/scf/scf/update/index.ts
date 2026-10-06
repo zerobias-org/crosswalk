@@ -41,7 +41,14 @@ interface CrosswalkConfig {
   sourceStandard: string;
   sourceDependency: string;
   blocked?: string;
+  // FDE spellings the STRM uses for one element, mapped onto the spelling to load. A
+  // per-crosswalk decision (2026.3 MARS-E lists `CA-7.1` and `CA-7(1)` for one control);
+  // the rows then merge, and any pair listed twice follows the highest-strength rule.
+  sameFde?: Record<string, string>;
 }
+
+// Rank for the tie-break when two rows of one pair carry the same strength.
+const RELATIONSHIP_RANK: Record<string, number> = { equals: 3, subset_of: 2, superset_of: 2, intersects: 1 };
 
 interface Mapping {
   id: string;
@@ -60,6 +67,7 @@ interface Result {
   duplicates?: number;
   resolution?: Record<string, number>;
   unresolved?: string[];
+  conflicts?: string[];   // pairs listed twice with different values, and which row was kept
   package?: string;
 }
 
@@ -95,7 +103,8 @@ async function build(cfg: CrosswalkConfig, bundle: string, scfVersion: string, s
   const errors: string[] = [];
   const unresolved = new Set<string>();
   const mappings: Omit<Mapping, 'id'>[] = [];
-  const seen = new Map<string, string>();
+  const seen = new Map<string, number>();   // pair -> index in mappings
+  const conflicts: string[] = [];
   let skipped = 0;
   let duplicates = 0;
 
@@ -123,23 +132,36 @@ async function build(cfg: CrosswalkConfig, bundle: string, scfVersion: string, s
       }
     }
 
-    const resolved = sourceIds.resolve(row.fde);
+    const fde = cfg.sameFde?.[row.fde] ?? row.fde;
+    const resolved = sourceIds.resolve(fde);
     if (resolved === undefined) { unresolved.add(row.fde); continue; }
     if (typeof resolved !== 'string') { errors.push(`${where}: ${resolved.collision}`); continue; }
     const sourceElement = resolved;
 
     const pair = `${sourceElement}\u0000${row.scf}`;
-    const value = `${relationshipType}/${strengthOfRelationship ?? ''}`;
-    if (seen.has(pair)) {
-      if (seen.get(pair) !== value) errors.push(`${where}: listed twice with different relationship/strength`);
+    const candidate = { sourceElement, targetElement: row.scf, relationshipType, strengthOfRelationship };
+    const at = seen.get(pair);
+    if (at !== undefined) {
       duplicates++;
+      const kept = mappings[at];
+      const same = kept.relationshipType === relationshipType && kept.strengthOfRelationship === strengthOfRelationship;
+      if (!same) {
+        // Decision 2026-10-06: a pair listed twice with different values keeps the row with
+        // the highest strength (then the strongest relationship). Reported, never silent.
+        const better = (candidate.strengthOfRelationship ?? -1) - (kept.strengthOfRelationship ?? -1)
+          || RELATIONSHIP_RANK[relationshipType] - RELATIONSHIP_RANK[kept.relationshipType];
+        const win = better > 0 ? candidate : kept;
+        const lose = better > 0 ? kept : candidate;
+        conflicts.push(`${sourceElement} → ${row.scf}: kept ${win.relationshipType}/${win.strengthOfRelationship ?? '-'} over ${lose.relationshipType}/${lose.strengthOfRelationship ?? '-'}`);
+        if (better > 0) mappings[at] = candidate;
+      }
       continue;
     }
-    seen.set(pair, value);
-    mappings.push({ sourceElement, targetElement: row.scf, relationshipType, strengthOfRelationship });
+    seen.set(pair, mappings.length);
+    mappings.push(candidate);
   }
 
-  const base = { code: cfg.code, skipped, duplicates, resolution: Object.fromEntries(sourceIds.used) };
+  const base = { code: cfg.code, skipped, duplicates, resolution: Object.fromEntries(sourceIds.used), ...(conflicts.length ? { conflicts } : {}) };
   if (errors.length) return { ...base, status: 'error', reason: `${errors.length} malformed row(s): ${errors.slice(0, 5).join('; ')}` };
   if (unresolved.size) {
     return {
@@ -272,6 +294,7 @@ async function main() {
     results.push(r);
     const detail = r.mappings !== undefined ? `${r.mappings} mappings, ${r.skipped} skipped rows${r.duplicates ? `, ${r.duplicates} duplicates` : ''}` : r.reason;
     console.log(`  ${r.status.padEnd(9)} ${cfg.code.padEnd(28)} ${detail}`);
+    for (const c of r.conflicts ?? []) console.log(`            conflict resolved: ${c}`);
     if (r.unresolved) console.log(`            e.g. ${r.unresolved.slice(0, 8).join(', ')}`);
   }
 

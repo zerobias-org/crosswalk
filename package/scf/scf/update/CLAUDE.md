@@ -63,6 +63,20 @@ resolving to one element.
 
 Rows that are not mappings are skipped: `No Relationship`, or no SCF #.
 
+## Conflicting rows (decision 2026-10-06)
+
+SCF's own STRMs occasionally list one pair twice with different values (2026.3: NIS2
+Annex `6.2.3 → TPM-14`, SP 800-218 `PW.4.4 → TDA-21.4`). The tool keeps the row with
+the **highest strength**, then the strongest relationship (equals > subset/superset >
+intersects). It reports every resolution (`conflict resolved: …` and `conflicts` in
+`strm-report.json`). A crosswalk with a resolution is not strictly verbatim, so say so in
+its PR.
+
+When a STRM uses two spellings for one element (2026.3 MARS-E: `CA-7.1` and `CA-7(1)`),
+declare it on the entry with `sameFde: { <spelling>: <spelling to load> }`. The rows then
+merge, and repeated pairs follow the rule above. Never add a `sameFde` entry to make an
+unrelated element resolve: that changes the mapping data.
+
 ## Element id resolution
 
 STRMs and our framework packages spell elements differently: SP 800-53 writes
