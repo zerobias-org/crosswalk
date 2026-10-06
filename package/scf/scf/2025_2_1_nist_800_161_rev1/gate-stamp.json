@@ -1,7 +1,7 @@
 {
-  "version": "3.0.2",
-  "branch": "fix/nist-800-161-at-3-6",
-  "sourceHash": "54e3e1722226746678cadb192e2177a347486c8a32fc4fb68eb0ed2b2edf9ce9",
+  "version": "3.0.2-uat.0",
+  "branch": "chore/restamp-800-161-crosswalk",
+  "sourceHash": "fe8c1c25b8bd1e04499cc06bc4e375613b444ff3951bf6bf895651973d59b2d0",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
