@@ -1,5 +1,5 @@
 {
-  "version": "3.0.1-uat.0",
+  "version": "3.0.2",
   "branch": "fix/nist-800-161-at-3-6",
   "sourceHash": "54e3e1722226746678cadb192e2177a347486c8a32fc4fb68eb0ed2b2edf9ce9",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
