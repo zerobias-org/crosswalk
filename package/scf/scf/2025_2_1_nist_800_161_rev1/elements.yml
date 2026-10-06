@@ -250,22 +250,22 @@ elements:
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: 3567018b-aeaa-4bad-87ac-1fa170e2238c
-    sourceElement: AT-3(8)
+    sourceElement: AT-3(6)
     targetElement: SAT-03
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: 048142af-60b0-46fa-b4b9-c79c18563cbd
-    sourceElement: AT-3(8)
+    sourceElement: AT-3(6)
     targetElement: SAT-03.9
     relationshipType: equals
     strengthOfRelationship: 10
   - id: e021d74d-5c35-4c51-ac66-fbe8986f5031
-    sourceElement: AT-3(8)
+    sourceElement: AT-3(6)
     targetElement: THR-01
     relationshipType: intersects
     strengthOfRelationship: 5
   - id: 2b701ddd-f763-4cb3-a406-e6188697b454
-    sourceElement: AT-3(8)
+    sourceElement: AT-3(6)
     targetElement: THR-03
     relationshipType: intersects
     strengthOfRelationship: 5
