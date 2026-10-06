@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_gsa_fedramp_rev4",
+  "version": "1.0.0",
+  "description": "Crosswalk for gsa_fedramp_rev4 crosswalk",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": { "type": "git", "url": "git@github.com:zerobias-org/crosswalk.git", "directory": "package/scf/scf/2025_2_1_gsa_fedramp_rev4/" },
+  "zerobias": { "package": "scf.scf.2025_2_1_gsa_fedramp_rev4.crosswalk", "import-artifact": "crosswalk", "dataloader-version": "1.0.0" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "files": ["index.yml","elements.yml","versions/**"],
+  "dependencies": { "@zerobias-org/framework-scf-scf-2025.2.1": "latest", "@auditlogic/framework-gsa-fedramp-rev4": "latest" }
+}
