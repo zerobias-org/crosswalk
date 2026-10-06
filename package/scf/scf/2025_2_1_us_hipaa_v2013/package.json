@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_hipaa_v2013",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Crosswalk mappings from HIPAA Administrative Simplification (2013) to the Secure Controls Framework (SCF) 2025.2.1 framework",
   "author": "team@zerobias.com",
   "license": "CC-BY-ND-4.0",

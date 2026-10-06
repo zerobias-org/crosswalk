@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_nist_80053_rev5",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Crosswalk for nist_800-53_v5_complianceforge_scf_2025_2_1_crosswalk",
   "author": "team@zerobias.com",
   "license": "ISC",

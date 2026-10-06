@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/crosswalk-scf-scf-2025_2_1_us_cybersecurity_rule_v1",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Crosswalk mappings from Cybersecurity Final Rule (Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure) - 17 CFR Parts 229, 232, 239, 240, and 249 to the Secure Controls Framework (SCF) 2025.2.1 framework",
   "author": "team@zerobias.com",
   "license": "CC-BY-ND-4.0",
