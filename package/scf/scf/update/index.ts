@@ -7,7 +7,8 @@
 // The mapping data is CC BY-ND 4.0 (see NOTICE.md): it is reproduced verbatim. A
 // crosswalk with any mapping the tool cannot reproduce exactly — an element id that does
 // not resolve in the framework package, an unknown relationship, a conflicting duplicate —
-// is BLOCKED and not written. Nothing is dropped to make a package fit.
+// is BLOCKED and not written. Nothing is dropped to make a package fit, except rows whose
+// FDE # the config lists in `dropFde` (elements the framework retired).
 import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
@@ -45,6 +46,8 @@ interface CrosswalkConfig {
   // per-crosswalk decision (2026.3 MARS-E lists `CA-7.1` and `CA-7(1)` for one control);
   // the rows then merge, and any pair listed twice follows the highest-strength rule.
   sameFde?: Record<string, string>;
+  // FDE #s whose rows are left out on purpose (e.g. elements the framework retired).
+  dropFde?: string[];
 }
 
 // Rank for the tie-break when two rows of one pair carry the same strength.
@@ -65,6 +68,7 @@ interface Result {
   mappings?: number;
   skipped?: number;
   duplicates?: number;
+  dropped?: number;
   resolution?: Record<string, number>;
   unresolved?: string[];
   conflicts?: string[];   // pairs listed twice with different values, and which row was kept
@@ -107,6 +111,8 @@ async function build(cfg: CrosswalkConfig, bundle: string, scfVersion: string, s
   const conflicts: string[] = [];
   let skipped = 0;
   let duplicates = 0;
+  let dropped = 0;
+  const drop = new Set(cfg.dropFde ?? []);
 
   for (const row of sheet.rows) {
     const where = `${row.fde || '(no FDE #)'} → ${row.scf || '(no SCF #)'}`;
@@ -132,6 +138,7 @@ async function build(cfg: CrosswalkConfig, bundle: string, scfVersion: string, s
       }
     }
 
+    if (drop.has(row.fde)) { dropped++; continue; }
     const fde = cfg.sameFde?.[row.fde] ?? row.fde;
     const resolved = sourceIds.resolve(fde);
     if (resolved === undefined) { unresolved.add(row.fde); continue; }
@@ -161,7 +168,7 @@ async function build(cfg: CrosswalkConfig, bundle: string, scfVersion: string, s
     mappings.push(candidate);
   }
 
-  const base = { code: cfg.code, skipped, duplicates, resolution: Object.fromEntries(sourceIds.used), ...(conflicts.length ? { conflicts } : {}) };
+  const base = { code: cfg.code, skipped, duplicates, ...(dropped ? { dropped } : {}), resolution: Object.fromEntries(sourceIds.used), ...(conflicts.length ? { conflicts } : {}) };
   if (errors.length) return { ...base, status: 'error', reason: `${errors.length} malformed row(s): ${errors.slice(0, 5).join('; ')}` };
   if (unresolved.size) {
     return {
@@ -292,7 +299,7 @@ async function main() {
       r = { code: cfg.code, status: 'error', reason: (e as Error).message };
     }
     results.push(r);
-    const detail = r.mappings !== undefined ? `${r.mappings} mappings, ${r.skipped} skipped rows${r.duplicates ? `, ${r.duplicates} duplicates` : ''}` : r.reason;
+    const detail = r.mappings !== undefined ? `${r.mappings} mappings, ${r.skipped} skipped rows${r.duplicates ? `, ${r.duplicates} duplicates` : ''}${r.dropped ? `, ${r.dropped} dropped rows` : ''}` : r.reason;
     console.log(`  ${r.status.padEnd(9)} ${cfg.code.padEnd(28)} ${detail}`);
     for (const c of r.conflicts ?? []) console.log(`            conflict resolved: ${c}`);
     if (r.unresolved) console.log(`            e.g. ${r.unresolved.slice(0, 8).join(', ')}`);

@@ -77,6 +77,11 @@ declare it on the entry with `sameFde: { <spelling>: <spelling to load> }`. The 
 merge, and repeated pairs follow the rule above. Never add a `sameFde` entry to make an
 unrelated element resolve: that changes the mapping data.
 
+When the framework retires elements that a STRM still maps (2026.3 SOC 2 2022: nine points
+of focus deprecated in framework 3.3.0), list them on the entry with `dropFde: [<FDE #>...]`
+and a comment saying why. Their rows are left out and counted (`dropped` in the report).
+Only explicitly listed FDE #s are dropped; any other unresolved id still blocks the crosswalk.
+
 ## Element id resolution
 
 STRMs and our framework packages spell elements differently: SP 800-53 writes
