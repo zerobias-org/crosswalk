@@ -239,7 +239,8 @@ function writePackage(cfg: CrosswalkConfig, scfVersion: string, rows: Omit<Mappi
       zerobias: {
         'dataloader-version': '1.0.0',
         'import-artifact': 'crosswalk',
-        package: `scf.scf.${versionPair}.crosswalk`
+        // store.package allows [a-z0-9._] only: nist_800-171_rev3 → nist_800_171_rev3
+        package: `scf.scf.${versionPair.replace(/-/g, '_')}.crosswalk`
       },
       dependencies: {
         [cfg.sourceDependency]: 'latest',
