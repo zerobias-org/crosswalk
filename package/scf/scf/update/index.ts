@@ -279,6 +279,10 @@ async function main() {
   if (!fs.existsSync(path.join(REPO_ROOT, '.npmrc'))) throw new Error(`${REPO_ROOT}: no .npmrc — is the config in <repo>/package/scf/scf/update/?`);
   console.log(`config ${path.relative(process.cwd(), configPath) || configPath} → ${TARGET.npmScope} packages in ${PACKAGE_ROOT}`);
   if (!crosswalks?.length) throw new Error(`${configPath}: no crosswalks configured — the SCF crosswalks are generated from a private config (see CLAUDE.md)`);
+  // The code lands in zerobias.package, which the platform's store.package domain limits
+  // to [a-z0-9._] — a hyphen fails the dataloader load, only after a long gate.
+  const badCodes = crosswalks.filter(c => !/^[a-z0-9_]+$/.test(c.code)).map(c => c.code);
+  if (badCodes.length) throw new Error(`${configPath}: code must match ^[a-z0-9_]+$ (no hyphens or dots): ${badCodes.join(', ')}`);
   const selected = only.length ? crosswalks.filter(c => only.includes(c.code)) : crosswalks;
   if (only.length && selected.length !== only.length) throw new Error(`unknown --only code(s): ${only.filter(o => !crosswalks.some(c => c.code === o))}`);
 

@@ -37,7 +37,7 @@ STRM's "Reference Document" cell names it.
 
 | File | Role |
 |---|---|
-| `crosswalks.yml` | This repo's config: `target`, and one entry per crosswalk (focal document id, `sourceStandard`, `sourceDependency`, optional `blocked` reason). Empty for now |
+| `crosswalks.yml` | This repo's config: `target`, and one entry per crosswalk (`code`, focal document id, `sourceStandard`, `sourceDependency`, optional `blocked` reason). `code` must match `^[a-z0-9_]+$`: it becomes part of `zerobias.package`, and the dataloader rejects a hyphen (`store.package` check constraint). Empty for now |
 | `index.ts` | CLI, per-crosswalk build and validation, package writer |
 | `strm.ts` | Reads one STRM workbook |
 | `frameworks.ts` | Fetches framework packages from the registry (`npm pack`, cached in `cache/`) and resolves element ids |
